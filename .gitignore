@@ -26,9 +26,6 @@ Cargo.lock
 *.deps
 *.ji
 
-.env
-.env.local
-.env.*.local
 *.pem
 *.key
 
