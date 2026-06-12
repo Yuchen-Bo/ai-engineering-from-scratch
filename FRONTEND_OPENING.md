@@ -25,6 +25,9 @@ http://localhost:8000/glossary.html
 http://localhost:8000/prereqs.html
 ```
 
+jupyter打开方式
+jupyter lab
+
 如果 `8000` 端口被占用，可以换成其他端口，例如：
 
 ```powershell
