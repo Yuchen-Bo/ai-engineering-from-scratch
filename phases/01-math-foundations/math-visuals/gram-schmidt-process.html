@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gram-Schmidt Process - Math Foundations Visual Guide</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <main class="page">
+    <div class="shell">
+      <nav class="topbar" aria-label="Page navigation">
+        <a class="back-link" href="../ml-math-visuals.html">返回目录</a>
+        <span class="eyebrow">Linear Algebra / 03</span>
+      </nav>
+
+      <header class="masthead">
+        <p class="eyebrow">Gram-Schmidt Process</p>
+        <h1>Gram-Schmidt：把向量整理成垂直方向</h1>
+        <p class="lead">
+          Gram-Schmidt takes a set of independent vectors and turns them into orthogonal vectors.
+          中文直觉是：保留第一个方向，然后从后面的向量里减掉已经解释过的投影，只留下新的垂直部分。
+        </p>
+      </header>
+
+      <section class="layout">
+        <article class="panel">
+          <h2>它解决什么问题？</h2>
+          <p>
+            一组向量可能线性无关，但彼此并不垂直。Gram-Schmidt 会把它们变成一组互相垂直的基，
+            而且张成的空间不变。这样计算投影、坐标、回归和矩阵分解会更稳定。
+          </p>
+
+          <div class="formula" aria-label="gram schmidt formula">
+            u1 = v1<br>
+            u2 = v2 - proj_u1(v2)<br>
+            q1 = u1 / |u1|, q2 = u2 / |u2|
+          </div>
+
+          <h3>核心步骤</h3>
+          <div class="meaning" aria-label="gram schmidt steps">
+            <div class="meaning-item">
+              <b>1. 保留第一个方向</b>
+              <p>把第一个向量作为第一个基方向，记为 <code>u1</code>。</p>
+            </div>
+            <div class="meaning-item">
+              <b>2. 去掉重复部分</b>
+              <p>把第二个向量在 <code>u1</code> 上的投影减掉。</p>
+            </div>
+            <div class="meaning-item">
+              <b>3. Normalize</b>
+              <p>把得到的垂直向量缩放成长度为 1 的单位向量。</p>
+            </div>
+          </div>
+
+          <h3 style="margin-top: 26px;">小例子</h3>
+          <div class="example">
+            <div class="step">v1 = [1, 0], v2 = [1, 1]</div>
+            <div class="step">proj_v1(v2) = [1, 0]</div>
+            <div class="step">u2 = v2 - proj_v1(v2) = [0, 1]</div>
+          </div>
+        </article>
+
+        <aside class="panel visual" aria-label="gram schmidt diagram">
+          <h2>图示</h2>
+          <svg class="diagram" viewBox="0 0 540 430" role="img" aria-labelledby="gs-title gs-desc">
+            <title id="gs-title">Gram-Schmidt process diagram</title>
+            <desc id="gs-desc">The second vector is split into a projection on the first vector and a new orthogonal component.</desc>
+            <defs>
+              <marker id="gs-arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"></path>
+              </marker>
+              <marker id="gs-arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f9f6e"></path>
+              </marker>
+              <marker id="gs-arrow-gold" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#b7791f"></path>
+              </marker>
+              <marker id="gs-arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#dc3f45"></path>
+              </marker>
+              <pattern id="gs-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+                <path d="M 32 0 H 0 V 32" fill="none" stroke="#edf2f7" stroke-width="1"></path>
+              </pattern>
+            </defs>
+
+            <rect width="540" height="430" fill="white"></rect>
+            <rect x="34" y="40" width="472" height="310" fill="url(#gs-grid)" stroke="#d9e1ec"></rect>
+            <line x1="70" y1="286" x2="484" y2="286" stroke="#b9c6d8" stroke-width="2"></line>
+            <line x1="70" y1="332" x2="70" y2="70" stroke="#b9c6d8" stroke-width="2"></line>
+
+            <path d="M 70 286 L 266 286" stroke="#2563eb" stroke-width="8" stroke-linecap="round" marker-end="url(#gs-arrow-blue)"></path>
+            <path d="M 70 286 L 266 126" stroke="#0f9f6e" stroke-width="8" stroke-linecap="round" marker-end="url(#gs-arrow-green)"></path>
+            <path d="M 70 314 L 266 314" stroke="#b7791f" stroke-width="7" stroke-linecap="round" marker-end="url(#gs-arrow-gold)"></path>
+            <path d="M 266 286 L 266 126" stroke="#dc3f45" stroke-width="7" stroke-linecap="round" marker-end="url(#gs-arrow-red)"></path>
+            <line x1="266" y1="126" x2="266" y2="286" stroke="#8ca0b8" stroke-width="3" stroke-dasharray="8 8"></line>
+
+            <path d="M 246 286 L 246 266 L 266 266" fill="none" stroke="#687386" stroke-width="3"></path>
+            <text x="276" y="132" fill="#0f9f6e" font-size="21" font-weight="700">v2</text>
+            <text x="276" y="282" fill="#2563eb" font-size="21" font-weight="700">u1 = v1</text>
+            <text x="104" y="344" fill="#8a5a14" font-size="18" font-weight="700">proj_u1(v2)</text>
+            <text x="278" y="210" fill="#dc3f45" font-size="18" font-weight="700">u2 = leftover</text>
+            <text x="138" y="388" fill="#687386" font-size="18" font-weight="700">v2 = projection + orthogonal component</text>
+          </svg>
+
+          <div class="legend">
+            <span><i class="swatch"></i>已有方向 u1</span>
+            <span><i class="swatch green"></i>原向量 v2</span>
+            <span><i class="swatch gold"></i>投影</span>
+            <span><i class="swatch" style="background: var(--red);"></i>新的垂直方向 u2</span>
+          </div>
+
+          <p>
+            Gram-Schmidt 的关键动作就是：从新向量里减掉它在旧方向上的投影。
+            剩下的部分与旧方向垂直，所以它真的带来了新方向。
+          </p>
+        </aside>
+      </section>
+
+      <section class="note">
+        <p>
+          <strong>在模型中的作用：</strong>
+          Gram-Schmidt is the idea behind building orthogonal bases and QR decomposition. Orthogonal
+          directions reduce redundancy, make coordinates easier to interpret, and improve numerical stability.
+        </p>
+        <p>
+          在回归和优化里，互相接近垂直的特征方向通常更好处理；如果方向高度重叠，模型权重会更难解释，
+          也更容易不稳定。Gram-Schmidt 展示了如何把“重叠的信息”拆成“已解释部分”和“新增信息”。
+        </p>
+        <p>
+          在机器学习系统里，正交化思想也出现在特征去相关、PCA/SVD 的直觉、低秩近似、
+          以及保持表示空间稳定的初始化或约束方法中。
+        </p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

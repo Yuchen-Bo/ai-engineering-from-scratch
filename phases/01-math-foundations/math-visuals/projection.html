@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projection - Math Foundations Visual Guide</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <main class="page">
+    <div class="shell">
+      <nav class="topbar" aria-label="Page navigation">
+        <a class="back-link" href="../ml-math-visuals.html">返回目录</a>
+        <span class="eyebrow">Linear Algebra / 02</span>
+      </nav>
+
+      <header class="masthead">
+        <p class="eyebrow">Projection</p>
+        <h1>投影：一个向量在另一个方向上的影子</h1>
+        <p class="lead">
+          Projection asks: how much of vector <code>a</code> lies in the direction of vector <code>b</code>?
+          中文直觉就是：把一个向量的“影子”落到另一条方向线上，看它沿那个方向有多少分量。
+        </p>
+      </header>
+
+      <section class="layout">
+        <article class="panel">
+          <h2>Projection 是什么？</h2>
+          <p>
+            如果把 <code>b</code> 看成一条目标方向，那么 <code>a</code> 在 <code>b</code> 上的投影，
+            就是 <code>a</code> 沿着 <code>b</code> 方向能留下的那一部分。
+          </p>
+
+          <div class="formula" aria-label="projection formula">
+            proj_b(a) = (a . b / b . b) * b<br>
+            scalar part = a . b / |b|^2
+          </div>
+
+          <h3>和 dot product 的关系</h3>
+          <p>
+            Dot product 衡量两个方向有多匹配。Projection 则进一步问：
+            如果只保留 <code>b</code> 方向上的信息，<code>a</code> 会变成什么？
+          </p>
+
+          <div class="meaning" aria-label="projection intuition">
+            <div class="meaning-item">
+              <b>同方向</b>
+              <p>投影很长，说明 <code>a</code> 很多成分都在 <code>b</code> 方向上。</p>
+            </div>
+            <div class="meaning-item">
+              <b>垂直</b>
+              <p>投影长度为 0，说明 <code>a</code> 在 <code>b</code> 方向上没有分量。</p>
+            </div>
+            <div class="meaning-item">
+              <b>反方向</b>
+              <p>投影会落到 <code>b</code> 的反方向，表示方向相反。</p>
+            </div>
+          </div>
+
+          <h3 style="margin-top: 26px;">例子</h3>
+          <div class="example">
+            <div class="step">a = [3, 2], b = [1, 0]</div>
+            <div class="step">a . b = 3, b . b = 1</div>
+            <div class="step">proj_b(a) = 3 * [1, 0] = [3, 0]</div>
+          </div>
+        </article>
+
+        <aside class="panel visual" aria-label="projection diagram">
+          <h2>图示</h2>
+          <svg class="diagram" viewBox="0 0 540 430" role="img" aria-labelledby="projection-title projection-desc">
+            <title id="projection-title">Projection diagram</title>
+            <desc id="projection-desc">Vector a is projected onto the direction of vector b.</desc>
+            <defs>
+              <marker id="proj-arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"></path>
+              </marker>
+              <marker id="proj-arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f9f6e"></path>
+              </marker>
+              <marker id="proj-arrow-gold" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#b7791f"></path>
+              </marker>
+              <pattern id="proj-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+                <path d="M 32 0 H 0 V 32" fill="none" stroke="#edf2f7" stroke-width="1"></path>
+              </pattern>
+            </defs>
+
+            <rect width="540" height="430" fill="white"></rect>
+            <rect x="34" y="40" width="472" height="310" fill="url(#proj-grid)" stroke="#d9e1ec"></rect>
+            <line x1="70" y1="286" x2="484" y2="286" stroke="#b9c6d8" stroke-width="2"></line>
+            <line x1="70" y1="332" x2="70" y2="70" stroke="#b9c6d8" stroke-width="2"></line>
+
+            <path d="M 70 286 L 414 286" stroke="#0f9f6e" stroke-width="8" stroke-linecap="round" marker-end="url(#proj-arrow-green)"></path>
+            <path d="M 70 286 L 318 126" stroke="#2563eb" stroke-width="8" stroke-linecap="round" marker-end="url(#proj-arrow-blue)"></path>
+            <path d="M 70 312 L 318 312" stroke="#b7791f" stroke-width="8" stroke-linecap="round" marker-end="url(#proj-arrow-gold)"></path>
+            <line x1="318" y1="126" x2="318" y2="286" stroke="#8ca0b8" stroke-width="3" stroke-dasharray="8 8"></line>
+
+            <path d="M 296 286 L 296 264 L 318 264" fill="none" stroke="#687386" stroke-width="3"></path>
+            <text x="326" y="130" fill="#2563eb" font-size="22" font-weight="700">a</text>
+            <text x="424" y="280" fill="#0f9f6e" font-size="22" font-weight="700">b direction</text>
+            <text x="130" y="342" fill="#8a5a14" font-size="19" font-weight="700">proj_b(a)</text>
+            <text x="206" y="388" fill="#687386" font-size="18" font-weight="700">drop a perpendicular shadow onto b</text>
+          </svg>
+
+          <div class="legend">
+            <span><i class="swatch"></i>原向量 a</span>
+            <span><i class="swatch green"></i>目标方向 b</span>
+            <span><i class="swatch gold"></i>a 在 b 上的投影</span>
+          </div>
+
+          <p>
+            图里的虚线是垂直落下来的“影子线”。落点到原点的向量，就是 <code>a</code>
+            在 <code>b</code> 方向上的投影。
+          </p>
+        </aside>
+      </section>
+
+      <section class="note">
+        <p>
+          <strong>在模型中的作用：</strong>
+          Projection helps models keep the information that matters along a chosen direction and remove
+          the part that does not. 这就是降维、特征压缩、相似度计算里反复出现的核心动作。
+        </p>
+        <p>
+          在 embedding 空间里，两个向量的投影或点积可以表示“这个词、句子或用户行为有多朝向某个语义方向”。
+          在 attention 中，query 和 key 的点积可以看成一种投影式匹配：模型判断当前 token 应该把注意力投向哪里。
+        </p>
+        <p>
+          在线性回归里，预测值也可以理解为把目标 <code>y</code> 投影到特征列张成的空间中：
+          模型只能用已有特征方向去逼近真实答案。
+        </p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

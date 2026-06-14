@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Basis and Rank - Math Foundations Visual Guide</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <main class="page">
+    <div class="shell">
+      <nav class="topbar" aria-label="Page navigation">
+        <a class="back-link" href="../ml-math-visuals.html">返回目录</a>
+        <span class="eyebrow">Linear Algebra / 06</span>
+      </nav>
+
+      <header class="masthead">
+        <p class="eyebrow">Basis and Rank</p>
+        <h1>基与秩：空间里有多少个独立方向</h1>
+        <p class="lead">
+          Basis tells us which independent directions can build a space. Rank tells us how many
+          independent directions a matrix actually has. 在模型里，它们关系到特征是否重复、
+          参数是否稳定，以及数据是否真的覆盖了模型想学习的空间。
+        </p>
+      </header>
+
+      <section class="layout">
+        <article class="panel">
+          <h2>Basis 是什么？</h2>
+          <p>
+            Basis，中文常叫“基”，是一组最小的、线性无关的方向。只要用这些方向做缩放和相加，
+            就能表示空间里的所有向量。
+          </p>
+
+          <div class="formula" aria-label="basis formula">
+            any vector in 2D = c1*[1, 0] + c2*[0, 1]<br>
+            basis = independent directions that span the space
+          </div>
+
+          <h3>直觉</h3>
+          <div class="meaning" aria-label="basis intuition">
+            <div class="meaning-item">
+              <b>足够多</b>
+              <p>基向量要能覆盖整个空间，例如二维平面需要两个独立方向。</p>
+            </div>
+            <div class="meaning-item">
+              <b>不重复</b>
+              <p>基向量之间不能只是彼此的倍数，否则没有提供新方向。</p>
+            </div>
+            <div class="meaning-item">
+              <b>可组合</b>
+              <p>空间里的点都可以由基向量缩放、相加得到。</p>
+            </div>
+          </div>
+
+          <h2 style="margin-top: 28px;">Rank 是什么？</h2>
+          <p>
+            Rank，中文叫“秩”，表示一个矩阵里真正独立的信息维度有多少。
+            对特征矩阵来说，可以理解为有多少列特征提供了新的方向。
+          </p>
+
+          <div class="example">
+            <div class="step">full rank: columns give independent information</div>
+            <div class="step">low rank: some columns are combinations of others</div>
+            <div class="step">rank controls how much space a matrix can represent</div>
+          </div>
+        </article>
+
+        <aside class="panel visual" aria-label="basis and rank diagram">
+          <h2>图示</h2>
+          <svg class="diagram" viewBox="0 0 540 430" role="img" aria-labelledby="basis-rank-title basis-rank-desc">
+            <title id="basis-rank-title">Basis and rank diagram</title>
+            <desc id="basis-rank-desc">A basis spans a plane with two independent vectors, while a low-rank matrix has dependent columns.</desc>
+            <defs>
+              <marker id="br-arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"></path>
+              </marker>
+              <marker id="br-arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f9f6e"></path>
+              </marker>
+              <marker id="br-arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#dc3f45"></path>
+              </marker>
+              <pattern id="br-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+                <path d="M 32 0 H 0 V 32" fill="none" stroke="#edf2f7" stroke-width="1"></path>
+              </pattern>
+            </defs>
+
+            <rect width="540" height="430" fill="white"></rect>
+            <rect x="28" y="42" width="218" height="300" fill="url(#br-grid)" stroke="#d9e1ec"></rect>
+            <rect x="294" y="42" width="218" height="300" fill="url(#br-grid)" stroke="#d9e1ec"></rect>
+
+            <text x="28" y="28" fill="#172033" font-size="18" font-weight="700">Basis spans 2D</text>
+            <text x="294" y="28" fill="#172033" font-size="18" font-weight="700">Low rank repeats a direction</text>
+
+            <line x1="56" y1="278" x2="224" y2="278" stroke="#b9c6d8" stroke-width="2"></line>
+            <line x1="56" y1="326" x2="56" y2="70" stroke="#b9c6d8" stroke-width="2"></line>
+            <path d="M 56 278 L 168 278" stroke="#2563eb" stroke-width="8" stroke-linecap="round" marker-end="url(#br-arrow-blue)"></path>
+            <path d="M 56 278 L 56 150" stroke="#0f9f6e" stroke-width="8" stroke-linecap="round" marker-end="url(#br-arrow-green)"></path>
+            <path d="M 56 278 L 168 150" fill="none" stroke="#b7791f" stroke-width="3" stroke-dasharray="7 8"></path>
+            <circle cx="168" cy="150" r="7" fill="#b7791f"></circle>
+            <text x="72" y="306" fill="#2563eb" font-size="18" font-weight="700">e1</text>
+            <text x="72" y="158" fill="#0f9f6e" font-size="18" font-weight="700">e2</text>
+            <text x="92" y="382" fill="#687386" font-size="17" font-weight="700">rank = 2, full 2D space</text>
+
+            <line x1="322" y1="278" x2="490" y2="278" stroke="#b9c6d8" stroke-width="2"></line>
+            <line x1="322" y1="326" x2="322" y2="70" stroke="#b9c6d8" stroke-width="2"></line>
+            <path d="M 322 278 L 386 214" stroke="#2563eb" stroke-width="8" stroke-linecap="round" marker-end="url(#br-arrow-blue)"></path>
+            <path d="M 322 278 L 450 150" stroke="#dc3f45" stroke-width="8" stroke-linecap="round" marker-end="url(#br-arrow-red)"></path>
+            <line x1="322" y1="278" x2="470" y2="130" stroke="#dc3f45" stroke-width="2" stroke-dasharray="6 8"></line>
+            <text x="386" y="222" fill="#2563eb" font-size="18" font-weight="700">col 1</text>
+            <text x="404" y="142" fill="#dc3f45" font-size="18" font-weight="700">col 2 = 2*col 1</text>
+            <text x="334" y="382" fill="#687386" font-size="17" font-weight="700">rank = 1, only one direction</text>
+          </svg>
+
+          <div class="legend">
+            <span><i class="swatch"></i>独立方向</span>
+            <span><i class="swatch green"></i>另一个独立方向</span>
+            <span><i class="swatch" style="background: var(--red);"></i>重复方向</span>
+          </div>
+
+          <p>
+            Rank 可以看成矩阵输出空间的“有效维度”。如果一个二维矩阵 rank 只有 1，
+            它会把信息压到一条线上，很多不同输入会变得难以区分。
+          </p>
+        </aside>
+      </section>
+
+      <section class="note">
+        <p>
+          <strong>在模型中的作用：</strong>
+          特征矩阵的列最好提供足够多的独立方向。如果 rank 太低，说明一些特征只是其他特征的组合，
+          模型看到的是重复信息，而不是新的信号。
+        </p>
+        <p>
+          对线性回归来说，低 rank 或接近低 rank 会让 <code>X^T X</code> 难以求逆或数值不稳定，
+          权重可能变得非常大、非常敏感，导致小的数据变化带来明显不同的模型参数。
+        </p>
+        <p>
+          在神经网络里，rank 也影响表示能力。低 rank 的权重矩阵会把信息压缩到较少方向，
+          可能节省参数，但也可能限制模型表达复杂模式的能力。
+        </p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

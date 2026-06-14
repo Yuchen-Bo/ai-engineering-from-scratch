@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Linear Independence - Math Foundations Visual Guide</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <main class="page">
+    <div class="shell">
+      <nav class="topbar" aria-label="Page navigation">
+        <a class="back-link" href="../ml-math-visuals.html">返回目录</a>
+        <span class="eyebrow">Linear Algebra / 05</span>
+      </nav>
+
+      <header class="masthead">
+        <p class="eyebrow">Linear Independence</p>
+        <h1>线性无关：不是重复的方向</h1>
+        <p class="lead">
+          Linear independence means each vector contributes a genuinely new direction.
+          如果一个向量不能由其他向量缩放、相加得到，它就提供了新的信息。
+        </p>
+      </header>
+
+      <section class="layout">
+        <article class="panel">
+          <h2>核心直觉</h2>
+          <p>
+            在二维里，两个向量只要不在同一条直线上，它们就是线性无关。
+            因为其中一个向量无法只靠拉长、缩短另一个向量得到。
+          </p>
+
+          <div class="formula" aria-label="linear independence definition">
+            c1*v1 + c2*v2 + ... + cn*vn = 0<br>
+            only solution: c1 = c2 = ... = cn = 0
+          </div>
+
+          <h3>两个向量的判断</h3>
+          <div class="meaning" aria-label="linear independence checks">
+            <div class="meaning-item">
+              <b>不平行</b>
+              <p>两个方向不同，能张成一个平面，线性无关。</p>
+            </div>
+            <div class="meaning-item">
+              <b>平行</b>
+              <p>一个只是另一个的倍数，没有新方向，线性相关。</p>
+            </div>
+            <div class="meaning-item">
+              <b>零向量</b>
+              <p>零向量没有方向，一旦出现通常会让集合线性相关。</p>
+            </div>
+          </div>
+
+          <h3 style="margin-top: 26px;">例子</h3>
+          <div class="example">
+            <div class="step">[1, 0] and [0, 1] are independent</div>
+            <div class="step">[1, 2] and [2, 4] are dependent</div>
+            <div class="step">because [2, 4] = 2 * [1, 2]</div>
+          </div>
+        </article>
+
+        <aside class="panel visual" aria-label="linear independence diagram">
+          <h2>图示</h2>
+          <svg class="diagram" viewBox="0 0 540 430" role="img" aria-labelledby="ind-title ind-desc">
+            <title id="ind-title">Linear independence diagram</title>
+            <desc id="ind-desc">Two non-parallel vectors are independent, while two parallel vectors are dependent.</desc>
+            <defs>
+              <marker id="ind-arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"></path>
+              </marker>
+              <marker id="ind-arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f9f6e"></path>
+              </marker>
+              <marker id="ind-arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#dc3f45"></path>
+              </marker>
+              <pattern id="ind-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+                <path d="M 32 0 H 0 V 32" fill="none" stroke="#edf2f7" stroke-width="1"></path>
+              </pattern>
+            </defs>
+
+            <rect width="540" height="430" fill="white"></rect>
+            <rect x="28" y="42" width="218" height="300" fill="url(#ind-grid)" stroke="#d9e1ec"></rect>
+            <rect x="294" y="42" width="218" height="300" fill="url(#ind-grid)" stroke="#d9e1ec"></rect>
+
+            <text x="28" y="28" fill="#172033" font-size="18" font-weight="700">Independent</text>
+            <text x="294" y="28" fill="#172033" font-size="18" font-weight="700">Dependent</text>
+
+            <line x1="56" y1="278" x2="224" y2="278" stroke="#b9c6d8" stroke-width="2"></line>
+            <line x1="56" y1="326" x2="56" y2="70" stroke="#b9c6d8" stroke-width="2"></line>
+            <path d="M 56 278 L 158 278" stroke="#2563eb" stroke-width="8" stroke-linecap="round" marker-end="url(#ind-arrow-blue)"></path>
+            <path d="M 56 278 L 56 150" stroke="#0f9f6e" stroke-width="8" stroke-linecap="round" marker-end="url(#ind-arrow-green)"></path>
+            <text x="92" y="304" fill="#2563eb" font-size="18" font-weight="700">[1, 0]</text>
+            <text x="72" y="160" fill="#0f9f6e" font-size="18" font-weight="700">[0, 1]</text>
+            <text x="52" y="380" fill="#687386" font-size="17" font-weight="700">two directions span a plane</text>
+
+            <line x1="322" y1="278" x2="490" y2="278" stroke="#b9c6d8" stroke-width="2"></line>
+            <line x1="322" y1="326" x2="322" y2="70" stroke="#b9c6d8" stroke-width="2"></line>
+            <path d="M 322 278 L 386 214" stroke="#2563eb" stroke-width="8" stroke-linecap="round" marker-end="url(#ind-arrow-blue)"></path>
+            <path d="M 322 278 L 450 150" stroke="#dc3f45" stroke-width="8" stroke-linecap="round" marker-end="url(#ind-arrow-red)"></path>
+            <text x="386" y="222" fill="#2563eb" font-size="18" font-weight="700">[1, 2]</text>
+            <text x="406" y="142" fill="#dc3f45" font-size="18" font-weight="700">[2, 4]</text>
+            <text x="322" y="380" fill="#687386" font-size="17" font-weight="700">same line, repeated direction</text>
+          </svg>
+
+          <div class="legend">
+            <span><i class="swatch"></i>第一个向量</span>
+            <span><i class="swatch green"></i>新的方向</span>
+            <span><i class="swatch" style="background: var(--red);"></i>重复方向</span>
+          </div>
+
+          <p>
+            线性无关的向量像是在给坐标系统增加新的自由度。
+            线性相关的向量则只是重复已有方向，信息量没有增加。
+          </p>
+        </aside>
+      </section>
+
+      <section class="note">
+        <p>
+          <strong>Why it matters for AI:</strong>
+          your feature matrix should have linearly independent columns. If two features are perfectly
+          correlated, they are linearly dependent, so the model cannot clearly distinguish their effects.
+          In regression, this causes multicollinearity: the weight estimates become unstable, and small
+          input changes can produce large, unreliable output swings.
+        </p>
+        <p>
+          换句话说，如果两个特征几乎在讲同一件事，模型就很难判断到底应该把权重分给谁。
+          例如 <code>house_size_m2</code> 和 <code>house_size_ft2</code> 本质上只是单位不同，
+          它们会让回归模型的权重变得难解释，也更容易对数据里的小变化过度敏感。
+        </p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matrices Are Transformations - Math Foundations Visual Guide</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <main class="page">
+    <div class="shell">
+      <nav class="topbar" aria-label="Page navigation">
+        <a class="back-link" href="../ml-math-visuals.html">返回目录</a>
+        <span class="eyebrow">Linear Algebra / 04</span>
+      </nav>
+
+      <header class="masthead">
+        <p class="eyebrow">Matrices Are Transformations</p>
+        <h1>矩阵会改变向量</h1>
+        <p class="lead">
+          A matrix transforms one vector into another. It can rotate, scale, stretch, or project.
+          也就是说，矩阵不是一堆数字而已；它描述了一种“空间怎么被移动和拉伸”的规则。
+        </p>
+      </header>
+
+      <section class="layout">
+        <article class="panel">
+          <h2>核心直觉</h2>
+          <p>
+            当矩阵 <code>A</code> 乘以向量 <code>x</code> 时，结果是一个新向量 <code>y</code>。
+            这个过程可以理解为：把原来的向量放进一个变换机器里，输出变换后的方向和长度。
+          </p>
+
+          <div class="formula" aria-label="matrix vector multiplication">
+            A x = y<br>
+            matrix * input vector = transformed vector
+          </div>
+
+          <h3>常见变换</h3>
+          <div class="meaning" aria-label="matrix transformation types">
+            <div class="meaning-item">
+              <b>Scale</b>
+              <p>把向量整体变长或变短，例如所有坐标乘以 2。</p>
+            </div>
+            <div class="meaning-item">
+              <b>Stretch</b>
+              <p>只沿某个方向拉伸，例如 x 方向变宽，y 方向不变。</p>
+            </div>
+            <div class="meaning-item">
+              <b>Rotate / Project</b>
+              <p>旋转方向，或把向量压到某条线、某个平面上。</p>
+            </div>
+          </div>
+
+          <h3 style="margin-top: 26px;">例子</h3>
+          <p>这个矩阵会把向量的 x 坐标放大 2 倍，y 坐标保持不变：</p>
+          <div class="example">
+            <div class="step">A = [[2, 0], [0, 1]]</div>
+            <div class="step">x = [2, 1]</div>
+            <div class="step">A x = [4, 1]</div>
+          </div>
+        </article>
+
+        <aside class="panel visual" aria-label="matrix transformation diagram">
+          <h2>图示</h2>
+          <svg class="diagram" viewBox="0 0 540 430" role="img" aria-labelledby="matrix-title matrix-desc">
+            <title id="matrix-title">Matrix transformation diagram</title>
+            <desc id="matrix-desc">A vector is stretched horizontally by a matrix from x to Ax.</desc>
+            <defs>
+              <marker id="matrix-arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"></path>
+              </marker>
+              <marker id="matrix-arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f9f6e"></path>
+              </marker>
+              <pattern id="matrix-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+                <path d="M 32 0 H 0 V 32" fill="none" stroke="#edf2f7" stroke-width="1"></path>
+              </pattern>
+            </defs>
+
+            <rect width="540" height="430" fill="white"></rect>
+            <rect x="28" y="42" width="218" height="300" fill="url(#matrix-grid)" stroke="#d9e1ec"></rect>
+            <rect x="294" y="42" width="218" height="300" fill="url(#matrix-grid)" stroke="#d9e1ec"></rect>
+
+            <text x="28" y="28" fill="#172033" font-size="18" font-weight="700">Before: x</text>
+            <text x="294" y="28" fill="#172033" font-size="18" font-weight="700">After: A x</text>
+
+            <line x1="56" y1="278" x2="224" y2="278" stroke="#b9c6d8" stroke-width="2"></line>
+            <line x1="56" y1="326" x2="56" y2="70" stroke="#b9c6d8" stroke-width="2"></line>
+            <path d="M 56 278 L 120 246" stroke="#2563eb" stroke-width="8" stroke-linecap="round" marker-end="url(#matrix-arrow-blue)"></path>
+            <text x="126" y="244" fill="#2563eb" font-size="20" font-weight="700">x = [2, 1]</text>
+
+            <line x1="322" y1="278" x2="490" y2="278" stroke="#b9c6d8" stroke-width="2"></line>
+            <line x1="322" y1="326" x2="322" y2="70" stroke="#b9c6d8" stroke-width="2"></line>
+            <path d="M 322 278 L 450 246" stroke="#0f9f6e" stroke-width="8" stroke-linecap="round" marker-end="url(#matrix-arrow-green)"></path>
+            <text x="350" y="224" fill="#0f9f6e" font-size="20" font-weight="700">A x = [4, 1]</text>
+
+            <path d="M 250 192 C 262 182, 274 182, 286 192" fill="none" stroke="#687386" stroke-width="3"></path>
+            <path d="M 286 192 L 276 184 L 278 199 z" fill="#687386"></path>
+            <text x="221" y="385" fill="#687386" font-size="18" font-weight="700">A = [[2, 0], [0, 1]] stretches space horizontally</text>
+          </svg>
+
+          <div class="legend">
+            <span><i class="swatch"></i>输入向量 x</span>
+            <span><i class="swatch green"></i>变换后向量 A x</span>
+          </div>
+
+          <p>
+            如果你想象整个坐标网格都被矩阵拉伸，那么向量只是跟着网格一起移动。
+            这就是把矩阵看成 transformation 的核心直觉。
+          </p>
+        </aside>
+      </section>
+
+      <section class="note">
+        <p>
+          <strong>在 AI 里的直觉：</strong>
+          神经网络的一层经常可以看作一次矩阵变换：输入向量经过权重矩阵后，
+          被旋转、拉伸、压缩到一个更适合解决任务的新表示空间。
+        </p>
+        <p>
+          <strong>In AI, matrices are the model:</strong>
+          neural network weights are matrices that transform input into output; attention scores are
+          matrices that decide what to focus on; embeddings are matrices that map words, tokens, or
+          items into vectors.
+        </p>
+        <p>
+          所以理解矩阵，不只是为了会算 <code>A x</code>。更重要的是理解：
+          模型如何把原始输入一步步变成更有用的表示，再变成最终预测。
+        </p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

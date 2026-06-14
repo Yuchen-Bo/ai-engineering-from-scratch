@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dot Product - Math Foundations Visual Guide</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <main class="page">
+    <div class="shell">
+      <nav class="topbar" aria-label="Page navigation">
+        <a class="back-link" href="../ml-math-visuals.html">返回目录</a>
+        <span class="eyebrow">Linear Algebra / 01</span>
+      </nav>
+
+      <header class="masthead">
+        <p class="eyebrow">Dot Product</p>
+        <h1>点积：两个向量的匹配程度</h1>
+        <p class="lead">
+          Dot product，也叫点积或内积。它把两个长度相同的向量相乘，最后得到一个数字。
+          这个数字可以理解为两个向量在方向和大小上的匹配程度。
+        </p>
+      </header>
+
+      <section class="layout">
+        <article class="panel">
+          <h2>计算方法</h2>
+          <p>
+            对应位置相乘，再把结果加起来。两个向量长度必须相同，
+            因为每个位置都要一一配对。
+          </p>
+
+          <div class="formula" aria-label="dot product formula">
+            a = [a1, a2, a3], b = [b1, b2, b3]<br>
+            a . b = a1*b1 + a2*b2 + a3*b3
+          </div>
+
+          <h3>例子</h3>
+          <p>假设有两个向量：</p>
+          <div class="example">
+            <div class="step">a = [1, 2, 3]</div>
+            <div class="step">b = [4, 5, 6]</div>
+            <div class="step">a . b = 1*4 + 2*5 + 3*6 = 32</div>
+          </div>
+
+          <h3 style="margin-top: 26px;">几何意义</h3>
+          <p>
+            点积也可以写成 <code>a . b = |a| |b| cos(theta)</code>。
+            这里的 <code>theta</code> 是两个向量之间的夹角。
+          </p>
+
+          <div class="meaning" aria-label="dot product signs">
+            <div class="meaning-item">
+              <b>点积 &gt; 0</b>
+              <p>两个向量大致同方向，夹角小于 90 度。</p>
+            </div>
+            <div class="meaning-item">
+              <b>点积 = 0</b>
+              <p>两个向量互相垂直，方向没有重合部分。</p>
+            </div>
+            <div class="meaning-item">
+              <b>点积 &lt; 0</b>
+              <p>两个向量大致反方向，夹角大于 90 度。</p>
+            </div>
+          </div>
+        </article>
+
+        <aside class="panel visual" aria-label="dot product diagram">
+          <h2>图示</h2>
+          <svg class="diagram" viewBox="0 0 520 420" role="img" aria-labelledby="diagram-title diagram-desc">
+            <title id="diagram-title">Dot product vector diagram</title>
+            <desc id="diagram-desc">Two vectors share an origin. Vector b is projected onto vector a, showing the angle theta.</desc>
+            <defs>
+              <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"></path>
+              </marker>
+              <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f9f6e"></path>
+              </marker>
+              <marker id="arrow-gold" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#b7791f"></path>
+              </marker>
+              <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+                <path d="M 28 0 H 0 V 28" fill="none" stroke="#edf2f7" stroke-width="1"></path>
+              </pattern>
+            </defs>
+
+            <rect width="520" height="420" fill="url(#grid)"></rect>
+            <line x1="48" y1="350" x2="480" y2="350" stroke="#b9c6d8" stroke-width="2"></line>
+            <line x1="78" y1="382" x2="78" y2="44" stroke="#b9c6d8" stroke-width="2"></line>
+
+            <path d="M 78 350 L 374 350" stroke="#2563eb" stroke-width="8" stroke-linecap="round" marker-end="url(#arrow-blue)"></path>
+            <path d="M 78 350 L 288 146" stroke="#0f9f6e" stroke-width="8" stroke-linecap="round" marker-end="url(#arrow-green)"></path>
+
+            <path d="M 78 350 A 82 82 0 0 1 137 291" fill="none" stroke="#dc3f45" stroke-width="4"></path>
+            <text x="142" y="313" fill="#dc3f45" font-size="22" font-weight="700">theta</text>
+
+            <line x1="288" y1="146" x2="288" y2="350" stroke="#8ca0b8" stroke-width="3" stroke-dasharray="8 8"></line>
+            <path d="M 78 376 L 288 376" stroke="#b7791f" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-gold)"></path>
+            <text x="150" y="405" fill="#8a5a14" font-size="18" font-weight="700">projection of b on a</text>
+
+            <circle cx="78" cy="350" r="7" fill="#172033"></circle>
+            <text x="385" y="344" fill="#2563eb" font-size="24" font-weight="700">a</text>
+            <text x="299" y="137" fill="#0f9f6e" font-size="24" font-weight="700">b</text>
+            <text x="30" y="374" fill="#687386" font-size="15">origin</text>
+          </svg>
+
+          <div class="legend">
+            <span><i class="swatch"></i>向量 a</span>
+            <span><i class="swatch green"></i>向量 b</span>
+            <span><i class="swatch gold"></i>b 在 a 方向上的投影</span>
+          </div>
+
+          <p>
+            当 b 在 a 的方向上投影越长，点积越大。方向越相反，投影会变成负方向，
+            点积也就可能变成负数。
+          </p>
+        </aside>
+      </section>
+
+      <section class="note">
+        <p>
+          <strong>在 AI 里的直觉：</strong>
+          神经网络里常见的 <code>input . weights + bias</code> 本质上是在问：
+          这个输入和这组权重的模式有多匹配？匹配越强，点积通常越大。
+        </p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
