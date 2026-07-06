@@ -69,6 +69,10 @@ None of these eliminate reward hacking. They move the curve's peak further out. 
 
 This view implies the defense is also unified. Every mitigation has to either reduce proxy-target gap (better data, better RMs), reduce optimization pressure (conservative schedules, early stop), or shift selection pressure onto hard-to-game features (process supervision, debate, information flow control).
 
+```figure
+rlhf-reward-kl
+```
+
 ## Use It
 
 `code/main.py` simulates Gao et al.'s over-optimization curves on a toy regression problem. The "gold" reward is the true linear function of a feature vector. The "proxy" RM is the gold plus Gaussian noise fit on a finite sample. A policy is a mean of a Gaussian over features; training is hill-climbing on proxy reward with a KL penalty to the initial policy. You can vary: sample size of the proxy, KL coefficient, and the noise tail heaviness. Watch the proxy-gold gap open at exactly the KL distance the paper predicts.
@@ -97,7 +101,7 @@ This lesson produces `outputs/skill-reward-hack-auditor.md`. Given a trained RLH
 | Gold reward | "what we actually want" | The target the proxy is a noisy measurement of; in practice, a larger-sample RM or human eval |
 | Proxy reward | "the RM" | The scalar used during training; by construction, it is what the optimizer sees |
 | Over-optimization curve | "the reward-hacking U-curve" | Proxy climbs, gold peaks then falls as KL from initial policy grows |
-| KL budget | "how far we can drift" | `sqrt(KL(pi || pi_init))`; Gao et al. plot reward against this |
+| KL budget | "how far we can drift" | `sqrt(KL(pi \|\| pi_init))`; Gao et al. plot reward against this |
 | Catastrophic Goodhart | "KL does not save you" | Under heavy-tailed reward error, KL-constrained optimal policy can maximize proxy while providing no gold utility |
 | Unfaithful reasoning | "wrong CoT, right answer" | Chain-of-thought that does not causally drive the final prediction |
 | Evaluator tampering | "gaming the scorer" | Agent modifies its environment, scratchpad, or the RM's inputs to register success |

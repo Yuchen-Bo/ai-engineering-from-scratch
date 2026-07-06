@@ -15,7 +15,7 @@ Every NLP system opens with the same three questions. Where does a word start. W
 
 Get tokenization wrong and the model learns from garbage. If your tokenizer treats `don't` as one token but `do n't` as two, the training distribution splits. If your stemmer collapses `organization` and `organ` to the same stem, topic modeling dies. If your lemmatizer needs part-of-speech context but you don't pass it, verbs get treated as nouns.
 
-This lesson builds the three preprocessing primitives from scratch, then shows how NLTK and spaCy do the same work so you can see the tradeoffs.
+This lesson builds the three preprocessing steps from scratch, then shows how NLTK and spaCy do the same work so you can see the tradeoffs.
 
 ## The Concept
 
@@ -28,6 +28,10 @@ Three operations. Each has a job and a failure mode.
 **Lemmatization** reduces a word to its dictionary form using grammar knowledge. Slower, accurate, needs a lookup table or morphological analyzer. `ran -> run` (needs to know "ran" is past tense of "run"). `better -> good` (needs to know comparative forms).
 
 Rule of thumb. Stem when speed matters and you can tolerate noise (search indexing, rough classification). Lemmatize when meaning matters (question answering, semantic search, anything the user will read).
+
+```figure
+edit-distance
+```
 
 ## Build It
 

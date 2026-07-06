@@ -120,6 +120,10 @@ DAAs do not escape Goodhart. They change the surface where it bites from "reward
 
 Every lab runs all five on a battery and picks the winner per task. There is no reason the optimum is the same for math reasoning and safety.
 
+```figure
+dpo-margin
+```
+
 ## Use It
 
 `code/main.py` compares six losses (DPO, IPO, KTO, SimPO, ORPO, BPO) on a toy preference dataset where the true preference strength varies by pair. Each loss is optimized against the same 500-pair sample with a small softmax policy. Plots final win rate, chosen-log-prob drift, and implicit-reward spread per method.
@@ -145,7 +149,7 @@ This lesson produces `outputs/skill-preference-loss-selector.md`. Given dataset 
 | Term | What people say | What it actually means |
 |------|-----------------|------------------------|
 | DPO | "RLHF without a reward model" | Loss derived from the closed-form RLHF optimum; policy parameters only |
-| Implicit reward | "the log-ratio" | `beta * log(pi(y|x) / pi_ref(y|x))` — the DPO-implied reward |
+| Implicit reward | "the log-ratio" | `beta * log(pi(y\|x) / pi_ref(y\|x))` — the DPO-implied reward |
 | IPO | "bounded DPO" | Replaces log-sigmoid with identity; implicit reward gap capped by `1/(2 beta)` |
 | KTO | "unpaired DPO" | Prospect-theory utility over single labels with loss aversion |
 | SimPO | "reference-free DPO" | Length-normalized log-likelihood + margin; no reference policy |

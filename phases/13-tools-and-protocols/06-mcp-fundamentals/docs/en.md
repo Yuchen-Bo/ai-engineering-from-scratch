@@ -111,6 +111,10 @@ A common confusion: `capabilities.tools` is whether the client supports tool-lis
 
 JSON-RPC 2.0 (2010) is a lightweight bidirectional protocol. REST is client-initiated. MCP needed server-initiated messages (sampling, notifications), so JSON-RPC with its symmetric request/response shape was a natural fit. JSON-RPC also composes cleanly over stdio and WebSocket/Streamable HTTP without re-inventing HTTP's request shape.
 
+```figure
+mcp-tool-call
+```
+
 ## Use It
 
 `code/main.py` ships a minimal JSON-RPC 2.0 parser and emitter, then walks the `initialize` → `tools/list` → `tools/call` → `shutdown` sequence by hand, printing every message. No real transport; just the message shapes. Compare to the spec linked in Further Reading to verify each envelope.
@@ -150,7 +154,7 @@ This lesson produces `outputs/skill-mcp-handshake-tracer.md`. Given a pcap-style
 | `tools/list` | "Discovery" | Client asks server for its current tool set |
 | `tools/call` | "Invocation" | Client asks server to execute a tool with arguments |
 | `notifications/*_changed` | "Mutation events" | Server tells client that its primitive list has changed |
-| Content block | "Typed result" | `{type: "text" | "image" | "resource" | "ui_resource"}` in tool result |
+| Content block | "Typed result" | `{type: "text" \| "image" \| "resource" \| "ui_resource"}` in tool result |
 | SEP | "Spec Evolution Proposal" | Named draft proposal (e.g. SEP-1686 for async Tasks) |
 
 ## Further Reading

@@ -53,6 +53,10 @@ Three intuitions:
 
 3. **The ELBO reduces to simple MSE.** The full variational lower bound has a KL term per timestep. With DDPM's parameterization those KL terms simplify to MSE on noise prediction with specific coefficients; Ho dropped the coefficients (calling it "simple" loss) and quality *improved*.
 
+```figure
+diffusion-denoise
+```
+
 ## Build It
 
 `code/main.py` implements a 1-D DDPM. Data is a two-mode mixture. The "net" is a tiny MLP that takes `(x_t, t)` and outputs predicted noise. Training is the one-line loss. Sampling iterates the reverse chain.
@@ -149,11 +153,11 @@ Save `outputs/skill-diffusion-trainer.md`. Skill takes a dataset + compute budge
 
 | Term | What people say | What it actually means |
 |------|-----------------|-----------------------|
-| Forward process | "Adding noise" | Fixed Markov chain `q(x_t | x_{t-1})` that destroys the data. |
-| Reverse process | "Denoising" | Learned chain `p_θ(x_{t-1} | x_t)` that reconstructs the data. |
+| Forward process | "Adding noise" | Fixed Markov chain `q(x_t \| x_{t-1})` that destroys the data. |
+| Reverse process | "Denoising" | Learned chain `p_θ(x_{t-1} \| x_t)` that reconstructs the data. |
 | β schedule | "The noise ladder" | Per-step variance; linear, cosine, or sigmoid. |
 | α̅ | "Alpha bar" | Cumulative product `∏(1 - β)`; gives closed-form `x_t` from `x_0`. |
-| Simple loss | "MSE on noise" | `||ε - ε_θ(x_t, t)||²`; all variational derivations collapse to this. |
+| Simple loss | "MSE on noise" | `\|\|ε - ε_θ(x_t, t)\|\|²`; all variational derivations collapse to this. |
 | ε-prediction | "Predict noise" | Output is the noise added; standard DDPM. |
 | V-prediction | "Predict velocity" | Output is `α·ε - σ·x`; better conditioning across t. |
 | DDPM | "The paper" | Ho et al. 2020; linear β, 1000 steps, U-Net. |
