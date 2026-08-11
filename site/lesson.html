@@ -1851,20 +1851,42 @@
         }, { passive: true });
       }
 
+      function lessonAssetUrls(path, file) {
+        var ref = (typeof window !== 'undefined' && window.__AIFS_REF) ? window.__AIFS_REF : 'main';
+        var cleanPath = path.replace(/^\/+|\/+$/g, '');
+        var rawPath = cleanPath + '/' + file;
+        var encodedRef = encodeURIComponent(ref);
+        var encodedPath = rawPath.split('/').map(encodeURIComponent).join('/');
+        return [
+          'https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/' + ref + '/' + rawPath,
+          'https://cdn.jsdelivr.net/gh/rohitg00/ai-engineering-from-scratch@' + encodedRef + '/' + encodedPath
+        ];
+      }
+
+      function fetchTextWithFallback(urls, index) {
+        index = index || 0;
+        if (index >= urls.length) {
+          return Promise.reject(new Error('all-fetches-failed'));
+        }
+        return fetch(urls[index])
+          .then(function (res) {
+            if (!res.ok) throw new Error('fetch-failed:' + res.status);
+            return res.text();
+          })
+          .catch(function (err) {
+            console.warn('Lesson asset fetch failed, trying fallback', urls[index], err);
+            return fetchTextWithFallback(urls, index + 1);
+          });
+      }
+
       function fetchLesson(path) {
         // Fetch docs from the branch this site was built from (set by build.js
         // via build-meta.js), so PR preview deploys render their own lesson
         // edits instead of always pulling main. Falls back to main.
-        var ref = (typeof window !== 'undefined' && window.__AIFS_REF) ? window.__AIFS_REF : 'main';
-        var base = 'https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/' + ref + '/';
-        var rawUrl = base + path + '/docs/en.md';
-        var quizUrl = base + path + '/quiz.json';
+        var rawUrls = lessonAssetUrls(path, 'docs/en.md');
+        var quizUrls = lessonAssetUrls(path, 'quiz.json');
 
-        fetch(rawUrl)
-          .then(function (res) {
-            if (!res.ok) throw new Error('fetch-failed');
-            return res.text();
-          })
+        fetchTextWithFallback(rawUrls)
           .then(function (md) {
             try {
               renderLesson(md);
@@ -1873,8 +1895,8 @@
               showError('Render error', 'Loaded the lesson markdown but failed to render it. Details in the browser console.');
               return;
             }
-            fetch(quizUrl)
-              .then(function (res) { return res.ok ? res.json() : null; })
+            fetchTextWithFallback(quizUrls)
+              .then(function (text) { return JSON.parse(text); })
               .catch(function () { return null; })
               .then(function (data) {
                 if (!data) return;
