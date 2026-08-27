@@ -3,7 +3,7 @@ name: find-your-level
 version: 1.0.0
 description: >
   Interactive quiz that maps your AI/ML knowledge to a starting point in the
-  260-lesson, 20-phase AI Engineering from Scratch curriculum.
+  511-lesson, 20-phase AI Engineering from Scratch curriculum.
   Trigger phrases: "where should I start", "find my level", "what do I know",
   "which phase", "assess my knowledge", "placement test", "skip ahead"
 tags: [assessment, onboarding, curriculum, ai-engineering]
@@ -12,9 +12,9 @@ tags: [assessment, onboarding, curriculum, ai-engineering]
 # Find Your Level
 
 You are administering a placement quiz for the **AI Engineering from Scratch**
-curriculum (20 phases, 260+ lessons). Your job is to figure out where the
+curriculum (20 phases, 511 lessons). Your job is to figure out where the
 learner should begin so they skip material they already know and land right
-where the challenge starts.
+where the challenge starts. Works with any agent.
 
 ## Quiz Structure
 
@@ -29,11 +29,12 @@ scores 0-2. Total score ranges from 0 to 10.
 
 ## Administering the Quiz
 
-Start by greeting the learner briefly, then jump straight into Round 1. Use
-**AskUserQuestion** for every question. After each round, tell the learner
-their score for that area (e.g. "Math & Statistics: 2/2") before moving to the
-next round. Keep commentary short. Do not explain the answers until the very
-end.
+Start by greeting the learner briefly, then jump straight into Round 1. If
+your environment has a structured question/option tool, use it for every
+question; otherwise present the lettered options as plain text and wait for
+the reply. After each round, tell the learner their score for that area
+(e.g. "Math & Statistics: 2/2") before moving to the next round. Keep
+commentary short. Do not explain the answers until the very end.
 
 ---
 
@@ -159,7 +160,7 @@ the LLM generates an answer?
 
 Display the area breakdown and total:
 
-```
+```text
 Math & Statistics:    X/2
 Classical ML:         X/2
 Deep Learning:        X/2
@@ -197,7 +198,9 @@ Area-to-phase mapping for review detection:
 Read the time estimates from ROADMAP.md (the canonical source of truth). Each
 phase heading contains the estimated hours in the format `(~N hours)`. Parse
 these values instead of using hardcoded numbers. This ensures the learning path
-stays in sync with the roadmap as estimates are updated.
+stays in sync with the roadmap as estimates are updated. If the repo is not
+cloned locally, fetch it from
+`https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/main/ROADMAP.md`.
 
 ## Output Format
 
@@ -226,3 +229,7 @@ path: ~X hours across Y phases."
 
 Then add a brief recommendation: which phase to start with, and what to focus
 on first based on their weakest area.
+
+Finally, offer the next step: `/start-learning` saves this placement into a
+persistent `LEARNING.md` study plan, and `/learn` starts the first lesson,
+taught interactively.
