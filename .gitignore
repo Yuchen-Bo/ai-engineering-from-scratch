@@ -17,6 +17,7 @@ build/
 node_modules/
 .next/
 out/
+!manuals/*/capture/out/
 .vercel
 
 target/
@@ -57,13 +58,16 @@ mlruns/
 .link-cache.json
 .claude/
 
-# Keep local Claude settings ignored, but publish the certification tutor
-# wrapper so a fresh clone can discover it automatically.
+# Keep local Claude settings ignored, but publish the portable tutor mirrors
+# and their runtime references so a fresh clone can discover them.
 !.claude/
 .claude/*
 !.claude/skills/
 .claude/skills/*
 !.claude/skills/claude-certification/
+!.claude/skills/mcpa-certification/
+!.claude/skills/find-your-level/
+!.claude/skills/find-your-level/**
 !.claude/skills/learn-agent-skills/
 !.claude/skills/learn-mcp/
 catalog.json
@@ -75,6 +79,8 @@ site/llms.txt
 site/build-meta.js
 site/certification-data.js
 site/figure-manifest.js
+site/lesson-seo.json
+site/certification-seo.json
 book/_build/
 
 # Lesson translations are generated to a separate `translations` branch, never
@@ -83,4 +89,15 @@ book/_build/
 i18n/*/phases/
 i18n/*/.cache/
 i18n/*/.translate-cache.json
+i18n/*/ui.json
 site/langs.js
+
+!.claude/skills/build-project/
+!.claude/skills/build-project/**
+site/projects-data.js
+site/project-content/
+site/manual-*.html
+site/manuals-data.js
+site/manuals.html
+
+!manuals/*/capture/out/*.log
