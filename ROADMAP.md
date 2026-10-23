@@ -4,11 +4,11 @@ Status tracker for every phase and lesson. The status glyphs in this file feed
 the website (`site/build.js` parses them into `site/data.js`); do not change
 their shape.
 
-Total estimated time: ~323 hours, at your own pace.
+Total estimated time: ~332 hours, at your own pace.
 
 **Legend:** ✅ Complete &nbsp;·&nbsp; 🚧 In Progress &nbsp;·&nbsp; ⬚ Planned
 
-## Phase 0: Setup & Tooling — ✅ (~14 hours)
+## Phase 0: Setup & Tooling — ✅ (~16 hours)
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -24,6 +24,7 @@ Total estimated time: ~323 hours, at your own pace.
 | 10 | Terminal & Shell | ✅ | ~45 min |
 | 11 | Linux for AI | ✅ | ~45 min |
 | 12 | Debugging & Profiling | ✅ | ~75 min |
+| 13 | Python for AI Engineering | ✅ | ~120 min |
 
 ## Phase 1: Math Foundations — ✅ (~23 hours)
 
@@ -52,7 +53,7 @@ Total estimated time: ~323 hours, at your own pace.
 | 21 | Graph Theory for ML | ✅ | ~45 min |
 | 22 | Stochastic Processes | ✅ | ~45 min |
 
-## Phase 2: ML Fundamentals — ✅ (~21 hours)
+## Phase 2: ML Fundamentals — ✅ (~26 hours)
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -74,6 +75,9 @@ Total estimated time: ~323 hours, at your own pace.
 | 16 | Anomaly Detection | ✅ | ~75 min |
 | 17 | Handling Imbalanced Data | ✅ | ~75 min |
 | 18 | Feature Selection | ✅ | ~75 min |
+| 19 | ML System Design — From Problem to Deployed Model | ✅ | ~110 min |
+| 20 | Monitoring Models in Production — Data Drift and Concept Drift | ✅ | ~110 min |
+| 21 | Feature Stores and Training-Serving Skew | ✅ | ~100 min |
 
 ## Phase 3: Deep Learning Core — ✅ (~15 hours)
 
@@ -321,7 +325,7 @@ Total estimated time: ~323 hours, at your own pace.
 | 24 | [Multimodal RAG and Cross-Modal Retrieval](phases/12-multimodal-ai/24-multimodal-rag-cross-modal) | ✅ | ~180 min |
 | 25 | [Multimodal Agents and Computer-Use (Capstone)](phases/12-multimodal-ai/25-multimodal-agents-computer-use) | ✅ | ~240 min |
 
-## Phase 13: Tools & Protocols — ✅ (~43 hours)
+## Phase 13: Tools & Protocols — ✅ (~76 hours)
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
@@ -356,6 +360,20 @@ Total estimated time: ~323 hours, at your own pace.
 | 29 | [MCP Reliability, Cancellation, and Flow Control](phases/13-tools-and-protocols/29-mcp-reliability-cancellation-and-flow-control/) | ✅ | ~120 min |
 | 30 | [MCP Registry Supply Chain: Admission, Drift, and Rollback](phases/13-tools-and-protocols/30-mcp-registry-supply-chain-and-drift/) | ✅ | ~90 min |
 | 31 | [MCP Conformance Engineering: Versioning, Evidence, and Operations](phases/13-tools-and-protocols/31-mcp-conformance-versioning-and-operations/) | ✅ | ~100 min |
+| 32 | [Program Anatomy: Reading ELF From Scratch](phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch/) | ✅ | ~120 min |
+| 33 | [Disassembly and Control-Flow Graphs](phases/13-tools-and-protocols/33-disassembly-and-control-flow/) | ✅ | ~150 min |
+| 34 | [Lifting Machine Code to Pseudocode](phases/13-tools-and-protocols/34-lifting-to-pseudocode/) | ✅ | ~150 min |
+| 35 | [Evidence, Confidence, and Unknowns in Binary Analysis](phases/13-tools-and-protocols/35-evidence-confidence-and-unknowns/) | ✅ | ~105 min |
+| 36 | [Rebuild and Prove Equal](phases/13-tools-and-protocols/36-rebuild-and-prove-equal/) | ✅ | ~110 min |
+| 37 | [The Reverse Engineering Landscape](phases/13-tools-and-protocols/37-the-reverse-engineering-landscape/) | ✅ | ~150 min |
+| 38 | [Calling Conventions and Stack Frames](phases/13-tools-and-protocols/38-calling-conventions-and-stack-frames/) | ✅ | ~140 min |
+| 39 | [Compiler Idioms and Optimization](phases/13-tools-and-protocols/39-compiler-idioms-and-optimization/) | ✅ | ~150 min |
+| 40 | [Linking, Loading, and Stripped Binaries](phases/13-tools-and-protocols/40-linking-loading-and-stripped-binaries/) | ✅ | ~160 min |
+| 41 | [Recovering Data and Types](phases/13-tools-and-protocols/41-recovering-data-and-types/) | ✅ | ~140 min |
+| 42 | [Dynamic Analysis of Your Own Program](phases/13-tools-and-protocols/42-dynamic-analysis-of-your-own-program/) | ✅ | ~130 min |
+| 43 | [Bytecode and Managed Formats](phases/13-tools-and-protocols/43-bytecode-and-managed-formats/) | ✅ | ~150 min |
+| 44 | [Binary Diffing and Symbolic Execution](phases/13-tools-and-protocols/44-binary-diffing-and-symbolic-execution/) | ✅ | ~150 min |
+| 45 | [AI-Assisted Reverse Engineering](phases/13-tools-and-protocols/45-ai-assisted-reverse-engineering/) | ✅ | ~140 min |
 
 ## Phase 14: Agent Engineering — ✅ (~55 hours)
 
@@ -367,18 +385,18 @@ Total estimated time: ~323 hours, at your own pace.
 | 04 | Tree of Thoughts and LATS | ✅ | ~75 min |
 | 05 | Self-Refine and CRITIC | ✅ | ~60 min |
 | 06 | Tool Use and Function Calling | ✅ | ~60 min |
-| 07 | Memory — Virtual Context and MemGPT | ✅ | ~75 min |
-| 08 | Memory Blocks and Sleep-Time Compute (Letta) | ✅ | ~75 min |
-| 09 | Hybrid Memory — Vector + Graph + KV (Mem0) | ✅ | ~75 min |
+| 07 | Agent Memory — Virtual Context and Memory Paging | ✅ | ~75 min |
+| 08 | Memory Blocks and Sleep-Time Compute | ✅ | ~75 min |
+| 09 | Hybrid Memory — Vector + Graph + KV | ✅ | ~75 min |
 | 10 | Skill Libraries and Lifelong Learning (Voyager) | ✅ | ~75 min |
 | 11 | Planning with HTN and Evolutionary Search | ✅ | ~75 min |
 | 12 | Anthropic's Workflow Patterns | ✅ | ~60 min |
-| 13 | LangGraph — Stateful Graphs and Durable Execution | ✅ | ~75 min |
-| 14 | AutoGen v0.4 — Actor Model | ✅ | ~75 min |
-| 15 | CrewAI — Role-Based Crews and Flows | ✅ | ~60 min |
+| 13 | Stateful Graph Orchestration — Durable Execution and Checkpoints | ✅ | ~75 min |
+| 14 | The Actor Model for Agents | ✅ | ~75 min |
+| 15 | Role-Based Agent Teams — Roles, Tasks, Processes | ✅ | ~60 min |
 | 16 | OpenAI Agents SDK — Handoffs, Guardrails, Tracing | ✅ | ~75 min |
-| 17 | Claude Agent SDK — Subagents and Session Store | ✅ | ~75 min |
-| 18 | Agno and Mastra — Production Runtimes | ✅ | ~45 min |
+| 17 | The Harness as a Library — Subagents and Session Store | ✅ | ~75 min |
+| 18 | Production Agent Runtimes | ✅ | ~45 min |
 | 19 | Benchmarks — SWE-bench, GAIA, AgentBench | ✅ | ~60 min |
 | 20 | Benchmarks — WebArena and OSWorld | ✅ | ~60 min |
 | 21 | Computer Use — Claude, OpenAI CUA, Gemini | ✅ | ~60 min |
@@ -429,7 +447,7 @@ Total estimated time: ~323 hours, at your own pace.
 | 07 | Recursive Self-Improvement — Capability vs Alignment | ✅ | ~60 min |
 | 08 | Bounded Self-Improvement Designs | ✅ | ~60 min |
 | 09 | Autonomous Coding Agent Landscape (SWE-bench, CodeAct) | ✅ | ~45 min |
-| 10 | Claude Code Permission Modes and Auto Mode | ✅ | ~45 min |
+| 10 | Permission Modes for Autonomous Agents | ✅ | ~45 min |
 | 11 | Browser Agents and Indirect Prompt Injection | ✅ | ~45 min |
 | 12 | Durable Execution for Long-Running Agents | ✅ | ~60 min |
 | 13 | Action Budgets, Iteration Caps, Cost Governors | ✅ | ~60 min |
@@ -473,17 +491,17 @@ Total estimated time: ~323 hours, at your own pace.
 | 24 | [Evaluation and Coordination Benchmarks](phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/) | ✅ | ~75 min |
 | 25 | [Case Studies and 2026 State of the Art](phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/) | ✅ | ~90 min |
 
-## Phase 17: Infrastructure & Production — ✅ (~32 hours)
+## Phase 17: Infrastructure & Production — ✅ (~34 hours)
 
 | # | Lesson | Status | Est. |
 |---|--------|--------|------|
 | 01 | Managed LLM Platforms — Bedrock, Azure OpenAI, Vertex AI | ✅ | ~60 min |
 | 02 | Inference Platform Economics — Fireworks, Together, Baseten, Modal | ✅ | ~60 min |
 | 03 | GPU Autoscaling on Kubernetes — Karpenter, KAI Scheduler | ✅ | ~75 min |
-| 04 | vLLM Serving Internals — PagedAttention, Continuous Batching, Chunked Prefill | ✅ | ~75 min |
+| 04 | Serving Engine Internals — PagedAttention, Continuous Batching, Chunked Prefill | ✅ | ~75 min |
 | 05 | EAGLE-3 Speculative Decoding in Production | ✅ | ~60 min |
-| 06 | SGLang and RadixAttention for Prefix-Heavy Workloads | ✅ | ~60 min |
-| 07 | TensorRT-LLM on Blackwell with FP8 and NVFP4 | ✅ | ~75 min |
+| 06 | Prefix-Cache Serving — RadixAttention and KV Reuse | ✅ | ~60 min |
+| 07 | Hardware-Specialized Inference Compilation — FP8 and NVFP4 on Blackwell | ✅ | ~75 min |
 | 08 | Inference Metrics — TTFT, TPOT, ITL, Goodput, P99 | ✅ | ~60 min |
 | 09 | Production Quantization — AWQ, GPTQ, GGUF, FP8, NVFP4 | ✅ | ~75 min |
 | 10 | Cold Start Mitigation for Serverless LLMs | ✅ | ~60 min |
@@ -494,7 +512,7 @@ Total estimated time: ~323 hours, at your own pace.
 | 15 | Batch APIs — the 50% Discount as Industry Standard | ✅ | ~45 min |
 | 16 | Model Routing as a Cost-Reduction Primitive | ✅ | ~60 min |
 | 17 | Disaggregated Prefill/Decode — NVIDIA Dynamo and llm-d | ✅ | ~75 min |
-| 18 | vLLM Production Stack with LMCache KV Offloading | ✅ | ~60 min |
+| 18 | Production Serving Stack — KV Offloading and Cache-Aware Routing | ✅ | ~60 min |
 | 19 | AI Gateways — LiteLLM, Portkey, Kong, Bifrost | ✅ | ~60 min |
 | 20 | Shadow, Canary, and Progressive Deployment | ✅ | ~60 min |
 | 21 | A/B Testing LLM Features — GrowthBook and Statsig | ✅ | ~60 min |
@@ -504,7 +522,8 @@ Total estimated time: ~323 hours, at your own pace.
 | 25 | Security — Secrets, PII Scrubbing, Audit Logs | ✅ | ~60 min |
 | 26 | Compliance — SOC 2, HIPAA, GDPR, EU AI Act, ISO 42001 | ✅ | ~60 min |
 | 27 | FinOps for LLMs — Unit Economics and Multi-Tenant Attribution | ✅ | ~60 min |
-| 28 | Self-Hosted Serving Selection — llama.cpp, Ollama, TGI, vLLM, SGLang | ✅ | ~45 min |
+| 28 | Self-Hosted Serving Selection — Matching Engine to Hardware and Scale | ✅ | ~45 min |
+| 29 | Model Demo Interfaces — From a Function to a Shareable App | ✅ | ~90 min |
 
 ## Phase 18: Ethics, Safety & Alignment — ✅ (~31 hours)
 

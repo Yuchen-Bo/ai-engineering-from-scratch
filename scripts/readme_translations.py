@@ -1,15 +1,16 @@
 # -*- coding: utf-8 -*-
-"""Hand-authored README translations, consumed by build_readme_i18n.py.
+"""Hand-authored block translations retained as a README drafting aid.
 
 Keyed by the exact English block (whitespace-normalized). Inline markdown, code
-spans, and links are preserved in the translations. The high-visibility landing
-copy (hero pitch, section headings, closers) is translated; long technical
-paragraphs stay in canonical English. Any block without an entry falls back to
-English, so partial coverage is safe and this table can grow language by
-language without breaking a build.
+spans, and links are preserved in the translations. The legacy render function
+can use this map to draft a translation. Published locale READMEs are maintained
+as full documents; build_readme_i18n.py validates FULL_LOCALES and synchronizes
+statistics without replacing translated copy.
 
-To add a language: add its code here and to the README language bar; run
-    python3 scripts/build_readme_i18n.py
+Before publishing a language in the README navigation, complete its maintained
+i18n/<lang>/README.md, pass the coverage and structure audit, and register it in
+FULL_LOCALES in scripts/audit_readme_locales.py. A block map alone does not
+establish full translation coverage and is not published by the build command.
 """
 
 # --- exact English block keys (must match build_readme_i18n.py normalization) ---

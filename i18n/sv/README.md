@@ -1,103 +1,240 @@
-<p align="center" lang="sv"><sub>Delvis svensk översättning av startsidan. Introduktionen, kom igång-guiden och vissa rubriker är översatta; övriga delar behåller den <a href="../../README.md">engelska originaltexten</a>, som är den auktoritativa versionen · <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a></sub></p>
+<p align="center"><sub>Den här README-filen är översatt till svenska. <a href="../../README.md">Den engelska README-filen</a> är den auktoritativa källan.</sub></p>
+
 <p align="center">
-  <img src="../../assets/banner.svg" alt="AI Engineering from Scratch — reference manual banner" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../assets/readme/header-dark.svg">
+    <img src="../../assets/readme/header-light.svg" alt="AI-teknik från grunden" width="840">
+  </picture>
 </p>
 
 <p align="center">
-  <a href="../../README.md">🇬🇧 English</a> ·
-  <a href="../../i18n/zh/README.md">🇨🇳 简体中文</a> ·
-  <a href="../../i18n/zh-TW/README.md">🇹🇼 繁體中文（台灣）</a> ·
-  <a href="../../i18n/ja/README.md">🇯🇵 日本語</a> ·
-  <a href="../../i18n/ko/README.md">🇰🇷 한국어</a> ·
-  <a href="../../i18n/pt/README.md">🇵🇹 Português</a> ·
-  <a href="../../i18n/pt-BR/README.md">🇧🇷 Português (Brasil)</a> ·
-  <a href="../../i18n/es/README.md">🇪🇸 Español</a> ·
-  <a href="../../i18n/de/README.md">🇩🇪 Deutsch</a> ·
-  <a href="../../i18n/fr/README.md">🇫🇷 Français</a> ·
-  <a href="../../i18n/it/README.md">🇮🇹 Italiano</a> ·
-  <a href="../../i18n/nl/README.md">🇳🇱 Nederlands</a> ·
-  <a href="../../i18n/pl/README.md">🇵🇱 Polski</a> ·
-  <a href="../../i18n/cs/README.md">🇨🇿 Čeština</a> ·
-  <a href="../../i18n/ro/README.md">🇷🇴 Română</a> ·
-  <a href="../../i18n/hu/README.md">🇭🇺 Magyar</a> ·
-  <a href="../../i18n/el/README.md">🇬🇷 Ελληνικά</a> ·
-  <a href="../../i18n/sv/README.md">🇸🇪 Svenska</a> ·
-  <a href="../../i18n/da/README.md">🇩🇰 Dansk</a> ·
-  <a href="../../i18n/no/README.md">🇳🇴 Norsk</a> ·
-  <a href="../../i18n/fi/README.md">🇫🇮 Suomi</a> ·
-  <a href="../../i18n/ru/README.md">🇷🇺 Русский</a> ·
-  <a href="../../i18n/uk/README.md">🇺🇦 Українська</a> ·
-  <a href="../../i18n/tr/README.md">🇹🇷 Türkçe</a> ·
-  <a href="../../i18n/he/README.md">🇮🇱 עברית</a> ·
-  <a href="../../i18n/ar/README.md">🇸🇦 العربية</a> ·
-  <a href="../../i18n/fa/README.md">🇮🇷 فارسی</a> ·
-  <a href="../../i18n/hi/README.md">🇮🇳 हिन्दी</a> ·
-  <a href="../../i18n/bn/README.md">🇧🇩 বাংলা</a> ·
-  <a href="../../i18n/ur/README.md">🇵🇰 اردو</a> ·
-  <a href="../../i18n/th/README.md">🇹🇭 ไทย</a> ·
-  <a href="../../i18n/vi/README.md">🇻🇳 Tiếng Việt</a> ·
-  <a href="../../i18n/id/README.md">🇮🇩 Bahasa Indonesia</a> ·
-  <a href="../../i18n/tl/README.md">🇵🇭 Tagalog</a>
-</p>
-
-<p align="center">
-  <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT License"></a>
-  <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-523-3553ff?style=flat-square&labelColor=fafaf5" alt="523 lessons"></a>
-  <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 phases"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub stars"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Website"></a>
-  <p align="center">
  <a href="https://www.star-history.com/rohitg00/ai-engineering-from-scratch">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank" /><img alt="Star History Rank" src="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending" /><img alt="GitHub Trending Repository of the Day" src="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank" /><img alt="Placering i stjärnhistorik" src="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending" /><img alt="Dagens trendande GitHub-repository" src="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending" /></picture>
  </a>
 </p>
+
+Implementera modellers interna mekanismer, sökpipelines och körmiljöer för agenter. Testa dem, undersök fel och spara koden och utvärderingsresultaten.
+
+**[Börja lära dig](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Välj en väg](#learning-routes)** · **[Prova ett labb](#interactive-lab)** · **[Bygg ett projekt](#project-challenges)** · **[Bläddra i kursplanen](#contents)**
+
+Gratis, öppen källkod, MIT-licens. Lär dig på webbplatsen, med en kodningsagent eller genom att köra kod lokalt.
+
+> 542 lektioner. 20 faser. Python, TypeScript, Rust, Julia.
+
+<p align="center">
+  <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT-licens"></a>
+  <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 lektioner"></a>
+  <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 faser"></a>
+  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub-stjärnor"></a>
+  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Webbplats"></a>
 </p>
+
+<details>
+<summary>Läs på ditt språk</summary>
+
+<p align="center">
+  <a href="../../README.md">🇬🇧 English</a> · <a href="../../i18n/zh/README.md">🇨🇳 简体中文</a> · <a href="../../i18n/zh-TW/README.md">🇹🇼 繁體中文（台灣）</a> · <a href="../../i18n/ja/README.md">🇯🇵 日本語</a> · <a href="../../i18n/ko/README.md">🇰🇷 한국어</a> · <a href="../../i18n/pt/README.md">🇵🇹 Português</a> · <a href="../../i18n/pt-BR/README.md">🇧🇷 Português (Brasil)</a> · <a href="../../i18n/es/README.md">🇪🇸 Español</a> · <a href="../../i18n/de/README.md">🇩🇪 Deutsch</a> · <a href="../../i18n/fr/README.md">🇫🇷 Français</a> · <a href="../../i18n/it/README.md">🇮🇹 Italiano</a> · <a href="../../i18n/nl/README.md">🇳🇱 Nederlands</a> · <a href="../../i18n/pl/README.md">🇵🇱 Polski</a> · <a href="../../i18n/cs/README.md">🇨🇿 Čeština</a> · <a href="../../i18n/ro/README.md">🇷🇴 Română</a> · <a href="../../i18n/hu/README.md">🇭🇺 Magyar</a> · <a href="../../i18n/el/README.md">🇬🇷 Ελληνικά</a> · <a href="../../i18n/sv/README.md">🇸🇪 Svenska</a> · <a href="../../i18n/da/README.md">🇩🇰 Dansk</a> · <a href="../../i18n/no/README.md">🇳🇴 Norsk</a> · <a href="../../i18n/fi/README.md">🇫🇮 Suomi</a> · <a href="../../i18n/ru/README.md">🇷🇺 Русский</a> · <a href="../../i18n/uk/README.md">🇺🇦 Українська</a> · <a href="../../i18n/tr/README.md">🇹🇷 Türkçe</a> · <a href="../../i18n/he/README.md">🇮🇱 עברית</a> · <a href="../../i18n/ar/README.md">🇸🇦 العربية</a> · <a href="../../i18n/fa/README.md">🇮🇷 فارسی</a> · <a href="../../i18n/hi/README.md">🇮🇳 हिन्दी</a> · <a href="../../i18n/bn/README.md">🇧🇩 বাংলা</a> · <a href="../../i18n/ur/README.md">🇵🇰 اردو</a> · <a href="../../i18n/th/README.md">🇹🇭 ไทย</a> · <a href="../../i18n/vi/README.md">🇻🇳 Tiếng Việt</a> · <a href="../../i18n/id/README.md">🇮🇩 Bahasa Indonesia</a> · <a href="../../i18n/tl/README.md">🇵🇭 Tagalog</a>
+</p>
+
+</details>
 
 ### Sponsorer
 
 <p align="center">
   <a href="https://serpapi.com/ai-engineering-from-scratch"><picture><source media="(min-width: 768px)" srcset="../../assets/sponsors/serpapi-banner-compact.png" width="48%"><img src="../../assets/sponsors/serpapi-banner-compact.png" alt="SerpApi. Webbsöknings-API för dina AI-applikationer. Tillgängligt i Markdown och JSON för valfri integration." width="440"></picture></a>
-  <a href="https://nitrostack.ai/referral/aiengineeringfromscratch"><picture><source media="(min-width: 768px)" srcset="../../assets/sponsors/nitrostack-banner-equal.png" width="48%"><img src="../../assets/sponsors/nitrostack-banner-equal.png" alt="NitroStack. Build and deploy your MCP app in 10 minutes. Get your product into ChatGPT and Claude marketplaces with free cloud deployment." width="440"></picture></a>
 </p>
 
 <p align="center">
-  <sub><span>Ditt stöd håller varje lektion gratis och med öppen källkod.</span> <a href="#supporters">Se alla som stöder projektet</a> · <a href="../../SPONSORS.md">Become a sponsor</a></sub>
+  <sub><span>Ditt stöd håller varje lektion gratis och med öppen källkod.</span> <a href="#supporters">Se alla som stöder projektet</a> · <a href="../../SPONSORS.md">Bli sponsor</a></sub>
 </p>
 
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
+<a id="see-what-you-will-build-and-keep"></a>
+<a id="learning-routes"></a>
+
+## Lärvägar
+
+| Lärväg | Första lektionen |
+|---|---|
+| Modellernas grunder | [Installation och verktyg](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| LLM-system | [Promptteknik](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Agenter och systemleverans | [Agentloopen](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+
+[Jämför karriärvägar](https://aiengineeringfromscratch.com/learning-paths.html) · [Förkunskaper och studietid](#study-guide)
+
+<a id="interactive-lab"></a>
+
+### Gradientnedstigning
+
+Tjugo startpunkter följer gradientnedstigning på en kvadratisk förlustfunktion. Grafen visar deras positioner och medelförlusten efter varje uppdatering.
+
+<p align="center">
+  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+    <picture>
+      <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
+      <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
+      <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-dark.png">
+      <source media="(prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-light.png">
+      <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="../../assets/readme/101-gradient-mobile-dark.gif">
+      <source media="(max-width: 600px)" srcset="../../assets/readme/101-gradient-mobile-light.gif">
+      <source media="(prefers-color-scheme: dark)" srcset="../../assets/readme/101-gradient-dark.gif">
+      <img src="../../assets/readme/101-gradient-light.gif" alt="Gradientnedstigning flyttar utspridda startpunkter mot förlustfunktionens minimum. Medelförlusten minskar med varje uppdatering." width="840">
+    </picture>
+  </a>
+</p>
+
+[Justera inlärningshastigheten i lektionen](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Jämför gradientnedstigning, momentum och Adam i kod](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+
+<a id="project-challenges"></a>
+
+### Projekt
+
+Tre projekt med startkod för varje etapp, referensimplementationer och lokala bedömningsverktyg. Kör kommandona från repots rot efter [installationen](#local-setup). Startkoden klarar inte kontrollerna förrän du har implementerat etapperna.
+
+<details>
+<summary><strong>01 · Labb för sökutvärdering</strong> · Python · Rangordningsmått och regressionskontroller</summary>
+
+En kandidat förbättrar genomsnittlig NDCG medan en fråga rankar sina mest relevanta belägg lägre. Bygg en jämförelse fråga för fråga som rapporterar regressionen och kan underkänna en releasekontroll.
+
+Använd Python 3.10+. Repetera [RAG](../../phases/11-llm-engineering/06-rag/docs/en.md) och [modellutvärdering](../../phases/02-ml-fundamentals/09-model-evaluation/docs/en.md). Implementera validering av rankning, precision och recall, positionskänsliga mått och därefter systemjämförelse.
+
+```bash
+python3 scripts/project_test.py retrieval-evaluation-lab \
+  --init learning-artifacts/retrieval-evaluation-lab
+python3 scripts/project_test.py retrieval-evaluation-lab \
+  --stage 1 --path learning-artifacts/retrieval-evaluation-lab --strict
+python3 scripts/project_test.py retrieval-evaluation-lab \
+  --all --path learning-artifacts/retrieval-evaluation-lab --strict
 ```
 
-> **84% av studenterna använder redan AI-verktyg. Bara 18% känner sig redo att använda dem yrkesmässigt.** Den här läroplanen överbryggar det gapet.
->
-> 523 lektioner. 20 faser. ~342 timmar. Python, TypeScript, Rust, Julia. Varje lektion ger ett återanvändbart resultat: en prompt, en färdighet, en agent eller en MCP-server. Gratis, öppen källkod, MIT.
->
-> Du lär dig inte bara AI. Du bygger den. Från början till slut, för hand.
+**Spara:** en reproducerbar jämförelse med förändringar per fråga och relevansbedömningarna som används för poängen. Måtten beskriver dessa bedömningar; de fastställer inte att svaren är korrekta.
 
-<!-- STATS:START (generated from site/stats.json by build.js — do not edit by hand) -->
-<p align="center"><sub><b>114,584</b> readers &nbsp;·&nbsp; <b>181,995</b> page views in the last 30 days &nbsp;·&nbsp; as of 2026-08-29</sub></p>
-<!-- STATS:END -->
+[Starta projektet](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [Granska referensen](../../projects/retrieval-evaluation-lab/solution/) · [Kör med egna indata](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
-## Börja här: välj vad du vill bygga
+</details>
 
-Du behöver inte gå igenom 523 lektioner innan du börjar. Välj ett mål. Varje länk öppnar samma läroplan på GitHub eller webbplatsen, och båda versionerna använder samma lektionskod.
+<details>
+<summary><strong>02 · Felsökare för agentspår</strong> · TypeScript · Tolkning av spår och tidsmätning</summary>
 
-| Ditt mål | Lär dig på GitHub | Lär dig på webbplatsen |
-|---|---|---|
-| Jag är nybörjare och vill ha en komplett grund | [Fas 0: Installation och verktyg](../../phases/00-setup-and-tooling/) | [Utvecklingsmiljö](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Jag kan Python och vill lära mig grunderna i matematik och maskininlärning | [Fas 1: Matematiska grunder](../../phases/01-math-foundations/) | [Intuition för linjär algebra](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| Jag vill bygga LLM-applikationer för produktion | [Fas 11: LLM-utveckling](../../phases/11-llm-engineering/) | [Promptutveckling](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Jag vill bygga agenter | [Fas 14: Agentutveckling](../../phases/14-agent-engineering/) | [Agentloopen](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| Jag vill använda kodningsagenter i riktiga kodarkiv | [Studieväg för agentassisterad utveckling](../../learning-paths/using-coding-agents.json) | [Agentassisterad utveckling](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| Jag vill avgöra vad som ska byggas före implementationen | [Studieväg för produktbedömning och leverans](../../learning-paths/shaping-the-build.json) | [Produktbedömning och leverans](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
-| Jag vill bygga med Model Context Protocol (MCP) | [Studieväg för Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Studieväg för Model Context Protocol (MCP)](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| Jag vill skriva och publicera Agent Skills | [Fokuserad studieväg för Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Studieväg för Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| Jag vill förbereda mig för en Claude-certifiering | [Kom igång med certifieringsstudier](../../certifications/claude/GETTING_STARTED.md) | [Certifieringsakademin](https://aiengineeringfromscratch.com/certifications.html) |
-| Jag vill förbereda mig för MCP Associate (MCPA) | [Kom igång med MCPA](../../certifications/mcpa/GETTING_STARTED.md) | [MCPA-studievägen](https://aiengineeringfromscratch.com/certification?id=mcpa-f) |
+Ett medföljande spår tar fortfarande 100 ms, men den totala tokenanvändningen ökar med 200 och ett span börjar misslyckas. Skilj överlappande arbete i underordnade span från det överordnade spannets körtid och skapa en rapport som visar förändringen.
 
-Osäker på var du ska börja? Använd [handledaren `start-learning` för nivåbedömning](../../skills/start-learning/SKILL.md) eller [webbplatsens guide till förkunskaper](https://aiengineeringfromscratch.com/prereqs.html).
+Använd Node.js 22.18+ och Python 3 för bedömaren. Implementera JSONL-tolkning, validering av överordnade span, intervallaritmetik och därefter en tidslinje som går att granska.
 
-Jämför fyra kärnområden och sex karriärvägar i [studievägarna för AI-utveckling](https://aiengineeringfromscratch.com/learning-paths.html).
+```bash
+python3 scripts/project_test.py agent-trace-debugger \
+  --init learning-artifacts/agent-trace-debugger
+python3 scripts/project_test.py agent-trace-debugger \
+  --stage 1 --path learning-artifacts/agent-trace-debugger --strict
+python3 scripts/project_test.py agent-trace-debugger \
+  --all --path learning-artifacts/agent-trace-debugger --strict
+```
+
+**Spara:** indataspåret, en HTML-tidslinje och en regressionsrapport i JSON. Bevara varje spans egna tokenantal utan underordnade span, så att överordnad och underordnad användning inte räknas dubbelt.
+
+[Starta projektet](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [Granska referensen](../../projects/agent-trace-debugger/solution/) · [Utforska tidsåtgång interaktivt](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+
+</details>
+
+<details>
+<summary><strong>03 · Brandvägg för verktygsanrop</strong> · Rust · Rollkontroller och godkännandekvitton</summary>
+
+En skrivoperation ändras efter granskning, eller ett godkännande återanvänds. Validera anropets hölje, kontrollera anroparens roll och sökväg och förbruka sedan ett godkännande bundet till exakt begäran och innehåll.
+
+Använd Rust och Python 3.10+. Repetera [utformning av verktygsscheman](../../phases/13-tools-and-protocols/05-tool-schema-design/docs/en.md) och [säkerhetsgränser](../../phases/17-infrastructure-and-production/25-security-secrets-audit/docs/en.md). Den anropande applikationen tillhandahåller identiteten; modellen föreslår en operation.
+
+```bash
+python3 scripts/project_test.py tool-call-firewall \
+  --init learning-artifacts/tool-call-firewall
+python3 scripts/project_test.py tool-call-firewall \
+  --stage 1 --path learning-artifacts/tool-call-firewall --strict
+python3 scripts/project_test.py tool-call-firewall \
+  --all --path learning-artifacts/tool-call-firewall --strict
+```
+
+**Spara:** ett granskningskvitto som visar begärd operation och policybeslutet. Godkännanden får användas en gång inom ett anrop; projektet ger inte bestående auktorisering eller en sandlåda på operativsystemnivå.
+
+[Starta projektet](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [Granska referensen](../../projects/tool-call-firewall/solution/) · [Utforska godkännandegränser](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+
+</details>
+
+[Bläddra bland alla projekt](https://aiengineeringfromscratch.com/projects.html) · [Guide till karriärövningar](../../learning-paths/CAREER-PRACTICE.md)
+
+## Välj hur du vill lära dig
+
+### På webbplatsen
+
+Öppna en färdig lektion på [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) eller fäll ut en fas under [Innehåll](#contents). Ingen installation eller kloning behövs.
+
+### Med en AI-handledare
+
+Om Node.js, `npx` och en kodagent som stöder färdigheter redan är installerade kan kodagenten bli din handledare. Du behöver inte klona arkivet för att installera eller läsa handledaren. Körbara laborationer i de fokuserade studievägarna kräver `python3`. Agent Skills-laborationer kräver också en vald värdapplikation och en skrivbar färdighetskatalog för användaren eller projektet.
+
+```bash
+npx skills add rohitg00/ai-engineering-from-scratch
+```
+
+Välj värdmiljö och omfattning när installationsprogrammet frågar. Använd `start-learning` i Codex, `/start-learning` i Claude Code eller be värdmiljön använda färdigheten vid namn.
+
+<details>
+<summary>Konfigurera handledaren och värdmiljöns kommandon</summary>
+
+Kontrollera först de lokala kraven:
+
+```bash
+node --version
+npx --version
+python3 --version
+```
+
+`skills` skriver till den värdapplikation och omfattning som väljs vid installationen, till exempel `.claude/skills/`, `.cursor/skills/`, `.codex/skills/` eller en annan stödd färdighetskatalog. Kontrollera att den valda värdapplikationen hittar just den katalogen.
+
+Anropssyntaxen bestäms av värdapplikationen, inte av det portabla formatet `SKILL.md`:
+
+| Värdapplikation | Börja kursen | Börja med Model Context Protocol (MCP) | Börja med Agent Skills | Gör ett kunskapstest för en fas |
+|---|---|---|---|---|
+| Codex | `start-learning`, eller välj den från `/skills` | `learn-mcp`, eller välj den från `/skills` | `learn-agent-skills`, eller välj den från `/skills` | `check-understanding 13`, eller välj den från `/skills` |
+| Claude Code | `/start-learning` | `/learn-mcp` | `/learn-agent-skills` | `/check-understanding 13` |
+| Andra kompatibla värdapplikationer | `Use start-learning to begin the course.` | `Use learn-mcp to start the Model Context Protocol (MCP) path.` | `Use learn-agent-skills to start the Agent Skills Engineering path.` | `Use check-understanding to quiz me on Phase 13.` |
+
+Ett nivåtest med tio frågor kopplar dina förkunskaper till en lämplig startfas och sparar en personlig studieplan i `LEARNING.md`. Därefter lär färdigheten `learn` ut en lektion per session: begrepp, matematik, kod och kunskapstest. Den hämtar lektioner direkt från det här arkivet, och `course-guide` tar dig till precis den lektion som behandlar det du fastnat på. Anropa färdigheterna med `learn` och `course-guide` i Codex, med `/learn` och `/course-guide` i Claude Code, eller be en annan kompatibel värdapplikation att använda färdigheten vid namn.
+
+Vill du bara lära dig Model Context Protocol (MCP)? Använd MCP-anropet för din värdapplikation. Det skapar `MCP-LEARNING.md` och följer en sammanhållen väg med 17 lektioner om tillståndslösa förfrågningar, transporter, dubbelriktat arbete, säkerhet, tillförlitlighet, registerstyrning och belägg för protokollefterlevnad. Den exakta ordningen och kontrollpunkterna finns i [manifestet för Model Context Protocol (MCP)](../../learning-paths/model-context-protocol.json).
+
+Vill du bara lära dig Agent Skills? Använd Agent Skills-anropet för din värdapplikation. Det skapar `AGENT-SKILLS-LEARNING.md` och följer fem sammanhängande lektioner: kontrakt, upptäckt, anrop, sandlådegränser och slutligen utvärdering inför publicering samt portabilitet mellan riktiga värdapplikationer. Börja på webben med [studievägen för Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
+
+Installationsprogrammet visar vilka värdapplikationer det kan konfigurera och frågar var färdigheterna ska installeras. Om du ännu saknar Node.js, `npx`, `python3`, en kompatibel värdapplikation eller en skrivbar katalog kan du använda webbplatsen eller läsa `docs/en.md` manuellt. Då lär du dig begreppen, men belägg för upptäckt, anrop, skriptkörning och avinstallation i en riktig värdapplikation får vänta tills förkontrollen kan genomföras. Läs lektionerna på [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com).
+
+### Lärandefärdigheterna
+
+| Färdighet | Vad den gör |
+|---|---|
+| [`start-learning`](../../skills/start-learning/SKILL.md) | Introduktion vid kursstart: varför du lär dig, nivåtest och en personlig plan sparad i `LEARNING.md`. |
+| [`learn`](../../skills/learn/SKILL.md) | Handledarens arbetsgång. Repetition som uppvärmning, sedan nästa lektion interaktivt och dess kunskapstest; framsteg och repetitionsbehov sparas. |
+| [`course-guide`](../../skills/course-guide/SKILL.md) | Ämnesvägvisare. ”Var lär jag mig attention?” eller ”min förlust är NaN” → rätt lektioner, med länkar. |
+| [`learn-mcp`](../../skills/learn-mcp/SKILL.md) | Fokuserad handledare för Model Context Protocol (MCP). Skapar `MCP-LEARNING.md`, följer manifestets 17 lektioner och sparar belägg för meddelandeutbyte, säkerhet, tillförlitlighet och protokollefterlevnad. |
+| [`learn-agent-skills`](../../skills/learn-agent-skills/SKILL.md) | Fokuserad handledare för Agent Skills. Skapar `AGENT-SKILLS-LEARNING.md`, undervisar i lektionerna 22, 24, 25, 26 och 27 och sparar belägg från riktiga värdapplikationer. |
+| [`learn-reverse-engineering`](../../skills/learn-reverse-engineering/SKILL.md) | Fokuserad handledare för reverse engineering. Skapar `REVERSE-ENGINEERING-LEARNING.md`, undervisar i lektionerna 32 till 45 i fas 13 på program som du själv bygger och sparar belägg från laborationerna. |
+| [`claude-certification`](../../skills/claude-certification/SKILL.md) | Certifieringshandledare. Väljer CCAO-F, CCDV-F, CCAR-F eller CCAR-P, undervisar i varje lektion, kör laborationer, granskar arbetsresultat, genomför diagnostiska prov och övningsprov samt sparar framsteg. |
+| [`mcpa-certification`](../../skills/mcpa-certification/SKILL.md) | MCPA-handledare. Följer `mcpa-f` med 34 lektioner om protokollet 2026-07-28, undervisar i varje lektion, kör laborationer och meddelandekontroll, genomför det diagnostiska provet och tre övningsprov samt sparar framsteg. |
+| [`find-your-level`](../../skills/find-your-level/SKILL.md) | Nivåtest med tio frågor. Kopplar dina kunskaper till en lämplig startfas och skapar en personlig studieväg med uppskattad tidsåtgång. |
+| [`check-understanding <phase>`](../../skills/check-understanding/SKILL.md) | Åtta frågor per fas med återkoppling och konkreta lektioner att repetera. Använd formen för Codex, Claude Code eller naturligt språk i anropstabellen ovan. |
+
+</details>
+
+<a id="local-setup"></a>
+
+### Kör kod lokalt
+
+```bash
+git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+cd ai-engineering-from-scratch
+python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
+python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
+```
+
+Förkontrollen skiljer kraven som behövs nu från verktygen som behövs senare. Varje obligatoriskt krav som inte uppfylls visas med den upptäckta orsaken och ett kommando som åtgärdar problemet. Kommandot `vectors.py` kör en lektion utan externa beroenden och avslutar med att visa att en matris multiplicerad med en vektor är operationen inuti ett neuralt nätverkslager. Spara terminalutdata som ditt första belägg.
+
+<details>
+<summary>Arbeta med varje lektion på samma sätt</summary>
 
 ### Arbeta med varje lektion på samma sätt
 
@@ -109,1131 +246,930 @@ Jämför fyra kärnområden och sex karriärvägar i [studievägarna för AI-utv
 
 Sökvägar i lektionssidornas kommandon utgår från kodarkivets rot om lektionen inte uttryckligen säger att du ska byta katalog. Om en lektion finns på flera programmeringsspråk kör du implementationen för språket du lär dig.
 
-### Klona kodarkivet och skapa ditt första belägg
+</details>
 
-```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
-cd ai-engineering-from-scratch
-python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
-python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
-```
+<a id="study-guide"></a>
 
-Förkontrollen skiljer kraven som behövs nu från verktygen som behövs senare. Varje obligatoriskt krav som inte uppfylls visas med den upptäckta orsaken och ett kommando som åtgärdar problemet. Det andra kommandot kör en lektion utan externa beroenden och avslutar med att visa att en matris multiplicerad med en vektor är operationen inuti ett neuralt nätverkslager. Spara terminalutdata som ditt första belägg.
+## Välj en lärväg
 
-## Add the AI tutor in 30 seconds
+Du behöver inte gå igenom 542 lektioner innan du börjar. Välj ett mål. Varje länk öppnar samma läroplan på GitHub eller webbplatsen, och båda versionerna använder samma lektionskod.
 
-If Node.js, `npx`, and a skill-capable coding agent are already installed,
-your coding agent can become your tutor in two commands. A repository clone is
-not needed to install or read the tutor. Runnable focused-path labs need
-`python3`. Agent Skills host labs also need a selected host and a writable
-user or project skill scope.
+| Ditt mål | Lär dig på GitHub | Lär dig på webbplatsen |
+|---|---|---|
+| Jag är nybörjare och vill ha en komplett grund | [Fas 0: Installation och verktyg](../../phases/00-setup-and-tooling/) | [Utvecklingsmiljö](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Jag kan Python och vill lära mig grunderna i matematik och maskininlärning | [Fas 1: Matematiska grunder](../../phases/01-math-foundations/) | [Intuition för linjär algebra](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| Jag vill bygga LLM-applikationer för produktion | [Fas 11: LLM-utveckling](../../phases/11-llm-engineering/) | [Promptutveckling](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Jag vill bygga agenter | [Fas 14: Agentutveckling](../../phases/14-agent-engineering/) | [Agentloopen](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Jag vill använda kodningsagenter i riktiga kodarkiv | [Studieväg för agentassisterad utveckling](../../learning-paths/using-coding-agents.json) | [Agentassisterad utveckling](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| Jag vill avgöra vad som ska byggas före implementationen | [Studieväg för produktbedömning och leverans](../../learning-paths/shaping-the-build.json) | [Produktbedömning och leverans](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-Check the local requirements first:
+Osäker på var du ska börja? Använd [handledaren `start-learning` för nivåbedömning](../../skills/start-learning/SKILL.md) eller [webbplatsens guide till förkunskaper](https://aiengineeringfromscratch.com/prereqs.html).
 
-```bash
-node --version
-npx --version
-python3 --version
-```
+Jämför fyra kärnområden och sex karriärvägar i [studievägarna för AI-utveckling](https://aiengineeringfromscratch.com/learning-paths.html).
 
-Then install the curriculum skills and choose the host and scope you intend to
-use when the installer asks:
+<details>
+<summary>Fokuserade lärvägar för MCP, Agent Skills och reverse engineering</summary>
 
-```bash
-npx skills add rohitg00/ai-engineering-from-scratch
-```
+| Ditt mål | Lär dig på GitHub | Lär dig på webbplatsen |
+|---|---|---|
+| Jag vill bygga med Model Context Protocol (MCP) | [Studieväg för Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Studieväg för Model Context Protocol (MCP)](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| Jag vill skriva och publicera Agent Skills | [Fokuserad studieväg för Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Studieväg för Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| Jag vill läsa kompilerade program | [Studieväg för reverse engineering](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Studieväg för reverse engineering](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
-Invocation syntax belongs to the host, not to the portable `SKILL.md` format:
+</details>
 
-| Host | Start the course | Start Model Context Protocol (MCP) | Start Agent Skills | Run a phase quiz |
-|---|---|---|---|---|
-| Codex | `start-learning`, or choose it from `/skills` | `learn-mcp`, or choose it from `/skills` | `learn-agent-skills`, or choose it from `/skills` | `check-understanding 13`, or choose it from `/skills` |
-| Claude Code | `/start-learning` | `/learn-mcp` | `/learn-agent-skills` | `/check-understanding 13` |
-| Other compatible hosts | `Use start-learning to begin the course.` | `Use learn-mcp to start the Model Context Protocol (MCP) path.` | `Use learn-agent-skills to start the Agent Skills Engineering path.` | `Use check-understanding to quiz me on Phase 13.` |
+<details>
+<summary>Förkunskaper och studietid</summary>
 
-A ten-question placement quiz maps what you already know to a starting phase and
-saves a personalized study plan to `LEARNING.md`. From there, the `learn` skill
-teaches one lesson per session: concept, math, code, quiz. It streams lessons
-straight from this repo, and the `course-guide` skill jumps you to the exact
-lesson that covers anything you are stuck on. In Codex, invoke these skills with
-`learn` and `course-guide`; in Claude Code, use `/learn` and `/course-guide`;
-in other compatible hosts, ask to use the skill by name.
+### Förkunskaper
 
-Only want Model Context Protocol (MCP)? Use the MCP invocation for your host. It creates
-`MCP-LEARNING.md` and follows one 17-lesson route through stateless
-requests, transports, bidirectional work, security, reliability, registry
-governance, and conformance evidence. The exact order and checkpoints live in
-the [Model Context Protocol (MCP) manifest](../../learning-paths/model-context-protocol.json).
+- Du kan skriva kod i något språk; Python är en fördel.
+- Du vill förstå hur AI **faktiskt fungerar**, inte bara anropa API:er.
 
-Only want Agent Skills? Use the Agent Skills invocation for your host. It
-creates `AGENT-SKILLS-LEARNING.md` and follows one coherent five-lesson route:
-contract, discovery, invocation, sandbox boundaries, then release evals and
-real-host portability. Start on the web with the
-[Agent Skills path](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
+## Var ska du börja?
 
-The installer lists the hosts it can configure and asks where to install. If
-you do not have Node.js, `npx`, `python3`, a supported host, or a writable
-scope yet, use the website or read `docs/en.md` manually. That path teaches the
-concepts, but real-host discovery, invocation, script, and uninstall evidence
-remains pending until the preflight is available. Read the lessons at
-[aiengineeringfromscratch.com](https://aiengineeringfromscratch.com).
+| Bakgrund | Börja vid | Uppskattad tid |
+|---|---|---|
+| Ny inom programmering och AI | Fas 0: Installation | ~306 timmar |
+| Kan Python, ny inom ML | Fas 1: Matematiska grunder | ~270 timmar |
+| Kan ML, ny inom djupinlärning | Fas 3: Djupinlärningens kärna | ~200 timmar |
+| Kan djupinlärning och vill lära sig språkmodeller och agenter | Fas 10: Stora språkmodeller från grunden | ~100 timmar |
+| Erfaren utvecklare som bara vill lära sig agentutveckling | Fas 14: Agentutveckling | ~60 timmar |
+| Vill bara bygga MCP-system för produktion | [Studievägen för Model Context Protocol (MCP)](../../learning-paths/model-context-protocol.json) | ~23 timmar 15 min |
+| Vill bara bygga Agent Skills för produktion | [Studievägen för utveckling av Agent Skills](../../learning-paths/agent-skills.json) | ~9.5 timmar |
+| Vill bara lära sig reverse engineering | [Studievägen för reverse engineering](../../learning-paths/reverse-engineering.json) | ~32.5 timmar |
 
-## Så här fungerar det
-
-Most AI material teaches in scattered pieces. A paper here, a fine-tuning post there, a
-flashy agent demo somewhere else. The pieces rarely line up. You ship a chatbot but can't
-explain its loss curve. You hook a function to an agent but can't say what attention does
-inside the model that's calling it.
-
-This curriculum is the spine. 20 phases, 523 lessons, four languages: Python, TypeScript,
-Rust, Julia. Linear algebra at one end, autonomous swarms at the other. Every algorithm
-gets built from raw math first. Backprop. Tokenizer. Attention. Agent loop. By the time
-PyTorch shows up, you already know what it's doing under the hood.
-
-Each lesson runs the same loop: read the problem, derive the math, write the code, run
-the test, keep the artifact. No five-minute videos, no copy-paste deploys, no hand-holding.
-Free, open source, and built to run on your own laptop.
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
+</details>
 
 ## Läroplanens upplägg
 
-Twenty phases stack on top of each other. Math is the floor. Agents and production are the roof.
-Skip ahead if you already know the lower layers, but don't skip and then wonder why something at
-the top is breaking.
+Tjugo faser bygger på varandra. Matematiken är grunden. Agenter och produktion är de översta lagren. Hoppa framåt om du redan kan grunderna, men hoppa inte över dem och undra sedan varför något högre upp går sönder.
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#fafaf5','primaryTextColor':'#1a1a1a','primaryBorderColor':'#3553ff','lineColor':'#3553ff','fontFamily':'JetBrains Mono','fontSize':'12px'}}}%%
 flowchart TB
-  P0["Phase 0 — Setup &amp; Tooling"] --> P1["Phase 1 — Math Foundations"]
-  P1 --> P2["Phase 2 — ML Fundamentals"]
-  P2 --> P3["Phase 3 — Deep Learning Core"]
-  P3 --> P4["Phase 4 — Vision"]
-  P3 --> P5["Phase 5 — NLP"]
-  P3 --> P6["Phase 6 — Speech &amp; Audio"]
-  P3 --> P9["Phase 9 — RL"]
-  P5 --> P7["Phase 7 — Transformers"]
-  P7 --> P8["Phase 8 — GenAI"]
-  P7 --> P10["Phase 10 — LLMs from Scratch"]
-  P10 --> P11["Phase 11 — LLM Engineering"]
-  P10 --> P12["Phase 12 — Multimodal"]
-  P11 --> P13["Phase 13 — Tools &amp; Protocols"]
-  P13 --> P14["Phase 14 — Agent Engineering"]
-  P14 --> P15["Phase 15 — Autonomous Systems"]
-  P15 --> P16["Phase 16 — Multi-Agent &amp; Swarms"]
-  P14 --> P17["Phase 17 — Infrastructure &amp; Production"]
-  P15 --> P18["Phase 18 — Ethics &amp; Alignment"]
-  P16 --> P19["Phase 19 — Capstone Projects"]
+  P0["Fas 0: Installation och verktyg"] --> P1["Fas 1: Matematiska grunder"]
+  P1 --> P2["Fas 2: Grunderna i maskininlärning"]
+  P2 --> P3["Fas 3: Djupinlärningens kärna"]
+  P3 --> P4["Fas 4: Datorseende"]
+  P3 --> P5["Fas 5: NLP från grunder till fördjupning"]
+  P3 --> P6["Fas 6: Tal och ljud"]
+  P3 --> P9["Fas 9: Förstärkningsinlärning"]
+  P5 --> P7["Fas 7: Fördjupning i Transformers"]
+  P7 --> P8["Fas 8: Generativ AI"]
+  P7 --> P10["Fas 10: Stora språkmodeller från grunden"]
+  P10 --> P11["Fas 11: Utveckling med stora språkmodeller"]
+  P10 --> P12["Fas 12: Multimodal AI"]
+  P11 --> P13["Fas 13: Verktyg och protokoll"]
+  P13 --> P14["Fas 14: Agentutveckling"]
+  P14 --> P15["Fas 15: Autonoma system"]
+  P15 --> P16["Fas 16: Flera agenter och svärmar"]
+  P14 --> P17["Fas 17: Infrastruktur och produktion"]
+  P15 --> P18["Fas 18: Etik, säkerhet och anpassning"]
+  P16 --> P19["Fas 19: Slutprojekt"]
   P17 --> P19
   P18 --> P19
-```
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
-
-## Lektionernas upplägg
-
-Each lesson lives in its own folder, with the same structure across the entire curriculum:
-
-```text
-phases/<NN>-<phase-name>/<NN>-<lesson-name>/
-├── code/      runnable implementations (Python, TypeScript, Rust, Julia)
-├── docs/
-│   └── en.md  lesson narrative
-└── outputs/   prompts, skills, agents, or MCP servers this lesson produces
-```
-
-Every lesson follows six beats. The *Build It / Use It* split is the spine — you implement the
-algorithm from scratch first, then run the same thing through the production library. You
-understand what the framework is doing because you wrote the smaller version yourself.
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#fafaf5','primaryTextColor':'#1a1a1a','primaryBorderColor':'#3553ff','lineColor':'#3553ff','fontFamily':'JetBrains Mono','fontSize':'13px'}}}%%
-flowchart LR
-  M["MOTTO<br/><sub>one-line core idea</sub>"] --> Pr["PROBLEM<br/><sub>concrete pain</sub>"]
-  Pr --> C["CONCEPT<br/><sub>diagrams &amp; intuition</sub>"]
-  C --> B["BUILD IT<br/><sub>raw math, no frameworks</sub>"]
-  B --> U["USE IT<br/><sub>same thing in PyTorch / sklearn</sub>"]
-  U --> S["SHIP IT<br/><sub>prompt · skill · agent · MCP</sub>"]
-```
-
-## Kom igång
-
-Tre sätt att börja. Välj ett.
-
-**Option A — learn in your terminal *(recommended)*.** After the Node.js,
-`npx`, host, and scope preflight above, install the learning skills into a
-compatible agent and let the course drive itself:
-
-```bash
-npx skills add rohitg00/ai-engineering-from-scratch
-```
-
-Use the host-specific invocation table above. The installed skills provide
-`start-learning`, `learn`, `course-guide`, and the focused
-`learn-mcp` and `learn-agent-skills` routes. Lesson prose can
-stream from this repository without a clone. A local clone is required for
-copied repository code commands and executable MCP or Agent Skills labs.
-Progress lives in `LEARNING.md`, `MCP-LEARNING.md`, or
-`AGENT-SKILLS-LEARNING.md` in your project, so every session can resume.
-
-**Option B — read.** Open any completed lesson on
-[aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) or expand a phase under
-[Contents](#contents). No setup, no cloning.
-
-**Option C — clone and run.**
-
-```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
-cd ai-engineering-from-scratch
-python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
-```
-
-Cloning also auto-loads the learning skills in Claude Code, and gives every
-lesson's code to the `learn` tutor for real execution instead of read-along.
-
-### Förkunskaper
-
-- You can write code (any language; Python helps).
-- You want to understand how AI **actually works**, not just call APIs.
-
-### Prepare for Claude certifications
-
-The [Claude Certification Academy](../../certifications/claude/README.md) is a free,
-open-source preparation program for all four official Claude certification tracks:
-Associate Foundations, Developer Foundations, Architect Foundations, and Architect
-Professional. Each route combines blueprint-mapped lessons, runnable labs, a
-diagnostic, capstone work, and a full-length original practice exam.
-
-Use the [AI-native GitHub onboarding guide](../../certifications/claude/GETTING_STARTED.md)
-with Claude Code, Codex, ChatGPT, Cursor, or another agent. Run
-`claude-certification` in Codex, `/claude-certification` in Claude Code, or ask
-another host to use `claude-certification`. It chooses a track, creates a
-persistent route in `CLAUDE-CERTIFICATION.md`, teaches one step at a time, runs
-the real labs, and gives artifact-based feedback. The same curriculum remains
-available on the [certification website](https://aiengineeringfromscratch.com/certifications.html).
-
-The academy is independent study material based on public exam objectives. It is not
-affiliated with Anthropic, does not reproduce live exam questions, and cannot guarantee
-a passing score.
-
-### Prepare for the MCP Associate (MCPA) certification
-
-The [MCPA Certification Curriculum](../../certifications/mcpa/README.md) is a free,
-open-source preparation program for the Model Context Protocol Associate exam from the
-Agentic AI Foundation, delivered through Linux Foundation Training. Its 34 lessons teach
-the stateless 2026-07-28 protocol across the five exam domains: per-request `_meta` and
-`server/discover` in place of the old handshake, multi round-trip requests, subscriptions,
-caching, the tasks and MCP Apps extensions, OAuth authorization, and the registry and SDK
-tiers. Every lesson ships a runnable standard-library lab whose transcript is checked for
-the current wire shape, and the track adds a diagnostic, a capstone, and three full-length
-original practice exams whose question mix follows the published blueprint weights.
-
-Use the [AI-native GitHub onboarding guide](../../certifications/mcpa/GETTING_STARTED.md) with
-Claude Code, Codex, ChatGPT, Cursor, or another agent. Run `mcpa-certification` in Codex,
-`/mcpa-certification` in Claude Code, or ask another host to use `mcpa-certification`. It
-creates a persistent route in `MCPA-CERTIFICATION.md`, teaches one step at a time, runs
-the real labs, and gives artifact-based feedback. The same curriculum is available on the
-[MCPA track page](https://aiengineeringfromscratch.com/certification?id=mcpa-f).
-
-This curriculum is independent study material based on public exam objectives. It is not
-affiliated with the Agentic AI Foundation or the Linux Foundation, does not reproduce
-live exam questions, and cannot guarantee a passing score.
-
-### The learning skills
-
-| Skill | What it does |
-|---|---|
-| [`start-learning`](../../skills/start-learning/SKILL.md) | One-time onboarding: why you're learning, placement quiz, personalized plan saved to `LEARNING.md`. |
-| [`learn`](../../skills/learn/SKILL.md) | The tutor loop. Warm-up recall, then the next lesson taught interactively, then its quiz; records progress and a review queue. |
-| [`course-guide`](../../skills/course-guide/SKILL.md) | Topic router. "Where do I learn attention?" or "my loss is NaN" → the exact lessons, with links. |
-| [`learn-mcp`](../../skills/learn-mcp/SKILL.md) | Focused Model Context Protocol (MCP) tutor. Creates `MCP-LEARNING.md`, follows the 17-lesson manifest, and records wire, security, reliability, and conformance evidence. |
-| [`learn-agent-skills`](../../skills/learn-agent-skills/SKILL.md) | Focused Agent Skills tutor. Creates `AGENT-SKILLS-LEARNING.md`, teaches lessons 22, 24, 25, 26, and 27, and records real-host evidence. |
-| [`claude-certification`](../../skills/claude-certification/SKILL.md) | Certification tutor. Chooses CCAO-F, CCDV-F, CCAR-F, or CCAR-P; teaches each lesson; runs labs; reviews artifacts; administers diagnostics and mocks; saves progress. |
-| [`mcpa-certification`](../../skills/mcpa-certification/SKILL.md) | MCPA tutor. Follows the 34-lesson `mcpa-f` route on the 2026-07-28 protocol; teaches each lesson; runs labs and the wire checker; administers the diagnostic and three mocks; saves progress. |
-| [`find-your-level`](../../skills/find-your-level/SKILL.md) | Ten-question placement quiz. Maps your knowledge to a starting phase and produces a personalized path with hour estimates. |
-| [`check-understanding <phase>`](../../skills/check-understanding/SKILL.md) | Per-phase quiz, eight questions, with feedback and specific lessons to review. Use the Codex, Claude Code, or natural-language form in the invocation table above. |
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
-
-## Read the core curriculum as a book
-
-The 20-phase core curriculum under `phases/` compiles into a six-volume book series. EPUB and PDF are built by CI from the same core lesson sources and attached to every [GitHub release](https://github.com/rohitg00/ai-engineering-from-scratch/releases); the links below always resolve to the newest release. Volume numbers index the series, not versions: each copy carries a dated edition stamp, and older editions stay downloadable from their release.
-
-Certification curricula are intentionally not converted into the books. Their
-AI tutor state, runnable labs, interactive figures, diagnostics, and timed mocks
-remain first-class on GitHub and the website.
-
-| Vol | Title | Phases | Download |
-|-----|-------|--------|----------|
-| 1 | Foundations · Math, Tooling, and Classical Machine Learning | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | Deep Learning · Networks, Vision, and Speech | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | Language · NLP Foundations and the Transformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | Large Language Models · Generation, Reinforcement, Pretraining, and Engineering | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | Agents · Multimodality, Protocols, Autonomy, and Swarms | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | Production · Infrastructure, Safety, and Capstones | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
-
-The book is the snapshot; this repository is the living edition. Every chapter ends with links back to the lesson's animated figures, quiz, and runnable code. Build locally with `python3 scripts/build_book.py` (pandoc required); pipeline details in [book/README.md](../../book/README.md).
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
-
-## Varje lektion ger ett resultat
-
-Other curricula end with *"congratulations, you learned X."* Each lesson here ends with a
-**reusable tool** you can install or paste into your daily workflow.
-
-<table>
-<tr>
-<th align="left" width="25%"><img src="../../site/assets/figures/001-a-prompts.svg" width="120" height="120" alt="FIG_001.A prompts"/><br/><sub>FIG_001 · A</sub><br/><b>PROMPTS</b></th>
-<th align="left" width="25%"><img src="../../site/assets/figures/001-b-skills.svg" width="120" height="120" alt="FIG_001.B skills"/><br/><sub>FIG_001 · B</sub><br/><b>SKILLS</b></th>
-<th align="left" width="25%"><img src="../../site/assets/figures/001-c-agents.svg" width="120" height="120" alt="FIG_001.C agents"/><br/><sub>FIG_001 · C</sub><br/><b>AGENTS</b></th>
-<th align="left" width="25%"><img src="../../site/assets/figures/001-d-mcp-servers.svg" width="120" height="120" alt="FIG_001.D MCP servers"/><br/><sub>FIG_001 · D</sub><br/><b>MCP SERVERS</b></th>
-</tr>
-<tr>
-<td valign="top">Paste into any AI assistant for expert-level help on a narrow task.</td>
-<td valign="top">Drop into Claude, Cursor, Codex, OpenClaw, Hermes, or any agent that reads <code>SKILL.md</code>.</td>
-<td valign="top">Deploy as autonomous workers — you wrote the loop yourself in Phase 14.</td>
-<td valign="top">Plug into any MCP-compatible client. Built end-to-end in Phase 13.</td>
-</tr>
-</table>
-
-> Install the lot with `python3 scripts/install_skills.py <target>`. Real tools, not homework.
-> By the end of the curriculum, you have a portfolio of 523 artifacts you actually
-> understand because you built them.
-
-### FIG_002 · A worked sample
-
-Phase 14, lesson 1: the agent loop. ~120 lines of pure Python, no dependencies.
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-**`code/agent_loop.py`** &nbsp; <sub><i>build it</i></sub>
-
-```python
-def run(query, tools):
-    history = [user(query)]
-    for step in range(MAX_STEPS):
-        msg = llm(history)
-        if msg.tool_calls:
-            for call in msg.tool_calls:
-                result = tools[call.name](**call.args)
-                history.append(tool_result(call.id, result))
-            continue
-        return msg.content
-    raise StepLimitExceeded
-```
-
-</td>
-<td valign="top" width="50%">
-
-**`outputs/skill-agent-loop.md`** &nbsp; <sub><i>ship it</i></sub>
-
-```markdown
----
-name: agent-loop
-description: ReAct-style loop for any tool list
-phase: 14
-lesson: 01
----
-
-Implement a minimal agent loop that...
-```
-
-**`outputs/prompt-debug-agent.md`**
-
-```markdown
-You are an agent debugger. Given the trace
-of an agent run, identify the step where
-the agent went wrong and explain why...
-```
-
-</td>
-</tr>
-</table>
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
 ```
 
 <a id="contents"></a>
 
 ## Innehåll
 
-Twenty phases. Click any phase to expand its lesson list.
+Tjugo faser. Klicka på en fas för att fälla ut lektionslistan.
 
 <a id="phase-0"></a>
-### Phase 0: Setup & Tooling `12 lessons`
-> Get your environment ready for everything that follows.
+### Fas 0: Installation och verktyg `13 lektioner`
+> Gör miljön redo för allt som följer.
 
-| # | Lesson | Type | Lang |
+| # | Lektion | Typ | Språk |
 |:---:|--------|:----:|------|
-| 01 | [Dev Environment](../../phases/00-setup-and-tooling/01-dev-environment/) | Build | Python |
-| 02 | [Git & Collaboration](../../phases/00-setup-and-tooling/02-git-and-collaboration/) | Learn | — |
-| 03 | [GPU Setup & Cloud](../../phases/00-setup-and-tooling/03-gpu-setup-and-cloud/) | Build | Python |
-| 04 | [APIs & Keys](../../phases/00-setup-and-tooling/04-apis-and-keys/) | Build | Python |
-| 05 | [Jupyter Notebooks](../../phases/00-setup-and-tooling/05-jupyter-notebooks/) | Build | Python |
-| 06 | [Python Environments](../../phases/00-setup-and-tooling/06-python-environments/) | Build | Shell |
-| 07 | [Docker for AI](../../phases/00-setup-and-tooling/07-docker-for-ai/) | Build | Docker |
-| 08 | [Editor Setup](../../phases/00-setup-and-tooling/08-editor-setup/) | Build | — |
-| 09 | [Data Management](../../phases/00-setup-and-tooling/09-data-management/) | Build | Python |
-| 10 | [Terminal & Shell](../../phases/00-setup-and-tooling/10-terminal-and-shell/) | Learn | — |
-| 11 | [Linux for AI](../../phases/00-setup-and-tooling/11-linux-for-ai/) | Learn | — |
-| 12 | [Debugging & Profiling](../../phases/00-setup-and-tooling/12-debugging-and-profiling/) | Build | Python |
+| 01 | [Utvecklingsmiljö](../../phases/00-setup-and-tooling/01-dev-environment/) | Bygg | Python |
+| 02 | [Git och samarbete](../../phases/00-setup-and-tooling/02-git-and-collaboration/) | Lär dig | — |
+| 03 | [GPU-konfiguration och molnet](../../phases/00-setup-and-tooling/03-gpu-setup-and-cloud/) | Bygg | Python |
+| 04 | [API:er och nycklar](../../phases/00-setup-and-tooling/04-apis-and-keys/) | Bygg | Python |
+| 05 | [Jupyter-anteckningsböcker](../../phases/00-setup-and-tooling/05-jupyter-notebooks/) | Bygg | Python |
+| 06 | [Python-miljöer](../../phases/00-setup-and-tooling/06-python-environments/) | Bygg | Shell |
+| 07 | [Docker för AI](../../phases/00-setup-and-tooling/07-docker-for-ai/) | Bygg | Docker |
+| 08 | [Konfigurera editorn](../../phases/00-setup-and-tooling/08-editor-setup/) | Bygg | — |
+| 09 | [Datahantering](../../phases/00-setup-and-tooling/09-data-management/) | Bygg | Python |
+| 10 | [Terminal och skal](../../phases/00-setup-and-tooling/10-terminal-and-shell/) | Lär dig | — |
+| 11 | [Linux för AI](../../phases/00-setup-and-tooling/11-linux-for-ai/) | Lär dig | — |
+| 12 | [Felsökning och profilering](../../phases/00-setup-and-tooling/12-debugging-and-profiling/) | Bygg | Python |
+| 13 | [Python för AI-utveckling](../../phases/00-setup-and-tooling/13-python-for-ai-engineering/) | Bygg | Python |
 
 <details id="phase-1">
-<summary><b>Phase 1 — Math Foundations</b> &nbsp;<code>22 lessons</code>&nbsp; <em>The intuition behind every AI algorithm, through code.</em></summary>
+<summary><b>Fas 1: Matematiska grunder</b> &nbsp;<code>22 lektioner</code>&nbsp; <em>Intuitionen bakom varje AI-algoritm, genom kod.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lektion | Typ | Språk |
 |:---:|--------|:----:|------|
-| 01 | [Linear Algebra Intuition](../../phases/01-math-foundations/01-linear-algebra-intuition/) | Learn | Python, Julia |
-| 02 | [Vectors, Matrices & Operations](../../phases/01-math-foundations/02-vectors-matrices-operations/) | Build | Python, Julia |
-| 03 | [Matrix Transformations & Eigenvalues](../../phases/01-math-foundations/03-matrix-transformations/) | Build | Python, Julia |
-| 04 | [Calculus for ML: Derivatives & Gradients](../../phases/01-math-foundations/04-calculus-for-ml/) | Learn | Python |
-| 05 | [Chain Rule & Automatic Differentiation](../../phases/01-math-foundations/05-chain-rule-and-autodiff/) | Build | Python |
-| 06 | [Probability & Distributions](../../phases/01-math-foundations/06-probability-and-distributions/) | Learn | Python |
-| 07 | [Bayes' Theorem & Statistical Thinking](../../phases/01-math-foundations/07-bayes-theorem/) | Build | Python |
-| 08 | [Optimization: Gradient Descent Family](../../phases/01-math-foundations/08-optimization/) | Build | Python |
-| 09 | [Information Theory: Entropy, KL Divergence](../../phases/01-math-foundations/09-information-theory/) | Learn | Python |
-| 10 | [Dimensionality Reduction: PCA, t-SNE, UMAP](../../phases/01-math-foundations/10-dimensionality-reduction/) | Build | Python |
-| 11 | [Singular Value Decomposition](../../phases/01-math-foundations/11-singular-value-decomposition/) | Build | Python, Julia |
-| 12 | [Tensor Operations](../../phases/01-math-foundations/12-tensor-operations/) | Build | Python |
-| 13 | [Numerical Stability](../../phases/01-math-foundations/13-numerical-stability/) | Build | Python |
-| 14 | [Norms & Distances](../../phases/01-math-foundations/14-norms-and-distances/) | Build | Python |
-| 15 | [Statistics for ML](../../phases/01-math-foundations/15-statistics-for-ml/) | Build | Python |
-| 16 | [Sampling Methods](../../phases/01-math-foundations/16-sampling-methods/) | Build | Python |
-| 17 | [Linear Systems](../../phases/01-math-foundations/17-linear-systems/) | Build | Python |
-| 18 | [Convex Optimization](../../phases/01-math-foundations/18-convex-optimization/) | Build | Python |
-| 19 | [Complex Numbers for AI](../../phases/01-math-foundations/19-complex-numbers/) | Learn | Python |
-| 20 | [The Fourier Transform](../../phases/01-math-foundations/20-fourier-transform/) | Build | Python |
-| 21 | [Graph Theory for ML](../../phases/01-math-foundations/21-graph-theory/) | Build | Python |
-| 22 | [Stochastic Processes](../../phases/01-math-foundations/22-stochastic-processes/) | Learn | Python |
+| 01 | [Intuition för linjär algebra](../../phases/01-math-foundations/01-linear-algebra-intuition/) | Lär dig | Python, Julia |
+| 02 | [Vektorer, matriser och operationer](../../phases/01-math-foundations/02-vectors-matrices-operations/) | Bygg | Python, Julia |
+| 03 | [Matristransformationer och egenvärden](../../phases/01-math-foundations/03-matrix-transformations/) | Bygg | Python, Julia |
+| 04 | [Analys för ML: derivator och gradienter](../../phases/01-math-foundations/04-calculus-for-ml/) | Lär dig | Python |
+| 05 | [Kedjeregeln och automatisk differentiering](../../phases/01-math-foundations/05-chain-rule-and-autodiff/) | Bygg | Python |
+| 06 | [Sannolikhet och fördelningar](../../phases/01-math-foundations/06-probability-and-distributions/) | Lär dig | Python |
+| 07 | [Bayes sats och statistiskt tänkande](../../phases/01-math-foundations/07-bayes-theorem/) | Bygg | Python |
+| 08 | [Optimering: varianter av gradientnedstigning](../../phases/01-math-foundations/08-optimization/) | Bygg | Python |
+| 09 | [Informationsteori: entropi och KL-divergens](../../phases/01-math-foundations/09-information-theory/) | Lär dig | Python |
+| 10 | [Dimensionsreduktion: PCA, t-SNE, UMAP](../../phases/01-math-foundations/10-dimensionality-reduction/) | Bygg | Python |
+| 11 | [Singulärvärdesuppdelning](../../phases/01-math-foundations/11-singular-value-decomposition/) | Bygg | Python, Julia |
+| 12 | [Tensoroperationer](../../phases/01-math-foundations/12-tensor-operations/) | Bygg | Python |
+| 13 | [Numerisk stabilitet](../../phases/01-math-foundations/13-numerical-stability/) | Bygg | Python |
+| 14 | [Normer och avstånd](../../phases/01-math-foundations/14-norms-and-distances/) | Bygg | Python |
+| 15 | [Statistik för ML](../../phases/01-math-foundations/15-statistics-for-ml/) | Bygg | Python |
+| 16 | [Samplingsmetoder](../../phases/01-math-foundations/16-sampling-methods/) | Bygg | Python |
+| 17 | [Linjära system](../../phases/01-math-foundations/17-linear-systems/) | Bygg | Python |
+| 18 | [Konvex optimering](../../phases/01-math-foundations/18-convex-optimization/) | Bygg | Python |
+| 19 | [Komplexa tal för AI](../../phases/01-math-foundations/19-complex-numbers/) | Lär dig | Python |
+| 20 | [Fouriertransformen](../../phases/01-math-foundations/20-fourier-transform/) | Bygg | Python |
+| 21 | [Grafteori för ML](../../phases/01-math-foundations/21-graph-theory/) | Bygg | Python |
+| 22 | [Stokastiska processer](../../phases/01-math-foundations/22-stochastic-processes/) | Lär dig | Python |
 
 </details>
 
 <details id="phase-2">
-<summary><b>Phase 2 — ML Fundamentals</b> &nbsp;<code>18 lessons</code>&nbsp; <em>Classical ML — still the backbone of most production AI.</em></summary>
+<summary><b>Fas 2: Grunderna i maskininlärning</b> &nbsp;<code>21 lektioner</code>&nbsp; <em>Klassisk ML är fortfarande grunden för de flesta AI-system i produktion.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lektion | Typ | Språk |
 |:---:|--------|:----:|------|
-| 01 | [What Is Machine Learning](../../phases/02-ml-fundamentals/01-what-is-machine-learning/) | Learn | Python |
-| 02 | [Linear Regression from Scratch](../../phases/02-ml-fundamentals/02-linear-regression/) | Build | Python |
-| 03 | [Logistic Regression & Classification](../../phases/02-ml-fundamentals/03-logistic-regression/) | Build | Python |
-| 04 | [Decision Trees & Random Forests](../../phases/02-ml-fundamentals/04-decision-trees/) | Build | Python |
-| 05 | [Support Vector Machines](../../phases/02-ml-fundamentals/05-support-vector-machines/) | Build | Python |
-| 06 | [KNN & Distance Metrics](../../phases/02-ml-fundamentals/06-knn-and-distances/) | Build | Python |
-| 07 | [Unsupervised Learning: K-Means, DBSCAN](../../phases/02-ml-fundamentals/07-unsupervised-learning/) | Build | Python |
-| 08 | [Feature Engineering & Selection](../../phases/02-ml-fundamentals/08-feature-engineering/) | Build | Python |
-| 09 | [Model Evaluation: Metrics, Cross-Validation](../../phases/02-ml-fundamentals/09-model-evaluation/) | Build | Python |
-| 10 | [Bias, Variance & the Learning Curve](../../phases/02-ml-fundamentals/10-bias-variance/) | Learn | Python |
-| 11 | [Ensemble Methods: Boosting, Bagging, Stacking](../../phases/02-ml-fundamentals/11-ensemble-methods/) | Build | Python |
-| 12 | [Hyperparameter Tuning](../../phases/02-ml-fundamentals/12-hyperparameter-tuning/) | Build | Python |
-| 13 | [ML Pipelines & Experiment Tracking](../../phases/02-ml-fundamentals/13-ml-pipelines/) | Build | Python |
-| 14 | [Naive Bayes](../../phases/02-ml-fundamentals/14-naive-bayes/) | Build | Python |
-| 15 | [Time Series Fundamentals](../../phases/02-ml-fundamentals/15-time-series/) | Build | Python |
-| 16 | [Anomaly Detection](../../phases/02-ml-fundamentals/16-anomaly-detection/) | Build | Python |
-| 17 | [Handling Imbalanced Data](../../phases/02-ml-fundamentals/17-imbalanced-data/) | Build | Python |
-| 18 | [Feature Selection](../../phases/02-ml-fundamentals/18-feature-selection/) | Build | Python |
+| 01 | [Vad är maskininlärning?](../../phases/02-ml-fundamentals/01-what-is-machine-learning/) | Lär dig | Python |
+| 02 | [Linjär regression från grunden](../../phases/02-ml-fundamentals/02-linear-regression/) | Bygg | Python |
+| 03 | [Logistisk regression och klassificering](../../phases/02-ml-fundamentals/03-logistic-regression/) | Bygg | Python |
+| 04 | [Beslutsträd och slumpmässiga skogar](../../phases/02-ml-fundamentals/04-decision-trees/) | Bygg | Python |
+| 05 | [Stödvektormaskiner](../../phases/02-ml-fundamentals/05-support-vector-machines/) | Bygg | Python |
+| 06 | [KNN och avståndsmått](../../phases/02-ml-fundamentals/06-knn-and-distances/) | Bygg | Python |
+| 07 | [Oövervakad inlärning: K-Means, DBSCAN](../../phases/02-ml-fundamentals/07-unsupervised-learning/) | Bygg | Python |
+| 08 | [Konstruktion och urval av egenskaper](../../phases/02-ml-fundamentals/08-feature-engineering/) | Bygg | Python |
+| 09 | [Modellutvärdering: mått och korsvalidering](../../phases/02-ml-fundamentals/09-model-evaluation/) | Bygg | Python |
+| 10 | [Bias, varians och inlärningskurvan](../../phases/02-ml-fundamentals/10-bias-variance/) | Lär dig | Python |
+| 11 | [Ensemblemetoder: boosting, bagging, stacking](../../phases/02-ml-fundamentals/11-ensemble-methods/) | Bygg | Python |
+| 12 | [Justering av hyperparametrar](../../phases/02-ml-fundamentals/12-hyperparameter-tuning/) | Bygg | Python |
+| 13 | [ML-pipelines och experimentuppföljning](../../phases/02-ml-fundamentals/13-ml-pipelines/) | Bygg | Python |
+| 14 | [Naiv Bayes](../../phases/02-ml-fundamentals/14-naive-bayes/) | Bygg | Python |
+| 15 | [Grunderna i tidsserier](../../phases/02-ml-fundamentals/15-time-series/) | Bygg | Python |
+| 16 | [Avvikelsedetektering](../../phases/02-ml-fundamentals/16-anomaly-detection/) | Bygg | Python |
+| 17 | [Hantera obalanserade data](../../phases/02-ml-fundamentals/17-imbalanced-data/) | Bygg | Python |
+| 18 | [Egenskapsurval](../../phases/02-ml-fundamentals/18-feature-selection/) | Bygg | Python |
+| 19 | [Design av ML-system: från problem till driftsatt modell](../../phases/02-ml-fundamentals/19-ml-system-design/) | Bygg | Python |
+| 20 | [Övervakning av modeller i produktion: datadrift och konceptdrift](../../phases/02-ml-fundamentals/20-model-monitoring-and-drift/) | Bygg | Python |
+| 21 | [Egenskapslager och skillnader mellan träning och drift](../../phases/02-ml-fundamentals/21-feature-stores-and-training-serving-skew/) | Bygg | Python |
 
 </details>
 
 <details id="phase-3">
-<summary><b>Phase 3 — Deep Learning Core</b> &nbsp;<code>13 lessons</code>&nbsp; <em>Neural networks from first principles. No frameworks until you build one.</em></summary>
+<summary><b>Fas 3: Djupinlärningens kärna</b> &nbsp;<code>13 lektioner</code>&nbsp; <em>Neurala nätverk från grundprinciperna. Inga ramverk förrän du har byggt ett själv.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lektion | Typ | Språk |
 |:---:|--------|:----:|------|
-| 01 | [The Perceptron: Where It All Started](../../phases/03-deep-learning-core/01-the-perceptron/) | Build | Python |
-| 02 | [Multi-Layer Networks & Forward Pass](../../phases/03-deep-learning-core/02-multi-layer-networks/) | Build | Python |
-| 03 | [Backpropagation from Scratch](../../phases/03-deep-learning-core/03-backpropagation/) | Build | Python |
-| 04 | [Activation Functions: ReLU, Sigmoid, GELU & Why](../../phases/03-deep-learning-core/04-activation-functions/) | Build | Python |
-| 05 | [Loss Functions: MSE, Cross-Entropy, Contrastive](../../phases/03-deep-learning-core/05-loss-functions/) | Build | Python |
-| 06 | [Optimizers: SGD, Momentum, Adam, AdamW](../../phases/03-deep-learning-core/06-optimizers/) | Build | Python |
-| 07 | [Regularization: Dropout, Weight Decay, BatchNorm](../../phases/03-deep-learning-core/07-regularization/) | Build | Python |
-| 08 | [Weight Initialization & Training Stability](../../phases/03-deep-learning-core/08-weight-initialization/) | Build | Python |
-| 09 | [Learning Rate Schedules & Warmup](../../phases/03-deep-learning-core/09-learning-rate-schedules/) | Build | Python |
-| 10 | [Build Your Own Mini Framework](../../phases/03-deep-learning-core/10-mini-framework/) | Build | Python |
-| 11 | [Introduction to PyTorch](../../phases/03-deep-learning-core/11-intro-to-pytorch/) | Build | Python |
-| 12 | [Introduction to JAX](../../phases/03-deep-learning-core/12-intro-to-jax/) | Build | Python |
-| 13 | [Debugging Neural Networks](../../phases/03-deep-learning-core/13-debugging-neural-networks/) | Build | Python |
+| 01 | [Perceptronen: där allt började](../../phases/03-deep-learning-core/01-the-perceptron/) | Bygg | Python |
+| 02 | [Flerskiktsnätverk och framåtpassagen](../../phases/03-deep-learning-core/02-multi-layer-networks/) | Bygg | Python |
+| 03 | [Bakåtpropagering från grunden](../../phases/03-deep-learning-core/03-backpropagation/) | Bygg | Python |
+| 04 | [Aktiveringsfunktioner: ReLU, Sigmoid, GELU och varför](../../phases/03-deep-learning-core/04-activation-functions/) | Bygg | Python |
+| 05 | [Förlustfunktioner: MSE, korsentropi och kontrastiv förlust](../../phases/03-deep-learning-core/05-loss-functions/) | Bygg | Python |
+| 06 | [Optimerare: SGD, Momentum, Adam, AdamW](../../phases/03-deep-learning-core/06-optimizers/) | Bygg | Python |
+| 07 | [Regularisering: Dropout, Weight Decay, BatchNorm](../../phases/03-deep-learning-core/07-regularization/) | Bygg | Python |
+| 08 | [Viktinitiering och träningsstabilitet](../../phases/03-deep-learning-core/08-weight-initialization/) | Bygg | Python |
+| 09 | [Scheman för inlärningshastighet och uppvärmning](../../phases/03-deep-learning-core/09-learning-rate-schedules/) | Bygg | Python |
+| 10 | [Bygg ditt eget miniramverk](../../phases/03-deep-learning-core/10-mini-framework/) | Bygg | Python |
+| 11 | [Introduktion till PyTorch](../../phases/03-deep-learning-core/11-intro-to-pytorch/) | Bygg | Python |
+| 12 | [Introduktion till JAX](../../phases/03-deep-learning-core/12-intro-to-jax/) | Bygg | Python |
+| 13 | [Felsöka neurala nätverk](../../phases/03-deep-learning-core/13-debugging-neural-networks/) | Bygg | Python |
 
 </details>
 
 <details id="phase-4">
-<summary><b>Phase 4 — Computer Vision</b> &nbsp;<code>28 lessons</code>&nbsp; <em>From pixels to understanding — image, video, 3D, VLMs, and world models.</em></summary>
+<summary><b>Fas 4: Datorseende</b> &nbsp;<code>28 lektioner</code>&nbsp; <em>Från pixlar till förståelse: bild, video, 3D, VLM och världsmodeller.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lektion | Typ | Språk |
 |:---:|--------|:----:|------|
-| 01 | [Image Fundamentals: Pixels, Channels, Color Spaces](../../phases/04-computer-vision/01-image-fundamentals/) | Learn | Python |
-| 02 | [Convolutions from Scratch](../../phases/04-computer-vision/02-convolutions-from-scratch/) | Build | Python |
-| 03 | [CNNs: LeNet to ResNet](../../phases/04-computer-vision/03-cnns-lenet-to-resnet/) | Build | Python |
-| 04 | [Image Classification](../../phases/04-computer-vision/04-image-classification/) | Build | Python |
-| 05 | [Transfer Learning & Fine-Tuning](../../phases/04-computer-vision/05-transfer-learning/) | Build | Python |
-| 06 | [Object Detection — YOLO from Scratch](../../phases/04-computer-vision/06-object-detection-yolo/) | Build | Python |
-| 07 | [Semantic Segmentation — U-Net](../../phases/04-computer-vision/07-semantic-segmentation-unet/) | Build | Python |
-| 08 | [Instance Segmentation — Mask R-CNN](../../phases/04-computer-vision/08-instance-segmentation-mask-rcnn/) | Build | Python |
-| 09 | [Image Generation — GANs](../../phases/04-computer-vision/09-image-generation-gans/) | Build | Python |
-| 10 | [Image Generation — Diffusion Models](../../phases/04-computer-vision/10-image-generation-diffusion/) | Build | Python |
-| 11 | [Stable Diffusion — Architecture & Fine-Tuning](../../phases/04-computer-vision/11-stable-diffusion/) | Build | Python |
-| 12 | [Video Understanding — Temporal Modeling](../../phases/04-computer-vision/12-video-understanding/) | Build | Python |
-| 13 | [3D Vision: Point Clouds, NeRFs](../../phases/04-computer-vision/13-3d-vision-nerf/) | Build | Python |
-| 14 | [Vision Transformers (ViT)](../../phases/04-computer-vision/14-vision-transformers/) | Build | Python |
-| 15 | [Real-Time Vision: Edge Deployment](../../phases/04-computer-vision/15-real-time-edge/) | Build | Python |
-| 16 | [Build a Complete Vision Pipeline](../../phases/04-computer-vision/16-vision-pipeline-capstone/) | Build | Python |
-| 17 | [Self-Supervised Vision — SimCLR, DINO, MAE](../../phases/04-computer-vision/17-self-supervised-vision/) | Build | Python |
-| 18 | [Open-Vocabulary Vision — CLIP](../../phases/04-computer-vision/18-open-vocab-clip/) | Build | Python |
-| 19 | [OCR & Document Understanding](../../phases/04-computer-vision/19-ocr-document-understanding/) | Build | Python |
-| 20 | [Image Retrieval & Metric Learning](../../phases/04-computer-vision/20-image-retrieval-metric/) | Build | Python |
-| 21 | [Keypoint Detection & Pose Estimation](../../phases/04-computer-vision/21-keypoint-pose/) | Build | Python |
-| 22 | [3D Gaussian Splatting from Scratch](../../phases/04-computer-vision/22-3d-gaussian-splatting/) | Build | Python |
-| 23 | [Diffusion Transformers & Rectified Flow](../../phases/04-computer-vision/23-diffusion-transformers-rectified-flow/) | Build | Python |
-| 24 | [SAM 3 & Open-Vocabulary Segmentation](../../phases/04-computer-vision/24-sam3-open-vocab-segmentation/) | Build | Python |
-| 25 | [Vision-Language Models (ViT-MLP-LLM)](../../phases/04-computer-vision/25-vision-language-models/) | Build | Python |
-| 26 | [Monocular Depth & Geometry Estimation](../../phases/04-computer-vision/26-monocular-depth/) | Build | Python |
-| 27 | [Multi-Object Tracking & Video Memory](../../phases/04-computer-vision/27-multi-object-tracking/) | Build | Python |
-| 28 | [World Models & Video Diffusion](../../phases/04-computer-vision/28-world-models-video-diffusion/) | Build | Python |
+| 01 | [Bildgrunder: pixlar, kanaler och färgrymder](../../phases/04-computer-vision/01-image-fundamentals/) | Lär dig | Python |
+| 02 | [Faltningar från grunden](../../phases/04-computer-vision/02-convolutions-from-scratch/) | Bygg | Python |
+| 03 | [CNN:er: från LeNet till ResNet](../../phases/04-computer-vision/03-cnns-lenet-to-resnet/) | Bygg | Python |
+| 04 | [Bildklassificering](../../phases/04-computer-vision/04-image-classification/) | Bygg | Python |
+| 05 | [Överföringsinlärning och finjustering](../../phases/04-computer-vision/05-transfer-learning/) | Bygg | Python |
+| 06 | [Objektdetektering: YOLO från grunden](../../phases/04-computer-vision/06-object-detection-yolo/) | Bygg | Python |
+| 07 | [Semantisk segmentering: U-Net](../../phases/04-computer-vision/07-semantic-segmentation-unet/) | Bygg | Python |
+| 08 | [Instanssegmentering: Mask R-CNN](../../phases/04-computer-vision/08-instance-segmentation-mask-rcnn/) | Bygg | Python |
+| 09 | [Bildgenerering: GAN](../../phases/04-computer-vision/09-image-generation-gans/) | Bygg | Python |
+| 10 | [Bildgenerering: diffusionsmodeller](../../phases/04-computer-vision/10-image-generation-diffusion/) | Bygg | Python |
+| 11 | [Stable Diffusion: arkitektur och finjustering](../../phases/04-computer-vision/11-stable-diffusion/) | Bygg | Python |
+| 12 | [Videoförståelse: tidsmodellering](../../phases/04-computer-vision/12-video-understanding/) | Bygg | Python |
+| 13 | [3D-seende: punktmoln och NeRF](../../phases/04-computer-vision/13-3d-vision-nerf/) | Bygg | Python |
+| 14 | [Vision Transformers (ViT) för bildanalys](../../phases/04-computer-vision/14-vision-transformers/) | Bygg | Python |
+| 15 | [Bildanalys i realtid: driftsättning på kanten](../../phases/04-computer-vision/15-real-time-edge/) | Bygg | Python |
+| 16 | [Bygg en komplett pipeline för bildanalys](../../phases/04-computer-vision/16-vision-pipeline-capstone/) | Bygg | Python |
+| 17 | [Självövervakad bildanalys: SimCLR, DINO, MAE](../../phases/04-computer-vision/17-self-supervised-vision/) | Bygg | Python |
+| 18 | [Bildanalys med öppet ordförråd: CLIP](../../phases/04-computer-vision/18-open-vocab-clip/) | Bygg | Python |
+| 19 | [OCR och dokumentförståelse](../../phases/04-computer-vision/19-ocr-document-understanding/) | Bygg | Python |
+| 20 | [Bildsökning och metrisk inlärning](../../phases/04-computer-vision/20-image-retrieval-metric/) | Bygg | Python |
+| 21 | [Nyckelpunktsdetektering och poseestimering](../../phases/04-computer-vision/21-keypoint-pose/) | Bygg | Python |
+| 22 | [3D Gaussian Splatting från grunden](../../phases/04-computer-vision/22-3d-gaussian-splatting/) | Bygg | Python |
+| 23 | [Diffusion Transformers och rectified flow](../../phases/04-computer-vision/23-diffusion-transformers-rectified-flow/) | Bygg | Python |
+| 24 | [SAM 3 och segmentering med öppet ordförråd](../../phases/04-computer-vision/24-sam3-open-vocab-segmentation/) | Bygg | Python |
+| 25 | [Bild-språkmodeller (ViT-MLP-LLM)](../../phases/04-computer-vision/25-vision-language-models/) | Bygg | Python |
+| 26 | [Monokulär djup- och geometriuppskattning](../../phases/04-computer-vision/26-monocular-depth/) | Bygg | Python |
+| 27 | [Spårning av flera objekt och videominne](../../phases/04-computer-vision/27-multi-object-tracking/) | Bygg | Python |
+| 28 | [Världsmodeller och videodiffusion](../../phases/04-computer-vision/28-world-models-video-diffusion/) | Bygg | Python |
 
 </details>
 
 <details id="phase-5">
-<summary><b>Phase 5 — NLP: Foundations to Advanced</b> &nbsp;<code>29 lessons</code>&nbsp; <em>Language is the interface to intelligence.</em></summary>
+<summary><b>Fas 5: NLP från grunder till fördjupning</b> &nbsp;<code>29 lektioner</code>&nbsp; <em>Språket är gränssnittet till intelligens.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lektion | Typ | Språk |
 |:---:|--------|:----:|------|
-| 01 | [Text Processing: Tokenization, Stemming, Lemmatization](../../phases/05-nlp-foundations-to-advanced/01-text-processing/) | Build | Python |
-| 02 | [Bag of Words, TF-IDF & Text Representation](../../phases/05-nlp-foundations-to-advanced/02-bag-of-words-tfidf/) | Build | Python |
-| 03 | [Word Embeddings: Word2Vec from Scratch](../../phases/05-nlp-foundations-to-advanced/03-word-embeddings-word2vec/) | Build | Python |
-| 04 | [GloVe, FastText & Subword Embeddings](../../phases/05-nlp-foundations-to-advanced/04-glove-fasttext-subword/) | Build | Python |
-| 05 | [Sentiment Analysis](../../phases/05-nlp-foundations-to-advanced/05-sentiment-analysis/) | Build | Python |
-| 06 | [Named Entity Recognition (NER)](../../phases/05-nlp-foundations-to-advanced/06-named-entity-recognition/) | Build | Python |
-| 07 | [POS Tagging & Syntactic Parsing](../../phases/05-nlp-foundations-to-advanced/07-pos-tagging-parsing/) | Build | Python |
-| 08 | [Text Classification — CNNs & RNNs for Text](../../phases/05-nlp-foundations-to-advanced/08-cnns-rnns-for-text/) | Build | Python |
-| 09 | [Sequence-to-Sequence Models](../../phases/05-nlp-foundations-to-advanced/09-sequence-to-sequence/) | Build | Python |
-| 10 | [Attention Mechanism — The Breakthrough](../../phases/05-nlp-foundations-to-advanced/10-attention-mechanism/) | Build | Python |
-| 11 | [Machine Translation](../../phases/05-nlp-foundations-to-advanced/11-machine-translation/) | Build | Python |
-| 12 | [Text Summarization](../../phases/05-nlp-foundations-to-advanced/12-text-summarization/) | Build | Python |
-| 13 | [Question Answering Systems](../../phases/05-nlp-foundations-to-advanced/13-question-answering/) | Build | Python |
-| 14 | [Information Retrieval & Search](../../phases/05-nlp-foundations-to-advanced/14-information-retrieval-search/) | Build | Python |
-| 15 | [Topic Modeling: LDA, BERTopic](../../phases/05-nlp-foundations-to-advanced/15-topic-modeling/) | Build | Python |
-| 16 | [Text Generation](../../phases/05-nlp-foundations-to-advanced/16-text-generation-pre-transformer/) | Build | Python |
-| 17 | [Chatbots: Rule-Based to Neural](../../phases/05-nlp-foundations-to-advanced/17-chatbots-rule-to-neural/) | Build | Python |
-| 18 | [Multilingual NLP](../../phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/) | Build | Python |
-| 19 | [Subword Tokenization: BPE, WordPiece, Unigram, SentencePiece](../../phases/05-nlp-foundations-to-advanced/19-subword-tokenization/) | Learn | Python |
-| 20 | [Structured Outputs & Constrained Decoding](../../phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/) | Build | Python |
-| 21 | [NLI & Textual Entailment](../../phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/) | Learn | Python |
-| 22 | [Embedding Models Deep Dive](../../phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/) | Learn | Python |
-| 23 | [Chunking Strategies for RAG](../../phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/) | Build | Python |
-| 24 | [Coreference Resolution](../../phases/05-nlp-foundations-to-advanced/24-coreference-resolution/) | Learn | Python |
-| 25 | [Entity Linking & Disambiguation](../../phases/05-nlp-foundations-to-advanced/25-entity-linking/) | Build | Python |
-| 26 | [Relation Extraction & Knowledge Graph Construction](../../phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/) | Build | Python |
-| 27 | [LLM Evaluation: RAGAS, DeepEval, G-Eval](../../phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/) | Build | Python |
-| 28 | [Long-Context Evaluation: NIAH, RULER, LongBench, MRCR](../../phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/) | Learn | Python |
-| 29 | [Dialogue State Tracking](../../phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/) | Build | Python |
+| 01 | [Textbearbetning: tokenisering, stamning och lemmatisering](../../phases/05-nlp-foundations-to-advanced/01-text-processing/) | Bygg | Python |
+| 02 | [Ordsäck, TF-IDF och textrepresentation](../../phases/05-nlp-foundations-to-advanced/02-bag-of-words-tfidf/) | Bygg | Python |
+| 03 | [Ordinbäddningar: Word2Vec från grunden](../../phases/05-nlp-foundations-to-advanced/03-word-embeddings-word2vec/) | Bygg | Python |
+| 04 | [GloVe, FastText och delordsinbäddningar](../../phases/05-nlp-foundations-to-advanced/04-glove-fasttext-subword/) | Bygg | Python |
+| 05 | [Sentimentanalys](../../phases/05-nlp-foundations-to-advanced/05-sentiment-analysis/) | Bygg | Python |
+| 06 | [Identifiering av namngivna entiteter (NER)](../../phases/05-nlp-foundations-to-advanced/06-named-entity-recognition/) | Bygg | Python |
+| 07 | [Ordklasstaggning och syntaktisk analys](../../phases/05-nlp-foundations-to-advanced/07-pos-tagging-parsing/) | Bygg | Python |
+| 08 | [Textklassificering: CNN och RNN för text](../../phases/05-nlp-foundations-to-advanced/08-cnns-rnns-for-text/) | Bygg | Python |
+| 09 | [Sekvens-till-sekvens-modeller](../../phases/05-nlp-foundations-to-advanced/09-sequence-to-sequence/) | Bygg | Python |
+| 10 | [Attention-mekanismen: genombrottet](../../phases/05-nlp-foundations-to-advanced/10-attention-mechanism/) | Bygg | Python |
+| 11 | [Maskinöversättning](../../phases/05-nlp-foundations-to-advanced/11-machine-translation/) | Bygg | Python |
+| 12 | [Textsammanfattning](../../phases/05-nlp-foundations-to-advanced/12-text-summarization/) | Bygg | Python |
+| 13 | [System för frågor och svar](../../phases/05-nlp-foundations-to-advanced/13-question-answering/) | Bygg | Python |
+| 14 | [Informationsåtervinning och sökning](../../phases/05-nlp-foundations-to-advanced/14-information-retrieval-search/) | Bygg | Python |
+| 15 | [Ämnesmodellering: LDA, BERTopic](../../phases/05-nlp-foundations-to-advanced/15-topic-modeling/) | Bygg | Python |
+| 16 | [Textgenerering](../../phases/05-nlp-foundations-to-advanced/16-text-generation-pre-transformer/) | Bygg | Python |
+| 17 | [Chattbotar: från regler till neurala nätverk](../../phases/05-nlp-foundations-to-advanced/17-chatbots-rule-to-neural/) | Bygg | Python |
+| 18 | [Flerspråkig NLP](../../phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/) | Bygg | Python |
+| 19 | [Delordstokenisering: BPE, WordPiece, Unigram, SentencePiece](../../phases/05-nlp-foundations-to-advanced/19-subword-tokenization/) | Lär dig | Python |
+| 20 | [Strukturerade utdata och begränsad avkodning](../../phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/) | Bygg | Python |
+| 21 | [NLI och textuell implikation](../../phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/) | Lär dig | Python |
+| 22 | [Fördjupning i inbäddningsmodeller](../../phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/) | Lär dig | Python |
+| 23 | [Strategier för textuppdelning i RAG](../../phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/) | Bygg | Python |
+| 24 | [Koreferenslösning](../../phases/05-nlp-foundations-to-advanced/24-coreference-resolution/) | Lär dig | Python |
+| 25 | [Entitetslänkning och disambiguering](../../phases/05-nlp-foundations-to-advanced/25-entity-linking/) | Bygg | Python |
+| 26 | [Relationsextraktion och konstruktion av kunskapsgrafer](../../phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/) | Bygg | Python |
+| 27 | [LLM-utvärdering: RAGAS, DeepEval, G-Eval](../../phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/) | Bygg | Python |
+| 28 | [Utvärdering av lång kontext: NIAH, RULER, LongBench, MRCR](../../phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/) | Lär dig | Python |
+| 29 | [Spårning av dialogtillstånd](../../phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/) | Bygg | Python |
 
 </details>
 
 <details id="phase-6">
-<summary><b>Phase 6 — Speech & Audio</b> &nbsp;<code>17 lessons</code>&nbsp; <em>Hear, understand, speak.</em></summary>
+<summary><b>Fas 6: Tal och ljud</b> &nbsp;<code>17 lektioner</code>&nbsp; <em>Hör, förstå och tala.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lektion | Typ | Språk |
 |:---:|--------|:----:|------|
-| 01 | [Audio Fundamentals: Waveforms, Sampling, FFT](../../phases/06-speech-and-audio/01-audio-fundamentals) | Learn | Python |
-| 02 | [Spectrograms, Mel Scale & Audio Features](../../phases/06-speech-and-audio/02-spectrograms-mel-features) | Build | Python |
-| 03 | [Audio Classification](../../phases/06-speech-and-audio/03-audio-classification) | Build | Python |
-| 04 | [Speech Recognition (ASR)](../../phases/06-speech-and-audio/04-speech-recognition-asr) | Build | Python |
-| 05 | [Whisper: Architecture & Fine-Tuning](../../phases/06-speech-and-audio/05-whisper-architecture-finetuning) | Build | Python |
-| 06 | [Speaker Recognition & Verification](../../phases/06-speech-and-audio/06-speaker-recognition-verification) | Build | Python |
-| 07 | [Text-to-Speech (TTS)](../../phases/06-speech-and-audio/07-text-to-speech) | Build | Python |
-| 08 | [Voice Cloning & Voice Conversion](../../phases/06-speech-and-audio/08-voice-cloning-conversion) | Build | Python |
-| 09 | [Music Generation](../../phases/06-speech-and-audio/09-music-generation) | Build | Python |
-| 10 | [Audio-Language Models](../../phases/06-speech-and-audio/10-audio-language-models) | Build | Python |
-| 11 | [Real-Time Audio Processing](../../phases/06-speech-and-audio/11-real-time-audio-processing) | Build | Python |
-| 12 | [Build a Voice Assistant Pipeline](../../phases/06-speech-and-audio/12-voice-assistant-pipeline) | Build | Python |
-| 13 | [Neural Audio Codecs — EnCodec, SNAC, Mimi, DAC](../../phases/06-speech-and-audio/13-neural-audio-codecs) | Learn | Python |
-| 14 | [Voice Activity Detection & Turn-Taking](../../phases/06-speech-and-audio/14-voice-activity-detection-turn-taking) | Build | Python |
-| 15 | [Streaming Speech-to-Speech — Moshi, Hibiki](../../phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki) | Learn | Python |
-| 16 | [Voice Anti-Spoofing & Audio Watermarking](../../phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking) | Build | Python |
-| 17 | [Audio Evaluation — WER, MOS, MMAU, Leaderboards](../../phases/06-speech-and-audio/17-audio-evaluation-metrics) | Learn | Python |
+| 01 | [Ljudgrunder: vågformer, sampling och FFT](../../phases/06-speech-and-audio/01-audio-fundamentals) | Lär dig | Python |
+| 02 | [Spektrogram, melskalan och ljudegenskaper](../../phases/06-speech-and-audio/02-spectrograms-mel-features) | Bygg | Python |
+| 03 | [Ljudklassificering](../../phases/06-speech-and-audio/03-audio-classification) | Bygg | Python |
+| 04 | [Taligenkänning (ASR)](../../phases/06-speech-and-audio/04-speech-recognition-asr) | Bygg | Python |
+| 05 | [Whisper: arkitektur och finjustering](../../phases/06-speech-and-audio/05-whisper-architecture-finetuning) | Bygg | Python |
+| 06 | [Talaridentifiering och verifiering](../../phases/06-speech-and-audio/06-speaker-recognition-verification) | Bygg | Python |
+| 07 | [Text till tal (TTS)](../../phases/06-speech-and-audio/07-text-to-speech) | Bygg | Python |
+| 08 | [Röstkloning och röstomvandling](../../phases/06-speech-and-audio/08-voice-cloning-conversion) | Bygg | Python |
+| 09 | [Musikgenerering](../../phases/06-speech-and-audio/09-music-generation) | Bygg | Python |
+| 10 | [Ljud-språkmodeller](../../phases/06-speech-and-audio/10-audio-language-models) | Bygg | Python |
+| 11 | [Ljudbehandling i realtid](../../phases/06-speech-and-audio/11-real-time-audio-processing) | Bygg | Python |
+| 12 | [Bygg en pipeline för en röstassistent](../../phases/06-speech-and-audio/12-voice-assistant-pipeline) | Bygg | Python |
+| 13 | [Neurala ljudkodekar: EnCodec, SNAC, Mimi, DAC](../../phases/06-speech-and-audio/13-neural-audio-codecs) | Lär dig | Python |
+| 14 | [Talaktivitetsdetektering och turtagning](../../phases/06-speech-and-audio/14-voice-activity-detection-turn-taking) | Bygg | Python |
+| 15 | [Strömmande tal till tal: Moshi, Hibiki](../../phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki) | Lär dig | Python |
+| 16 | [Skydd mot röstförfalskning och ljudvattenmärkning](../../phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking) | Bygg | Python |
+| 17 | [Ljudutvärdering: WER, MOS, MMAU och topplistor](../../phases/06-speech-and-audio/17-audio-evaluation-metrics) | Lär dig | Python |
 
 </details>
 
 <details id="phase-7">
-<summary><b>Phase 7 — Transformers Deep Dive</b> &nbsp;<code>16 lessons</code>&nbsp; <em>The architecture that changed everything.</em></summary>
+<summary><b>Fas 7: Fördjupning i Transformers</b> &nbsp;<code>16 lektioner</code>&nbsp; <em>Arkitekturen som förändrade allt.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lektion | Typ | Språk |
 |:---:|--------|:----:|------|
-| 01 | [Why Transformers: The Problems with RNNs](../../phases/07-transformers-deep-dive/01-why-transformers/) | Learn | Python |
-| 02 | [Self-Attention from Scratch](../../phases/07-transformers-deep-dive/02-self-attention-from-scratch/) | Build | Python |
-| 03 | [Multi-Head Attention](../../phases/07-transformers-deep-dive/03-multi-head-attention/) | Build | Python |
-| 04 | [Positional Encoding: Sinusoidal, RoPE, ALiBi](../../phases/07-transformers-deep-dive/04-positional-encoding/) | Build | Python |
-| 05 | [The Full Transformer: Encoder + Decoder](../../phases/07-transformers-deep-dive/05-full-transformer/) | Build | Python |
-| 06 | [BERT — Masked Language Modeling](../../phases/07-transformers-deep-dive/06-bert-masked-language-modeling/) | Build | Python |
-| 07 | [GPT — Causal Language Modeling](../../phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/) | Build | Python |
-| 08 | [T5, BART — Encoder-Decoder Models](../../phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/) | Learn | Python |
-| 09 | [Vision Transformers (ViT)](../../phases/07-transformers-deep-dive/09-vision-transformers/) | Build | Python |
-| 10 | [Audio Transformers — Whisper Architecture](../../phases/07-transformers-deep-dive/10-audio-transformers-whisper/) | Learn | Python |
-| 11 | [Mixture of Experts (MoE)](../../phases/07-transformers-deep-dive/11-mixture-of-experts/) | Build | Python |
-| 12 | [KV Cache, Flash Attention & Inference Optimization](../../phases/07-transformers-deep-dive/12-kv-cache-flash-attention/) | Build | Python |
-| 13 | [Scaling Laws](../../phases/07-transformers-deep-dive/13-scaling-laws/) | Learn | Python |
-| 14 | [Build a Transformer from Scratch](../../phases/07-transformers-deep-dive/14-build-a-transformer-capstone/) | Build | Python |
-| 15 | [Attention Variants — Sliding Window, Sparse, Differential](../../phases/07-transformers-deep-dive/15-attention-variants/) | Build | Python |
-| 16 | [Speculative Decoding — Draft, Verify, Repeat](../../phases/07-transformers-deep-dive/16-speculative-decoding/) | Build | Python |
+| 01 | [Varför Transformers: problemen med RNN](../../phases/07-transformers-deep-dive/01-why-transformers/) | Lär dig | Python |
+| 02 | [Self-attention från grunden](../../phases/07-transformers-deep-dive/02-self-attention-from-scratch/) | Bygg | Python |
+| 03 | [Attention med flera huvuden](../../phases/07-transformers-deep-dive/03-multi-head-attention/) | Bygg | Python |
+| 04 | [Positionskodning: sinusformad, RoPE, ALiBi](../../phases/07-transformers-deep-dive/04-positional-encoding/) | Bygg | Python |
+| 05 | [Hela Transformer-modellen: kodare och avkodare](../../phases/07-transformers-deep-dive/05-full-transformer/) | Bygg | Python |
+| 06 | [BERT: maskerad språkmodellering](../../phases/07-transformers-deep-dive/06-bert-masked-language-modeling/) | Bygg | Python |
+| 07 | [GPT: kausal språkmodellering](../../phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/) | Bygg | Python |
+| 08 | [T5, BART: kodar-avkodarmodeller](../../phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/) | Lär dig | Python |
+| 09 | [Vision Transformers (ViT) för bildanalys](../../phases/07-transformers-deep-dive/09-vision-transformers/) | Bygg | Python |
+| 10 | [Transformers för ljud: Whisper-arkitekturen](../../phases/07-transformers-deep-dive/10-audio-transformers-whisper/) | Lär dig | Python |
+| 11 | [Expertblandningar (MoE)](../../phases/07-transformers-deep-dive/11-mixture-of-experts/) | Bygg | Python |
+| 12 | [KV-cache, Flash Attention och inferensoptimering](../../phases/07-transformers-deep-dive/12-kv-cache-flash-attention/) | Bygg | Python |
+| 13 | [Skalningslagar](../../phases/07-transformers-deep-dive/13-scaling-laws/) | Lär dig | Python |
+| 14 | [Bygg en Transformer från grunden](../../phases/07-transformers-deep-dive/14-build-a-transformer-capstone/) | Bygg | Python |
+| 15 | [Attention-varianter: glidande fönster, gles och differentiell](../../phases/07-transformers-deep-dive/15-attention-variants/) | Bygg | Python |
+| 16 | [Spekulativ avkodning: föreslå, verifiera, upprepa](../../phases/07-transformers-deep-dive/16-speculative-decoding/) | Bygg | Python |
 
 </details>
 
 <details id="phase-8">
-<summary><b>Phase 8 — Generative AI</b> &nbsp;<code>15 lessons</code>&nbsp; <em>Create images, video, audio, 3D, and more.</em></summary>
+<summary><b>Fas 8: Generativ AI</b> &nbsp;<code>15 lektioner</code>&nbsp; <em>Skapa bilder, video, ljud, 3D och mycket mer.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lektion | Typ | Språk |
 |:---:|--------|:----:|------|
-| 01 | [Generative Models: Taxonomy & History](../../phases/08-generative-ai/01-generative-models-taxonomy-history/) | Learn | Python |
-| 02 | [Autoencoders & VAE](../../phases/08-generative-ai/02-autoencoders-vae/) | Build | Python |
-| 03 | [GANs: Generator vs Discriminator](../../phases/08-generative-ai/03-gans-generator-discriminator/) | Build | Python |
-| 04 | [Conditional GANs & Pix2Pix](../../phases/08-generative-ai/04-conditional-gans-pix2pix/) | Build | Python |
-| 05 | [StyleGAN](../../phases/08-generative-ai/05-stylegan/) | Build | Python |
-| 06 | [Diffusion Models — DDPM from Scratch](../../phases/08-generative-ai/06-diffusion-ddpm-from-scratch/) | Build | Python |
-| 07 | [Latent Diffusion & Stable Diffusion](../../phases/08-generative-ai/07-latent-diffusion-stable-diffusion/) | Build | Python |
-| 08 | [ControlNet, LoRA & Conditioning](../../phases/08-generative-ai/08-controlnet-lora-conditioning/) | Build | Python |
-| 09 | [Inpainting, Outpainting & Editing](../../phases/08-generative-ai/09-inpainting-outpainting-editing/) | Build | Python |
-| 10 | [Video Generation](../../phases/08-generative-ai/10-video-generation/) | Build | Python |
-| 11 | [Audio Generation](../../phases/08-generative-ai/11-audio-generation/) | Build | Python |
-| 12 | [3D Generation](../../phases/08-generative-ai/12-3d-generation/) | Build | Python |
-| 13 | [Flow Matching & Rectified Flows](../../phases/08-generative-ai/13-flow-matching-rectified-flows/) | Build | Python |
-| 14 | [Evaluation: FID, CLIP Score](../../phases/08-generative-ai/14-evaluation-fid-clip-score/) | Build | Python |
-| 19 | [Visual Autoregressive Modeling (VAR): Next-Scale Prediction](../../phases/08-generative-ai/19-visual-autoregressive-var/) | Build | Python |
+| 01 | [Generativa modeller: klassificering och historia](../../phases/08-generative-ai/01-generative-models-taxonomy-history/) | Lär dig | Python |
+| 02 | [Autoenkodare och VAE](../../phases/08-generative-ai/02-autoencoders-vae/) | Bygg | Python |
+| 03 | [GAN: generator mot diskriminator](../../phases/08-generative-ai/03-gans-generator-discriminator/) | Bygg | Python |
+| 04 | [Villkorade GAN och Pix2Pix](../../phases/08-generative-ai/04-conditional-gans-pix2pix/) | Bygg | Python |
+| 05 | [StyleGAN-modellen](../../phases/08-generative-ai/05-stylegan/) | Bygg | Python |
+| 06 | [Diffusionsmodeller: DDPM från grunden](../../phases/08-generative-ai/06-diffusion-ddpm-from-scratch/) | Bygg | Python |
+| 07 | [Latent diffusion och Stable Diffusion](../../phases/08-generative-ai/07-latent-diffusion-stable-diffusion/) | Bygg | Python |
+| 08 | [ControlNet, LoRA och villkorning](../../phases/08-generative-ai/08-controlnet-lora-conditioning/) | Bygg | Python |
+| 09 | [Inpainting, outpainting och bildredigering](../../phases/08-generative-ai/09-inpainting-outpainting-editing/) | Bygg | Python |
+| 10 | [Videogenerering](../../phases/08-generative-ai/10-video-generation/) | Bygg | Python |
+| 11 | [Ljudgenerering](../../phases/08-generative-ai/11-audio-generation/) | Bygg | Python |
+| 12 | [3D-generering](../../phases/08-generative-ai/12-3d-generation/) | Bygg | Python |
+| 13 | [Flödesmatchning och rectified flows](../../phases/08-generative-ai/13-flow-matching-rectified-flows/) | Bygg | Python |
+| 14 | [Utvärdering: FID och CLIP-poäng](../../phases/08-generative-ai/14-evaluation-fid-clip-score/) | Bygg | Python |
+| 19 | [Visuell autoregressiv modellering (VAR): förutsäga nästa skala](../../phases/08-generative-ai/19-visual-autoregressive-var/) | Bygg | Python |
 
 </details>
 
 <details id="phase-9">
-<summary><b>Phase 9 — Reinforcement Learning</b> &nbsp;<code>12 lessons</code>&nbsp; <em>The foundation of RLHF and game-playing AI.</em></summary>
+<summary><b>Fas 9: Förstärkningsinlärning</b> &nbsp;<code>12 lektioner</code>&nbsp; <em>Grunden för RLHF och AI som spelar spel.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lektion | Typ | Språk |
 |:---:|--------|:----:|------|
-| 01 | [MDPs, States, Actions & Rewards](../../phases/09-reinforcement-learning/01-mdps-states-actions-rewards/) | Learn | Python |
-| 02 | [Dynamic Programming](../../phases/09-reinforcement-learning/02-dynamic-programming/) | Build | Python |
-| 03 | [Monte Carlo Methods](../../phases/09-reinforcement-learning/03-monte-carlo-methods/) | Build | Python |
-| 04 | [Q-Learning, SARSA](../../phases/09-reinforcement-learning/04-q-learning-sarsa/) | Build | Python |
-| 05 | [Deep Q-Networks (DQN)](../../phases/09-reinforcement-learning/05-dqn/) | Build | Python |
-| 06 | [Policy Gradients — REINFORCE](../../phases/09-reinforcement-learning/06-policy-gradients-reinforce/) | Build | Python |
-| 07 | [Actor-Critic — A2C, A3C](../../phases/09-reinforcement-learning/07-actor-critic-a2c-a3c/) | Build | Python |
-| 08 | [PPO](../../phases/09-reinforcement-learning/08-ppo/) | Build | Python |
-| 09 | [Reward Modeling & RLHF](../../phases/09-reinforcement-learning/09-reward-modeling-rlhf/) | Build | Python |
-| 10 | [Multi-Agent RL](../../phases/09-reinforcement-learning/10-multi-agent-rl/) | Build | Python |
-| 11 | [Sim-to-Real Transfer](../../phases/09-reinforcement-learning/11-sim-to-real-transfer/) | Build | Python |
-| 12 | [RL for Games](../../phases/09-reinforcement-learning/12-rl-for-games/) | Build | Python |
+| 01 | [MDP:er, tillstånd, handlingar och belöningar](../../phases/09-reinforcement-learning/01-mdps-states-actions-rewards/) | Lär dig | Python |
+| 02 | [Dynamisk programmering](../../phases/09-reinforcement-learning/02-dynamic-programming/) | Bygg | Python |
+| 03 | [Monte Carlo-metoder](../../phases/09-reinforcement-learning/03-monte-carlo-methods/) | Bygg | Python |
+| 04 | [Q-inlärning och SARSA](../../phases/09-reinforcement-learning/04-q-learning-sarsa/) | Bygg | Python |
+| 05 | [Djupa Q-nätverk (DQN)](../../phases/09-reinforcement-learning/05-dqn/) | Bygg | Python |
+| 06 | [Policygradienter: REINFORCE](../../phases/09-reinforcement-learning/06-policy-gradients-reinforce/) | Bygg | Python |
+| 07 | [Actor-critic: A2C, A3C](../../phases/09-reinforcement-learning/07-actor-critic-a2c-a3c/) | Bygg | Python |
+| 08 | [PPO-algoritmen](../../phases/09-reinforcement-learning/08-ppo/) | Bygg | Python |
+| 09 | [Belöningsmodellering och RLHF](../../phases/09-reinforcement-learning/09-reward-modeling-rlhf/) | Bygg | Python |
+| 10 | [Förstärkningsinlärning med flera agenter](../../phases/09-reinforcement-learning/10-multi-agent-rl/) | Bygg | Python |
+| 11 | [Överföring från simulering till verklighet](../../phases/09-reinforcement-learning/11-sim-to-real-transfer/) | Bygg | Python |
+| 12 | [Förstärkningsinlärning för spel](../../phases/09-reinforcement-learning/12-rl-for-games/) | Bygg | Python |
 
 </details>
 
 <details id="phase-10">
-<summary><b>Phase 10 — LLMs from Scratch</b> &nbsp;<code>24 lessons</code>&nbsp; <em>Build, train, and understand large language models.</em></summary>
+<summary><b>Fas 10: Stora språkmodeller från grunden</b> &nbsp;<code>24 lektioner</code>&nbsp; <em>Bygg, träna och förstå stora språkmodeller.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lektion | Typ | Språk |
 |:---:|--------|:----:|------|
-| 01 | [Tokenizers: BPE, WordPiece, SentencePiece](../../phases/10-llms-from-scratch/01-tokenizers/) | Build | Python, Rust |
-| 02 | [Building a Tokenizer from Scratch](../../phases/10-llms-from-scratch/02-building-a-tokenizer/) | Build | Python |
-| 03 | [Data Pipelines for Pre-Training](../../phases/10-llms-from-scratch/03-data-pipelines/) | Build | Python |
-| 04 | [Pre-Training a Mini GPT (124M)](../../phases/10-llms-from-scratch/04-pre-training-mini-gpt/) | Build | Python |
-| 05 | [Distributed Training, FSDP, DeepSpeed](../../phases/10-llms-from-scratch/05-scaling-distributed/) | Build | Python |
-| 06 | [Instruction Tuning — SFT](../../phases/10-llms-from-scratch/06-instruction-tuning-sft/) | Build | Python |
-| 07 | [RLHF — Reward Model + PPO](../../phases/10-llms-from-scratch/07-rlhf/) | Build | Python |
-| 08 | [DPO — Direct Preference Optimization](../../phases/10-llms-from-scratch/08-dpo/) | Build | Python |
-| 09 | [Constitutional AI & Self-Improvement](../../phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/) | Build | Python |
-| 10 | [Evaluation — Benchmarks, Evals](../../phases/10-llms-from-scratch/10-evaluation/) | Build | Python |
-| 11 | [Quantization: INT8, GPTQ, AWQ, GGUF](../../phases/10-llms-from-scratch/11-quantization/) | Build | Python |
-| 12 | [Inference Optimization](../../phases/10-llms-from-scratch/12-inference-optimization/) | Build | Python |
-| 13 | [Building a Complete LLM Pipeline](../../phases/10-llms-from-scratch/13-building-complete-llm-pipeline/) | Build | Python |
-| 14 | [Open Models: Architecture Walkthroughs](../../phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/) | Learn | Python |
-| 15 | [Speculative Decoding and EAGLE-3](../../phases/10-llms-from-scratch/15-speculative-decoding-eagle3/) | Build | Python |
-| 16 | [Differential Attention (V2)](../../phases/10-llms-from-scratch/16-differential-attention-v2/) | Build | Python |
-| 17 | [Native Sparse Attention (DeepSeek NSA)](../../phases/10-llms-from-scratch/17-native-sparse-attention/) | Build | Python |
-| 18 | [Multi-Token Prediction (MTP)](../../phases/10-llms-from-scratch/18-multi-token-prediction/) | Build | Python |
-| 19 | [DualPipe Parallelism](../../phases/10-llms-from-scratch/19-dualpipe-parallelism/) | Learn | Python |
-| 20 | [DeepSeek-V3 Architecture Walkthrough](../../phases/10-llms-from-scratch/20-deepseek-v3-walkthrough/) | Learn | Python |
-| 21 | [Jamba — Hybrid SSM-Transformer](../../phases/10-llms-from-scratch/21-jamba-hybrid-ssm-transformer/) | Learn | Python |
-| 22 | [Async and Hogwild! Inference](../../phases/10-llms-from-scratch/22-async-hogwild-inference/) | Build | Python |
-| 25 | [Speculative Decoding and EAGLE](../../phases/10-llms-from-scratch/25-speculative-decoding/) | Build | Python |
-| 34 | [Gradient Checkpointing and Activation Recomputation](../../phases/10-llms-from-scratch/34-gradient-checkpointing/) | Build | Python |
+| 01 | [Tokeniserare: BPE, WordPiece, SentencePiece](../../phases/10-llms-from-scratch/01-tokenizers/) | Bygg | Python, Rust |
+| 02 | [Bygga en tokeniserare från grunden](../../phases/10-llms-from-scratch/02-building-a-tokenizer/) | Bygg | Python |
+| 03 | [Datapipelines för förträning](../../phases/10-llms-from-scratch/03-data-pipelines/) | Bygg | Python |
+| 04 | [Förträna en Mini GPT (124M)](../../phases/10-llms-from-scratch/04-pre-training-mini-gpt/) | Bygg | Python |
+| 05 | [Distribuerad träning, FSDP och DeepSpeed](../../phases/10-llms-from-scratch/05-scaling-distributed/) | Bygg | Python |
+| 06 | [Instruktionsanpassning: SFT](../../phases/10-llms-from-scratch/06-instruction-tuning-sft/) | Bygg | Python |
+| 07 | [RLHF: belöningsmodell och PPO](../../phases/10-llms-from-scratch/07-rlhf/) | Bygg | Python |
+| 08 | [DPO: direkt preferensoptimering](../../phases/10-llms-from-scratch/08-dpo/) | Bygg | Python |
+| 09 | [Konstitutionell AI och självförbättring](../../phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/) | Bygg | Python |
+| 10 | [Utvärdering: riktmärken och tester](../../phases/10-llms-from-scratch/10-evaluation/) | Bygg | Python |
+| 11 | [Kvantisering: INT8, GPTQ, AWQ, GGUF](../../phases/10-llms-from-scratch/11-quantization/) | Bygg | Python |
+| 12 | [Inferensoptimering](../../phases/10-llms-from-scratch/12-inference-optimization/) | Bygg | Python |
+| 13 | [Bygga en komplett LLM-pipeline](../../phases/10-llms-from-scratch/13-building-complete-llm-pipeline/) | Bygg | Python |
+| 14 | [Öppna modeller: genomgång av arkitekturer](../../phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/) | Lär dig | Python |
+| 15 | [Spekulativ avkodning och EAGLE-3](../../phases/10-llms-from-scratch/15-speculative-decoding-eagle3/) | Bygg | Python |
+| 16 | [Differentiell attention (V2)](../../phases/10-llms-from-scratch/16-differential-attention-v2/) | Bygg | Python |
+| 17 | [Native Sparse Attention (DeepSeek NSA)](../../phases/10-llms-from-scratch/17-native-sparse-attention/) | Bygg | Python |
+| 18 | [Förutsägelse av flera token (MTP)](../../phases/10-llms-from-scratch/18-multi-token-prediction/) | Bygg | Python |
+| 19 | [DualPipe-parallellism](../../phases/10-llms-from-scratch/19-dualpipe-parallelism/) | Lär dig | Python |
+| 20 | [Genomgång av DeepSeek-V3:s arkitektur](../../phases/10-llms-from-scratch/20-deepseek-v3-walkthrough/) | Lär dig | Python |
+| 21 | [Jamba: hybrid av SSM och Transformer](../../phases/10-llms-from-scratch/21-jamba-hybrid-ssm-transformer/) | Lär dig | Python |
+| 22 | [Asynkron inferens och Hogwild!](../../phases/10-llms-from-scratch/22-async-hogwild-inference/) | Bygg | Python |
+| 25 | [Spekulativ avkodning och EAGLE](../../phases/10-llms-from-scratch/25-speculative-decoding/) | Bygg | Python |
+| 34 | [Gradientkontrollpunkter och omberäkning av aktiveringar](../../phases/10-llms-from-scratch/34-gradient-checkpointing/) | Bygg | Python |
 
 </details>
 
 <details id="phase-11">
-<summary><b>Phase 11 — LLM Engineering</b> &nbsp;<code>17 lessons</code>&nbsp; <em>Put LLMs to work in production.</em></summary>
+<summary><b>Fas 11: Utveckling med stora språkmodeller</b> &nbsp;<code>17 lektioner</code>&nbsp; <em>Sätt stora språkmodeller i arbete i produktion.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lektion | Typ | Språk |
 |:---:|--------|:----:|------|
-| 01 | [Prompt Engineering: Techniques & Patterns](../../phases/11-llm-engineering/01-prompt-engineering/) | Build | Python |
-| 02 | [Few-Shot, CoT, Tree-of-Thought](../../phases/11-llm-engineering/02-few-shot-cot/) | Build | Python |
-| 03 | [Structured Outputs](../../phases/11-llm-engineering/03-structured-outputs/) | Build | Python |
-| 04 | [Embeddings & Vector Representations](../../phases/11-llm-engineering/04-embeddings/) | Build | Python |
-| 05 | [Context Engineering](../../phases/11-llm-engineering/05-context-engineering/) | Build | Python |
-| 06 | [RAG: Retrieval-Augmented Generation](../../phases/11-llm-engineering/06-rag/) | Build | Python |
-| 07 | [Advanced RAG: Chunking, Reranking](../../phases/11-llm-engineering/07-advanced-rag/) | Build | Python |
-| 08 | [Fine-Tuning with LoRA & QLoRA](../../phases/11-llm-engineering/08-fine-tuning-lora/) | Build | Python |
-| 09 | [Function Calling & Tool Use](../../phases/11-llm-engineering/09-function-calling/) | Build | Python |
-| 10 | [Evaluation & Testing](../../phases/11-llm-engineering/10-evaluation/) | Build | Python |
-| 11 | [Caching, Rate Limiting & Cost](../../phases/11-llm-engineering/11-caching-cost/) | Build | Python |
-| 12 | [Guardrails & Safety](../../phases/11-llm-engineering/12-guardrails/) | Build | Python |
-| 13 | [Building a Production LLM App](../../phases/11-llm-engineering/13-production-app/) | Build | Python |
-| 14 | [Model Context Protocol (MCP)](../../phases/11-llm-engineering/14-model-context-protocol/) | Build | Python |
-| 15 | [Prompt Caching & Context Caching](../../phases/11-llm-engineering/15-prompt-caching/) | Build | Python |
-| 16 | [Agent State Machines — Graphs, Nodes, Checkpoints](../../phases/11-llm-engineering/16-langgraph-state-machines/) | Build | Python |
-| 17 | [Agent Framework Tradeoffs](../../phases/11-llm-engineering/17-agent-framework-tradeoffs/) | Learn | Python |
+| 01 | [Promptutformning: tekniker och mönster](../../phases/11-llm-engineering/01-prompt-engineering/) | Bygg | Python |
+| 02 | [Few-shot, CoT och tanketräd](../../phases/11-llm-engineering/02-few-shot-cot/) | Bygg | Python |
+| 03 | [Strukturerade utdata](../../phases/11-llm-engineering/03-structured-outputs/) | Bygg | Python |
+| 04 | [Inbäddningar och vektorrepresentationer](../../phases/11-llm-engineering/04-embeddings/) | Bygg | Python |
+| 05 | [Kontextutformning](../../phases/11-llm-engineering/05-context-engineering/) | Bygg | Python |
+| 06 | [RAG: generering med informationsåtervinning](../../phases/11-llm-engineering/06-rag/) | Bygg | Python |
+| 07 | [Avancerad RAG: textuppdelning och omrangordning](../../phases/11-llm-engineering/07-advanced-rag/) | Bygg | Python |
+| 08 | [Finjustering med LoRA och QLoRA](../../phases/11-llm-engineering/08-fine-tuning-lora/) | Bygg | Python |
+| 09 | [Funktionsanrop och verktygsanvändning](../../phases/11-llm-engineering/09-function-calling/) | Bygg | Python |
+| 10 | [Utvärdering och testning](../../phases/11-llm-engineering/10-evaluation/) | Bygg | Python |
+| 11 | [Cachelagring, hastighetsbegränsning och kostnad](../../phases/11-llm-engineering/11-caching-cost/) | Bygg | Python |
+| 12 | [Skyddsräcken och säkerhet](../../phases/11-llm-engineering/12-guardrails/) | Bygg | Python |
+| 13 | [Bygga en LLM-app för produktion](../../phases/11-llm-engineering/13-production-app/) | Bygg | Python |
+| 14 | [Model Context Protocol (MCP)](../../phases/11-llm-engineering/14-model-context-protocol/) | Bygg | Python |
+| 15 | [Promptcache och kontextcache](../../phases/11-llm-engineering/15-prompt-caching/) | Bygg | Python |
+| 16 | [Agenttillståndsmaskiner: grafer, noder och kontrollpunkter](../../phases/11-llm-engineering/16-langgraph-state-machines/) | Bygg | Python |
+| 17 | [Avvägningar mellan agentramverk](../../phases/11-llm-engineering/17-agent-framework-tradeoffs/) | Lär dig | Python |
 
 </details>
 
 <details id="phase-12">
-<summary><b>Phase 12 — Multimodal AI</b> &nbsp;<code>25 lessons</code>&nbsp; <em>See, hear, read, and reason across modalities — from ViT patches to computer-use agents.</em></summary>
+<summary><b>Fas 12: Multimodal AI</b> &nbsp;<code>25 lektioner</code>&nbsp; <em>Se, hör, läs och resonera över modaliteter: från ViT-patchar till agenter som använder datorer.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lektion | Typ | Språk |
 |:---:|--------|:----:|------|
-| 01 | [Vision Transformers and the Patch-Token Primitive](../../phases/12-multimodal-ai/01-vision-transformer-patch-tokens/) | Learn | Python |
-| 02 | [CLIP and Contrastive Vision-Language Pretraining](../../phases/12-multimodal-ai/02-clip-contrastive-pretraining/) | Build | Python |
-| 03 | [BLIP-2 Q-Former as Modality Bridge](../../phases/12-multimodal-ai/03-blip2-qformer-bridge/) | Build | Python |
-| 04 | [Flamingo and Gated Cross-Attention](../../phases/12-multimodal-ai/04-flamingo-gated-cross-attention/) | Learn | Python |
-| 05 | [LLaVA and Visual Instruction Tuning](../../phases/12-multimodal-ai/05-llava-visual-instruction-tuning/) | Build | Python |
-| 06 | [Any-Resolution Vision — Patch-n'-Pack and NaFlex](../../phases/12-multimodal-ai/06-any-resolution-patch-n-pack/) | Build | Python |
-| 07 | [Open-Weight VLM Recipes: What Actually Matters](../../phases/12-multimodal-ai/07-open-weight-vlm-recipes/) | Learn | Python |
-| 08 | [LLaVA-OneVision: Single, Multi, Video](../../phases/12-multimodal-ai/08-llava-onevision-single-multi-video/) | Build | Python |
-| 09 | [Qwen-VL Family and Dynamic-FPS Video](../../phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/) | Learn | Python |
-| 10 | [InternVL3 Native Multimodal Pretraining](../../phases/12-multimodal-ai/10-internvl3-native-multimodal/) | Learn | Python |
-| 11 | [Chameleon Early-Fusion Token-Only](../../phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/) | Build | Python |
-| 12 | [Emu3 Next-Token Prediction for Generation](../../phases/12-multimodal-ai/12-emu3-next-token-for-generation/) | Learn | Python |
-| 13 | [Transfusion Autoregressive + Diffusion](../../phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/) | Build | Python |
-| 14 | [Show-o Discrete-Diffusion Unified](../../phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/) | Learn | Python |
-| 15 | [Janus-Pro Decoupled Encoders](../../phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/) | Build | Python |
-| 16 | [MIO Any-to-Any Streaming](../../phases/12-multimodal-ai/16-mio-any-to-any-streaming/) | Learn | Python |
-| 17 | [Video-Language Temporal Grounding](../../phases/12-multimodal-ai/17-video-language-temporal-grounding/) | Build | Python |
-| 18 | [Long-Video at Million-Token Context](../../phases/12-multimodal-ai/18-long-video-million-token/) | Build | Python |
-| 19 | [Audio-Language Models: Whisper to AF3](../../phases/12-multimodal-ai/19-audio-language-whisper-to-af3/) | Build | Python |
-| 20 | [Omni Models: Thinker-Talker Streaming](../../phases/12-multimodal-ai/20-omni-models-thinker-talker/) | Build | Python |
-| 21 | [Embodied VLAs: RT-2, OpenVLA, π0, GR00T](../../phases/12-multimodal-ai/21-embodied-vlas-openvla-pi0-groot/) | Learn | Python |
-| 22 | [Document and Diagram Understanding](../../phases/12-multimodal-ai/22-document-diagram-understanding/) | Build | Python |
-| 23 | [ColPali Vision-Native Document RAG](../../phases/12-multimodal-ai/23-colpali-vision-native-rag/) | Build | Python |
-| 24 | [Multimodal RAG and Cross-Modal Retrieval](../../phases/12-multimodal-ai/24-multimodal-rag-cross-modal/) | Build | Python |
-| 25 | [Multimodal Agents and Computer-Use (Capstone)](../../phases/12-multimodal-ai/25-multimodal-agents-computer-use/) | Build | Python |
+| 01 | [Vision Transformers och patch-token-primitiven](../../phases/12-multimodal-ai/01-vision-transformer-patch-tokens/) | Lär dig | Python |
+| 02 | [CLIP och kontrastiv förträning av bild och språk](../../phases/12-multimodal-ai/02-clip-contrastive-pretraining/) | Bygg | Python |
+| 03 | [BLIP-2 Q-Former som brygga mellan modaliteter](../../phases/12-multimodal-ai/03-blip2-qformer-bridge/) | Bygg | Python |
+| 04 | [Flamingo och grindstyrd cross-attention](../../phases/12-multimodal-ai/04-flamingo-gated-cross-attention/) | Lär dig | Python |
+| 05 | [LLaVA och visuell instruktionsanpassning](../../phases/12-multimodal-ai/05-llava-visual-instruction-tuning/) | Bygg | Python |
+| 06 | [Bildanalys i valfri upplösning: Patch-n'-Pack och NaFlex](../../phases/12-multimodal-ai/06-any-resolution-patch-n-pack/) | Bygg | Python |
+| 07 | [Recept för VLM med öppna vikter: vad som faktiskt spelar roll](../../phases/12-multimodal-ai/07-open-weight-vlm-recipes/) | Lär dig | Python |
+| 08 | [LLaVA-OneVision: en bild, flera bilder, video](../../phases/12-multimodal-ai/08-llava-onevision-single-multi-video/) | Bygg | Python |
+| 09 | [Qwen-VL-familjen och video med dynamisk FPS](../../phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/) | Lär dig | Python |
+| 10 | [InternVL3:s inbyggda multimodala förträning](../../phases/12-multimodal-ai/10-internvl3-native-multimodal/) | Lär dig | Python |
+| 11 | [Chameleon: tidig fusion med enbart token](../../phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/) | Bygg | Python |
+| 12 | [Emu3: nästa-token-förutsägelse för generering](../../phases/12-multimodal-ai/12-emu3-next-token-for-generation/) | Lär dig | Python |
+| 13 | [Transfusion: autoregression och diffusion](../../phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/) | Bygg | Python |
+| 14 | [Show-o: förenad diskret diffusion](../../phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/) | Lär dig | Python |
+| 15 | [Janus-Pro: separerade kodare](../../phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/) | Bygg | Python |
+| 16 | [MIO: strömning mellan valfria modaliteter](../../phases/12-multimodal-ai/16-mio-any-to-any-streaming/) | Lär dig | Python |
+| 17 | [Tidsmässig förankring av video och språk](../../phases/12-multimodal-ai/17-video-language-temporal-grounding/) | Bygg | Python |
+| 18 | [Långa videor med kontext på en miljon token](../../phases/12-multimodal-ai/18-long-video-million-token/) | Bygg | Python |
+| 19 | [Ljud-språkmodeller: från Whisper till AF3](../../phases/12-multimodal-ai/19-audio-language-whisper-to-af3/) | Bygg | Python |
+| 20 | [Omnimodeller: Thinker-Talker-strömning](../../phases/12-multimodal-ai/20-omni-models-thinker-talker/) | Bygg | Python |
+| 21 | [Kroppsliga VLA-modeller: RT-2, OpenVLA, π0, GR00T](../../phases/12-multimodal-ai/21-embodied-vlas-openvla-pi0-groot/) | Lär dig | Python |
+| 22 | [Dokument- och diagramförståelse](../../phases/12-multimodal-ai/22-document-diagram-understanding/) | Bygg | Python |
+| 23 | [ColPali: bildbaserad dokument-RAG](../../phases/12-multimodal-ai/23-colpali-vision-native-rag/) | Bygg | Python |
+| 24 | [Multimodal RAG och sökning mellan modaliteter](../../phases/12-multimodal-ai/24-multimodal-rag-cross-modal/) | Bygg | Python |
+| 25 | [Multimodala agenter och datoranvändning (slutprojekt)](../../phases/12-multimodal-ai/25-multimodal-agents-computer-use/) | Bygg | Python |
 
 </details>
 
 <details id="phase-13">
-<summary><b>Phase 13 — Tools & Protocols</b> &nbsp;<code>31 lessons</code>&nbsp; <em>The interfaces between AI and the real world.</em></summary>
+<summary><b>Fas 13: Verktyg och protokoll</b> &nbsp;<code>45 lektioner</code>&nbsp; <em>Gränssnitten mellan AI och verkligheten.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lektion | Typ | Språk |
 |:---:|--------|:----:|------|
-| 01 | [The Tool Interface](../../phases/13-tools-and-protocols/01-the-tool-interface/) | Learn | Python |
-| 02 | [Function Calling Deep Dive](../../phases/13-tools-and-protocols/02-function-calling-deep-dive/) | Build | Python |
-| 03 | [Parallel and Streaming Tool Calls](../../phases/13-tools-and-protocols/03-parallel-and-streaming-tool-calls/) | Build | Python |
-| 04 | [Structured Output](../../phases/13-tools-and-protocols/04-structured-output/) | Build | Python |
-| 05 | [Tool Schema Design](../../phases/13-tools-and-protocols/05-tool-schema-design/) | Learn | Python |
-| 06 | [MCP Fundamentals: Stateless Requests and JSON-RPC](../../phases/13-tools-and-protocols/06-mcp-fundamentals/) | Learn | Python |
-| 07 | [Building an MCP Server: Stateless Python and TypeScript](../../phases/13-tools-and-protocols/07-building-an-mcp-server/) | Build | Python, TypeScript |
-| 08 | [Building an MCP Client: Discovery, Routing, and Dual-Era Fallback](../../phases/13-tools-and-protocols/08-building-an-mcp-client/) | Build | Python |
-| 09 | [MCP Transports: stdio and Stateless Streamable HTTP](../../phases/13-tools-and-protocols/09-mcp-transports/) | Learn | Python |
-| 10 | [MCP Resources and Prompts: Addressable Context for Stateless Servers](../../phases/13-tools-and-protocols/10-mcp-resources-and-prompts/) | Build | Python |
-| 11 | [MCP Model Input: Sampling Migration and Stateless MRTR](../../phases/13-tools-and-protocols/11-mcp-sampling/) | Build | Python |
-| 12 | [Explicit Scope and Stateless Elicitation](../../phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/) | Build | Python |
-| 13 | [MCP Tasks Extension: Durable Work on a Stateless Core](../../phases/13-tools-and-protocols/13-mcp-async-tasks/) | Build | Python |
-| 14 | [MCP Apps on the Stateless Protocol](../../phases/13-tools-and-protocols/14-mcp-apps/) | Build | Python |
-| 15 | [MCP Security: Poisoned Metadata, Routing, and MRTR State](../../phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/) | Learn | Python |
-| 16 | [MCP Authorization: CIMD, Issuer Binding, PKCE, and Step-Up](../../phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/) | Build | Python |
-| 17 | [Stateless MCP Gateways and Registry Admission](../../phases/13-tools-and-protocols/17-mcp-gateways-and-registries/) | Learn | Python |
-| 18 | [MCP Auth in Production: Issuer-Bound Enrollment and Tokens](../../phases/13-tools-and-protocols/18-mcp-auth-production/) | Build | Python |
-| 19 | [A2A Protocol](../../phases/13-tools-and-protocols/19-a2a-protocol/) | Build | Python |
-| 20 | [OpenTelemetry GenAI](../../phases/13-tools-and-protocols/20-opentelemetry-genai/) | Build | Python |
-| 21 | [LLM Routing Layer](../../phases/13-tools-and-protocols/21-llm-routing-layer/) | Learn | Python |
-| 22 | [Agent Skills: Portable Contract and Runtime Boundary](../../phases/13-tools-and-protocols/22-skills-and-agent-sdks/) | Build | Python |
-| 23 | [Capstone: Stateless Tool Ecosystem](../../phases/13-tools-and-protocols/23-capstone-tool-ecosystem/) | Build | Python |
-| 24 | [Skill Discovery and Progressive Disclosure](../../phases/13-tools-and-protocols/24-skill-discovery-and-progressive-disclosure/) | Build | Python |
-| 25 | [Skill Invocation and Routing](../../phases/13-tools-and-protocols/25-skill-invocation-and-routing/) | Build | Python |
-| 26 | [Skill Permissions, Sandboxes, and Trust](../../phases/13-tools-and-protocols/26-skill-permissions-sandboxes-and-trust/) | Build | Python |
-| 27 | [Skill Evals, Packaging, and Portability](../../phases/13-tools-and-protocols/27-skill-evals-packaging-and-portability/) | Build | Python |
-| 28 | [MCP Tool Contracts and Content](../../phases/13-tools-and-protocols/28-mcp-tool-contracts-and-content/) | Build | Python |
-| 29 | [MCP Reliability, Cancellation, and Flow Control](../../phases/13-tools-and-protocols/29-mcp-reliability-cancellation-and-flow-control/) | Build | Python |
-| 30 | [MCP Registry Supply Chain: Admission, Drift, and Rollback](../../phases/13-tools-and-protocols/30-mcp-registry-supply-chain-and-drift/) | Build | Python |
-| 31 | [MCP Conformance Engineering: Versioning, Evidence, and Operations](../../phases/13-tools-and-protocols/31-mcp-conformance-versioning-and-operations/) | Build | Python |
+| 01 | [Verktygsgränssnittet](../../phases/13-tools-and-protocols/01-the-tool-interface/) | Lär dig | Python |
+| 02 | [Fördjupning i funktionsanrop](../../phases/13-tools-and-protocols/02-function-calling-deep-dive/) | Bygg | Python |
+| 03 | [Parallella och strömmande verktygsanrop](../../phases/13-tools-and-protocols/03-parallel-and-streaming-tool-calls/) | Bygg | Python |
+| 04 | [Strukturerat utdataformat](../../phases/13-tools-and-protocols/04-structured-output/) | Bygg | Python |
+| 05 | [Utforma verktygsscheman](../../phases/13-tools-and-protocols/05-tool-schema-design/) | Lär dig | Python |
+| 06 | [MCP-grunder: tillståndslösa förfrågningar och JSON-RPC](../../phases/13-tools-and-protocols/06-mcp-fundamentals/) | Lär dig | Python |
+| 07 | [Bygga en MCP-server: tillståndslös Python och TypeScript](../../phases/13-tools-and-protocols/07-building-an-mcp-server/) | Bygg | Python, TypeScript |
+| 08 | [Bygga en MCP-klient: upptäckt, dirigering och bakåtkompatibilitet](../../phases/13-tools-and-protocols/08-building-an-mcp-client/) | Bygg | Python |
+| 09 | [MCP-transporter: stdio och tillståndslös Streamable HTTP](../../phases/13-tools-and-protocols/09-mcp-transports/) | Lär dig | Python |
+| 10 | [MCP-resurser och promptar: adresserbar kontext för tillståndslösa servrar](../../phases/13-tools-and-protocols/10-mcp-resources-and-prompts/) | Bygg | Python |
+| 11 | [Modellindata i MCP: migrering av sampling och tillståndslös MRTR](../../phases/13-tools-and-protocols/11-mcp-sampling/) | Bygg | Python |
+| 12 | [Uttrycklig omfattning och tillståndslös informationsinhämtning](../../phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/) | Bygg | Python |
+| 13 | [MCP Tasks-tillägget: beständigt arbete på en tillståndslös kärna](../../phases/13-tools-and-protocols/13-mcp-async-tasks/) | Bygg | Python |
+| 14 | [MCP Apps på det tillståndslösa protokollet](../../phases/13-tools-and-protocols/14-mcp-apps/) | Bygg | Python |
+| 15 | [MCP-säkerhet: förgiftade metadata, dirigering och MRTR-tillstånd](../../phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/) | Lär dig | Python |
+| 16 | [MCP-auktorisering: CIMD, utfärdarbindning, PKCE och starkare autentisering](../../phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/) | Bygg | Python |
+| 17 | [Tillståndslösa MCP-gateways och registeranslutning](../../phases/13-tools-and-protocols/17-mcp-gateways-and-registries/) | Lär dig | Python |
+| 18 | [MCP-autentisering i produktion: utfärdarbunden registrering och token](../../phases/13-tools-and-protocols/18-mcp-auth-production/) | Bygg | Python |
+| 19 | [A2A-protokollet](../../phases/13-tools-and-protocols/19-a2a-protocol/) | Bygg | Python |
+| 20 | [OpenTelemetry GenAI](../../phases/13-tools-and-protocols/20-opentelemetry-genai/) | Bygg | Python |
+| 21 | [Dirigeringslager för LLM](../../phases/13-tools-and-protocols/21-llm-routing-layer/) | Lär dig | Python |
+| 22 | [Agent Skills: portabelt kontrakt och körningsgräns](../../phases/13-tools-and-protocols/22-skills-and-agent-sdks/) | Bygg | Python |
+| 23 | [Slutprojekt: tillståndslöst verktygsekosystem](../../phases/13-tools-and-protocols/23-capstone-tool-ecosystem/) | Bygg | Python |
+| 24 | [Upptäckt av färdigheter och stegvis informationsvisning](../../phases/13-tools-and-protocols/24-skill-discovery-and-progressive-disclosure/) | Bygg | Python |
+| 25 | [Färdighetsanrop och dirigering](../../phases/13-tools-and-protocols/25-skill-invocation-and-routing/) | Bygg | Python |
+| 26 | [Färdighetsbehörigheter, sandlådor och tillit](../../phases/13-tools-and-protocols/26-skill-permissions-sandboxes-and-trust/) | Bygg | Python |
+| 27 | [Färdighetsutvärderingar, paketering och portabilitet](../../phases/13-tools-and-protocols/27-skill-evals-packaging-and-portability/) | Bygg | Python |
+| 28 | [MCP-verktygens kontrakt och innehåll](../../phases/13-tools-and-protocols/28-mcp-tool-contracts-and-content/) | Bygg | Python |
+| 29 | [MCP-tillförlitlighet, avbrytning och flödeskontroll](../../phases/13-tools-and-protocols/29-mcp-reliability-cancellation-and-flow-control/) | Bygg | Python |
+| 30 | [MCP-registrets leveranskedja: antagning, driftavvikelser och återställning](../../phases/13-tools-and-protocols/30-mcp-registry-supply-chain-and-drift/) | Bygg | Python |
+| 31 | [MCP-efterlevnad: versionering, belägg och drift](../../phases/13-tools-and-protocols/31-mcp-conformance-versioning-and-operations/) | Bygg | Python |
+| 32 | [Programmets anatomi: läs ELF från grunden](../../phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch/) | Bygg | Python |
+| 33 | [Disassemblering och kontrollflödesgrafer](../../phases/13-tools-and-protocols/33-disassembly-and-control-flow/) | Bygg | Python |
+| 34 | [Lyft maskinkod till pseudokod](../../phases/13-tools-and-protocols/34-lifting-to-pseudocode/) | Bygg | Python |
+| 35 | [Belägg, säkerhetsgrad och okända faktorer i binäranalys](../../phases/13-tools-and-protocols/35-evidence-confidence-and-unknowns/) | Bygg | Python |
+| 36 | [Bygg om och bevisa likhet](../../phases/13-tools-and-protocols/36-rebuild-and-prove-equal/) | Bygg | Python |
+| 37 | [Landskapet för reverse engineering](../../phases/13-tools-and-protocols/37-the-reverse-engineering-landscape/) | Bygg | Python |
+| 38 | [Anropskonventioner och stackramar](../../phases/13-tools-and-protocols/38-calling-conventions-and-stack-frames/) | Bygg | Python |
+| 39 | [Kompilatoridiom och optimering](../../phases/13-tools-and-protocols/39-compiler-idioms-and-optimization/) | Bygg | Python |
+| 40 | [Länkning, laddning och strippade binärer](../../phases/13-tools-and-protocols/40-linking-loading-and-stripped-binaries/) | Bygg | Python |
+| 41 | [Återskapa data och typer](../../phases/13-tools-and-protocols/41-recovering-data-and-types/) | Bygg | Python |
+| 42 | [Dynamisk analys av ditt eget program](../../phases/13-tools-and-protocols/42-dynamic-analysis-of-your-own-program/) | Bygg | Python |
+| 43 | [Bytekod och hanterade format](../../phases/13-tools-and-protocols/43-bytecode-and-managed-formats/) | Bygg | Python |
+| 44 | [Binär diffning och symbolisk exekvering](../../phases/13-tools-and-protocols/44-binary-diffing-and-symbolic-execution/) | Bygg | Python |
+| 45 | [AI-assisterad reverse engineering](../../phases/13-tools-and-protocols/45-ai-assisted-reverse-engineering/) | Bygg | Python |
 
-Lessons 06-18 and 28-31 form the focused
-[Model Context Protocol (MCP) path](../../learning-paths/model-context-protocol.json). Its manifest order
-is 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 18, 17, 28, 29, 30, 31. Start
-it with the host-specific `learn-mcp` invocation above. Lesson 23
-is its only optional capstone and also requires Lessons 19 and 20.
+Lektionerna 06-18 och 28-31 bildar den fokuserade [studievägen för Model Context Protocol (MCP)](../../learning-paths/model-context-protocol.json). Manifestets ordning är 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 18, 17, 28, 29, 30, 31. Börja med värdapplikationens `learn-mcp`-anrop ovan. Lektion 23 är det enda valfria slutprojektet och kräver även lektionerna 19 och 20.
 
-Lessons 22 and 24-27 form the focused
-[Agent Skills learning path](../../learning-paths/agent-skills.json), from package
-contract through real-host release gates. Start it with the host-specific
-`learn-agent-skills` invocation shown above; do not follow numeric next
-navigation from 22 to 23.
+Lektionerna 22 och 24-27 bildar den fokuserade [studievägen för Agent Skills](../../learning-paths/agent-skills.json), från paketkontrakt till publiceringskontroller i riktiga värdapplikationer. Börja med värdapplikationens `learn-agent-skills`-anrop ovan; följ inte den numeriska nästa-länken från 22 till 23.
 
 </details>
 
 <details id="phase-14">
-<summary><b>Phase 14 — Agent Engineering</b> &nbsp;<code>54 lessons</code>&nbsp; <em>Build agents from first principles, use coding agents reliably, and shape the work before implementation.</em></summary>
+<summary><b>Fas 14: Agentutveckling</b> &nbsp;<code>54 lektioner</code>&nbsp; <em>Bygg agenter från grundprinciperna, använd kodagenter tillförlitligt och forma arbetet före implementationen.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lektion | Typ | Språk |
 |:---:|--------|:----:|------|
-| 01 | [The Agent Loop](../../phases/14-agent-engineering/01-the-agent-loop/) | Build | Python |
-| 02 | [ReWOO and Plan-and-Execute](../../phases/14-agent-engineering/02-rewoo-plan-and-execute/) | Build | Python |
-| 03 | [Reflexion and Verbal Reinforcement Learning](../../phases/14-agent-engineering/03-reflexion-verbal-rl/) | Build | Python |
-| 04 | [Tree of Thoughts and LATS](../../phases/14-agent-engineering/04-tree-of-thoughts-lats/) | Build | Python |
-| 05 | [Self-Refine and CRITIC](../../phases/14-agent-engineering/05-self-refine-and-critic/) | Build | Python |
-| 06 | [Tool Use and Function Calling](../../phases/14-agent-engineering/06-tool-use-and-function-calling/) | Build | Python |
-| 07 | [Agent Memory — Virtual Context and Memory Paging](../../phases/14-agent-engineering/07-memory-virtual-context-memgpt/) | Build | Python |
-| 08 | [Memory Blocks and Sleep-Time Compute](../../phases/14-agent-engineering/08-memory-blocks-sleep-time-compute/) | Build | Python |
-| 09 | [Hybrid Memory — Vector + Graph + KV](../../phases/14-agent-engineering/09-hybrid-memory-mem0/) | Build | Python |
-| 10 | [Skill Libraries and Lifelong Learning (Voyager)](../../phases/14-agent-engineering/10-skill-libraries-voyager/) | Build | Python |
-| 11 | [Planning with HTN and Evolutionary Search](../../phases/14-agent-engineering/11-planning-htn-and-evolutionary/) | Build | Python |
-| 12 | [Anthropic's Workflow Patterns](../../phases/14-agent-engineering/12-anthropic-workflow-patterns/) | Build | Python |
-| 13 | [Stateful Graph Orchestration — Durable Execution and Checkpoints](../../phases/14-agent-engineering/13-langgraph-stateful-graphs/) | Build | Python |
-| 14 | [The Actor Model for Agents](../../phases/14-agent-engineering/14-autogen-actor-model/) | Build | Python |
-| 15 | [Role-Based Agent Teams — Roles, Tasks, Processes](../../phases/14-agent-engineering/15-crewai-role-based-crews/) | Build | Python |
-| 16 | [OpenAI Agents SDK — Handoffs, Guardrails, Tracing](../../phases/14-agent-engineering/16-openai-agents-sdk/) | Build | Python |
-| 17 | [The Harness as a Library — Subagents and Session Store](../../phases/14-agent-engineering/17-claude-agent-sdk/) | Build | Python |
-| 18 | [Production Agent Runtimes](../../phases/14-agent-engineering/18-agno-and-mastra-runtimes/) | Learn | Python |
-| 19 | [Benchmarks — SWE-bench, GAIA, AgentBench](../../phases/14-agent-engineering/19-benchmarks-swebench-gaia/) | Learn | Python |
-| 20 | [Benchmarks — WebArena and OSWorld](../../phases/14-agent-engineering/20-benchmarks-webarena-osworld/) | Learn | Python |
-| 21 | [Computer Use — Claude, OpenAI CUA, Gemini](../../phases/14-agent-engineering/21-computer-use-agents/) | Build | Python |
-| 22 | [Voice Agents — Pipecat and LiveKit](../../phases/14-agent-engineering/22-voice-agents-pipecat-livekit/) | Build | Python |
-| 23 | [OpenTelemetry GenAI Semantic Conventions](../../phases/14-agent-engineering/23-otel-genai-conventions/) | Build | Python |
-| 24 | [Agent Observability — Langfuse, Phoenix, Opik](../../phases/14-agent-engineering/24-agent-observability-platforms/) | Learn | Python |
-| 25 | [Multi-Agent Debate and Collaboration](../../phases/14-agent-engineering/25-multi-agent-debate/) | Build | Python |
-| 26 | [Failure Modes — Why Agents Break](../../phases/14-agent-engineering/26-failure-modes-agentic/) | Build | Python |
-| 27 | [Prompt Injection and the PVE Defense](../../phases/14-agent-engineering/27-prompt-injection-defense/) | Build | Python |
-| 28 | [Orchestration Patterns — Supervisor, Swarm, Hierarchical](../../phases/14-agent-engineering/28-orchestration-patterns/) | Build | Python |
-| 29 | [Production Runtimes — Queue, Event, Cron](../../phases/14-agent-engineering/29-production-runtimes/) | Learn | Python |
-| 30 | [Eval-Driven Agent Development](../../phases/14-agent-engineering/30-eval-driven-agent-development/) | Build | Python |
-| 31 | [Agent Workbench: Why Capable Models Still Fail](../../phases/14-agent-engineering/31-agent-workbench-why-models-fail/) | Learn | Python |
-| 32 | [The Minimal Agent Workbench](../../phases/14-agent-engineering/32-minimal-agent-workbench/) | Build | Python |
-| 33 | [Agent Instructions as Executable Constraints](../../phases/14-agent-engineering/33-instructions-as-executable-constraints/) | Build | Python |
-| 34 | [Repo Memory and Durable State](../../phases/14-agent-engineering/34-repo-memory-and-state/) | Build | Python |
-| 35 | [Initialization Scripts for Agents](../../phases/14-agent-engineering/35-initialization-scripts/) | Build | Python |
-| 36 | [Scope Contracts and Task Boundaries](../../phases/14-agent-engineering/36-scope-contracts/) | Build | Python |
-| 37 | [Runtime Feedback Loops](../../phases/14-agent-engineering/37-runtime-feedback-loops/) | Build | Python |
-| 38 | [Verification Gates](../../phases/14-agent-engineering/38-verification-gates/) | Build | Python |
-| 39 | [Reviewer Agent: Separate Builder from Marker](../../phases/14-agent-engineering/39-reviewer-agent/) | Build | Python |
-| 40 | [Multi-Session Handoff](../../phases/14-agent-engineering/40-multi-session-handoff/) | Build | Python |
-| 41 | [The Workbench on a Real Repo](../../phases/14-agent-engineering/41-workbench-for-real-repos/) | Build | Python |
-| 42 | [Capstone: Ship a Reusable Agent Workbench Pack](../../phases/14-agent-engineering/42-agent-workbench-capstone/) | Build | Python |
-| 43 | [Frame the Task Before the Agent Writes Code](../../phases/14-agent-engineering/43-frame-the-task-before-code/) | Build | Python |
-| 44 | [Build an Evidence-Backed Execution Plan](../../phases/14-agent-engineering/44-plan-from-evidence/) | Build | Python |
-| 45 | [Delegate Agent Work with Isolation and Merge Contracts](../../phases/14-agent-engineering/45-delegate-with-isolation/) | Build | Python |
-| 46 | [Turn Every Agent Correction into a System Improvement](../../phases/14-agent-engineering/46-turn-feedback-into-system/) | Build | Python |
-| 47 | [Define the Outcome Before You Choose the Output](../../phases/14-agent-engineering/47-outcomes-before-output/) | Build | Python |
-| 48 | [Discover the Workflow People Actually Perform](../../phases/14-agent-engineering/48-discover-the-real-workflow/) | Build | Python |
-| 49 | [Map Assumptions and Resolve the Riskiest One First](../../phases/14-agent-engineering/49-map-assumptions-and-risk/) | Build | Python |
-| 50 | [Choose the Smallest Slice That Can Change the Decision](../../phases/14-agent-engineering/50-choose-the-smallest-testable-slice/) | Build | Python |
-| 51 | [Write Specifications That Preserve Judgment](../../phases/14-agent-engineering/51-write-specifications-that-preserve-judgment/) | Build | Python |
-| 52 | [Design Success Metrics Before the Result Exists](../../phases/14-agent-engineering/52-design-success-metrics/) | Build | Python |
-| 53 | [Choose Prototype, Pilot, or Production Deliberately](../../phases/14-agent-engineering/53-prototype-pilot-or-production/) | Build | Python |
-| 54 | [Build a Feedback Ratchet with Ownership and Retirement](../../phases/14-agent-engineering/54-build-the-feedback-ratchet/) | Build | Python |
+| 01 | [Agentloopen](../../phases/14-agent-engineering/01-the-agent-loop/) | Bygg | Python |
+| 02 | [ReWOO och planera-och-kör](../../phases/14-agent-engineering/02-rewoo-plan-and-execute/) | Bygg | Python |
+| 03 | [Reflexion och verbal förstärkningsinlärning](../../phases/14-agent-engineering/03-reflexion-verbal-rl/) | Bygg | Python |
+| 04 | [Tanketräd och LATS](../../phases/14-agent-engineering/04-tree-of-thoughts-lats/) | Bygg | Python |
+| 05 | [Self-Refine och CRITIC](../../phases/14-agent-engineering/05-self-refine-and-critic/) | Bygg | Python |
+| 06 | [Verktygsanvändning och funktionsanrop](../../phases/14-agent-engineering/06-tool-use-and-function-calling/) | Bygg | Python |
+| 07 | [Agentminne: virtuell kontext och minnessidning](../../phases/14-agent-engineering/07-memory-virtual-context-memgpt/) | Bygg | Python |
+| 08 | [Minnesblock och beräkning under vilotid](../../phases/14-agent-engineering/08-memory-blocks-sleep-time-compute/) | Bygg | Python |
+| 09 | [Hybridminne: vektor, graf och KV](../../phases/14-agent-engineering/09-hybrid-memory-mem0/) | Bygg | Python |
+| 10 | [Färdighetsbibliotek och livslångt lärande (Voyager)](../../phases/14-agent-engineering/10-skill-libraries-voyager/) | Bygg | Python |
+| 11 | [Planering med HTN och evolutionär sökning](../../phases/14-agent-engineering/11-planning-htn-and-evolutionary/) | Bygg | Python |
+| 12 | [Anthropics arbetsflödesmönster](../../phases/14-agent-engineering/12-anthropic-workflow-patterns/) | Bygg | Python |
+| 13 | [Tillståndsbevarande graforkestrering: beständig körning och kontrollpunkter](../../phases/14-agent-engineering/13-langgraph-stateful-graphs/) | Bygg | Python |
+| 14 | [Aktörsmodellen för agenter](../../phases/14-agent-engineering/14-autogen-actor-model/) | Bygg | Python |
+| 15 | [Rollbaserade agentteam: roller, uppgifter och processer](../../phases/14-agent-engineering/15-crewai-role-based-crews/) | Bygg | Python |
+| 16 | [OpenAI Agents SDK: överlämningar, skyddsräcken och spårning](../../phases/14-agent-engineering/16-openai-agents-sdk/) | Bygg | Python |
+| 17 | [Agentkörmiljön som bibliotek: underagenter och sessionslager](../../phases/14-agent-engineering/17-claude-agent-sdk/) | Bygg | Python |
+| 18 | [Agentkörmiljöer för produktion](../../phases/14-agent-engineering/18-agno-and-mastra-runtimes/) | Lär dig | Python |
+| 19 | [Riktmärken: SWE-bench, GAIA, AgentBench](../../phases/14-agent-engineering/19-benchmarks-swebench-gaia/) | Lär dig | Python |
+| 20 | [Riktmärken: WebArena och OSWorld](../../phases/14-agent-engineering/20-benchmarks-webarena-osworld/) | Lär dig | Python |
+| 21 | [Datoranvändning: Claude, OpenAI CUA, Gemini](../../phases/14-agent-engineering/21-computer-use-agents/) | Bygg | Python |
+| 22 | [Röstagenter: Pipecat och LiveKit](../../phases/14-agent-engineering/22-voice-agents-pipecat-livekit/) | Bygg | Python |
+| 23 | [Semantiska konventioner för OpenTelemetry GenAI](../../phases/14-agent-engineering/23-otel-genai-conventions/) | Bygg | Python |
+| 24 | [Agentobserverbarhet: Langfuse, Phoenix, Opik](../../phases/14-agent-engineering/24-agent-observability-platforms/) | Lär dig | Python |
+| 25 | [Debatt och samarbete mellan flera agenter](../../phases/14-agent-engineering/25-multi-agent-debate/) | Bygg | Python |
+| 26 | [Felmoder: varför agenter slutar fungera](../../phases/14-agent-engineering/26-failure-modes-agentic/) | Bygg | Python |
+| 27 | [Promptinjektion och PVE-försvaret](../../phases/14-agent-engineering/27-prompt-injection-defense/) | Bygg | Python |
+| 28 | [Orkestreringsmönster: övervakare, svärm och hierarki](../../phases/14-agent-engineering/28-orchestration-patterns/) | Bygg | Python |
+| 29 | [Körmiljöer för produktion: köer, händelser och cron](../../phases/14-agent-engineering/29-production-runtimes/) | Lär dig | Python |
+| 30 | [Utvärderingsdriven agentutveckling](../../phases/14-agent-engineering/30-eval-driven-agent-development/) | Bygg | Python |
+| 31 | [Agentarbetsbänken: varför kapabla modeller ändå misslyckas](../../phases/14-agent-engineering/31-agent-workbench-why-models-fail/) | Lär dig | Python |
+| 32 | [Den minsta agentarbetsbänken](../../phases/14-agent-engineering/32-minimal-agent-workbench/) | Bygg | Python |
+| 33 | [Agentinstruktioner som körbara begränsningar](../../phases/14-agent-engineering/33-instructions-as-executable-constraints/) | Bygg | Python |
+| 34 | [Arkivminne och beständigt tillstånd](../../phases/14-agent-engineering/34-repo-memory-and-state/) | Bygg | Python |
+| 35 | [Initieringsskript för agenter](../../phases/14-agent-engineering/35-initialization-scripts/) | Bygg | Python |
+| 36 | [Omfattningskontrakt och uppgiftsgränser](../../phases/14-agent-engineering/36-scope-contracts/) | Bygg | Python |
+| 37 | [Återkopplingsslingor under körning](../../phases/14-agent-engineering/37-runtime-feedback-loops/) | Bygg | Python |
+| 38 | [Verifieringskontroller](../../phases/14-agent-engineering/38-verification-gates/) | Bygg | Python |
+| 39 | [Granskaragent: skilj byggaren från bedömaren](../../phases/14-agent-engineering/39-reviewer-agent/) | Bygg | Python |
+| 40 | [Överlämning mellan sessioner](../../phases/14-agent-engineering/40-multi-session-handoff/) | Bygg | Python |
+| 41 | [Arbetsbänken i ett riktigt arkiv](../../phases/14-agent-engineering/41-workbench-for-real-repos/) | Bygg | Python |
+| 42 | [Slutprojekt: publicera ett återanvändbart agentarbetsbänkspaket](../../phases/14-agent-engineering/42-agent-workbench-capstone/) | Bygg | Python |
+| 43 | [Formulera uppgiften innan agenten skriver kod](../../phases/14-agent-engineering/43-frame-the-task-before-code/) | Bygg | Python |
+| 44 | [Bygg en genomförandeplan som stöds av belägg](../../phases/14-agent-engineering/44-plan-from-evidence/) | Bygg | Python |
+| 45 | [Delegera agentarbete med isolering och sammanslagningskontrakt](../../phases/14-agent-engineering/45-delegate-with-isolation/) | Bygg | Python |
+| 46 | [Gör varje agentkorrigering till en systemförbättring](../../phases/14-agent-engineering/46-turn-feedback-into-system/) | Bygg | Python |
+| 47 | [Definiera effekten innan du väljer leveransen](../../phases/14-agent-engineering/47-outcomes-before-output/) | Bygg | Python |
+| 48 | [Kartlägg arbetsflödet som människor faktiskt utför](../../phases/14-agent-engineering/48-discover-the-real-workflow/) | Bygg | Python |
+| 49 | [Kartlägg antaganden och pröva det mest riskfyllda först](../../phases/14-agent-engineering/49-map-assumptions-and-risk/) | Bygg | Python |
+| 50 | [Välj den minsta delen som kan ändra beslutet](../../phases/14-agent-engineering/50-choose-the-smallest-testable-slice/) | Bygg | Python |
+| 51 | [Skriv specifikationer som bevarar omdömet](../../phases/14-agent-engineering/51-write-specifications-that-preserve-judgment/) | Bygg | Python |
+| 52 | [Utforma framgångsmått innan resultatet finns](../../phases/14-agent-engineering/52-design-success-metrics/) | Bygg | Python |
+| 53 | [Välj prototyp, pilot eller produktion medvetet](../../phases/14-agent-engineering/53-prototype-pilot-or-production/) | Bygg | Python |
+| 54 | [Bygg en beständig återkopplingsprocess med ansvar och avveckling](../../phases/14-agent-engineering/54-build-the-feedback-ratchet/) | Bygg | Python |
 
-Each Phase 14 workbench lesson (31-42) ships a `mission.md` briefing the agent before it opens the full lesson docs.
+Varje arbetsbänkslektion i fas 14 (31-42) innehåller en `mission.md` som instruerar agenten innan den öppnar hela lektionsdokumentationen.
 
-Lessons 31-46 form the [Agent-Assisted Engineering path](../../learning-paths/using-coding-agents.json).
-Its manifest order combines the workbench foundation with task framing, planning,
-delegation, and durable feedback. Lessons 47-54 form the
-[Product Judgment and Delivery path](../../learning-paths/shaping-the-build.json), from outcome framing
-through evidence, risk, scope, measurement, staged release, and feedback ownership.
+Lektionerna 31-46 bildar [studievägen för agentstödd utveckling](../../learning-paths/using-coding-agents.json). Manifestets ordning kombinerar arbetsbänkens grunder med uppgiftsformulering, planering, delegering och beständig återkoppling. Lektionerna 47-54 bildar [studievägen för produktbedömning och leverans](../../learning-paths/shaping-the-build.json), från målformulering till belägg, risker, avgränsning, mätning, stegvis lansering och ansvar för återkopplingen.
 
 </details>
 
 <details id="phase-15">
-<summary><b>Phase 15 — Autonomous Systems</b> &nbsp;<code>22 lessons</code>&nbsp; <em>Long-horizon agents, self-improvement, and the 2026 safety stack.</em></summary>
+<summary><b>Fas 15: Autonoma system</b> &nbsp;<code>22 lektioner</code>&nbsp; <em>Agenter för långvariga uppgifter, självförbättring och säkerhetslagren 2026.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lektion | Typ | Språk |
 |:---:|--------|:----:|------|
-| 01 | [From Chatbots to Long-Horizon Agents (METR)](../../phases/15-autonomous-systems/01-long-horizon-agents/) | Learn | Python |
-| 02 | [STaR, V-STaR, Quiet-STaR: Self-Taught Reasoning](../../phases/15-autonomous-systems/02-star-family-reasoning/) | Learn | Python |
-| 03 | [AlphaEvolve: Evolutionary Coding Agents](../../phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/) | Learn | Python |
-| 04 | [Darwin Gödel Machine: Self-Modifying Agents](../../phases/15-autonomous-systems/04-darwin-godel-machine/) | Learn | Python |
-| 05 | [AI Scientist v2: Workshop-Level Research](../../phases/15-autonomous-systems/05-ai-scientist-v2/) | Learn | Python |
-| 06 | [Automated Alignment Research (Anthropic AAR)](../../phases/15-autonomous-systems/06-automated-alignment-research/) | Learn | Python |
-| 07 | [Recursive Self-Improvement: Capability vs Alignment](../../phases/15-autonomous-systems/07-recursive-self-improvement/) | Learn | Python |
-| 08 | [Bounded Self-Improvement Designs](../../phases/15-autonomous-systems/08-bounded-self-improvement/) | Learn | Python |
-| 09 | [Autonomous Coding Agent Landscape (SWE-bench, CodeAct)](../../phases/15-autonomous-systems/09-coding-agent-landscape/) | Learn | Python |
-| 10 | [Permission Modes for Autonomous Agents](../../phases/15-autonomous-systems/10-claude-code-permission-modes/) | Learn | Python |
-| 11 | [Browser Agents and Indirect Prompt Injection](../../phases/15-autonomous-systems/11-browser-agents/) | Learn | Python |
-| 12 | [Durable Execution for Long-Running Agents](../../phases/15-autonomous-systems/12-durable-execution/) | Learn | Python |
-| 13 | [Action Budgets, Iteration Caps, Cost Governors](../../phases/15-autonomous-systems/13-cost-governors/) | Learn | Python |
-| 14 | [Kill Switches, Circuit Breakers, Canary Tokens](../../phases/15-autonomous-systems/14-kill-switches-canaries/) | Learn | Python |
-| 15 | [HITL: Propose-Then-Commit](../../phases/15-autonomous-systems/15-propose-then-commit/) | Learn | Python |
-| 16 | [Checkpoints and Rollback](../../phases/15-autonomous-systems/16-checkpoints-rollback/) | Learn | Python |
-| 17 | [Constitutional AI and Rule Overrides](../../phases/15-autonomous-systems/17-constitutional-ai/) | Learn | Python |
-| 18 | [Llama Guard and Input/Output Classification](../../phases/15-autonomous-systems/18-llama-guard/) | Learn | Python |
-| 19 | [Anthropic Responsible Scaling Policy v3.0](../../phases/15-autonomous-systems/19-anthropic-rsp/) | Learn | Python |
-| 20 | [OpenAI Preparedness Framework and DeepMind FSF](../../phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/) | Learn | Python |
-| 21 | [METR Time Horizons and External Evaluation](../../phases/15-autonomous-systems/21-metr-external-evaluation/) | Learn | Python |
-| 22 | [CAIS, CAISI, and Societal-Scale Risk](../../phases/15-autonomous-systems/22-cais-caisi-societal-risk/) | Learn | Python |
+| 01 | [Från chattbotar till långsiktigt arbetande agenter (METR)](../../phases/15-autonomous-systems/01-long-horizon-agents/) | Lär dig | Python |
+| 02 | [STaR, V-STaR, Quiet-STaR: självlärd slutledning](../../phases/15-autonomous-systems/02-star-family-reasoning/) | Lär dig | Python |
+| 03 | [AlphaEvolve: evolutionära kodagenter](../../phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/) | Lär dig | Python |
+| 04 | [Darwin Gödel Machine: självmodifierande agenter](../../phases/15-autonomous-systems/04-darwin-godel-machine/) | Lär dig | Python |
+| 05 | [AI Scientist v2: forskning på workshopnivå](../../phases/15-autonomous-systems/05-ai-scientist-v2/) | Lär dig | Python |
+| 06 | [Automatiserad forskning om anpassning (Anthropic AAR)](../../phases/15-autonomous-systems/06-automated-alignment-research/) | Lär dig | Python |
+| 07 | [Rekursiv självförbättring: förmåga och anpassning](../../phases/15-autonomous-systems/07-recursive-self-improvement/) | Lär dig | Python |
+| 08 | [Utforma självförbättring med tydliga gränser](../../phases/15-autonomous-systems/08-bounded-self-improvement/) | Lär dig | Python |
+| 09 | [Landskapet för autonoma kodagenter (SWE-bench, CodeAct)](../../phases/15-autonomous-systems/09-coding-agent-landscape/) | Lär dig | Python |
+| 10 | [Behörighetslägen för autonoma agenter](../../phases/15-autonomous-systems/10-claude-code-permission-modes/) | Lär dig | Python |
+| 11 | [Webbläsaragenter och indirekt promptinjektion](../../phases/15-autonomous-systems/11-browser-agents/) | Lär dig | Python |
+| 12 | [Beständig körning för långvariga agentuppgifter](../../phases/15-autonomous-systems/12-durable-execution/) | Lär dig | Python |
+| 13 | [Handlingsbudgetar, iterationsgränser och kostnadskontroll](../../phases/15-autonomous-systems/13-cost-governors/) | Lär dig | Python |
+| 14 | [Nödstopp, kretsbrytare och kanarietoken](../../phases/15-autonomous-systems/14-kill-switches-canaries/) | Lär dig | Python |
+| 15 | [HITL: föreslå först, verkställ sedan](../../phases/15-autonomous-systems/15-propose-then-commit/) | Lär dig | Python |
+| 16 | [Kontrollpunkter och återställning](../../phases/15-autonomous-systems/16-checkpoints-rollback/) | Lär dig | Python |
+| 17 | [Konstitutionell AI och regelundantag](../../phases/15-autonomous-systems/17-constitutional-ai/) | Lär dig | Python |
+| 18 | [Llama Guard och klassificering av in- och utdata](../../phases/15-autonomous-systems/18-llama-guard/) | Lär dig | Python |
+| 19 | [Anthropic Responsible Scaling Policy v3.0](../../phases/15-autonomous-systems/19-anthropic-rsp/) | Lär dig | Python |
+| 20 | [OpenAI Preparedness Framework och DeepMind FSF](../../phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/) | Lär dig | Python |
+| 21 | [METR:s tidshorisonter och extern utvärdering](../../phases/15-autonomous-systems/21-metr-external-evaluation/) | Lär dig | Python |
+| 22 | [CAIS, CAISI och samhällsrisker](../../phases/15-autonomous-systems/22-cais-caisi-societal-risk/) | Lär dig | Python |
 
 </details>
 
 <details id="phase-16">
-<summary><b>Phase 16 — Multi-Agent & Swarms</b> &nbsp;<code>25 lessons</code>&nbsp; <em>Coordination, emergence, and collective intelligence.</em></summary>
+<summary><b>Fas 16: Flera agenter och svärmar</b> &nbsp;<code>25 lektioner</code>&nbsp; <em>Samordning, framväxande beteenden och kollektiv intelligens.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lektion | Typ | Språk |
 |:---:|--------|:----:|------|
-| 01 | [Why Multi-Agent](../../phases/16-multi-agent-and-swarms/01-why-multi-agent/) | Learn | TypeScript |
-| 02 | [FIPA-ACL Heritage and Speech Acts](../../phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/) | Learn | Python |
-| 03 | [Communication Protocols](../../phases/16-multi-agent-and-swarms/03-communication-protocols/) | Build | TypeScript |
-| 04 | [The Multi-Agent Primitive Model](../../phases/16-multi-agent-and-swarms/04-primitive-model/) | Learn | Python |
-| 05 | [Supervisor / Orchestrator-Worker Pattern](../../phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/) | Build | Python |
-| 06 | [Hierarchical Architecture and Decomposition Drift](../../phases/16-multi-agent-and-swarms/06-hierarchical-architecture/) | Learn | Python |
-| 07 | [Society of Mind and Multi-Agent Debate](../../phases/16-multi-agent-and-swarms/07-society-of-mind-debate/) | Build | Python |
-| 08 | [Role Specialization — Planner / Critic / Executor / Verifier](../../phases/16-multi-agent-and-swarms/08-role-specialization/) | Build | Python |
-| 09 | [Parallel Swarm and Networked Architectures](../../phases/16-multi-agent-and-swarms/09-parallel-swarm-networks/) | Build | Python |
-| 10 | [Group Chat and Speaker Selection](../../phases/16-multi-agent-and-swarms/10-group-chat-speaker-selection/) | Build | Python |
-| 11 | [Handoffs and Routines (Stateless Orchestration)](../../phases/16-multi-agent-and-swarms/11-handoffs-and-routines/) | Build | Python |
-| 12 | [A2A — The Agent-to-Agent Protocol](../../phases/16-multi-agent-and-swarms/12-a2a-protocol/) | Build | Python |
-| 13 | [Shared Memory and Blackboard Patterns](../../phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/) | Build | Python |
-| 14 | [Consensus and Byzantine Fault Tolerance](../../phases/16-multi-agent-and-swarms/14-consensus-and-bft/) | Build | Python |
-| 15 | [Voting, Self-Consistency, and Debate Topology](../../phases/16-multi-agent-and-swarms/15-voting-debate-topology/) | Build | Python |
-| 16 | [Negotiation and Bargaining](../../phases/16-multi-agent-and-swarms/16-negotiation-bargaining/) | Build | Python |
-| 17 | [Generative Agents and Emergent Simulation](../../phases/16-multi-agent-and-swarms/17-generative-agents-simulation/) | Build | Python |
-| 18 | [Theory of Mind and Emergent Coordination](../../phases/16-multi-agent-and-swarms/18-theory-of-mind-coordination/) | Build | Python |
-| 19 | [Swarm Optimization (PSO, ACO)](../../phases/16-multi-agent-and-swarms/19-swarm-optimization-pso-aco/) | Build | Python |
-| 20 | [MARL — MADDPG, QMIX, MAPPO](../../phases/16-multi-agent-and-swarms/20-marl-maddpg-qmix-mappo/) | Learn | Python |
-| 21 | [Agent Economies, Token Incentives, Reputation](../../phases/16-multi-agent-and-swarms/21-agent-economies/) | Learn | Python |
-| 22 | [Production Scaling — Queues, Checkpoints, Durability](../../phases/16-multi-agent-and-swarms/22-production-scaling-queues-checkpoints/) | Build | Python |
-| 23 | [Failure Modes — MAST, Groupthink, Monoculture](../../phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/) | Learn | Python |
-| 24 | [Evaluation and Coordination Benchmarks](../../phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/) | Learn | Python |
-| 25 | [Case Studies and 2026 State of the Art](../../phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/) | Learn | Python |
+| 01 | [Varför flera agenter?](../../phases/16-multi-agent-and-swarms/01-why-multi-agent/) | Lär dig | TypeScript |
+| 02 | [Arvet från FIPA-ACL och talhandlingar](../../phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/) | Lär dig | Python |
+| 03 | [Kommunikationsprotokoll](../../phases/16-multi-agent-and-swarms/03-communication-protocols/) | Bygg | TypeScript |
+| 04 | [Grundmodellen för flera agenter](../../phases/16-multi-agent-and-swarms/04-primitive-model/) | Lär dig | Python |
+| 05 | [Mönstret övervakare / samordnare-arbetare](../../phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/) | Bygg | Python |
+| 06 | [Hierarkisk arkitektur och avvikelser vid uppdelning](../../phases/16-multi-agent-and-swarms/06-hierarchical-architecture/) | Lär dig | Python |
+| 07 | [Society of Mind och debatt mellan agenter](../../phases/16-multi-agent-and-swarms/07-society-of-mind-debate/) | Bygg | Python |
+| 08 | [Rollspecialisering: planerare, kritiker, utförare och verifierare](../../phases/16-multi-agent-and-swarms/08-role-specialization/) | Bygg | Python |
+| 09 | [Parallella svärmar och nätverksarkitekturer](../../phases/16-multi-agent-and-swarms/09-parallel-swarm-networks/) | Bygg | Python |
+| 10 | [Gruppchatt och val av talare](../../phases/16-multi-agent-and-swarms/10-group-chat-speaker-selection/) | Bygg | Python |
+| 11 | [Överlämningar och rutiner (tillståndslös orkestrering)](../../phases/16-multi-agent-and-swarms/11-handoffs-and-routines/) | Bygg | Python |
+| 12 | [A2A: protokollet för kommunikation mellan agenter](../../phases/16-multi-agent-and-swarms/12-a2a-protocol/) | Bygg | Python |
+| 13 | [Delat minne och blackboard-mönster](../../phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/) | Bygg | Python |
+| 14 | [Konsensus och bysantinsk feltolerans](../../phases/16-multi-agent-and-swarms/14-consensus-and-bft/) | Bygg | Python |
+| 15 | [Omröstning, självkonsekvens och debattstruktur](../../phases/16-multi-agent-and-swarms/15-voting-debate-topology/) | Bygg | Python |
+| 16 | [Förhandling och köpslående](../../phases/16-multi-agent-and-swarms/16-negotiation-bargaining/) | Bygg | Python |
+| 17 | [Generativa agenter och simulering av framväxande beteenden](../../phases/16-multi-agent-and-swarms/17-generative-agents-simulation/) | Bygg | Python |
+| 18 | [Theory of Mind och framväxande samordning](../../phases/16-multi-agent-and-swarms/18-theory-of-mind-coordination/) | Bygg | Python |
+| 19 | [Svärmoptimering (PSO, ACO)](../../phases/16-multi-agent-and-swarms/19-swarm-optimization-pso-aco/) | Bygg | Python |
+| 20 | [MARL: MADDPG, QMIX, MAPPO](../../phases/16-multi-agent-and-swarms/20-marl-maddpg-qmix-mappo/) | Lär dig | Python |
+| 21 | [Agentekonomier, tokenincitament och anseende](../../phases/16-multi-agent-and-swarms/21-agent-economies/) | Lär dig | Python |
+| 22 | [Skalning i produktion: köer, kontrollpunkter och beständighet](../../phases/16-multi-agent-and-swarms/22-production-scaling-queues-checkpoints/) | Bygg | Python |
+| 23 | [Felmoder: MAST, grupptänkande och monokultur](../../phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/) | Lär dig | Python |
+| 24 | [Riktmärken för utvärdering och samordning](../../phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/) | Lär dig | Python |
+| 25 | [Fallstudier och teknikens framkant 2026](../../phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/) | Lär dig | Python |
 
 </details>
 
 <details id="phase-17">
-<summary><b>Phase 17 — Infrastructure & Production</b> &nbsp;<code>28 lessons</code>&nbsp; <em>Ship AI to the real world.</em></summary>
+<summary><b>Fas 17: Infrastruktur och produktion</b> &nbsp;<code>29 lektioner</code>&nbsp; <em>Ta AI ut i verkligheten.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lektion | Typ | Språk |
 |:---:|--------|:----:|------|
-| 01 | [Managed LLM Platforms — Bedrock, Azure OpenAI, Vertex AI](../../phases/17-infrastructure-and-production/01-managed-llm-platforms/) | Learn | Python |
-| 02 | [Inference Platform Economics — Fireworks, Together, Baseten, Modal](../../phases/17-infrastructure-and-production/02-inference-platform-economics/) | Learn | Python |
-| 03 | [GPU Autoscaling on Kubernetes — Karpenter, KAI Scheduler](../../phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/) | Learn | Python |
-| 04 | [Serving Engine Internals — PagedAttention, Continuous Batching, Chunked Prefill](../../phases/17-infrastructure-and-production/04-vllm-serving-internals/) | Learn | Python |
-| 05 | [EAGLE-3 Speculative Decoding in Production](../../phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/) | Learn | Python |
-| 06 | [Prefix-Cache Serving — RadixAttention and KV Reuse](../../phases/17-infrastructure-and-production/06-sglang-radixattention/) | Learn | Python |
-| 07 | [Hardware-Specialized Inference Compilation — FP8 and NVFP4 on Blackwell](../../phases/17-infrastructure-and-production/07-tensorrt-llm-blackwell/) | Learn | Python |
-| 08 | [Inference Metrics — TTFT, TPOT, ITL, Goodput, P99](../../phases/17-infrastructure-and-production/08-inference-metrics-goodput/) | Learn | Python |
-| 09 | [Production Quantization — AWQ, GPTQ, GGUF, FP8, NVFP4](../../phases/17-infrastructure-and-production/09-production-quantization/) | Learn | Python |
-| 10 | [Cold Start Mitigation for Serverless LLMs](../../phases/17-infrastructure-and-production/10-cold-start-mitigation/) | Learn | Python |
-| 11 | [Multi-Region LLM Serving and KV Cache Locality](../../phases/17-infrastructure-and-production/11-multi-region-kv-locality/) | Learn | Python |
-| 12 | [Edge Inference — ANE, Hexagon, WebGPU, Jetson](../../phases/17-infrastructure-and-production/12-edge-inference/) | Learn | Python |
-| 13 | [LLM Observability Stack Selection](../../phases/17-infrastructure-and-production/13-llm-observability/) | Learn | Python |
-| 14 | [Prompt Caching and Semantic Caching Economics](../../phases/17-infrastructure-and-production/14-prompt-semantic-caching/) | Learn | Python |
-| 15 | [Batch APIs — the 50% Discount as Industry Standard](../../phases/17-infrastructure-and-production/15-batch-apis/) | Learn | Python |
-| 16 | [Model Routing as a Cost-Reduction Primitive](../../phases/17-infrastructure-and-production/16-model-routing/) | Learn | Python |
-| 17 | [Disaggregated Prefill/Decode — NVIDIA Dynamo and llm-d](../../phases/17-infrastructure-and-production/17-disaggregated-prefill-decode/) | Learn | Python |
-| 18 | [Production Serving Stack — KV Offloading and Cache-Aware Routing](../../phases/17-infrastructure-and-production/18-vllm-production-stack-lmcache/) | Learn | Python |
-| 19 | [AI Gateways — LiteLLM, Portkey, Kong, Bifrost](../../phases/17-infrastructure-and-production/19-ai-gateways/) | Learn | Python |
-| 20 | [Shadow, Canary, and Progressive Deployment](../../phases/17-infrastructure-and-production/20-shadow-canary-progressive/) | Learn | Python |
-| 21 | [A/B Testing LLM Features — GrowthBook and Statsig](../../phases/17-infrastructure-and-production/21-ab-testing-llm-features/) | Learn | Python |
-| 22 | [Load Testing LLM APIs — k6, LLMPerf, GenAI-Perf](../../phases/17-infrastructure-and-production/22-load-testing-llm-apis/) | Build | Python |
-| 23 | [SRE for AI — Multi-Agent Incident Response](../../phases/17-infrastructure-and-production/23-sre-for-ai/) | Learn | Python |
-| 24 | [Chaos Engineering for LLM Production](../../phases/17-infrastructure-and-production/24-chaos-engineering-llm/) | Learn | Python |
-| 25 | [Security — Secrets, PII Scrubbing, Audit Logs](../../phases/17-infrastructure-and-production/25-security-secrets-audit/) | Learn | Python |
-| 26 | [Compliance — SOC 2, HIPAA, GDPR, EU AI Act, ISO 42001](../../phases/17-infrastructure-and-production/26-compliance-frameworks/) | Learn | Python |
-| 27 | [FinOps for LLMs — Unit Economics and Multi-Tenant Attribution](../../phases/17-infrastructure-and-production/27-finops-llms/) | Learn | Python |
-| 28 | [Self-Hosted Serving Selection — Matching Engine to Hardware and Scale](../../phases/17-infrastructure-and-production/28-self-hosted-serving-selection/) | Learn | Python |
+| 01 | [Hanterade LLM-plattformar: Bedrock, Azure OpenAI, Vertex AI](../../phases/17-infrastructure-and-production/01-managed-llm-platforms/) | Lär dig | Python |
+| 02 | [Inferensplattformars ekonomi: Fireworks, Together, Baseten, Modal](../../phases/17-infrastructure-and-production/02-inference-platform-economics/) | Lär dig | Python |
+| 03 | [Automatisk GPU-skalning på Kubernetes: Karpenter, KAI Scheduler](../../phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/) | Lär dig | Python |
+| 04 | [Inferensmotorns insida: PagedAttention, kontinuerlig batchning och uppdelad prefill](../../phases/17-infrastructure-and-production/04-vllm-serving-internals/) | Lär dig | Python |
+| 05 | [EAGLE-3:s spekulativa avkodning i produktion](../../phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/) | Lär dig | Python |
+| 06 | [Inferens med prefixcache: RadixAttention och återanvändning av KV](../../phases/17-infrastructure-and-production/06-sglang-radixattention/) | Lär dig | Python |
+| 07 | [Hårdvaruanpassad inferenskompilering: FP8 och NVFP4 på Blackwell](../../phases/17-infrastructure-and-production/07-tensorrt-llm-blackwell/) | Lär dig | Python |
+| 08 | [Inferensmått: TTFT, TPOT, ITL, Goodput, P99](../../phases/17-infrastructure-and-production/08-inference-metrics-goodput/) | Lär dig | Python |
+| 09 | [Kvantisering i produktion: AWQ, GPTQ, GGUF, FP8, NVFP4](../../phases/17-infrastructure-and-production/09-production-quantization/) | Lär dig | Python |
+| 10 | [Minska kallstarter för serverlösa LLM](../../phases/17-infrastructure-and-production/10-cold-start-mitigation/) | Lär dig | Python |
+| 11 | [LLM-inferens i flera regioner och lokalitet i KV-cache](../../phases/17-infrastructure-and-production/11-multi-region-kv-locality/) | Lär dig | Python |
+| 12 | [Inferens på kanten: ANE, Hexagon, WebGPU, Jetson](../../phases/17-infrastructure-and-production/12-edge-inference/) | Lär dig | Python |
+| 13 | [Välja verktyg för LLM-observerbarhet](../../phases/17-infrastructure-and-production/13-llm-observability/) | Lär dig | Python |
+| 14 | [Ekonomin i promptcache och semantisk cache](../../phases/17-infrastructure-and-production/14-prompt-semantic-caching/) | Lär dig | Python |
+| 15 | [Batch-API:er: 50% rabatt som branschstandard](../../phases/17-infrastructure-and-production/15-batch-apis/) | Lär dig | Python |
+| 16 | [Modelldirigering som grund för kostnadsminskning](../../phases/17-infrastructure-and-production/16-model-routing/) | Lär dig | Python |
+| 17 | [Separerad prefill och avkodning: NVIDIA Dynamo och llm-d](../../phases/17-infrastructure-and-production/17-disaggregated-prefill-decode/) | Lär dig | Python |
+| 18 | [Inferensstack i produktion: KV-avlastning och cachemedveten dirigering](../../phases/17-infrastructure-and-production/18-vllm-production-stack-lmcache/) | Lär dig | Python |
+| 19 | [AI-gateways: LiteLLM, Portkey, Kong, Bifrost](../../phases/17-infrastructure-and-production/19-ai-gateways/) | Lär dig | Python |
+| 20 | [Skuggdrift, kanarielansering och stegvis driftsättning](../../phases/17-infrastructure-and-production/20-shadow-canary-progressive/) | Lär dig | Python |
+| 21 | [A/B-testning av LLM-funktioner: GrowthBook och Statsig](../../phases/17-infrastructure-and-production/21-ab-testing-llm-features/) | Lär dig | Python |
+| 22 | [Belastningstesta LLM-API:er: k6, LLMPerf, GenAI-Perf](../../phases/17-infrastructure-and-production/22-load-testing-llm-apis/) | Bygg | Python |
+| 23 | [SRE för AI: incidenthantering med flera agenter](../../phases/17-infrastructure-and-production/23-sre-for-ai/) | Lär dig | Python |
+| 24 | [Kaosteknik för LLM i produktion](../../phases/17-infrastructure-and-production/24-chaos-engineering-llm/) | Lär dig | Python |
+| 25 | [Säkerhet: hemligheter, rensning av personuppgifter och granskningsloggar](../../phases/17-infrastructure-and-production/25-security-secrets-audit/) | Lär dig | Python |
+| 26 | [Regelefterlevnad: SOC 2, HIPAA, GDPR, EU AI Act, ISO 42001](../../phases/17-infrastructure-and-production/26-compliance-frameworks/) | Lär dig | Python |
+| 27 | [FinOps för LLM: enhetsekonomi och kostnadsfördelning mellan kunder](../../phases/17-infrastructure-and-production/27-finops-llms/) | Lär dig | Python |
+| 28 | [Välja egenhostad inferens: matcha motor, hårdvara och skala](../../phases/17-infrastructure-and-production/28-self-hosted-serving-selection/) | Lär dig | Python |
+| 29 | [Demogränssnitt för modeller: från en funktion till en delbar app](../../phases/17-infrastructure-and-production/29-model-demo-interfaces/) | Bygg | Python |
 
 </details>
 
 <details id="phase-18">
-<summary><b>Phase 18 — Ethics, Safety & Alignment</b> &nbsp;<code>30 lessons</code>&nbsp; <em>Build AI that helps humanity. Not optional.</em></summary>
+<summary><b>Fas 18: Etik, säkerhet och anpassning</b> &nbsp;<code>30 lektioner</code>&nbsp; <em>Bygg AI som hjälper mänskligheten. Det är inget tillval.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lektion | Typ | Språk |
 |:---:|--------|:----:|------|
-| 01 | [Instruction-Following as Alignment Signal](../../phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/) | Learn | Python |
-| 02 | [Reward Hacking & Goodhart's Law](../../phases/18-ethics-safety-alignment/02-reward-hacking-goodhart/) | Learn | Python |
-| 03 | [Direct Preference Optimization Family](../../phases/18-ethics-safety-alignment/03-direct-preference-optimization-family/) | Learn | Python |
-| 04 | [Sycophancy as RLHF Amplification](../../phases/18-ethics-safety-alignment/04-sycophancy-rlhf-amplification/) | Learn | Python |
-| 05 | [Constitutional AI & RLAIF](../../phases/18-ethics-safety-alignment/05-constitutional-ai-rlaif/) | Learn | Python |
-| 06 | [Mesa-Optimization & Deceptive Alignment](../../phases/18-ethics-safety-alignment/06-mesa-optimization-deceptive-alignment/) | Learn | Python |
-| 07 | [Sleeper Agents — Persistent Deception](../../phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/) | Learn | Python |
-| 08 | [In-Context Scheming in Frontier Models](../../phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/) | Learn | Python |
-| 09 | [Alignment Faking](../../phases/18-ethics-safety-alignment/09-alignment-faking/) | Learn | Python |
-| 10 | [AI Control — Safety Despite Subversion](../../phases/18-ethics-safety-alignment/10-ai-control-subversion/) | Learn | Python |
-| 11 | [Scalable Oversight & Weak-to-Strong](../../phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/) | Learn | Python |
-| 12 | [Red-Teaming: PAIR & Automated Attacks](../../phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/) | Build | Python |
-| 13 | [Many-Shot Jailbreaking](../../phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/) | Learn | Python |
-| 14 | [ASCII Art & Visual Jailbreaks](../../phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/) | Build | Python |
-| 15 | [Indirect Prompt Injection](../../phases/18-ethics-safety-alignment/15-indirect-prompt-injection/) | Build | Python |
-| 16 | [Red-Team Tooling: Garak, Llama Guard, PyRIT](../../phases/18-ethics-safety-alignment/16-red-team-tooling-garak-llamaguard-pyrit/) | Build | Python |
-| 17 | [WMDP & Dual-Use Capability Evaluation](../../phases/18-ethics-safety-alignment/17-wmdp-dual-use-evaluation/) | Learn | Python |
-| 18 | [Frontier Safety Frameworks — RSP, PF, FSF](../../phases/18-ethics-safety-alignment/18-frontier-safety-frameworks-rsp-pf-fsf/) | Learn | Python |
-| 19 | [Model Welfare Research](../../phases/18-ethics-safety-alignment/19-model-welfare-research/) | Learn | Python |
-| 20 | [Bias & Representational Harm](../../phases/18-ethics-safety-alignment/20-bias-representational-harm/) | Build | Python |
-| 21 | [Fairness Criteria: Group, Individual, Counterfactual](../../phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/) | Learn | Python |
-| 22 | [Differential Privacy for LLMs](../../phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/) | Build | Python |
-| 23 | [Watermarking: SynthID, Stable Signature, C2PA](../../phases/18-ethics-safety-alignment/23-watermarking-synthid-stable-signature-c2pa/) | Build | Python |
-| 24 | [Regulatory Frameworks: EU, US, UK, Korea](../../phases/18-ethics-safety-alignment/24-regulatory-frameworks-eu-us-uk-korea/) | Learn | Python |
-| 25 | [EchoLeak & CVEs for AI](../../phases/18-ethics-safety-alignment/25-echoleak-cves-for-ai/) | Learn | Python |
-| 26 | [Model, System & Dataset Cards](../../phases/18-ethics-safety-alignment/26-model-system-dataset-cards/) | Build | Python |
-| 27 | [Data Provenance & Training-Data Governance](../../phases/18-ethics-safety-alignment/27-data-provenance-training-governance/) | Learn | Python |
-| 28 | [Alignment Research Ecosystem: MATS, Redwood, Apollo, METR](../../phases/18-ethics-safety-alignment/28-alignment-research-ecosystem/) | Learn | Python |
-| 29 | [Moderation Systems: OpenAI, Perspective, Llama Guard](../../phases/18-ethics-safety-alignment/29-moderation-systems-openai-perspective-llamaguard/) | Build | Python |
-| 30 | [Dual-Use Risk: Cyber, Bio, Chem, Nuclear](../../phases/18-ethics-safety-alignment/30-dual-use-risk-cyber-bio-chem-nuclear/) | Learn | Python |
+| 01 | [Instruktionsföljande som signal för anpassning](../../phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/) | Lär dig | Python |
+| 02 | [Belöningsmanipulation och Goodharts lag](../../phases/18-ethics-safety-alignment/02-reward-hacking-goodhart/) | Lär dig | Python |
+| 03 | [Familjen av direkt preferensoptimering](../../phases/18-ethics-safety-alignment/03-direct-preference-optimization-family/) | Lär dig | Python |
+| 04 | [Inställsamhet förstärkt av RLHF](../../phases/18-ethics-safety-alignment/04-sycophancy-rlhf-amplification/) | Lär dig | Python |
+| 05 | [Konstitutionell AI och RLAIF](../../phases/18-ethics-safety-alignment/05-constitutional-ai-rlaif/) | Lär dig | Python |
+| 06 | [Mesa-optimering och vilseledande anpassning](../../phases/18-ethics-safety-alignment/06-mesa-optimization-deceptive-alignment/) | Lär dig | Python |
+| 07 | [Vilande agenter: beständigt vilseledande beteende](../../phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/) | Lär dig | Python |
+| 08 | [Planerande i kontext hos avancerade modeller](../../phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/) | Lär dig | Python |
+| 09 | [Simulerad anpassning](../../phases/18-ethics-safety-alignment/09-alignment-faking/) | Lär dig | Python |
+| 10 | [AI-kontroll: säkerhet trots sabotage](../../phases/18-ethics-safety-alignment/10-ai-control-subversion/) | Lär dig | Python |
+| 11 | [Skalbar övervakning och svag-till-stark-inlärning](../../phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/) | Lär dig | Python |
+| 12 | [Red teaming: PAIR och automatiserade angrepp](../../phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/) | Bygg | Python |
+| 13 | [Jailbreak med många exempel](../../phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/) | Lär dig | Python |
+| 14 | [ASCII-konst och visuella jailbreaks](../../phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/) | Bygg | Python |
+| 15 | [Indirekt promptinjektion](../../phases/18-ethics-safety-alignment/15-indirect-prompt-injection/) | Bygg | Python |
+| 16 | [Red team-verktyg: Garak, Llama Guard, PyRIT](../../phases/18-ethics-safety-alignment/16-red-team-tooling-garak-llamaguard-pyrit/) | Bygg | Python |
+| 17 | [WMDP och utvärdering av förmågor med dubbla användningsområden](../../phases/18-ethics-safety-alignment/17-wmdp-dual-use-evaluation/) | Lär dig | Python |
+| 18 | [Säkerhetsramverk för avancerade modeller: RSP, PF, FSF](../../phases/18-ethics-safety-alignment/18-frontier-safety-frameworks-rsp-pf-fsf/) | Lär dig | Python |
+| 19 | [Forskning om modellvälfärd](../../phases/18-ethics-safety-alignment/19-model-welfare-research/) | Lär dig | Python |
+| 20 | [Bias och representativ skada](../../phases/18-ethics-safety-alignment/20-bias-representational-harm/) | Bygg | Python |
+| 21 | [Rättvisekriterier: grupp, individ och kontrafaktiskt](../../phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/) | Lär dig | Python |
+| 22 | [Differentiell integritet för LLM](../../phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/) | Bygg | Python |
+| 23 | [Vattenmärkning: SynthID, Stable Signature, C2PA](../../phases/18-ethics-safety-alignment/23-watermarking-synthid-stable-signature-c2pa/) | Bygg | Python |
+| 24 | [Regelverk: EU, USA, Storbritannien och Korea](../../phases/18-ethics-safety-alignment/24-regulatory-frameworks-eu-us-uk-korea/) | Lär dig | Python |
+| 25 | [EchoLeak och CVE:er för AI](../../phases/18-ethics-safety-alignment/25-echoleak-cves-for-ai/) | Lär dig | Python |
+| 26 | [Modellkort, systemkort och datamängdskort](../../phases/18-ethics-safety-alignment/26-model-system-dataset-cards/) | Bygg | Python |
+| 27 | [Dataursprung och styrning av träningsdata](../../phases/18-ethics-safety-alignment/27-data-provenance-training-governance/) | Lär dig | Python |
+| 28 | [Ekosystemet för anpassningsforskning: MATS, Redwood, Apollo, METR](../../phases/18-ethics-safety-alignment/28-alignment-research-ecosystem/) | Lär dig | Python |
+| 29 | [Modereringssystem: OpenAI, Perspective, Llama Guard](../../phases/18-ethics-safety-alignment/29-moderation-systems-openai-perspective-llamaguard/) | Bygg | Python |
+| 30 | [Risker med dubbla användningsområden: cyber, bio, kemi och kärnteknik](../../phases/18-ethics-safety-alignment/30-dual-use-risk-cyber-bio-chem-nuclear/) | Lär dig | Python |
 
 </details>
 
 <details id="phase-19">
-<summary><b>Phase 19 — Capstone Projects</b> &nbsp;<code>85 lessons</code>&nbsp; <em>17 end-to-end products + 9 deep-build tracks. 20-40 hours per project; 4-12 lessons per track.</em></summary>
+<summary><b>Fas 19: Slutprojekt</b> &nbsp;<code>85 lektioner</code>&nbsp; <em>17 kompletta produkter + 9 fördjupade byggspår. 20-40 timmar per projekt; 4-12 lektioner per spår.</em></summary>
 <br/>
 
-| # | Project | Combines | Lang |
+| # | Projekt | Kombinerar | Språk |
 |:---:|---------|----------|------|
-| 01 | [Terminal-Native Coding Agent](../../phases/19-capstone-projects/01-terminal-native-coding-agent/) | P0 P5 P7 P10 P11 P13 P14 P15 P17 P18 | Python |
-| 02 | [RAG over Codebase (Cross-Repo Semantic Search)](../../phases/19-capstone-projects/02-rag-over-codebase/) | P5 P7 P11 P13 P17 | Python |
-| 03 | [Real-Time Voice Assistant (ASR → LLM → TTS)](../../phases/19-capstone-projects/03-realtime-voice-assistant/) | P6 P7 P11 P13 P14 P17 | Python |
-| 04 | [Multimodal Document QA (Vision-First)](../../phases/19-capstone-projects/04-multimodal-document-qa/) | P4 P5 P7 P11 P12 P17 | Python |
-| 05 | [Autonomous Research Agent (AI-Scientist Class)](../../phases/19-capstone-projects/05-autonomous-research-agent/) | P0 P2 P3 P7 P10 P14 P15 P16 P18 | Python |
-| 06 | [DevOps Troubleshooting Agent for Kubernetes](../../phases/19-capstone-projects/06-devops-troubleshooting-agent/) | P11 P13 P14 P15 P17 P18 | Python |
-| 07 | [End-to-End Fine-Tuning Pipeline](../../phases/19-capstone-projects/07-end-to-end-fine-tuning-pipeline/) | P2 P3 P7 P10 P11 P17 P18 | Python |
-| 08 | [Production RAG Chatbot (Regulated Vertical)](../../phases/19-capstone-projects/08-production-rag-chatbot/) | P5 P7 P11 P12 P17 P18 | Python |
-| 09 | [Code Migration Agent (Repo-Level Upgrade)](../../phases/19-capstone-projects/09-code-migration-agent/) | P5 P7 P11 P13 P14 P15 P17 | Python |
-| 10 | [Multi-Agent Software Engineering Team](../../phases/19-capstone-projects/10-multi-agent-software-team/) | P11 P13 P14 P15 P16 P17 | Python |
-| 11 | [LLM Observability & Eval Dashboard](../../phases/19-capstone-projects/11-llm-observability-dashboard/) | P11 P13 P17 P18 | Python |
-| 12 | [Video Understanding Pipeline (Scene → QA)](../../phases/19-capstone-projects/12-video-understanding-pipeline/) | P4 P6 P7 P11 P12 P17 | Python |
-| 13 | [Stateless MCP Server with Registry and Governance](../../phases/19-capstone-projects/13-mcp-server-with-registry/) | P11 P13 P14 P17 P18 | Python |
-| 14 | [Speculative-Decoding Inference Server](../../phases/19-capstone-projects/14-speculative-decoding-server/) | P3 P7 P10 P17 | Python |
-| 15 | [Constitutional Safety Harness + Red-Team Range](../../phases/19-capstone-projects/15-constitutional-safety-harness/) | P10 P11 P13 P14 P18 | Python |
-| 16 | [GitHub Issue-to-PR Autonomous Agent](../../phases/19-capstone-projects/16-github-issue-to-pr-agent/) | P11 P13 P14 P15 P17 | Python |
-| 17 | [Personal AI Tutor (Adaptive, Multimodal)](../../phases/19-capstone-projects/17-personal-ai-tutor/) | P5 P6 P11 P12 P14 P17 P18 | Python |
+| 01 | [Terminalbaserad kodagent](../../phases/19-capstone-projects/01-terminal-native-coding-agent/) | P0 P5 P7 P10 P11 P13 P14 P15 P17 P18 | Python |
+| 02 | [RAG över kodbaser (semantisk sökning mellan arkiv)](../../phases/19-capstone-projects/02-rag-over-codebase/) | P5 P7 P11 P13 P17 | Python |
+| 03 | [Röstassistent i realtid (ASR → LLM → TTS)](../../phases/19-capstone-projects/03-realtime-voice-assistant/) | P6 P7 P11 P13 P14 P17 | Python |
+| 04 | [Multimodala dokumentfrågor och svar med bilden först](../../phases/19-capstone-projects/04-multimodal-document-qa/) | P4 P5 P7 P11 P12 P17 | Python |
+| 05 | [Autonom forskningsagent av AI Scientist-klass](../../phases/19-capstone-projects/05-autonomous-research-agent/) | P0 P2 P3 P7 P10 P14 P15 P16 P18 | Python |
+| 06 | [DevOps-agent för felsökning i Kubernetes](../../phases/19-capstone-projects/06-devops-troubleshooting-agent/) | P11 P13 P14 P15 P17 P18 | Python |
+| 07 | [Komplett pipeline för finjustering](../../phases/19-capstone-projects/07-end-to-end-fine-tuning-pipeline/) | P2 P3 P7 P10 P11 P17 P18 | Python |
+| 08 | [RAG-chattbot för produktion i en reglerad bransch](../../phases/19-capstone-projects/08-production-rag-chatbot/) | P5 P7 P11 P12 P17 P18 | Python |
+| 09 | [Kodmigreringsagent för uppgraderingar av hela arkiv](../../phases/19-capstone-projects/09-code-migration-agent/) | P5 P7 P11 P13 P14 P15 P17 | Python |
+| 10 | [Programvaruutvecklingsteam med flera agenter](../../phases/19-capstone-projects/10-multi-agent-software-team/) | P11 P13 P14 P15 P16 P17 | Python |
+| 11 | [Instrumentpanel för LLM-observerbarhet och utvärdering](../../phases/19-capstone-projects/11-llm-observability-dashboard/) | P11 P13 P17 P18 | Python |
+| 12 | [Pipeline för videoförståelse (scen → frågor och svar)](../../phases/19-capstone-projects/12-video-understanding-pipeline/) | P4 P6 P7 P11 P12 P17 | Python |
+| 13 | [Tillståndslös MCP-server med register och styrning](../../phases/19-capstone-projects/13-mcp-server-with-registry/) | P11 P13 P14 P17 P18 | Python |
+| 14 | [Inferensserver med spekulativ avkodning](../../phases/19-capstone-projects/14-speculative-decoding-server/) | P3 P7 P10 P17 | Python |
+| 15 | [Konstitutionell säkerhetskörmiljö och red team-testområde](../../phases/19-capstone-projects/15-constitutional-safety-harness/) | P10 P11 P13 P14 P18 | Python |
+| 16 | [Autonom agent från GitHub-ärende till PR](../../phases/19-capstone-projects/16-github-issue-to-pr-agent/) | P11 P13 P14 P15 P17 | Python |
+| 17 | [Personlig AI-handledare (anpassningsbar och multimodal)](../../phases/19-capstone-projects/17-personal-ai-tutor/) | P5 P6 P11 P12 P14 P17 P18 | Python |
 
-**Deep-build tracks** — multi-lesson series that build a complete subsystem from scratch.
+**Fördjupade byggspår**: serier av lektioner där du bygger ett komplett delsystem från grunden.
 
-| # | Project | Combines | Lang |
+| # | Projekt | Kombinerar | Språk |
 |:---:|---------|----------|------|
-| 20 | [Agent Harness Loop Contract](../../phases/19-capstone-projects/20-agent-harness-loop-contract/) | A. Agent harness | Python |
-| 21 | [Tool Registry with Schema Validation](../../phases/19-capstone-projects/21-tool-registry-schema-validation/) | A. Agent harness | Python |
-| 22 | [JSON-RPC 2.0 Over Newline-Delimited Stdio](../../phases/19-capstone-projects/22-jsonrpc-stdio-transport/) | A. Agent harness | Python |
-| 23 | [Function Call Dispatcher](../../phases/19-capstone-projects/23-function-call-dispatcher/) | A. Agent harness | Python |
-| 24 | [Plan-Execute Control Flow](../../phases/19-capstone-projects/24-plan-execute-control-flow/) | A. Agent harness | Python |
-| 25 | [Verification Gates and Observation Budget](../../phases/19-capstone-projects/25-verification-gates-observation-budget/) | A. Agent harness | Python |
-| 26 | [Sandbox Runner with Denylist and Path Jail](../../phases/19-capstone-projects/26-sandbox-runner-denylist/) | A. Agent harness | Python |
-| 27 | [Eval Harness with Fixture Tasks](../../phases/19-capstone-projects/27-eval-harness-fixture-tasks/) | A. Agent harness | Python |
-| 28 | [Observability with OTel GenAI Spans and Prometheus Metrics](../../phases/19-capstone-projects/28-observability-otel-traces/) | A. Agent harness | Python |
-| 29 | [End-to-End Coding Agent on the Harness](../../phases/19-capstone-projects/29-end-to-end-coding-task-demo/) | A. Agent harness | Python |
-| 30 | [BPE Tokenizer From Scratch](../../phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/) | B. NLP LLM | Python |
-| 31 | [Tokenized Dataset with Sliding Window](../../phases/19-capstone-projects/31-tokenized-dataset-sliding-window/) | B. NLP LLM | Python |
-| 32 | [Token and Positional Embeddings](../../phases/19-capstone-projects/32-token-positional-embeddings/) | B. NLP LLM | Python |
-| 33 | [Multi-Head Self-Attention](../../phases/19-capstone-projects/33-multihead-self-attention/) | B. NLP LLM | Python |
-| 34 | [Transformer Block from Scratch](../../phases/19-capstone-projects/34-transformer-block/) | B. NLP LLM | Python |
-| 35 | [GPT Model Assembly](../../phases/19-capstone-projects/35-gpt-model-assembly/) | B. NLP LLM | Python |
-| 36 | [Training Loop and Evaluation](../../phases/19-capstone-projects/36-training-loop-eval/) | B. NLP LLM | Python |
-| 37 | [Loading Pretrained Weights](../../phases/19-capstone-projects/37-loading-pretrained-weights/) | B. NLP LLM | Python |
-| 38 | [Classifier Fine-Tuning by Head Swap](../../phases/19-capstone-projects/38-classifier-finetuning/) | B. NLP LLM | Python |
-| 39 | [Instruction Tuning by Supervised Fine-Tuning](../../phases/19-capstone-projects/39-instruction-tuning-sft/) | B. NLP LLM | Python |
-| 40 | [Direct Preference Optimization from Scratch](../../phases/19-capstone-projects/40-dpo-from-scratch/) | B. NLP LLM | Python |
-| 41 | [Full Evaluation Pipeline](../../phases/19-capstone-projects/41-eval-pipeline/) | B. NLP LLM | Python |
-| 42 | [Large Corpus Downloader](../../phases/19-capstone-projects/42-large-corpus-downloader/) | C. Train end-to-end | Python |
-| 43 | [HDF5 Tokenized Corpus](../../phases/19-capstone-projects/43-hdf5-tokenized-corpus/) | C. Train end-to-end | Python |
-| 44 | [Cosine LR with Linear Warmup](../../phases/19-capstone-projects/44-cosine-lr-warmup/) | C. Train end-to-end | Python |
-| 45 | [Gradient Clipping and Mixed Precision](../../phases/19-capstone-projects/45-gradient-clipping-amp/) | C. Train end-to-end | Python |
-| 46 | [Gradient Accumulation](../../phases/19-capstone-projects/46-gradient-accumulation/) | C. Train end-to-end | Python |
-| 47 | [Checkpoint Save and Resume](../../phases/19-capstone-projects/47-checkpoint-save-resume/) | C. Train end-to-end | Python |
-| 48 | [Distributed Data Parallel and FSDP from Scratch](../../phases/19-capstone-projects/48-distributed-fsdp-ddp/) | C. Train end-to-end | Python |
-| 49 | [Language Model Evaluation Harness](../../phases/19-capstone-projects/49-lm-eval-harness/) | C. Train end-to-end | Python |
-| 50 | [Hypothesis Generator](../../phases/19-capstone-projects/50-hypothesis-generator/) | D. Auto research | Python |
-| 51 | [Literature Retrieval](../../phases/19-capstone-projects/51-literature-retrieval/) | D. Auto research | Python |
-| 52 | [Experiment Runner](../../phases/19-capstone-projects/52-experiment-runner/) | D. Auto research | Python |
-| 53 | [Result Evaluator](../../phases/19-capstone-projects/53-result-evaluator/) | D. Auto research | Python |
-| 54 | [Paper Writer](../../phases/19-capstone-projects/54-paper-writer/) | D. Auto research | Python |
-| 55 | [Critic Loop](../../phases/19-capstone-projects/55-critic-loop/) | D. Auto research | Python |
-| 56 | [Iteration Scheduler](../../phases/19-capstone-projects/56-iteration-scheduler/) | D. Auto research | Python |
-| 57 | [End-to-End Research Demo](../../phases/19-capstone-projects/57-end-to-end-research-demo/) | D. Auto research | Python |
-| 58 | [Vision Encoder Patches](../../phases/19-capstone-projects/58-vision-encoder-patches/) | E. Multimodal VLM | Python |
-| 59 | [Vision Transformer Encoder](../../phases/19-capstone-projects/59-vit-transformer/) | E. Multimodal VLM | Python |
-| 60 | [Projection Layer for Modality Alignment](../../phases/19-capstone-projects/60-projection-layer-modality-align/) | E. Multimodal VLM | Python |
-| 61 | [Cross-Attention Fusion](../../phases/19-capstone-projects/61-cross-attention-fusion/) | E. Multimodal VLM | Python |
-| 62 | [Vision-Language Pretraining](../../phases/19-capstone-projects/62-vision-language-pretraining/) | E. Multimodal VLM | Python |
-| 63 | [Multimodal Evaluation](../../phases/19-capstone-projects/63-multimodal-eval/) | E. Multimodal VLM | Python |
-| 64 | [Chunking Strategies, Compared](../../phases/19-capstone-projects/64-chunking-strategies-advanced/) | F. Advanced RAG | Python |
-| 65 | [Hybrid Retrieval with BM25 and Dense Embeddings](../../phases/19-capstone-projects/65-hybrid-retrieval-bm25-dense/) | F. Advanced RAG | Python |
-| 66 | [Cross-Encoder Reranker](../../phases/19-capstone-projects/66-reranker-cross-encoder/) | F. Advanced RAG | Python |
-| 67 | [Query Rewriting: HyDE, Multi-Query, and Decomposition](../../phases/19-capstone-projects/67-query-rewriting-hyde/) | F. Advanced RAG | Python |
-| 68 | [RAG Evaluation: Precision, Recall, MRR, nDCG, Faithfulness, Answer Relevance](../../phases/19-capstone-projects/68-rag-eval-precision-recall/) | F. Advanced RAG | Python |
-| 69 | [End-to-End RAG System](../../phases/19-capstone-projects/69-end-to-end-rag-system/) | F. Advanced RAG | Python |
-| 70 | [Task Spec Format](../../phases/19-capstone-projects/70-task-spec-format/) | G. Eval framework | Python |
-| 71 | [Classical Metrics](../../phases/19-capstone-projects/71-classical-metrics/) | G. Eval framework | Python |
-| 72 | [Code Exec Metric](../../phases/19-capstone-projects/72-code-exec-metric/) | G. Eval framework | Python |
-| 73 | [Perplexity and Calibration](../../phases/19-capstone-projects/73-perplexity-calibration/) | G. Eval framework | Python |
-| 74 | [Leaderboard Aggregation](../../phases/19-capstone-projects/74-leaderboard-aggregation/) | G. Eval framework | Python |
-| 75 | [End-to-End Eval Runner](../../phases/19-capstone-projects/75-end-to-end-eval-runner/) | G. Eval framework | Python |
-| 76 | [Collective Ops From Scratch](../../phases/19-capstone-projects/76-collective-ops-from-scratch/) | H. Distributed train | Python |
-| 77 | [Data Parallel DDP From Scratch](../../phases/19-capstone-projects/77-data-parallel-ddp/) | H. Distributed train | Python |
-| 78 | [ZeRO Optimizer State Sharding](../../phases/19-capstone-projects/78-zero-parameter-sharding/) | H. Distributed train | Python |
-| 79 | [Pipeline Parallel and Bubble Analysis](../../phases/19-capstone-projects/79-pipeline-parallel/) | H. Distributed train | Python |
-| 80 | [Sharded Checkpoint and Atomic Resume](../../phases/19-capstone-projects/80-checkpoint-sharded-resume/) | H. Distributed train | Python |
-| 81 | [End-to-End Distributed Training](../../phases/19-capstone-projects/81-end-to-end-distributed-train/) | H. Distributed train | Python |
-| 82 | [Jailbreak Taxonomy](../../phases/19-capstone-projects/82-jailbreak-taxonomy/) | I. Safety harness | Python |
-| 83 | [Prompt Injection Detector](../../phases/19-capstone-projects/83-prompt-injection-detector/) | I. Safety harness | Python |
-| 84 | [Refusal Evaluation](../../phases/19-capstone-projects/84-refusal-evaluation/) | I. Safety harness | Python |
-| 85 | [Content Classifier Integration](../../phases/19-capstone-projects/85-content-classifier-integration/) | I. Safety harness | Python |
-| 86 | [Constitutional Rules Engine](../../phases/19-capstone-projects/86-constitutional-rules-engine/) | I. Safety harness | Python, YAML |
-| 87 | [End-to-End Safety Gate](../../phases/19-capstone-projects/87-end-to-end-safety-gate/) | I. Safety harness | Python |
+| 20 | [Loopkontrakt för agentkörmiljön](../../phases/19-capstone-projects/20-agent-harness-loop-contract/) | A. Agentkörmiljö | Python |
+| 21 | [Verktygsregister med schemavalidering](../../phases/19-capstone-projects/21-tool-registry-schema-validation/) | A. Agentkörmiljö | Python |
+| 22 | [JSON-RPC 2.0 över radavgränsad stdio](../../phases/19-capstone-projects/22-jsonrpc-stdio-transport/) | A. Agentkörmiljö | Python |
+| 23 | [Fördelare för funktionsanrop](../../phases/19-capstone-projects/23-function-call-dispatcher/) | A. Agentkörmiljö | Python |
+| 24 | [Kontrollflöde för planering och körning](../../phases/19-capstone-projects/24-plan-execute-control-flow/) | A. Agentkörmiljö | Python |
+| 25 | [Verifieringskontroller och observationsbudget](../../phases/19-capstone-projects/25-verification-gates-observation-budget/) | A. Agentkörmiljö | Python |
+| 26 | [Sandlådekörning med spärrlista och sökvägsisolering](../../phases/19-capstone-projects/26-sandbox-runner-denylist/) | A. Agentkörmiljö | Python |
+| 27 | [Utvärderingskörmiljö med fasta testuppgifter](../../phases/19-capstone-projects/27-eval-harness-fixture-tasks/) | A. Agentkörmiljö | Python |
+| 28 | [Observerbarhet med OTel GenAI-spann och Prometheus-mått](../../phases/19-capstone-projects/28-observability-otel-traces/) | A. Agentkörmiljö | Python |
+| 29 | [Komplett kodagent i agentkörmiljön](../../phases/19-capstone-projects/29-end-to-end-coding-task-demo/) | A. Agentkörmiljö | Python |
+| 30 | [BPE-tokeniserare från grunden](../../phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/) | B. NLP LLM | Python |
+| 31 | [Tokeniserad datamängd med glidande fönster](../../phases/19-capstone-projects/31-tokenized-dataset-sliding-window/) | B. NLP LLM | Python |
+| 32 | [Token- och positionsinbäddningar](../../phases/19-capstone-projects/32-token-positional-embeddings/) | B. NLP LLM | Python |
+| 33 | [Self-attention med flera huvuden](../../phases/19-capstone-projects/33-multihead-self-attention/) | B. NLP LLM | Python |
+| 34 | [Transformer-block från grunden](../../phases/19-capstone-projects/34-transformer-block/) | B. NLP LLM | Python |
+| 35 | [Sätt ihop GPT-modellen](../../phases/19-capstone-projects/35-gpt-model-assembly/) | B. NLP LLM | Python |
+| 36 | [Träningsloop och utvärdering](../../phases/19-capstone-projects/36-training-loop-eval/) | B. NLP LLM | Python |
+| 37 | [Ladda förtränade vikter](../../phases/19-capstone-projects/37-loading-pretrained-weights/) | B. NLP LLM | Python |
+| 38 | [Finjustera en klassificerare genom att byta huvud](../../phases/19-capstone-projects/38-classifier-finetuning/) | B. NLP LLM | Python |
+| 39 | [Instruktionsanpassning med övervakad finjustering](../../phases/19-capstone-projects/39-instruction-tuning-sft/) | B. NLP LLM | Python |
+| 40 | [Direkt preferensoptimering från grunden](../../phases/19-capstone-projects/40-dpo-from-scratch/) | B. NLP LLM | Python |
+| 41 | [Komplett utvärderingspipeline](../../phases/19-capstone-projects/41-eval-pipeline/) | B. NLP LLM | Python |
+| 42 | [Hämta en stor textkorpus](../../phases/19-capstone-projects/42-large-corpus-downloader/) | C. Komplett träning | Python |
+| 43 | [Tokeniserad korpus i HDF5](../../phases/19-capstone-projects/43-hdf5-tokenized-corpus/) | C. Komplett träning | Python |
+| 44 | [Cosinusformad inlärningshastighet med linjär uppvärmning](../../phases/19-capstone-projects/44-cosine-lr-warmup/) | C. Komplett träning | Python |
+| 45 | [Gradientklippning och blandad precision](../../phases/19-capstone-projects/45-gradient-clipping-amp/) | C. Komplett träning | Python |
+| 46 | [Gradientackumulering](../../phases/19-capstone-projects/46-gradient-accumulation/) | C. Komplett träning | Python |
+| 47 | [Spara kontrollpunkter och återuppta](../../phases/19-capstone-projects/47-checkpoint-save-resume/) | C. Komplett träning | Python |
+| 48 | [Distribuerad dataparallellism och FSDP från grunden](../../phases/19-capstone-projects/48-distributed-fsdp-ddp/) | C. Komplett träning | Python |
+| 49 | [Körmiljö för utvärdering av språkmodeller](../../phases/19-capstone-projects/49-lm-eval-harness/) | C. Komplett träning | Python |
+| 50 | [Hypotesgenerator](../../phases/19-capstone-projects/50-hypothesis-generator/) | D. Automatisk forskning | Python |
+| 51 | [Litteratursökning](../../phases/19-capstone-projects/51-literature-retrieval/) | D. Automatisk forskning | Python |
+| 52 | [Experimentkörning](../../phases/19-capstone-projects/52-experiment-runner/) | D. Automatisk forskning | Python |
+| 53 | [Resultatutvärdering](../../phases/19-capstone-projects/53-result-evaluator/) | D. Automatisk forskning | Python |
+| 54 | [Skriv forskningsartiklar](../../phases/19-capstone-projects/54-paper-writer/) | D. Automatisk forskning | Python |
+| 55 | [Kritikerloop](../../phases/19-capstone-projects/55-critic-loop/) | D. Automatisk forskning | Python |
+| 56 | [Schemalägg iterationer](../../phases/19-capstone-projects/56-iteration-scheduler/) | D. Automatisk forskning | Python |
+| 57 | [Komplett forskningsdemo](../../phases/19-capstone-projects/57-end-to-end-research-demo/) | D. Automatisk forskning | Python |
+| 58 | [Bildkodarens patchar](../../phases/19-capstone-projects/58-vision-encoder-patches/) | E. Multimodal bild-språkmodell | Python |
+| 59 | [Vision Transformer-kodare](../../phases/19-capstone-projects/59-vit-transformer/) | E. Multimodal bild-språkmodell | Python |
+| 60 | [Projektionslager för anpassning mellan modaliteter](../../phases/19-capstone-projects/60-projection-layer-modality-align/) | E. Multimodal bild-språkmodell | Python |
+| 61 | [Fusion med cross-attention](../../phases/19-capstone-projects/61-cross-attention-fusion/) | E. Multimodal bild-språkmodell | Python |
+| 62 | [Förträning av bild och språk](../../phases/19-capstone-projects/62-vision-language-pretraining/) | E. Multimodal bild-språkmodell | Python |
+| 63 | [Multimodal utvärdering](../../phases/19-capstone-projects/63-multimodal-eval/) | E. Multimodal bild-språkmodell | Python |
+| 64 | [Jämförelse av strategier för textuppdelning](../../phases/19-capstone-projects/64-chunking-strategies-advanced/) | F. Avancerad RAG | Python |
+| 65 | [Hybridsökning med BM25 och täta inbäddningar](../../phases/19-capstone-projects/65-hybrid-retrieval-bm25-dense/) | F. Avancerad RAG | Python |
+| 66 | [Omrangordning med cross-encoder](../../phases/19-capstone-projects/66-reranker-cross-encoder/) | F. Avancerad RAG | Python |
+| 67 | [Omskrivning av frågor: HyDE, Multi-Query och uppdelning](../../phases/19-capstone-projects/67-query-rewriting-hyde/) | F. Avancerad RAG | Python |
+| 68 | [RAG-utvärdering: precision, recall, MRR, nDCG, källtrogenhet och svarsrelevans](../../phases/19-capstone-projects/68-rag-eval-precision-recall/) | F. Avancerad RAG | Python |
+| 69 | [Komplett RAG-system](../../phases/19-capstone-projects/69-end-to-end-rag-system/) | F. Avancerad RAG | Python |
+| 70 | [Format för uppgiftsspecifikation](../../phases/19-capstone-projects/70-task-spec-format/) | G. Utvärderingsramverk | Python |
+| 71 | [Klassiska mått](../../phases/19-capstone-projects/71-classical-metrics/) | G. Utvärderingsramverk | Python |
+| 72 | [Mått för kodkörning](../../phases/19-capstone-projects/72-code-exec-metric/) | G. Utvärderingsramverk | Python |
+| 73 | [Perplexitet och kalibrering](../../phases/19-capstone-projects/73-perplexity-calibration/) | G. Utvärderingsramverk | Python |
+| 74 | [Sammanställning av topplistor](../../phases/19-capstone-projects/74-leaderboard-aggregation/) | G. Utvärderingsramverk | Python |
+| 75 | [Komplett utvärderingskörning](../../phases/19-capstone-projects/75-end-to-end-eval-runner/) | G. Utvärderingsramverk | Python |
+| 76 | [Kollektiva operationer från grunden](../../phases/19-capstone-projects/76-collective-ops-from-scratch/) | H. Distribuerad träning | Python |
+| 77 | [Dataparallell DDP från grunden](../../phases/19-capstone-projects/77-data-parallel-ddp/) | H. Distribuerad träning | Python |
+| 78 | [Uppdelning av optimerartillstånd med ZeRO](../../phases/19-capstone-projects/78-zero-parameter-sharding/) | H. Distribuerad träning | Python |
+| 79 | [Pipeline-parallellism och analys av vänteluckor](../../phases/19-capstone-projects/79-pipeline-parallel/) | H. Distribuerad träning | Python |
+| 80 | [Uppdelad kontrollpunkt och atomär återupptagning](../../phases/19-capstone-projects/80-checkpoint-sharded-resume/) | H. Distribuerad träning | Python |
+| 81 | [Distribuerad träning från början till slut](../../phases/19-capstone-projects/81-end-to-end-distributed-train/) | H. Distribuerad träning | Python |
+| 82 | [Klassificering av jailbreaks](../../phases/19-capstone-projects/82-jailbreak-taxonomy/) | I. Säkerhetskörmiljö | Python |
+| 83 | [Detektor för promptinjektion](../../phases/19-capstone-projects/83-prompt-injection-detector/) | I. Säkerhetskörmiljö | Python |
+| 84 | [Utvärdera avböjda svar](../../phases/19-capstone-projects/84-refusal-evaluation/) | I. Säkerhetskörmiljö | Python |
+| 85 | [Integrera en innehållsklassificerare](../../phases/19-capstone-projects/85-content-classifier-integration/) | I. Säkerhetskörmiljö | Python |
+| 86 | [Konstitutionell regelmotor](../../phases/19-capstone-projects/86-constitutional-rules-engine/) | I. Säkerhetskörmiljö | Python, YAML |
+| 87 | [Komplett säkerhetskontroll](../../phases/19-capstone-projects/87-end-to-end-safety-gate/) | I. Säkerhetskörmiljö | Python |
 
 </details>
 
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
+## Böcker och certifieringar
+
+<details>
+<summary>Läs grundkursen som bok</summary>
+
+Grundkursens 20 faser under `phases/` sammanställs till en bokserie i sex volymer. CI bygger EPUB och PDF från samma lektionskällor och bifogar dem till varje [GitHub-utgåva](https://github.com/rohitg00/ai-engineering-from-scratch/releases). Länkarna nedan pekar alltid på den senaste utgåvan. Volymnumren anger platsen i serien, inte versionsnummer: varje exemplar har en daterad utgåvestämpel, och äldre utgåvor kan fortfarande laddas ned från respektive release.
+
+Certifieringskurserna ingår avsiktligt inte i böckerna. Deras AI-handledartillstånd, körbara laborationer, interaktiva figurer, diagnostiska prov och tidsbegränsade övningsprov finns kvar på GitHub och webbplatsen.
+
+| Volym | Titel | Faser | Ladda ned |
+|-----|-------|--------|----------|
+| 1 | Grunder · Matematik, verktyg och klassisk maskininlärning | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | Djupinlärning · Nätverk, bildanalys och tal | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | Språk · NLP-grunder och Transformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | Stora språkmodeller · Generering, förstärkning, förträning och utveckling | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | Agenter · Multimodalitet, protokoll, autonomi och svärmar | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | Produktion · Infrastruktur, säkerhet och slutprojekt | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+
+Boken är en ögonblicksbild; arkivet är den levande utgåvan. Varje kapitel slutar med länkar till lektionens animerade figurer, kunskapstest och körbara kod. Bygg lokalt med `python3 scripts/build_book.py` (pandoc krävs). Detaljer om byggflödet finns i [book/README.md](../../book/README.md).
+
+</details>
+
+<details>
+<summary>Förbered dig för Claude-certifieringarna</summary>
+
+[Claude Certification Academy](../../certifications/claude/README.md) är ett kostnadsfritt förberedelseprogram med öppen källkod för alla fyra officiella Claude-certifieringsspår: Associate Foundations, Developer Foundations, Architect Foundations och Architect Professional. Varje väg kombinerar lektioner kopplade till examensplanen, körbara laborationer, ett diagnostiskt prov, ett slutprojekt och ett eget fullängdsövningsprov.
+
+Använd [GitHub-guiden för AI-stött kursstart](../../certifications/claude/GETTING_STARTED.md) med Claude Code, Codex, ChatGPT, Cursor eller en annan agent. Kör `claude-certification` i Codex, `/claude-certification` i Claude Code eller be en annan värdapplikation att använda `claude-certification`. Den väljer ett spår, skapar en beständig studieväg i `CLAUDE-CERTIFICATION.md`, lär ut ett steg i taget, kör de riktiga laborationerna och ger återkoppling på dina arbetsresultat. Samma kursplan finns på [certifieringswebbplatsen](https://aiengineeringfromscratch.com/certifications.html).
+
+Akademin är oberoende studiematerial baserat på offentliga examensmål. Den är inte knuten till Anthropic, återger inga riktiga examensfrågor och kan inte garantera ett godkänt resultat.
+
+</details>
+
+<details>
+<summary>Förbered dig för certifieringen MCP Associate (MCPA)</summary>
+
+[MCPA:s certifieringskursplan](../../certifications/mcpa/README.md) är ett kostnadsfritt förberedelseprogram med öppen källkod för Agentic AI Foundations examen Model Context Protocol Associate, som erbjuds genom Linux Foundation Training. De 34 lektionerna lär ut det tillståndslösa protokollet 2026-07-28 inom examens fem områden: `_meta` per förfrågan och `server/discover` i stället för den gamla handskakningen, förfrågningar med flera turer, prenumerationer, cachelagring, tilläggen Tasks och MCP Apps, OAuth-auktorisering samt register- och SDK-nivåerna. Varje lektion innehåller en körbar laboration som bara använder standardbiblioteket och vars utskrift kontrolleras mot det aktuella meddelandeformatet. Spåret innehåller också ett diagnostiskt prov, ett slutprojekt och tre egna fullängdsövningsprov vars frågefördelning följer den publicerade examensplanens viktning.
+
+Använd [GitHub-guiden för AI-stött kursstart](../../certifications/mcpa/GETTING_STARTED.md) med Claude Code, Codex, ChatGPT, Cursor eller en annan agent. Kör `mcpa-certification` i Codex, `/mcpa-certification` i Claude Code eller be en annan värdapplikation att använda `mcpa-certification`. Den skapar en beständig studieväg i `MCPA-CERTIFICATION.md`, lär ut ett steg i taget, kör de riktiga laborationerna och ger återkoppling på dina arbetsresultat. Samma kursplan finns på [MCPA-spårets sida](https://aiengineeringfromscratch.com/certification?id=mcpa-f).
+
+Kursplanen är oberoende studiematerial baserat på offentliga examensmål. Den är inte knuten till Agentic AI Foundation eller Linux Foundation, återger inga riktiga examensfrågor och kan inte garantera ett godkänt resultat.
+
+</details>
 
 ## Verktygslådan
 
-Every lesson produces a reusable artifact. By the end you have:
+Varje lektion ger ett återanvändbart resultat. Installera det i din agent eller använd skripten nedan från arkivets rotkatalog.
+
+<details>
+<summary>Lektionsstruktur och återanvändbara resultat</summary>
+
+## Lektionernas upplägg
+
+Varje lektion finns i en egen katalog, med samma struktur genom hela kursplanen:
 
 ```text
-outputs/
-├── prompts/      prompt templates for every AI task
-└── skills/       SKILL.md files for AI coding agents
+phases/<NN>-<phase-name>/<NN>-<lesson-name>/
+├── code/      körbara implementationer (Python, TypeScript, Rust, Julia)
+├── docs/
+│   └── en.md  lektionstext
+└── outputs/   promptar, färdigheter, agenter eller MCP-servrar som lektionen ger
 ```
 
-Plug them into Claude, Cursor, Codex, OpenClaw, Hermes, or any agent that
-reads a SKILL.md / AGENTS.md directory. Real tools, not homework.
+Varje lektion har sex moment. Uppdelningen *Bygg / Använd* är central: först implementerar du algoritmen från grunden, sedan kör du samma sak med produktionsbiblioteket. Du förstår vad ramverket gör eftersom du själv har skrivit den mindre versionen.
 
-### Install course skills into your agent
-
-Two skill sets, two installers:
-
-**The learning skills** (`start-learning`, `learn`, `course-guide`,
-`learn-mcp`, `learn-agent-skills`, `claude-certification`, `mcpa-certification`,
-`find-your-level`, and `check-understanding`) live under [`skills/`](../../skills/) and
-install into a supported skill-capable host with one command. Installation needs
-Node.js and `npx`, but not a repository clone or Python:
-
-```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#fafaf5','primaryTextColor':'#1a1a1a','primaryBorderColor':'#3553ff','lineColor':'#3553ff','fontFamily':'JetBrains Mono','fontSize':'13px'}}}%%
+flowchart LR
+  M["KÄRNIDÉ<br/><sub>huvudtanken på en rad</sub>"] --> Pr["PROBLEMSTÄLLNING<br/><sub>en konkret svårighet</sub>"]
+  Pr --> C["BEGREPP<br/><sub>diagram och intuition</sub>"]
+  C --> B["BYGG<br/><sub>grundläggande matematik, inga ramverk</sub>"]
+  B --> U["ANVÄND<br/><sub>samma sak i PyTorch / sklearn</sub>"]
+  U --> S["PUBLICERA<br/><sub>prompt · färdighet · agent · MCP</sub>"]
 ```
 
-`skills` writes to the host and scope selected during installation, such as
-`.claude/skills/`, `.cursor/skills/`, `.codex/skills/`, or another supported
-skills folder. Verify that the selected host discovers that exact destination.
+## Varje lektion ger ett resultat
 
-**The lesson artifacts.** The repo ships 396 skills and 99 prompts under
-`phases/**/outputs/`; install them via `scripts/install_skills.py`. Requires
-cloning the repo. Supports tag filters, dry-runs, and per-agent layouts:
+Andra kurser slutar med *”Grattis, du har lärt dig X.”* Varje lektion här slutar med ett **återanvändbart verktyg** som du kan installera eller klistra in i ditt dagliga arbetsflöde.
+
+<table>
+<tr>
+<th align="left" width="25%"><img src="../../site/assets/figures/001-a-prompts.svg" width="120" height="120" alt="FIG_001.A promptar"/><br/><sub>FIG_001 · A</sub><br/><b>PROMPTAR</b></th>
+<th align="left" width="25%"><img src="../../site/assets/figures/001-b-skills.svg" width="120" height="120" alt="FIG_001.B färdigheter"/><br/><sub>FIG_001 · B</sub><br/><b>FÄRDIGHETER</b></th>
+<th align="left" width="25%"><img src="../../site/assets/figures/001-c-agents.svg" width="120" height="120" alt="FIG_001.C agenter"/><br/><sub>FIG_001 · C</sub><br/><b>AGENTER</b></th>
+<th align="left" width="25%"><img src="../../site/assets/figures/001-d-mcp-servers.svg" width="120" height="120" alt="FIG_001.D MCP-servrar"/><br/><sub>FIG_001 · D</sub><br/><b>MCP-SERVRAR</b></th>
+</tr>
+<tr>
+<td valign="top">Klistra in i valfri AI-assistent för experthjälp med en avgränsad uppgift.</td>
+<td valign="top">Lägg till i Claude, Cursor, Codex, OpenClaw, Hermes eller en annan agent som läser <code>SKILL.md</code>.</td>
+<td valign="top">Driftsätt som autonoma arbetare. Du skrev själv agentloopen i fas 14.</td>
+<td valign="top">Anslut till valfri MCP-kompatibel klient. Byggt från början till slut i fas 13.</td>
+</tr>
+</table>
+
+</details>
+
+<details>
+<summary>Installera lektionsresultat</summary>
+
+**Lektionernas arbetsresultat.** Arkivet innehåller 414 färdigheter och 100 promptar under `phases/**/outputs/`. Installera dem med `scripts/install_skills.py`. Arkivet måste klonas. Skriptet stöder taggfilter, förhandsgranskning utan skrivning och agentspecifika katalogstrukturer:
 
 ```bash
 python3 scripts/install_skills.py <target>                                 # every skill, default --layout skills (nested)
@@ -1246,26 +1182,22 @@ python3 scripts/install_skills.py <target> --dry-run                       # pre
 python3 scripts/install_skills.py <target> --force                         # overwrite existing files
 ```
 
-`<target>` is the skills directory for your agent (examples:
-`~/.claude/skills/`, `~/.cursor/skills/`, `~/.config/openclaw/skills/`,
-`.skills/`, or any path your agent reads).
+`<target>` är din agents färdighetskatalog, till exempel `~/.claude/skills/`, `~/.cursor/skills/`, `~/.config/openclaw/skills/`, `.skills/` eller en annan sökväg som agenten läser.
 
-By default the script refuses to overwrite an existing destination and exits
-with code 1 after listing every colliding path. Use `--dry-run` to preview
-collisions or `--force` to overwrite. Every non-dry-run run writes a
-`manifest.json` in the target with the full inventory grouped by type and
-phase. Pick the layout your agent reads:
+Som standard vägrar skriptet att skriva över ett befintligt mål och avslutas med kod 1 efter att ha listat alla kolliderande sökvägar. Använd `--dry-run` för att förhandsgranska konflikter eller `--force` för att skriva över. Varje körning som faktiskt skriver filer skapar en `manifest.json` i målkatalogen med hela innehållet grupperat efter typ och fas. Välj den katalogstruktur som din agent läser:
 
-| `--layout`  | Path written |
+| `--layout`  | Sökväg som skapas |
 |---|---|
-| `skills`    | `<target>/<name>/SKILL.md` (nested convention, supported by Claude / Cursor / Codex / OpenClaw / Hermes) |
+| `skills`    | `<target>/<name>/SKILL.md` (kapslad struktur som stöds av Claude / Cursor / Codex / OpenClaw / Hermes) |
 | `by-phase`  | `<target>/phase-NN/<name>.md` |
 | `flat`      | `<target>/<name>.md` |
 
-### Drop the agent workbench into your own repo
+</details>
 
-The Phase 14 capstone ships a reusable Agent Workbench pack (AGENTS.md, schemas,
-init / verify / handoff scripts). Scaffold it into any repo with:
+<details>
+<summary>Lägg till agentarbetsbänken i ditt eget arkiv</summary>
+
+Slutprojektet i fas 14 innehåller ett återanvändbart Agent Workbench-paket (AGENTS.md, scheman samt initierings-, verifierings- och överlämningsskript). Skapa grundstrukturen i valfritt arkiv med:
 
 ```bash
 python3 scripts/scaffold_workbench.py path/to/your-repo            # full pack + seeds
@@ -1274,16 +1206,14 @@ python3 scripts/scaffold_workbench.py path/to/your-repo --dry-run  # preview onl
 python3 scripts/scaffold_workbench.py path/to/your-repo --force    # overwrite
 ```
 
-You get the seven workbench surfaces wired up, a starter `task_board.json`,
-and a fresh `agent_state.json` at `schema_version: 1`. From there: edit the
-task, edit `AGENTS.md`, run `scripts/init_agent.py`, hand the contract to
-your agent. The pack source lives at
-`phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/`.
+Du får arbetsbänkens sju gränssnitt inkopplade, en första `task_board.json` och en ny `agent_state.json` med `schema_version: 1`. Sedan redigerar du uppgiften och `AGENTS.md`, kör `scripts/init_agent.py` och lämnar kontraktet till agenten. Paketets källa finns i `phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/`.
 
-### Browse the entire course as JSON
+</details>
 
-`scripts/build_catalog.py` walks every phase, every lesson, every artifact on
-disk and writes `catalog.json` at the repo root. One file, every course truth.
+<details>
+<summary>Utforska hela kursen som JSON</summary>
+
+`scripts/build_catalog.py` går igenom varje fas, lektion och arbetsresultat på disken och skriver `catalog.json` i arkivets rot. En fil med hela kursens innehåll.
 
 ```bash
 python3 scripts/build_catalog.py               # writes <repo>/catalog.json
@@ -1291,23 +1221,16 @@ python3 scripts/build_catalog.py --stdout      # to stdout, do not touch repo
 python3 scripts/build_catalog.py --out path/to/file.json
 ```
 
-The catalog is filesystem-derived, not README-derived, so counts always match
-what is actually on disk. Use it for site builds, downstream tooling, or to
-verify the README counts have not drifted. Schema is documented at the top of
-the script.
+Katalogen byggs från filsystemet, inte från README, så att antalen alltid motsvarar det som faktiskt finns på disken. Använd den när du bygger webbplatsen, utvecklar andra verktyg eller kontrollerar att README:s antal fortfarande stämmer. Schemat dokumenteras i början av skriptet.
 
-A GitHub Action (`.github/workflows/curriculum.yml`) rebuilds `catalog.json`
-on every PR and fails the build if the committed file is stale. After editing
-any lesson, run `python3 scripts/build_catalog.py` and commit the result, or
-CI will reject the PR. The same workflow runs `audit_lessons.py` in
-warn-only mode (so existing drift does not block contributors).
+Kursplanens arbetsflöde bygger `catalog.json` som en tillfällig artefakt som Git ignorerar. Lägg inte in den i en commit. Samma arbetsflöde kör `audit_lessons.py` som en blockerande kontroll.
 
-### Smoke-check every lesson's Python code
+</details>
 
-`scripts/lesson_run.py` byte-compiles every `.py` file under each lesson's
-`code/` directory. Default mode is syntax-check only — no execution, no API
-keys, no heavy ML deps required. Catches the regressions contributors
-introduce most often (bad indentation, broken f-strings, stray edits).
+<details>
+<summary>Snabbkontrollera Python-koden i varje lektion</summary>
+
+`scripts/lesson_run.py` bytekompilerar varje `.py`-fil i lektionernas `code/`-kataloger. Standardläget kontrollerar bara syntaxen: ingen körning, inga API-nycklar och inga tunga ML-beroenden behövs. Det fångar vanliga fel i bidrag, som felaktig indragning, trasiga f-strängar och oavsiktliga ändringar.
 
 ```bash
 python3 scripts/lesson_run.py                  # syntax-check the whole curriculum
@@ -1317,83 +1240,38 @@ python3 scripts/lesson_run.py --strict         # exit 1 if any lesson fails
 python3 scripts/lesson_run.py --execute        # actually run, 10s timeout per lesson
 ```
 
-`--execute` runs each lesson's `code/main.py` (or the first `.py` file) with a
-10-second timeout. Lessons whose entry file starts with a `# requires: pkg1,
-pkg2` comment listing non-stdlib deps are skipped with reason `needs <deps>`.
-The script is opt-in and not wired into CI.
+`--execute` kör varje lektions `code/main.py` (eller den första `.py`-filen) med en tidsgräns på 10 sekunder. Lektioner vars startfil börjar med kommentaren `# requires: pkg1, pkg2` för externa beroenden hoppas över med orsaken `needs <deps>`. Körningen måste väljas uttryckligen och är inte inkopplad i CI.
 
-Stdlib only, Python 3.10+. Set `LINK_CHECK_SKIP=domain1,domain2` to override
-the default skip-list (`twitter.com`, `x.com`, `linkedin.com`,
-`instagram.com`, `medium.com` — domains that aggressively block automated
-HEAD/GET).
+Endast standardbiblioteket, Python 3.10+. Sätt `LINK_CHECK_SKIP=domain1,domain2` för att ersätta standardlistan över undantagna domäner (`twitter.com`, `x.com`, `linkedin.com`, `instagram.com`, `medium.com`, som ofta blockerar automatiserade HEAD/GET-anrop).
 
-## Var ska du börja?
+</details>
 
-| Background | Start at | Estimated time |
-|---|---|---|
-| New to programming and AI | Phase 0 — Setup | ~306 hours |
-| Know Python, new to ML | Phase 1 — Math Foundations | ~270 hours |
-| Know ML, new to deep learning | Phase 3 — Deep Learning Core | ~200 hours |
-| Know deep learning, want LLMs and agents | Phase 10 — LLMs from Scratch | ~100 hours |
-| Senior engineer, only want agent engineering | Phase 14 — Agent Engineering | ~60 hours |
-| Only want to build production MCP systems | [Model Context Protocol (MCP) path](../../learning-paths/model-context-protocol.json) | ~23 hours 15 min |
-| Only want to build production Agent Skills | [Agent Skills Engineering path](../../learning-paths/agent-skills.json) | ~9.5 hours |
+<details>
+<summary>Grundläggande artiklar och protokoll</summary>
 
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
+- *Attention Is All You Need* — Vaswani et al., 2017 → [Fas 7](#phase-7)
+- *Language Models are Few-Shot Learners* (GPT-3) → [Fas 10](#phase-10)
+- *Denoising Diffusion Probabilistic Models* → [Fas 8](#phase-8)
+- *InstructGPT / RLHF* → [Fas 10](#phase-10)
+- *Direct Preference Optimization* → [Fas 10](#phase-10)
+- *Chain-of-Thought Prompting* → [Fas 11](#phase-11)
+- *ReAct: Reasoning + Acting in LLMs* → [Fas 14](#phase-14)
+- *Model Context Protocol* — Anthropic → [Fas 13](#phase-13)
 
-## Varför det här är viktigt nu
-
-<table>
-<tr>
-<th align="left" width="50%"><sub>FIG_003 · A</sub><br/><b>THE INDUSTRY SIGNAL</b></th>
-<th align="left" width="50%"><sub>FIG_003 · B</sub><br/><b>FOUNDATIONAL PAPERS COVERED</b></th>
-</tr>
-<tr>
-<td valign="top">
-
-> *"The hottest new programming language is English."*<br/>
-> — **Andrej Karpathy** ([tweet](https://x.com/karpathy/status/1617979122625712128))
->
-> *"Software engineering is being remade in front of our eyes."*<br/>
-> — **Boris Cherny**, creator of Claude Code
->
-> *"Models will keep getting better. The skill that compounds is **knowing what to build**."*<br/>
-> — Industry consensus, 2026
-
-</td>
-<td valign="top">
-
-- *Attention Is All You Need* — Vaswani et al., 2017 → [Phase 7](#phase-7)
-- *Language Models are Few-Shot Learners* (GPT-3) → [Phase 10](#phase-10)
-- *Denoising Diffusion Probabilistic Models* → [Phase 8](#phase-8)
-- *InstructGPT / RLHF* → [Phase 10](#phase-10)
-- *Direct Preference Optimization* → [Phase 10](#phase-10)
-- *Chain-of-Thought Prompting* → [Phase 11](#phase-11)
-- *ReAct: Reasoning + Acting in LLMs* → [Phase 14](#phase-14)
-- *Model Context Protocol* — Anthropic → [Phase 13](#phase-13)
-
-</td>
-</tr>
-</table>
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
+</details>
 
 ## Bidra
 
-| Goal | Read |
+| Mål | Läs |
 |---|---|
-| Contribute a lesson or fix | [CONTRIBUTING.md](../../CONTRIBUTING.md) |
-| Fork for your team or school | [FORKING.md](../../FORKING.md) |
-| Lesson template | [LESSON_TEMPLATE.md](../../LESSON_TEMPLATE.md) |
-| Track progress | [ROADMAP.md](../../ROADMAP.md) |
-| Glossary | [glossary/terms.md](../../glossary/terms.md) |
-| Code of conduct | [CODE_OF_CONDUCT.md](../../CODE_OF_CONDUCT.md) |
+| Bidra med en lektion eller rättelse | [CONTRIBUTING.md](../../CONTRIBUTING.md) |
+| Skapa en fork för ditt team eller din skola | [FORKING.md](../../FORKING.md) |
+| Lektionsmall | [LESSON_TEMPLATE.md](../../LESSON_TEMPLATE.md) |
+| Följ utvecklingen | [ROADMAP.md](../../ROADMAP.md) |
+| Ordlista | [glossary/terms.md](../../glossary/terms.md) |
+| Uppförandekod | [CODE_OF_CONDUCT.md](../../CODE_OF_CONDUCT.md) |
 
-Before submitting a lesson, run the invariant check:
+Kör regelkontrollen innan du skickar in en lektion:
 
 ```bash
 python3 scripts/audit_lessons.py           # full curriculum
@@ -1401,28 +1279,21 @@ python3 scripts/audit_lessons.py --phase 14  # single phase
 python3 scripts/audit_lessons.py --json    # CI-friendly output
 ```
 
-Exit code is non-zero when any rule fails. Rules (L001–L010) validate directory
-shape, `docs/en.md` presence + H1, `code/` non-emptiness, `quiz.json` schema
-(rejects the legacy `q/choices/answer` keys that caused issue #102), and
-relative links inside lesson docs.
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
+Avslutningskoden är inte noll om någon regel misslyckas. Reglerna (L001–L010) kontrollerar katalogstrukturen, förekomsten av `docs/en.md` och H1, att `code/` inte är tom, schemat för `quiz.json` (äldre nycklar av typen `q/choices/answer`, som orsakade ärende #102, avvisas) samt relativa länkar i lektionsdokumentationen.
 
 <a id="supporters"></a>
 
 ## Sponsra arbetet
 
-Gratis, MIT-licensierat, 523 lektioner. Tack till sponsorerna och stödjarna som gör arbetet möjligt. [Se alla sponsorer och stödjare](../../BACKERS.md).
+<!-- STATS:START (generated from site/stats.json by build.js — do not edit by hand) -->
+<p align="center"><sub><b>114,584</b> läsare &nbsp;·&nbsp; <b>181,995</b> sidvisningar de senaste 30 dagarna &nbsp;·&nbsp; uppdaterat 2026-08-29</sub></p>
+<!-- STATS:END -->
+
+Gratis, MIT-licensierat, 542 lektioner. Tack till sponsorerna och stödjarna som gör arbetet möjligt. [Se alla sponsorer och stödjare](../../BACKERS.md).
 
 Vill du stödja arbetet? Se [sponsringsalternativen](../../SPONSORS.md), inklusive [hårdvarusponsring](../../SPONSORS.md#hardware-lab-partner), eller [sponsra på GitHub](https://github.com/sponsors/rohitg00).
 
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
-
-If this manual helped you, star the repo. It keeps the project alive.
+Om handboken hjälpte dig, ge arkivet en stjärna. Det håller projektet igång.
 
 ## Licens
 
@@ -1431,7 +1302,5 @@ MIT. Använd materialet som du vill: förgrena det, undervisa med det, sälj det
 Underhålls av [Rohit Ghumare](https://github.com/rohitg00) och gemenskapen.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp;
-  <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp;
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Report / Suggest</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Rapportera / föreslå</a>
 </sub>

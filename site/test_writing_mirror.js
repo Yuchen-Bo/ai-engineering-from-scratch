@@ -34,7 +34,7 @@ test('the complete article keeps executable figures, anchors, source metadata, a
   assert.match(result, /href="#figure"/);
   assert.match(result, /marker-end="url\(#head\)"/);
   assert.match(result, /<link rel="canonical" href="https:\/\/rohitghumare.com\/blog\/example\/">/);
-  assert.match(result, /<meta property="og:url" content="https:\/\/aiengineeringfromscratch.com\/blog\/example\/">/);
+  assert.match(result, /<meta property="og:url" content="https:\/\/rohitghumare.com\/blog\/example\/">/);
   assert.match(result, /<meta property="og:site_name" content="AI Engineering from Scratch">/);
   assert.match(result, /class="byline">Rohit Ghumare/);
   assert.match(result, /class="n">Rohit Ghumare/);
@@ -124,10 +124,10 @@ test('absolute or versioned portfolio search is removed without removing unrelat
   assert.match(result, /src="https:\/\/example.org\/search.js"/);
 });
 
-test('social sharing uses the course URL and site name while the search canonical stays original', () => {
-  const result = mirrorArticle(fixture({ head: '<meta name="twitter:url" content="' + item.url + '"><meta property="og:site_name" content="Rohit Ghumare">' }), item, catalog);
-  assert.match(result, /name="twitter:url" content="https:\/\/aiengineeringfromscratch.com\/blog\/example\/"/);
-  assert.match(result, /property="og:url" content="https:\/\/aiengineeringfromscratch.com\/blog\/example\/"/);
+test('social sharing points at the canonical URL and names the course site', () => {
+  const result = mirrorArticle(fixture({ head: '<meta name="twitter:url" content="https://aiengineeringfromscratch.com/blog/example/"><meta property="og:site_name" content="Rohit Ghumare">' }), item, catalog);
+  assert.match(result, /name="twitter:url" content="https:\/\/rohitghumare.com\/blog\/example\/"/);
+  assert.match(result, /property="og:url" content="https:\/\/rohitghumare.com\/blog\/example\/"/);
   assert.match(result, /rel="canonical" href="https:\/\/rohitghumare.com\/blog\/example\/"/);
   assert.equal((result.match(/og:site_name/g) || []).length, 1);
   assert.match(result, /property="og:site_name" content="AI Engineering from Scratch"/);
@@ -169,5 +169,22 @@ test('malformed and non-breadcrumb JSON-LD stays intact and does not prevent ren
     const result = mirrorArticle(fixture({ head: source }), item, catalog);
     assert.ok(result.includes(source));
     assert.match(result, /<h1>Example<\/h1>/);
+  }
+});
+
+
+test('reader navigation sits outside the narrow article wrapper and preserves one theme control', () => {
+  for (const legacy of [false, true]) {
+    const result = mirrorArticle(fixture({ legacy }), item, catalog);
+    const headerStart = result.indexOf('<div class="aiefs-reader-header">');
+    const articleWrap = result.indexOf('<div class="wrap">');
+    assert.ok(headerStart > result.indexOf('<body>') && headerStart < articleWrap);
+    const header = result.slice(headerStart, articleWrap);
+    assert.equal((result.match(/id="theme"/g) || []).length, 1);
+    assert.ok(header.includes(theme));
+    assert.match(header, /href="\/catalog.html"/);
+    assert.match(header, /href="\/roadmap.html"/);
+    assert.match(header, /aria-current="location" href="\/blogs"/);
+    assert.doesNotMatch(result, /<nav class="nav"|<div class="topbar"/);
   }
 });

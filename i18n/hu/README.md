@@ -1,103 +1,240 @@
-<p align="center" lang="hu"><sub>A bemutatkozó oldal részleges magyar fordítása. A bevezető, az első lépések és néhány címsor magyarul olvasható; a többi rész megőrzi az <a href="../../README.md">irányadó angol eredetit</a> · <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a></sub></p>
+<p align="center" lang="hu"><sub>A teljes README magyar fordítása. Az <a href="../../README.md">angol eredeti</a> az irányadó.</sub></p>
+
 <p align="center">
-  <img src="../../assets/banner.svg" alt="AI Engineering from Scratch — reference manual banner" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../assets/readme/header-dark.svg">
+    <img src="../../assets/readme/header-light.svg" alt="AI-mérnökség az alapoktól" width="840">
+  </picture>
 </p>
 
 <p align="center">
-  <a href="../../README.md">🇬🇧 English</a> ·
-  <a href="../../i18n/zh/README.md">🇨🇳 简体中文</a> ·
-  <a href="../../i18n/zh-TW/README.md">🇹🇼 繁體中文（台灣）</a> ·
-  <a href="../../i18n/ja/README.md">🇯🇵 日本語</a> ·
-  <a href="../../i18n/ko/README.md">🇰🇷 한국어</a> ·
-  <a href="../../i18n/pt/README.md">🇵🇹 Português</a> ·
-  <a href="../../i18n/pt-BR/README.md">🇧🇷 Português (Brasil)</a> ·
-  <a href="../../i18n/es/README.md">🇪🇸 Español</a> ·
-  <a href="../../i18n/de/README.md">🇩🇪 Deutsch</a> ·
-  <a href="../../i18n/fr/README.md">🇫🇷 Français</a> ·
-  <a href="../../i18n/it/README.md">🇮🇹 Italiano</a> ·
-  <a href="../../i18n/nl/README.md">🇳🇱 Nederlands</a> ·
-  <a href="../../i18n/pl/README.md">🇵🇱 Polski</a> ·
-  <a href="../../i18n/cs/README.md">🇨🇿 Čeština</a> ·
-  <a href="../../i18n/ro/README.md">🇷🇴 Română</a> ·
-  <a href="../../i18n/hu/README.md">🇭🇺 Magyar</a> ·
-  <a href="../../i18n/el/README.md">🇬🇷 Ελληνικά</a> ·
-  <a href="../../i18n/sv/README.md">🇸🇪 Svenska</a> ·
-  <a href="../../i18n/da/README.md">🇩🇰 Dansk</a> ·
-  <a href="../../i18n/no/README.md">🇳🇴 Norsk</a> ·
-  <a href="../../i18n/fi/README.md">🇫🇮 Suomi</a> ·
-  <a href="../../i18n/ru/README.md">🇷🇺 Русский</a> ·
-  <a href="../../i18n/uk/README.md">🇺🇦 Українська</a> ·
-  <a href="../../i18n/tr/README.md">🇹🇷 Türkçe</a> ·
-  <a href="../../i18n/he/README.md">🇮🇱 עברית</a> ·
-  <a href="../../i18n/ar/README.md">🇸🇦 العربية</a> ·
-  <a href="../../i18n/fa/README.md">🇮🇷 فارسی</a> ·
-  <a href="../../i18n/hi/README.md">🇮🇳 हिन्दी</a> ·
-  <a href="../../i18n/bn/README.md">🇧🇩 বাংলা</a> ·
-  <a href="../../i18n/ur/README.md">🇵🇰 اردو</a> ·
-  <a href="../../i18n/th/README.md">🇹🇭 ไทย</a> ·
-  <a href="../../i18n/vi/README.md">🇻🇳 Tiếng Việt</a> ·
-  <a href="../../i18n/id/README.md">🇮🇩 Bahasa Indonesia</a> ·
-  <a href="../../i18n/tl/README.md">🇵🇭 Tagalog</a>
-</p>
-
-<p align="center">
-  <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT License"></a>
-  <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-523-3553ff?style=flat-square&labelColor=fafaf5" alt="523 lessons"></a>
-  <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 phases"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub stars"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Website"></a>
-  <p align="center">
  <a href="https://www.star-history.com/rohitg00/ai-engineering-from-scratch">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank" /><img alt="Star History Rank" src="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending" /><img alt="GitHub Trending Repository of the Day" src="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank" /><img alt="Csillagtörténeti helyezés" src="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending" /><img alt="A nap felkapott GitHub-tárolója" src="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending" /></picture>
  </a>
 </p>
+
+Valósítsd meg a modellek belső működését, a visszakeresési folyamatokat és az ágens-futtatókörnyezeteket. Teszteld őket, vizsgáld meg a hibákat, és őrizd meg a kódot és az értékelési eredményeket.
+
+**[Kezdj tanulni](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Válassz tanulási útvonalat](#learning-routes)** · **[Próbálj ki egy labort](#interactive-lab)** · **[Építs projektet](#project-challenges)** · **[Böngészd a tananyagot](#contents)**
+
+Ingyenes, nyílt forráskódú, MIT-licenccel. Tanulj a weboldalon, egy kódoló ügynökkel vagy helyben futtatott kóddal.
+
+> 542 lecke. 20 szakasz. Python, TypeScript, Rust, Julia.
+
+<p align="center">
+  <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT-licenc"></a>
+  <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 lecke"></a>
+  <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 szakasz"></a>
+  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub-csillagok"></a>
+  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Weboldal"></a>
 </p>
+
+<details>
+<summary>Olvass a saját nyelveden</summary>
+
+<p align="center">
+  <a href="../../README.md">🇬🇧 English</a> · <a href="../../i18n/zh/README.md">🇨🇳 简体中文</a> · <a href="../../i18n/zh-TW/README.md">🇹🇼 繁體中文（台灣）</a> · <a href="../../i18n/ja/README.md">🇯🇵 日本語</a> · <a href="../../i18n/ko/README.md">🇰🇷 한국어</a> · <a href="../../i18n/pt/README.md">🇵🇹 Português</a> · <a href="../../i18n/pt-BR/README.md">🇧🇷 Português (Brasil)</a> · <a href="../../i18n/es/README.md">🇪🇸 Español</a> · <a href="../../i18n/de/README.md">🇩🇪 Deutsch</a> · <a href="../../i18n/fr/README.md">🇫🇷 Français</a> · <a href="../../i18n/it/README.md">🇮🇹 Italiano</a> · <a href="../../i18n/nl/README.md">🇳🇱 Nederlands</a> · <a href="../../i18n/pl/README.md">🇵🇱 Polski</a> · <a href="../../i18n/cs/README.md">🇨🇿 Čeština</a> · <a href="../../i18n/ro/README.md">🇷🇴 Română</a> · <a href="../../i18n/hu/README.md">🇭🇺 Magyar</a> · <a href="../../i18n/el/README.md">🇬🇷 Ελληνικά</a> · <a href="../../i18n/sv/README.md">🇸🇪 Svenska</a> · <a href="../../i18n/da/README.md">🇩🇰 Dansk</a> · <a href="../../i18n/no/README.md">🇳🇴 Norsk</a> · <a href="../../i18n/fi/README.md">🇫🇮 Suomi</a> · <a href="../../i18n/ru/README.md">🇷🇺 Русский</a> · <a href="../../i18n/uk/README.md">🇺🇦 Українська</a> · <a href="../../i18n/tr/README.md">🇹🇷 Türkçe</a> · <a href="../../i18n/he/README.md">🇮🇱 עברית</a> · <a href="../../i18n/ar/README.md">🇸🇦 العربية</a> · <a href="../../i18n/fa/README.md">🇮🇷 فارسی</a> · <a href="../../i18n/hi/README.md">🇮🇳 हिन्दी</a> · <a href="../../i18n/bn/README.md">🇧🇩 বাংলা</a> · <a href="../../i18n/ur/README.md">🇵🇰 اردو</a> · <a href="../../i18n/th/README.md">🇹🇭 ไทย</a> · <a href="../../i18n/vi/README.md">🇻🇳 Tiếng Việt</a> · <a href="../../i18n/id/README.md">🇮🇩 Bahasa Indonesia</a> · <a href="../../i18n/tl/README.md">🇵🇭 Tagalog</a>
+</p>
+
+</details>
 
 ### Támogatók
 
 <p align="center">
   <a href="https://serpapi.com/ai-engineering-from-scratch"><picture><source media="(min-width: 768px)" srcset="../../assets/sponsors/serpapi-banner-compact.png" width="48%"><img src="../../assets/sponsors/serpapi-banner-compact.png" alt="SerpApi. Webes keresési API az AI-alkalmazásaidhoz. Markdown és JSON formátumban, bármilyen integrációhoz." width="440"></picture></a>
-  <a href="https://nitrostack.ai/referral/aiengineeringfromscratch"><picture><source media="(min-width: 768px)" srcset="../../assets/sponsors/nitrostack-banner-equal.png" width="48%"><img src="../../assets/sponsors/nitrostack-banner-equal.png" alt="NitroStack. Build and deploy your MCP app in 10 minutes. Get your product into ChatGPT and Claude marketplaces with free cloud deployment." width="440"></picture></a>
 </p>
 
 <p align="center">
-  <sub><span>A támogatásodnak köszönhetően minden lecke ingyenes és nyílt forráskódú marad.</span> <a href="#supporters">Összes támogató megtekintése</a> · <a href="../../SPONSORS.md">Become a sponsor</a></sub>
+  <sub><span>A támogatásodnak köszönhetően minden lecke ingyenes és nyílt forráskódú marad.</span> <a href="#supporters">Összes támogató megtekintése</a> · <a href="../../SPONSORS.md">Legyél támogató</a></sub>
 </p>
 
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
+<a id="see-what-you-will-build-and-keep"></a>
+<a id="learning-routes"></a>
+
+## Tanulási útvonalak
+
+| Útvonal | Kezdő lecke |
+|---|---|
+| Modellek alapjai | [Beállítás és eszközök](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| LLM-rendszerek | [Prompttervezés](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Ágensek és szállítás | [Az ágensciklus](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+
+[Hasonlítsd össze a szakmai útvonalakat](https://aiengineeringfromscratch.com/learning-paths.html) · [Előfeltételek és tanulási idő](#study-guide)
+
+<a id="interactive-lab"></a>
+
+### Gradiensmódszer
+
+Húsz kezdőpont követi a gradiensmódszert egy négyzetes veszteségfüggvényen. A grafikon minden frissítés után mutatja a helyzetüket és az átlagos veszteséget.
+
+<p align="center">
+  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+    <picture>
+      <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
+      <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
+      <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-dark.png">
+      <source media="(prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-light.png">
+      <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="../../assets/readme/101-gradient-mobile-dark.gif">
+      <source media="(max-width: 600px)" srcset="../../assets/readme/101-gradient-mobile-light.gif">
+      <source media="(prefers-color-scheme: dark)" srcset="../../assets/readme/101-gradient-dark.gif">
+      <img src="../../assets/readme/101-gradient-light.gif" alt="A gradiensmódszer a szétszórt kezdőpontokat a veszteség minimuma felé mozgatja. Az átlagos veszteség minden frissítéssel csökken." width="840">
+    </picture>
+  </a>
+</p>
+
+[Módosítsd a tanulási rátát a leckében](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Hasonlítsd össze a GD-t, a momentumot és az Adamet a kódban](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+
+<a id="project-challenges"></a>
+
+### Projektek
+
+Három projekt lépésenkénti kezdőkóddal, referenciamegvalósításokkal és helyi értékelőkkel. A [beállítás](#local-setup) után a tároló gyökeréből futtasd a parancsokat. A kezdőkód addig megbukik, amíg nem valósítod meg a lépéseket.
+
+<details>
+<summary><strong>01 · Visszakeresés-értékelő labor</strong> · Python · Rangsorolási mérőszámok és regresszióellenőrzések</summary>
+
+Egy jelölt rendszer javítja az átlagos NDCG-t, miközben egy lekérdezés legrelevánsabb bizonyítéka hátrébb kerül a rangsorban. Készíts lekérdezésenkénti összehasonlítást, amely jelzi a visszaesést, és megbuktathatja a kiadási ellenőrzést.
+
+Használj Python 3.10+-t. Ismételd át: [RAG](../../phases/11-llm-engineering/06-rag/docs/en.md) és [modellértékelés](../../phases/02-ml-fundamentals/09-model-evaluation/docs/en.md). Valósítsd meg a rangsorok ellenőrzését, a precizitást és felidézést, a rangérzékeny mérőszámokat, majd a rendszerek összehasonlítását.
+
+```bash
+python3 scripts/project_test.py retrieval-evaluation-lab \
+  --init learning-artifacts/retrieval-evaluation-lab
+python3 scripts/project_test.py retrieval-evaluation-lab \
+  --stage 1 --path learning-artifacts/retrieval-evaluation-lab --strict
+python3 scripts/project_test.py retrieval-evaluation-lab \
+  --all --path learning-artifacts/retrieval-evaluation-lab --strict
 ```
 
-> **A diákok 84%-a már használ AI-eszközöket. Csak 18%-uk érzi magát felkészültnek a szakmai használatukra.** Ez a tananyag segít áthidalni ezt a különbséget.
->
-> 523 lecke. 20 szakasz. ~342 óra. Python, TypeScript, Rust, Julia. Minden lecke újrafelhasználható eredményt ad: egy promptot, készséget, ágenst vagy MCP-szervert. Ingyenes, nyílt forráskódú, MIT-licencű.
->
-> Nemcsak tanulsz az AI-ról. Meg is építed. Az elejétől a végéig. Saját kezűleg.
+**Őrizd meg:** a reprodukálható összehasonlítást a lekérdezésenkénti eltérésekkel és a pontozáshoz használt besorolásokkal. A mérőszámok ezeket a besorolásokat írják le; nem igazolják a válaszok helyességét.
 
-<!-- STATS:START (generated from site/stats.json by build.js — do not edit by hand) -->
-<p align="center"><sub><b>114,584</b> readers &nbsp;·&nbsp; <b>181,995</b> page views in the last 30 days &nbsp;·&nbsp; as of 2026-08-29</sub></p>
-<!-- STATS:END -->
+[Kezdd el a projektet](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [Vizsgáld meg a referenciát](../../projects/retrieval-evaluation-lab/solution/) · [Futtasd saját bemenetekkel](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
-## Kezdd itt: válaszd ki, mit szeretnél építeni
+</details>
 
-Nem kell végignézned mind az 523 leckét, mielőtt elkezded. Válassz egy célt. Minden hivatkozás ugyanazt a tananyagot nyitja meg a GitHub felületén vagy a weboldalon, és mindkét változat ugyanazt a leckekódot használja.
+<details>
+<summary><strong>02 · Ágensnyomvonal-hibakereső</strong> · TypeScript · Nyomvonal-feldolgozás és időzítés</summary>
 
-| A célod | Tanulás a GitHub felületén | Tanulás a weboldalon |
-|---|---|---|
-| Kezdő vagyok, és teljes alapozást szeretnék | [0. szakasz: Beállítás és eszközök](../../phases/00-setup-and-tooling/) | [Fejlesztői környezet](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Ismerem a Python nyelvet, és matematikai, illetve ML-alapokat szeretnék | [1. szakasz: Matematikai alapok](../../phases/01-math-foundations/) | [A lineáris algebra szemléletesen](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| Éles környezetbe szánt LLM-alkalmazásokat szeretnék építeni | [11. szakasz: LLM-mérnökség](../../phases/11-llm-engineering/) | [Prompttervezés](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Ágenseket szeretnék építeni | [14. szakasz: Ágensmérnökség](../../phases/14-agent-engineering/) | [Az ágensciklus](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| Programozóágenseket szeretnék használni valódi kódtárakon | [Ágensekkel támogatott fejlesztési útvonal](../../learning-paths/using-coding-agents.json) | [Ágensekkel támogatott fejlesztés](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| A megvalósítás előtt szeretném eldönteni, mit érdemes építeni | [Termékdöntési és megvalósítási útvonal](../../learning-paths/shaping-the-build.json) | [Termékdöntések és megvalósítás](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
-| A Model Context Protocol (MCP) használatával szeretnék fejleszteni | [Model Context Protocol (MCP) útvonal](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Model Context Protocol (MCP) tanulási útvonal](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| Agent Skills csomagokat szeretnék írni és kiadni | [Célzott Agent Skills útvonal](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skills tanulási útvonal](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| Claude-minősítésre szeretnék felkészülni | [Kezdő útmutató a minősítéshez](../../certifications/claude/GETTING_STARTED.md) | [Minősítési akadémia](https://aiengineeringfromscratch.com/certifications.html) |
-| Az MCP Associate (MCPA) minősítésre szeretnék felkészülni | [MCPA kezdő útmutató](../../certifications/mcpa/GETTING_STARTED.md) | [MCPA útvonal](https://aiengineeringfromscratch.com/certification?id=mcpa-f) |
+Egy megadott nyomvonal továbbra is 100 ms-ig tart, de az összes tokenfelhasználás 200-zal nő, és egy span hibázni kezd. Válaszd szét az átfedő gyermekmunkát a szülő végrehajtási idejétől, majd készíts jelentést a változásról.
 
-Nem tudod, hol kezdd? Használd a [`start-learning` szintfelmérő tutort](../../skills/start-learning/SKILL.md) vagy a [weboldal előismereti útmutatóját](https://aiengineeringfromscratch.com/prereqs.html).
+Az értékelőhöz használj Node.js 22.18+-t és Python 3-at. Valósítsd meg a JSONL-feldolgozást, a szülőkapcsolatok ellenőrzését, az intervallum-aritmetikát, majd a megvizsgálható idővonalat.
 
-Hasonlítsd össze a négy fő területet és a hat karrierutat az [AI Engineering Learning Paths](https://aiengineeringfromscratch.com/learning-paths.html) oldalon.
+```bash
+python3 scripts/project_test.py agent-trace-debugger \
+  --init learning-artifacts/agent-trace-debugger
+python3 scripts/project_test.py agent-trace-debugger \
+  --stage 1 --path learning-artifacts/agent-trace-debugger --strict
+python3 scripts/project_test.py agent-trace-debugger \
+  --all --path learning-artifacts/agent-trace-debugger --strict
+```
+
+**Őrizd meg:** a bemeneti nyomvonalat, a HTML-idővonalat és a JSON-regressziójelentést. Tartsd meg a spanenkénti kizárólagos tokenszámokat, hogy a szülő és a gyermek felhasználását ne számold kétszer.
+
+[Kezdd el a projektet](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [Vizsgáld meg a referenciát](../../projects/agent-trace-debugger/solution/) · [Vizsgáld az időzítést interaktívan](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+
+</details>
+
+<details>
+<summary><strong>03 · Eszközhívási tűzfal</strong> · Rust · Szerepkör-ellenőrzések és jóváhagyási bizonylatok</summary>
+
+Az írás tartalma megváltozik az ellenőrzés után, vagy újra felhasználnak egy jóváhagyást. Ellenőrizd a hívás burkolatát, a hívó szerepkörét és útvonalát, majd használd fel a pontos kéréshez és tartalomhoz kötött jóváhagyást.
+
+Használj Rustot és Python 3.10+-t. Ismételd át: [eszközsémák tervezése](../../phases/13-tools-and-protocols/05-tool-schema-design/docs/en.md) és [biztonsági határok](../../phases/17-infrastructure-and-production/25-security-secrets-audit/docs/en.md). A hívó alkalmazás adja az identitást; a modell műveletet javasol.
+
+```bash
+python3 scripts/project_test.py tool-call-firewall \
+  --init learning-artifacts/tool-call-firewall
+python3 scripts/project_test.py tool-call-firewall \
+  --stage 1 --path learning-artifacts/tool-call-firewall --strict
+python3 scripts/project_test.py tool-call-firewall \
+  --all --path learning-artifacts/tool-call-firewall --strict
+```
+
+**Őrizd meg:** a kért műveletet és a szabályzati döntést rögzítő auditbizonylatot. A jóváhagyások egy meghíváson belül egyszer használhatók; ez a projekt nem biztosít tartós jogosultságkezelést vagy operációsrendszer-szintű homokozót.
+
+[Kezdd el a projektet](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [Vizsgáld meg a referenciát](../../projects/tool-call-firewall/solution/) · [Vizsgáld meg a jóváhagyás határait](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+
+</details>
+
+[Böngészd az összes projektet](https://aiengineeringfromscratch.com/projects.html) · [Útmutató a szakmai gyakorláshoz](../../learning-paths/CAREER-PRACTICE.md)
+
+## Válaszd ki, hogyan tanulsz
+
+### A weboldalon
+
+Nyiss meg egy elkészült leckét az [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) oldalon, vagy bonts ki egy szakaszt a [tartalomjegyzékben](#contents). Nem kell beállítás vagy klónozás.
+
+### AI-oktatóval
+
+Ha a Node.js, az `npx` és egy képességeket támogató programozóágens már telepítve van, tutorrá alakíthatod az ágenst. A tutor telepítéséhez és olvasásához nem kell klónozni a tárolót. A célzott útvonalak futtatható gyakorlataihoz `python3` szükséges. Az Agent Skills gazdaalkalmazásos gyakorlataihoz kiválasztott gazda és írható felhasználói vagy projektbeli képességhatókör is kell.
+
+```bash
+npx skills add rohitg00/ai-engineering-from-scratch
+```
+
+Válassz gazdakörnyezetet és hatókört, amikor a telepítő kéri. Codexben a `start-learning`, Claude Code-ban a `/start-learning` parancsot használd, vagy kérd a gazdát, hogy név szerint használja a készséget.
+
+<details>
+<summary>Az oktató beállítása és a gazdakörnyezet parancsai</summary>
+
+Először ellenőrizd a helyi követelményeket:
+
+```bash
+node --version
+npx --version
+python3 --version
+```
+
+A `skills` a telepítéskor választott gazdába és hatókörbe ír, például `.claude/skills/`, `.cursor/skills/`, `.codex/skills/` vagy más támogatott képességmappába. Ellenőrizd, hogy a gazda pontosan ezt a helyet deríti-e fel.
+
+A meghívás szintaxisa a gazdaalkalmazáshoz tartozik, nem a hordozható `SKILL.md` formátumhoz:
+
+| Gazdaalkalmazás | A tanfolyam indítása | A Model Context Protocol (MCP) indítása | Az Agent Skills indítása | Szakaszkvíz futtatása |
+|---|---|---|---|---|
+| Codex | `start-learning`, vagy válaszd innen: `/skills` | `learn-mcp`, vagy válaszd innen: `/skills` | `learn-agent-skills`, vagy válaszd innen: `/skills` | `check-understanding 13`, vagy válaszd innen: `/skills` |
+| Claude Code | `/start-learning` | `/learn-mcp` | `/learn-agent-skills` | `/check-understanding 13` |
+| Más kompatibilis gazdák | `Use start-learning to begin the course.` | `Use learn-mcp to start the Model Context Protocol (MCP) path.` | `Use learn-agent-skills to start the Agent Skills Engineering path.` | `Use check-understanding to quiz me on Phase 13.` |
+
+Egy tízkérdéses szintfelmérő a tudásodhoz illő kezdőszakaszt választ, és személyes tanulási tervet ment a `LEARNING.md` fájlba. Ezután a `learn` képesség munkamenetenként egy leckét tanít: fogalom, matematika, kód és kvíz. Közvetlenül ebből a tárolóból tölti be a leckéket, a `course-guide` pedig ahhoz a leckéhez irányít, amely az elakadásodat tárgyalja. Codexben a `learn` és `course-guide`, Claude Code-ban a `/learn` és `/course-guide` meghívást használd; más kompatibilis gazdánál név szerint kérd a képességet.
+
+Csak a Model Context Protocol (MCP) érdekel? Használd a gazdád MCP-meghívását. Ez létrehozza a `MCP-LEARNING.md` fájlt, és egy 17 leckés útvonalat követ az állapotmentes kéréseken, átvitelen, kétirányú munkán, biztonságon, megbízhatóságon, regiszterirányításon és megfelelőségi bizonyítékokon át. A pontos sorrend és az ellenőrzőpontok a [Model Context Protocol (MCP) jegyzékében](../../learning-paths/model-context-protocol.json) találhatók.
+
+Csak az Agent Skills érdekel? Használd a gazdád Agent Skills-meghívását. Ez létrehozza az `AGENT-SKILLS-LEARNING.md` fájlt, és öt összefüggő leckén vezet végig: szerződés, felderítés, meghívás, elszigetelési határok, majd kiadási értékelések és valódi gazdák közötti hordozhatóság. A weben az [Agent Skills útvonallal](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) kezdj.
+
+A telepítő felsorolja a beállítható gazdákat, és megkérdezi a telepítési helyet. Ha még nincs Node.js, `npx`, `python3`, támogatott gazda vagy írható hatókör, használd a weboldalt, vagy olvasd kézzel a `docs/en.md` fájlt. Így megtanulod a fogalmakat, de a valódi gazdán végzett felderítés, meghívás, szkriptfuttatás és eltávolítás bizonyítékai addig hiányoznak, amíg az előzetes ellenőrzés nem végezhető el. A leckék itt olvashatók: [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com).
+
+### A tanulási képességek
+
+| Képesség | Feladata |
+|---|---|
+| [`start-learning`](../../skills/start-learning/SKILL.md) | Egyszeri bevezetés: tanulási cél, szintfelmérő és személyes terv a `LEARNING.md` fájlban. |
+| [`learn`](../../skills/learn/SKILL.md) | A tutor ciklusa. Bemelegítő felidézés, a következő lecke interaktív tanítása, majd kvíz; menti az előrehaladást és az ismétlési sort. |
+| [`course-guide`](../../skills/course-guide/SKILL.md) | Témairányító. „Hol tanulhatok a figyelemről?” vagy „a veszteségem NaN” → a pontos leckék, linkekkel. |
+| [`learn-mcp`](../../skills/learn-mcp/SKILL.md) | Célzott Model Context Protocol (MCP) tutor. Létrehozza a `MCP-LEARNING.md` fájlt, követi a 17 leckés jegyzéket, és kommunikációs, biztonsági, megbízhatósági és megfelelőségi bizonyítékokat rögzít. |
+| [`learn-agent-skills`](../../skills/learn-agent-skills/SKILL.md) | Célzott Agent Skills tutor. Létrehozza az `AGENT-SKILLS-LEARNING.md` fájlt, tanítja a 22., 24., 25., 26. és 27. leckét, és valódi gazdán szerzett bizonyítékokat rögzít. |
+| [`learn-reverse-engineering`](../../skills/learn-reverse-engineering/SKILL.md) | Célzott visszafejtési tutor. Létrehozza a `REVERSE-ENGINEERING-LEARNING.md` fájlt, a saját magad által épített programokon tanítja a 13. szakasz leckéit a 32.-től a 45.-ig, és rögzíti a gyakorlati bizonyítékokat. |
+| [`claude-certification`](../../skills/claude-certification/SKILL.md) | Tanúsítási tutor. CCAO-F, CCDV-F, CCAR-F vagy CCAR-P útvonalat választ; leckéket tanít, gyakorlatokat futtat, eredményeket értékel, diagnosztikát és próbavizsgákat végez, menti az előrehaladást. |
+| [`mcpa-certification`](../../skills/mcpa-certification/SKILL.md) | MCPA-tutor. A 2026-07-28 protokoll 34 leckés `mcpa-f` útvonalát követi; tanít, gyakorlatokat és kommunikációellenőrzést futtat, diagnosztikát és három próbavizsgát végez, menti az előrehaladást. |
+| [`find-your-level`](../../skills/find-your-level/SKILL.md) | Tízkérdéses szintfelmérő. A tudásodhoz kezdőszakaszt rendel, és személyes útvonalat készít órabecslésekkel. |
+| [`check-understanding <phase>`](../../skills/check-understanding/SKILL.md) | Szakaszonként nyolckérdéses kvíz, visszajelzéssel és konkrét ismétlendő leckékkel. Használd a fenti táblázat Codex-, Claude Code- vagy természetes nyelvi meghívását. |
+
+</details>
+
+<a id="local-setup"></a>
+
+### Futtass helyi kódot
+
+```bash
+git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+cd ai-engineering-from-scratch
+python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
+python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
+```
+
+Az előzetes ellenőrzés elkülöníti a most szükséges feltételeket a később szükséges eszközöktől. Minden sikertelen kötelező ellenőrzésnél megjelenik az észlelt ok és a javításhoz szükséges parancs. A `vectors.py` parancs egy függőségek nélküli leckét futtat, amely a végén megmutatja, hogy a mátrix és a vektor szorzása a neurális hálózat egy rétegén belüli művelet. Mentsd el ezt a terminálkimenetet első bizonyítékként.
+
+<details>
+<summary>Minden leckét ugyanúgy dolgozz fel</summary>
 
 ### Minden leckét ugyanúgy dolgozz fel
 
@@ -109,1131 +246,930 @@ Hasonlítsd össze a négy fő területet és a hat karrierutat az [AI Engineeri
 
 A leckék parancsaiban szereplő útvonalak a kódtár gyökérkönyvtárához képest értendők, kivéve, ha a lecke kifejezetten könyvtárváltást kér. Ha egy lecke több programozási nyelvet kínál, annak a nyelvnek a megvalósítását futtasd, amelyet tanulsz.
 
-### Klónozd a kódtárat, és készítsd el az első bizonyítékodat
+</details>
 
-```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
-cd ai-engineering-from-scratch
-python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
-python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
-```
+<a id="study-guide"></a>
 
-Az előzetes ellenőrzés elkülöníti a most szükséges feltételeket a később szükséges eszközöktől. Minden sikertelen kötelező ellenőrzésnél megjelenik az észlelt ok és a javításhoz szükséges parancs. A második parancs egy függőségek nélküli leckét futtat, amely a végén megmutatja, hogy a mátrix és a vektor szorzása a neurális hálózat egy rétegén belüli művelet. Mentsd el ezt a terminálkimenetet első bizonyítékként.
+## Válassz tanulási útvonalat
 
-## Add the AI tutor in 30 seconds
+Nem kell végignézned mind az 542 leckét, mielőtt elkezded. Válassz egy célt. Minden hivatkozás ugyanazt a tananyagot nyitja meg a GitHub felületén vagy a weboldalon, és mindkét változat ugyanazt a leckekódot használja.
 
-If Node.js, `npx`, and a skill-capable coding agent are already installed,
-your coding agent can become your tutor in two commands. A repository clone is
-not needed to install or read the tutor. Runnable focused-path labs need
-`python3`. Agent Skills host labs also need a selected host and a writable
-user or project skill scope.
+| A célod | Tanulás a GitHub felületén | Tanulás a weboldalon |
+|---|---|---|
+| Kezdő vagyok, és teljes alapozást szeretnék | [0. szakasz: Beállítás és eszközök](../../phases/00-setup-and-tooling/) | [Fejlesztői környezet](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Ismerem a Python nyelvet, és matematikai, illetve ML-alapokat szeretnék | [1. szakasz: Matematikai alapok](../../phases/01-math-foundations/) | [A lineáris algebra szemléletesen](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| Éles környezetbe szánt LLM-alkalmazásokat szeretnék építeni | [11. szakasz: LLM-mérnökség](../../phases/11-llm-engineering/) | [Prompttervezés](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Ágenseket szeretnék építeni | [14. szakasz: Ágensmérnökség](../../phases/14-agent-engineering/) | [Az ágensciklus](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Programozóágenseket szeretnék használni valódi kódtárakon | [Ágensekkel támogatott fejlesztési útvonal](../../learning-paths/using-coding-agents.json) | [Ágensekkel támogatott fejlesztés](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| A megvalósítás előtt szeretném eldönteni, mit érdemes építeni | [Termékdöntési és megvalósítási útvonal](../../learning-paths/shaping-the-build.json) | [Termékdöntések és megvalósítás](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-Check the local requirements first:
+Nem tudod, hol kezdd? Használd a [`start-learning` szintfelmérő tutort](../../skills/start-learning/SKILL.md) vagy a [weboldal előismereti útmutatóját](https://aiengineeringfromscratch.com/prereqs.html).
 
-```bash
-node --version
-npx --version
-python3 --version
-```
+Hasonlítsd össze a négy fő területet és a hat karrierutat az [AI Engineering Learning Paths](https://aiengineeringfromscratch.com/learning-paths.html) oldalon.
 
-Then install the curriculum skills and choose the host and scope you intend to
-use when the installer asks:
+<details>
+<summary>Célzott MCP-, Agent Skills- és visszafejtési útvonalak</summary>
 
-```bash
-npx skills add rohitg00/ai-engineering-from-scratch
-```
+| A célod | Tanulás a GitHub felületén | Tanulás a weboldalon |
+|---|---|---|
+| A Model Context Protocol (MCP) használatával szeretnék fejleszteni | [Model Context Protocol (MCP) útvonal](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Model Context Protocol (MCP) tanulási útvonal](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| Agent Skills csomagokat szeretnék írni és kiadni | [Célzott Agent Skills útvonal](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skills tanulási útvonal](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| Lefordított programokat szeretnék olvasni | [Visszafejtési útvonal](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Visszafejtési tanulási útvonal](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
-Invocation syntax belongs to the host, not to the portable `SKILL.md` format:
+</details>
 
-| Host | Start the course | Start Model Context Protocol (MCP) | Start Agent Skills | Run a phase quiz |
-|---|---|---|---|---|
-| Codex | `start-learning`, or choose it from `/skills` | `learn-mcp`, or choose it from `/skills` | `learn-agent-skills`, or choose it from `/skills` | `check-understanding 13`, or choose it from `/skills` |
-| Claude Code | `/start-learning` | `/learn-mcp` | `/learn-agent-skills` | `/check-understanding 13` |
-| Other compatible hosts | `Use start-learning to begin the course.` | `Use learn-mcp to start the Model Context Protocol (MCP) path.` | `Use learn-agent-skills to start the Agent Skills Engineering path.` | `Use check-understanding to quiz me on Phase 13.` |
+<details>
+<summary>Előfeltételek és tanulási idő</summary>
 
-A ten-question placement quiz maps what you already know to a starting phase and
-saves a personalized study plan to `LEARNING.md`. From there, the `learn` skill
-teaches one lesson per session: concept, math, code, quiz. It streams lessons
-straight from this repo, and the `course-guide` skill jumps you to the exact
-lesson that covers anything you are stuck on. In Codex, invoke these skills with
-`learn` and `course-guide`; in Claude Code, use `/learn` and `/course-guide`;
-in other compatible hosts, ask to use the skill by name.
+### Előfeltételek
 
-Only want Model Context Protocol (MCP)? Use the MCP invocation for your host. It creates
-`MCP-LEARNING.md` and follows one 17-lesson route through stateless
-requests, transports, bidirectional work, security, reliability, registry
-governance, and conformance evidence. The exact order and checkpoints live in
-the [Model Context Protocol (MCP) manifest](../../learning-paths/model-context-protocol.json).
+- Tudsz programozni bármely nyelven; a Python előnyt jelent.
+- Érteni akarod, hogyan **működik valójában** az AI, nem csak API-kat meghívni.
 
-Only want Agent Skills? Use the Agent Skills invocation for your host. It
-creates `AGENT-SKILLS-LEARNING.md` and follows one coherent five-lesson route:
-contract, discovery, invocation, sandbox boundaries, then release evals and
-real-host portability. Start on the web with the
-[Agent Skills path](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
+## Hol kezdd
 
-The installer lists the hosts it can configure and asks where to install. If
-you do not have Node.js, `npx`, `python3`, a supported host, or a writable
-scope yet, use the website or read `docs/en.md` manually. That path teaches the
-concepts, but real-host discovery, invocation, script, and uninstall evidence
-remains pending until the preflight is available. Read the lessons at
-[aiengineeringfromscratch.com](https://aiengineeringfromscratch.com).
+| Előismeret | Kezdés | Becsült idő |
+|---|---|---|
+| Kezdő programozásban és AI-ban | 0. szakasz: Beállítás | ~306 óra |
+| Ismered a Pythont, új neked az ML | 1. szakasz: Matematikai alapok | ~270 óra |
+| Ismered az ML-t, új neked a mélytanulás | 3. szakasz: A mélytanulás magja | ~200 óra |
+| Ismered a mélytanulást, LLM-eket és ágenseket szeretnél | 10. szakasz: LLM-ek az alapoktól | ~100 óra |
+| Tapasztalt mérnök vagy, csak az ágensmérnökség érdekel | 14. szakasz: Ágensmérnökség | ~60 óra |
+| Csak üzemi MCP-rendszereket szeretnél építeni | [Model Context Protocol (MCP) útvonal](../../learning-paths/model-context-protocol.json) | ~23 óra 15 perc |
+| Csak üzemi Agent Skills képességeket szeretnél építeni | [Agent Skills mérnöki útvonal](../../learning-paths/agent-skills.json) | ~9.5 óra |
+| Csak visszafejtést szeretnél tanulni | [Visszafejtési útvonal](../../learning-paths/reverse-engineering.json) | ~32.5 óra |
 
-## Hogyan működik
-
-Most AI material teaches in scattered pieces. A paper here, a fine-tuning post there, a
-flashy agent demo somewhere else. The pieces rarely line up. You ship a chatbot but can't
-explain its loss curve. You hook a function to an agent but can't say what attention does
-inside the model that's calling it.
-
-This curriculum is the spine. 20 phases, 523 lessons, four languages: Python, TypeScript,
-Rust, Julia. Linear algebra at one end, autonomous swarms at the other. Every algorithm
-gets built from raw math first. Backprop. Tokenizer. Attention. Agent loop. By the time
-PyTorch shows up, you already know what it's doing under the hood.
-
-Each lesson runs the same loop: read the problem, derive the math, write the code, run
-the test, keep the artifact. No five-minute videos, no copy-paste deploys, no hand-holding.
-Free, open source, and built to run on your own laptop.
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
+</details>
 
 ## A tananyag felépítése
 
-Twenty phases stack on top of each other. Math is the floor. Agents and production are the roof.
-Skip ahead if you already know the lower layers, but don't skip and then wonder why something at
-the top is breaking.
+Húsz szakasz épül egymásra. A matematika az alap, az ágensek és az üzemi működés a tető. Lépj előre, ha már ismered az alsó rétegeket, de ne hagyj ki ismeretlen alapokat, majd csodálkozz a felső rétegek hibáin.
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#fafaf5','primaryTextColor':'#1a1a1a','primaryBorderColor':'#3553ff','lineColor':'#3553ff','fontFamily':'JetBrains Mono','fontSize':'12px'}}}%%
 flowchart TB
-  P0["Phase 0 — Setup &amp; Tooling"] --> P1["Phase 1 — Math Foundations"]
-  P1 --> P2["Phase 2 — ML Fundamentals"]
-  P2 --> P3["Phase 3 — Deep Learning Core"]
-  P3 --> P4["Phase 4 — Vision"]
-  P3 --> P5["Phase 5 — NLP"]
-  P3 --> P6["Phase 6 — Speech &amp; Audio"]
-  P3 --> P9["Phase 9 — RL"]
-  P5 --> P7["Phase 7 — Transformers"]
-  P7 --> P8["Phase 8 — GenAI"]
-  P7 --> P10["Phase 10 — LLMs from Scratch"]
-  P10 --> P11["Phase 11 — LLM Engineering"]
-  P10 --> P12["Phase 12 — Multimodal"]
-  P11 --> P13["Phase 13 — Tools &amp; Protocols"]
-  P13 --> P14["Phase 14 — Agent Engineering"]
-  P14 --> P15["Phase 15 — Autonomous Systems"]
-  P15 --> P16["Phase 16 — Multi-Agent &amp; Swarms"]
-  P14 --> P17["Phase 17 — Infrastructure &amp; Production"]
-  P15 --> P18["Phase 18 — Ethics &amp; Alignment"]
-  P16 --> P19["Phase 19 — Capstone Projects"]
+  P0["0. szakasz: Beállítás és eszközök"] --> P1["1. szakasz: Matematikai alapok"]
+  P1 --> P2["2. szakasz: ML-alapok"]
+  P2 --> P3["3. szakasz: A mélytanulás magja"]
+  P3 --> P4["4. szakasz: Látás"]
+  P3 --> P5["5. szakasz: NLP"]
+  P3 --> P6["6. szakasz: Beszéd és hang"]
+  P3 --> P9["9. szakasz: Megerősítéses tanulás"]
+  P5 --> P7["7. szakasz: Transzformerek"]
+  P7 --> P8["8. szakasz: Generatív AI"]
+  P7 --> P10["10. szakasz: LLM-ek az alapoktól"]
+  P10 --> P11["11. szakasz: LLM-mérnökség"]
+  P10 --> P12["12. szakasz: Multimodalitás"]
+  P11 --> P13["13. szakasz: Eszközök és protokollok"]
+  P13 --> P14["14. szakasz: Ágensmérnökség"]
+  P14 --> P15["15. szakasz: Autonóm rendszerek"]
+  P15 --> P16["16. szakasz: Több ágens és rajok"]
+  P14 --> P17["17. szakasz: Infrastruktúra és üzemi működés"]
+  P15 --> P18["18. szakasz: Etika és összehangolás"]
+  P16 --> P19["19. szakasz: Záróprojektek"]
   P17 --> P19
   P18 --> P19
-```
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
-
-## Egy lecke felépítése
-
-Each lesson lives in its own folder, with the same structure across the entire curriculum:
-
-```text
-phases/<NN>-<phase-name>/<NN>-<lesson-name>/
-├── code/      runnable implementations (Python, TypeScript, Rust, Julia)
-├── docs/
-│   └── en.md  lesson narrative
-└── outputs/   prompts, skills, agents, or MCP servers this lesson produces
-```
-
-Every lesson follows six beats. The *Build It / Use It* split is the spine — you implement the
-algorithm from scratch first, then run the same thing through the production library. You
-understand what the framework is doing because you wrote the smaller version yourself.
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#fafaf5','primaryTextColor':'#1a1a1a','primaryBorderColor':'#3553ff','lineColor':'#3553ff','fontFamily':'JetBrains Mono','fontSize':'13px'}}}%%
-flowchart LR
-  M["MOTTO<br/><sub>one-line core idea</sub>"] --> Pr["PROBLEM<br/><sub>concrete pain</sub>"]
-  Pr --> C["CONCEPT<br/><sub>diagrams &amp; intuition</sub>"]
-  C --> B["BUILD IT<br/><sub>raw math, no frameworks</sub>"]
-  B --> U["USE IT<br/><sub>same thing in PyTorch / sklearn</sub>"]
-  U --> S["SHIP IT<br/><sub>prompt · skill · agent · MCP</sub>"]
-```
-
-## Első lépések
-
-Három lehetőség az indulásra. Válassz egyet.
-
-**Option A — learn in your terminal *(recommended)*.** After the Node.js,
-`npx`, host, and scope preflight above, install the learning skills into a
-compatible agent and let the course drive itself:
-
-```bash
-npx skills add rohitg00/ai-engineering-from-scratch
-```
-
-Use the host-specific invocation table above. The installed skills provide
-`start-learning`, `learn`, `course-guide`, and the focused
-`learn-mcp` and `learn-agent-skills` routes. Lesson prose can
-stream from this repository without a clone. A local clone is required for
-copied repository code commands and executable MCP or Agent Skills labs.
-Progress lives in `LEARNING.md`, `MCP-LEARNING.md`, or
-`AGENT-SKILLS-LEARNING.md` in your project, so every session can resume.
-
-**Option B — read.** Open any completed lesson on
-[aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) or expand a phase under
-[Contents](#contents). No setup, no cloning.
-
-**Option C — clone and run.**
-
-```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
-cd ai-engineering-from-scratch
-python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
-```
-
-Cloning also auto-loads the learning skills in Claude Code, and gives every
-lesson's code to the `learn` tutor for real execution instead of read-along.
-
-### Előfeltételek
-
-- You can write code (any language; Python helps).
-- You want to understand how AI **actually works**, not just call APIs.
-
-### Prepare for Claude certifications
-
-The [Claude Certification Academy](../../certifications/claude/README.md) is a free,
-open-source preparation program for all four official Claude certification tracks:
-Associate Foundations, Developer Foundations, Architect Foundations, and Architect
-Professional. Each route combines blueprint-mapped lessons, runnable labs, a
-diagnostic, capstone work, and a full-length original practice exam.
-
-Use the [AI-native GitHub onboarding guide](../../certifications/claude/GETTING_STARTED.md)
-with Claude Code, Codex, ChatGPT, Cursor, or another agent. Run
-`claude-certification` in Codex, `/claude-certification` in Claude Code, or ask
-another host to use `claude-certification`. It chooses a track, creates a
-persistent route in `CLAUDE-CERTIFICATION.md`, teaches one step at a time, runs
-the real labs, and gives artifact-based feedback. The same curriculum remains
-available on the [certification website](https://aiengineeringfromscratch.com/certifications.html).
-
-The academy is independent study material based on public exam objectives. It is not
-affiliated with Anthropic, does not reproduce live exam questions, and cannot guarantee
-a passing score.
-
-### Prepare for the MCP Associate (MCPA) certification
-
-The [MCPA Certification Curriculum](../../certifications/mcpa/README.md) is a free,
-open-source preparation program for the Model Context Protocol Associate exam from the
-Agentic AI Foundation, delivered through Linux Foundation Training. Its 34 lessons teach
-the stateless 2026-07-28 protocol across the five exam domains: per-request `_meta` and
-`server/discover` in place of the old handshake, multi round-trip requests, subscriptions,
-caching, the tasks and MCP Apps extensions, OAuth authorization, and the registry and SDK
-tiers. Every lesson ships a runnable standard-library lab whose transcript is checked for
-the current wire shape, and the track adds a diagnostic, a capstone, and three full-length
-original practice exams whose question mix follows the published blueprint weights.
-
-Use the [AI-native GitHub onboarding guide](../../certifications/mcpa/GETTING_STARTED.md) with
-Claude Code, Codex, ChatGPT, Cursor, or another agent. Run `mcpa-certification` in Codex,
-`/mcpa-certification` in Claude Code, or ask another host to use `mcpa-certification`. It
-creates a persistent route in `MCPA-CERTIFICATION.md`, teaches one step at a time, runs
-the real labs, and gives artifact-based feedback. The same curriculum is available on the
-[MCPA track page](https://aiengineeringfromscratch.com/certification?id=mcpa-f).
-
-This curriculum is independent study material based on public exam objectives. It is not
-affiliated with the Agentic AI Foundation or the Linux Foundation, does not reproduce
-live exam questions, and cannot guarantee a passing score.
-
-### The learning skills
-
-| Skill | What it does |
-|---|---|
-| [`start-learning`](../../skills/start-learning/SKILL.md) | One-time onboarding: why you're learning, placement quiz, personalized plan saved to `LEARNING.md`. |
-| [`learn`](../../skills/learn/SKILL.md) | The tutor loop. Warm-up recall, then the next lesson taught interactively, then its quiz; records progress and a review queue. |
-| [`course-guide`](../../skills/course-guide/SKILL.md) | Topic router. "Where do I learn attention?" or "my loss is NaN" → the exact lessons, with links. |
-| [`learn-mcp`](../../skills/learn-mcp/SKILL.md) | Focused Model Context Protocol (MCP) tutor. Creates `MCP-LEARNING.md`, follows the 17-lesson manifest, and records wire, security, reliability, and conformance evidence. |
-| [`learn-agent-skills`](../../skills/learn-agent-skills/SKILL.md) | Focused Agent Skills tutor. Creates `AGENT-SKILLS-LEARNING.md`, teaches lessons 22, 24, 25, 26, and 27, and records real-host evidence. |
-| [`claude-certification`](../../skills/claude-certification/SKILL.md) | Certification tutor. Chooses CCAO-F, CCDV-F, CCAR-F, or CCAR-P; teaches each lesson; runs labs; reviews artifacts; administers diagnostics and mocks; saves progress. |
-| [`mcpa-certification`](../../skills/mcpa-certification/SKILL.md) | MCPA tutor. Follows the 34-lesson `mcpa-f` route on the 2026-07-28 protocol; teaches each lesson; runs labs and the wire checker; administers the diagnostic and three mocks; saves progress. |
-| [`find-your-level`](../../skills/find-your-level/SKILL.md) | Ten-question placement quiz. Maps your knowledge to a starting phase and produces a personalized path with hour estimates. |
-| [`check-understanding <phase>`](../../skills/check-understanding/SKILL.md) | Per-phase quiz, eight questions, with feedback and specific lessons to review. Use the Codex, Claude Code, or natural-language form in the invocation table above. |
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
-
-## Read the core curriculum as a book
-
-The 20-phase core curriculum under `phases/` compiles into a six-volume book series. EPUB and PDF are built by CI from the same core lesson sources and attached to every [GitHub release](https://github.com/rohitg00/ai-engineering-from-scratch/releases); the links below always resolve to the newest release. Volume numbers index the series, not versions: each copy carries a dated edition stamp, and older editions stay downloadable from their release.
-
-Certification curricula are intentionally not converted into the books. Their
-AI tutor state, runnable labs, interactive figures, diagnostics, and timed mocks
-remain first-class on GitHub and the website.
-
-| Vol | Title | Phases | Download |
-|-----|-------|--------|----------|
-| 1 | Foundations · Math, Tooling, and Classical Machine Learning | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | Deep Learning · Networks, Vision, and Speech | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | Language · NLP Foundations and the Transformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | Large Language Models · Generation, Reinforcement, Pretraining, and Engineering | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | Agents · Multimodality, Protocols, Autonomy, and Swarms | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | Production · Infrastructure, Safety, and Capstones | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
-
-The book is the snapshot; this repository is the living edition. Every chapter ends with links back to the lesson's animated figures, quiz, and runnable code. Build locally with `python3 scripts/build_book.py` (pandoc required); pipeline details in [book/README.md](../../book/README.md).
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
-
-## Minden leckének van kézzelfogható eredménye
-
-Other curricula end with *"congratulations, you learned X."* Each lesson here ends with a
-**reusable tool** you can install or paste into your daily workflow.
-
-<table>
-<tr>
-<th align="left" width="25%"><img src="../../site/assets/figures/001-a-prompts.svg" width="120" height="120" alt="FIG_001.A prompts"/><br/><sub>FIG_001 · A</sub><br/><b>PROMPTS</b></th>
-<th align="left" width="25%"><img src="../../site/assets/figures/001-b-skills.svg" width="120" height="120" alt="FIG_001.B skills"/><br/><sub>FIG_001 · B</sub><br/><b>SKILLS</b></th>
-<th align="left" width="25%"><img src="../../site/assets/figures/001-c-agents.svg" width="120" height="120" alt="FIG_001.C agents"/><br/><sub>FIG_001 · C</sub><br/><b>AGENTS</b></th>
-<th align="left" width="25%"><img src="../../site/assets/figures/001-d-mcp-servers.svg" width="120" height="120" alt="FIG_001.D MCP servers"/><br/><sub>FIG_001 · D</sub><br/><b>MCP SERVERS</b></th>
-</tr>
-<tr>
-<td valign="top">Paste into any AI assistant for expert-level help on a narrow task.</td>
-<td valign="top">Drop into Claude, Cursor, Codex, OpenClaw, Hermes, or any agent that reads <code>SKILL.md</code>.</td>
-<td valign="top">Deploy as autonomous workers — you wrote the loop yourself in Phase 14.</td>
-<td valign="top">Plug into any MCP-compatible client. Built end-to-end in Phase 13.</td>
-</tr>
-</table>
-
-> Install the lot with `python3 scripts/install_skills.py <target>`. Real tools, not homework.
-> By the end of the curriculum, you have a portfolio of 523 artifacts you actually
-> understand because you built them.
-
-### FIG_002 · A worked sample
-
-Phase 14, lesson 1: the agent loop. ~120 lines of pure Python, no dependencies.
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-**`code/agent_loop.py`** &nbsp; <sub><i>build it</i></sub>
-
-```python
-def run(query, tools):
-    history = [user(query)]
-    for step in range(MAX_STEPS):
-        msg = llm(history)
-        if msg.tool_calls:
-            for call in msg.tool_calls:
-                result = tools[call.name](**call.args)
-                history.append(tool_result(call.id, result))
-            continue
-        return msg.content
-    raise StepLimitExceeded
-```
-
-</td>
-<td valign="top" width="50%">
-
-**`outputs/skill-agent-loop.md`** &nbsp; <sub><i>ship it</i></sub>
-
-```markdown
----
-name: agent-loop
-description: ReAct-style loop for any tool list
-phase: 14
-lesson: 01
----
-
-Implement a minimal agent loop that...
-```
-
-**`outputs/prompt-debug-agent.md`**
-
-```markdown
-You are an agent debugger. Given the trace
-of an agent run, identify the step where
-the agent went wrong and explain why...
-```
-
-</td>
-</tr>
-</table>
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
 ```
 
 <a id="contents"></a>
 
 ## Tartalom
 
-Twenty phases. Click any phase to expand its lesson list.
+Húsz szakasz. A leckelista kibontásához kattints egy szakaszra.
 
 <a id="phase-0"></a>
-### Phase 0: Setup & Tooling `12 lessons`
-> Get your environment ready for everything that follows.
+### 0. szakasz: Beállítás és eszközök `13 lecke`
+> Készítsd fel a környezetedet mindarra, ami következik.
 
-| # | Lesson | Type | Lang |
+| # | Lecke | Típus | Nyelv |
 |:---:|--------|:----:|------|
-| 01 | [Dev Environment](../../phases/00-setup-and-tooling/01-dev-environment/) | Build | Python |
-| 02 | [Git & Collaboration](../../phases/00-setup-and-tooling/02-git-and-collaboration/) | Learn | — |
-| 03 | [GPU Setup & Cloud](../../phases/00-setup-and-tooling/03-gpu-setup-and-cloud/) | Build | Python |
-| 04 | [APIs & Keys](../../phases/00-setup-and-tooling/04-apis-and-keys/) | Build | Python |
-| 05 | [Jupyter Notebooks](../../phases/00-setup-and-tooling/05-jupyter-notebooks/) | Build | Python |
-| 06 | [Python Environments](../../phases/00-setup-and-tooling/06-python-environments/) | Build | Shell |
-| 07 | [Docker for AI](../../phases/00-setup-and-tooling/07-docker-for-ai/) | Build | Docker |
-| 08 | [Editor Setup](../../phases/00-setup-and-tooling/08-editor-setup/) | Build | — |
-| 09 | [Data Management](../../phases/00-setup-and-tooling/09-data-management/) | Build | Python |
-| 10 | [Terminal & Shell](../../phases/00-setup-and-tooling/10-terminal-and-shell/) | Learn | — |
-| 11 | [Linux for AI](../../phases/00-setup-and-tooling/11-linux-for-ai/) | Learn | — |
-| 12 | [Debugging & Profiling](../../phases/00-setup-and-tooling/12-debugging-and-profiling/) | Build | Python |
+| 01 | [Fejlesztői környezet](../../phases/00-setup-and-tooling/01-dev-environment/) | Építés | Python |
+| 02 | [Git és együttműködés](../../phases/00-setup-and-tooling/02-git-and-collaboration/) | Tanulás | — |
+| 03 | [GPU-beállítás és felhő](../../phases/00-setup-and-tooling/03-gpu-setup-and-cloud/) | Építés | Python |
+| 04 | [API-k és kulcsok](../../phases/00-setup-and-tooling/04-apis-and-keys/) | Építés | Python |
+| 05 | [Jupyter-jegyzetfüzetek](../../phases/00-setup-and-tooling/05-jupyter-notebooks/) | Építés | Python |
+| 06 | [Python-környezetek](../../phases/00-setup-and-tooling/06-python-environments/) | Építés | Shell |
+| 07 | [Docker az AI-hoz](../../phases/00-setup-and-tooling/07-docker-for-ai/) | Építés | Docker |
+| 08 | [A szerkesztő beállítása](../../phases/00-setup-and-tooling/08-editor-setup/) | Építés | — |
+| 09 | [Adatkezelés](../../phases/00-setup-and-tooling/09-data-management/) | Építés | Python |
+| 10 | [Terminál és parancsértelmező](../../phases/00-setup-and-tooling/10-terminal-and-shell/) | Tanulás | — |
+| 11 | [Linux az AI-hoz](../../phases/00-setup-and-tooling/11-linux-for-ai/) | Tanulás | — |
+| 12 | [Hibakeresés és profilozás](../../phases/00-setup-and-tooling/12-debugging-and-profiling/) | Építés | Python |
+| 13 | [Python a mesterségesintelligencia-fejlesztéshez](../../phases/00-setup-and-tooling/13-python-for-ai-engineering/) | Építés | Python |
 
 <details id="phase-1">
-<summary><b>Phase 1 — Math Foundations</b> &nbsp;<code>22 lessons</code>&nbsp; <em>The intuition behind every AI algorithm, through code.</em></summary>
+<summary><b>1. szakasz: Matematikai alapok</b> &nbsp;<code>22 lecke</code>&nbsp; <em>Az AI-algoritmusok mögötti szemlélet, kódon keresztül.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lecke | Típus | Nyelv |
 |:---:|--------|:----:|------|
-| 01 | [Linear Algebra Intuition](../../phases/01-math-foundations/01-linear-algebra-intuition/) | Learn | Python, Julia |
-| 02 | [Vectors, Matrices & Operations](../../phases/01-math-foundations/02-vectors-matrices-operations/) | Build | Python, Julia |
-| 03 | [Matrix Transformations & Eigenvalues](../../phases/01-math-foundations/03-matrix-transformations/) | Build | Python, Julia |
-| 04 | [Calculus for ML: Derivatives & Gradients](../../phases/01-math-foundations/04-calculus-for-ml/) | Learn | Python |
-| 05 | [Chain Rule & Automatic Differentiation](../../phases/01-math-foundations/05-chain-rule-and-autodiff/) | Build | Python |
-| 06 | [Probability & Distributions](../../phases/01-math-foundations/06-probability-and-distributions/) | Learn | Python |
-| 07 | [Bayes' Theorem & Statistical Thinking](../../phases/01-math-foundations/07-bayes-theorem/) | Build | Python |
-| 08 | [Optimization: Gradient Descent Family](../../phases/01-math-foundations/08-optimization/) | Build | Python |
-| 09 | [Information Theory: Entropy, KL Divergence](../../phases/01-math-foundations/09-information-theory/) | Learn | Python |
-| 10 | [Dimensionality Reduction: PCA, t-SNE, UMAP](../../phases/01-math-foundations/10-dimensionality-reduction/) | Build | Python |
-| 11 | [Singular Value Decomposition](../../phases/01-math-foundations/11-singular-value-decomposition/) | Build | Python, Julia |
-| 12 | [Tensor Operations](../../phases/01-math-foundations/12-tensor-operations/) | Build | Python |
-| 13 | [Numerical Stability](../../phases/01-math-foundations/13-numerical-stability/) | Build | Python |
-| 14 | [Norms & Distances](../../phases/01-math-foundations/14-norms-and-distances/) | Build | Python |
-| 15 | [Statistics for ML](../../phases/01-math-foundations/15-statistics-for-ml/) | Build | Python |
-| 16 | [Sampling Methods](../../phases/01-math-foundations/16-sampling-methods/) | Build | Python |
-| 17 | [Linear Systems](../../phases/01-math-foundations/17-linear-systems/) | Build | Python |
-| 18 | [Convex Optimization](../../phases/01-math-foundations/18-convex-optimization/) | Build | Python |
-| 19 | [Complex Numbers for AI](../../phases/01-math-foundations/19-complex-numbers/) | Learn | Python |
-| 20 | [The Fourier Transform](../../phases/01-math-foundations/20-fourier-transform/) | Build | Python |
-| 21 | [Graph Theory for ML](../../phases/01-math-foundations/21-graph-theory/) | Build | Python |
-| 22 | [Stochastic Processes](../../phases/01-math-foundations/22-stochastic-processes/) | Learn | Python |
+| 01 | [A lineáris algebra szemléletes alapjai](../../phases/01-math-foundations/01-linear-algebra-intuition/) | Tanulás | Python, Julia |
+| 02 | [Vektorok, mátrixok és műveletek](../../phases/01-math-foundations/02-vectors-matrices-operations/) | Építés | Python, Julia |
+| 03 | [Mátrixtranszformációk és sajátértékek](../../phases/01-math-foundations/03-matrix-transformations/) | Építés | Python, Julia |
+| 04 | [Analízis az ML-hez: deriváltak és gradiensek](../../phases/01-math-foundations/04-calculus-for-ml/) | Tanulás | Python |
+| 05 | [Láncszabály és automatikus differenciálás](../../phases/01-math-foundations/05-chain-rule-and-autodiff/) | Építés | Python |
+| 06 | [Valószínűség és eloszlások](../../phases/01-math-foundations/06-probability-and-distributions/) | Tanulás | Python |
+| 07 | [Bayes tétele és statisztikai gondolkodás](../../phases/01-math-foundations/07-bayes-theorem/) | Építés | Python |
+| 08 | [Optimalizálás: a gradienscsökkenés családja](../../phases/01-math-foundations/08-optimization/) | Építés | Python |
+| 09 | [Információelmélet: entrópia és KL-divergencia](../../phases/01-math-foundations/09-information-theory/) | Tanulás | Python |
+| 10 | [Dimenziócsökkentés: PCA, t-SNE, UMAP](../../phases/01-math-foundations/10-dimensionality-reduction/) | Építés | Python |
+| 11 | [Szingulárisérték-felbontás](../../phases/01-math-foundations/11-singular-value-decomposition/) | Építés | Python, Julia |
+| 12 | [Tenzorműveletek](../../phases/01-math-foundations/12-tensor-operations/) | Építés | Python |
+| 13 | [Numerikus stabilitás](../../phases/01-math-foundations/13-numerical-stability/) | Építés | Python |
+| 14 | [Normák és távolságok](../../phases/01-math-foundations/14-norms-and-distances/) | Építés | Python |
+| 15 | [Statisztika az ML-hez](../../phases/01-math-foundations/15-statistics-for-ml/) | Építés | Python |
+| 16 | [Mintavételi módszerek](../../phases/01-math-foundations/16-sampling-methods/) | Építés | Python |
+| 17 | [Lineáris rendszerek](../../phases/01-math-foundations/17-linear-systems/) | Építés | Python |
+| 18 | [Konvex optimalizálás](../../phases/01-math-foundations/18-convex-optimization/) | Építés | Python |
+| 19 | [Komplex számok az AI-hoz](../../phases/01-math-foundations/19-complex-numbers/) | Tanulás | Python |
+| 20 | [A Fourier-transzformáció](../../phases/01-math-foundations/20-fourier-transform/) | Építés | Python |
+| 21 | [Gráfelmélet az ML-hez](../../phases/01-math-foundations/21-graph-theory/) | Építés | Python |
+| 22 | [Sztochasztikus folyamatok](../../phases/01-math-foundations/22-stochastic-processes/) | Tanulás | Python |
 
 </details>
 
 <details id="phase-2">
-<summary><b>Phase 2 — ML Fundamentals</b> &nbsp;<code>18 lessons</code>&nbsp; <em>Classical ML — still the backbone of most production AI.</em></summary>
+<summary><b>2. szakasz: ML-alapok</b> &nbsp;<code>21 lecke</code>&nbsp; <em>Klasszikus ML: még mindig a legtöbb üzemi AI gerince.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lecke | Típus | Nyelv |
 |:---:|--------|:----:|------|
-| 01 | [What Is Machine Learning](../../phases/02-ml-fundamentals/01-what-is-machine-learning/) | Learn | Python |
-| 02 | [Linear Regression from Scratch](../../phases/02-ml-fundamentals/02-linear-regression/) | Build | Python |
-| 03 | [Logistic Regression & Classification](../../phases/02-ml-fundamentals/03-logistic-regression/) | Build | Python |
-| 04 | [Decision Trees & Random Forests](../../phases/02-ml-fundamentals/04-decision-trees/) | Build | Python |
-| 05 | [Support Vector Machines](../../phases/02-ml-fundamentals/05-support-vector-machines/) | Build | Python |
-| 06 | [KNN & Distance Metrics](../../phases/02-ml-fundamentals/06-knn-and-distances/) | Build | Python |
-| 07 | [Unsupervised Learning: K-Means, DBSCAN](../../phases/02-ml-fundamentals/07-unsupervised-learning/) | Build | Python |
-| 08 | [Feature Engineering & Selection](../../phases/02-ml-fundamentals/08-feature-engineering/) | Build | Python |
-| 09 | [Model Evaluation: Metrics, Cross-Validation](../../phases/02-ml-fundamentals/09-model-evaluation/) | Build | Python |
-| 10 | [Bias, Variance & the Learning Curve](../../phases/02-ml-fundamentals/10-bias-variance/) | Learn | Python |
-| 11 | [Ensemble Methods: Boosting, Bagging, Stacking](../../phases/02-ml-fundamentals/11-ensemble-methods/) | Build | Python |
-| 12 | [Hyperparameter Tuning](../../phases/02-ml-fundamentals/12-hyperparameter-tuning/) | Build | Python |
-| 13 | [ML Pipelines & Experiment Tracking](../../phases/02-ml-fundamentals/13-ml-pipelines/) | Build | Python |
-| 14 | [Naive Bayes](../../phases/02-ml-fundamentals/14-naive-bayes/) | Build | Python |
-| 15 | [Time Series Fundamentals](../../phases/02-ml-fundamentals/15-time-series/) | Build | Python |
-| 16 | [Anomaly Detection](../../phases/02-ml-fundamentals/16-anomaly-detection/) | Build | Python |
-| 17 | [Handling Imbalanced Data](../../phases/02-ml-fundamentals/17-imbalanced-data/) | Build | Python |
-| 18 | [Feature Selection](../../phases/02-ml-fundamentals/18-feature-selection/) | Build | Python |
+| 01 | [Mi a gépi tanulás?](../../phases/02-ml-fundamentals/01-what-is-machine-learning/) | Tanulás | Python |
+| 02 | [Lineáris regresszió az alapoktól](../../phases/02-ml-fundamentals/02-linear-regression/) | Építés | Python |
+| 03 | [Logisztikus regresszió és osztályozás](../../phases/02-ml-fundamentals/03-logistic-regression/) | Építés | Python |
+| 04 | [Döntési fák és véletlen erdők](../../phases/02-ml-fundamentals/04-decision-trees/) | Építés | Python |
+| 05 | [Támaszvektor-gépek](../../phases/02-ml-fundamentals/05-support-vector-machines/) | Építés | Python |
+| 06 | [KNN és távolságmértékek](../../phases/02-ml-fundamentals/06-knn-and-distances/) | Építés | Python |
+| 07 | [Felügyelet nélküli tanulás: K-Means, DBSCAN](../../phases/02-ml-fundamentals/07-unsupervised-learning/) | Építés | Python |
+| 08 | [Jellemzők kialakítása és kiválasztása](../../phases/02-ml-fundamentals/08-feature-engineering/) | Építés | Python |
+| 09 | [Modellek értékelése: mérőszámok és keresztvalidáció](../../phases/02-ml-fundamentals/09-model-evaluation/) | Építés | Python |
+| 10 | [Torzítás, variancia és tanulási görbe](../../phases/02-ml-fundamentals/10-bias-variance/) | Tanulás | Python |
+| 11 | [Együttes módszerek: boosting, bagging, stacking](../../phases/02-ml-fundamentals/11-ensemble-methods/) | Építés | Python |
+| 12 | [Hiperparaméterek hangolása](../../phases/02-ml-fundamentals/12-hyperparameter-tuning/) | Építés | Python |
+| 13 | [ML-folyamatok és kísérletkövetés](../../phases/02-ml-fundamentals/13-ml-pipelines/) | Építés | Python |
+| 14 | [Naiv Bayes-osztályozó](../../phases/02-ml-fundamentals/14-naive-bayes/) | Építés | Python |
+| 15 | [Az idősorok alapjai](../../phases/02-ml-fundamentals/15-time-series/) | Építés | Python |
+| 16 | [Anomáliák felismerése](../../phases/02-ml-fundamentals/16-anomaly-detection/) | Építés | Python |
+| 17 | [Kiegyensúlyozatlan adatok kezelése](../../phases/02-ml-fundamentals/17-imbalanced-data/) | Építés | Python |
+| 18 | [Jellemzők kiválasztása](../../phases/02-ml-fundamentals/18-feature-selection/) | Építés | Python |
+| 19 | [ML-rendszerek tervezése: a problémától az üzembe helyezett modellig](../../phases/02-ml-fundamentals/19-ml-system-design/) | Építés | Python |
+| 20 | [Modellek felügyelete éles üzemben: adatsodródás és fogalomsodródás](../../phases/02-ml-fundamentals/20-model-monitoring-and-drift/) | Építés | Python |
+| 21 | [Jellemzőtárak és a tanítás és kiszolgálás közötti eltérés](../../phases/02-ml-fundamentals/21-feature-stores-and-training-serving-skew/) | Építés | Python |
 
 </details>
 
 <details id="phase-3">
-<summary><b>Phase 3 — Deep Learning Core</b> &nbsp;<code>13 lessons</code>&nbsp; <em>Neural networks from first principles. No frameworks until you build one.</em></summary>
+<summary><b>3. szakasz: A mélytanulás magja</b> &nbsp;<code>13 lecke</code>&nbsp; <em>Neurális hálózatok az alapelvekből. Nincs keretrendszer, amíg nem építesz egyet.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lecke | Típus | Nyelv |
 |:---:|--------|:----:|------|
-| 01 | [The Perceptron: Where It All Started](../../phases/03-deep-learning-core/01-the-perceptron/) | Build | Python |
-| 02 | [Multi-Layer Networks & Forward Pass](../../phases/03-deep-learning-core/02-multi-layer-networks/) | Build | Python |
-| 03 | [Backpropagation from Scratch](../../phases/03-deep-learning-core/03-backpropagation/) | Build | Python |
-| 04 | [Activation Functions: ReLU, Sigmoid, GELU & Why](../../phases/03-deep-learning-core/04-activation-functions/) | Build | Python |
-| 05 | [Loss Functions: MSE, Cross-Entropy, Contrastive](../../phases/03-deep-learning-core/05-loss-functions/) | Build | Python |
-| 06 | [Optimizers: SGD, Momentum, Adam, AdamW](../../phases/03-deep-learning-core/06-optimizers/) | Build | Python |
-| 07 | [Regularization: Dropout, Weight Decay, BatchNorm](../../phases/03-deep-learning-core/07-regularization/) | Build | Python |
-| 08 | [Weight Initialization & Training Stability](../../phases/03-deep-learning-core/08-weight-initialization/) | Build | Python |
-| 09 | [Learning Rate Schedules & Warmup](../../phases/03-deep-learning-core/09-learning-rate-schedules/) | Build | Python |
-| 10 | [Build Your Own Mini Framework](../../phases/03-deep-learning-core/10-mini-framework/) | Build | Python |
-| 11 | [Introduction to PyTorch](../../phases/03-deep-learning-core/11-intro-to-pytorch/) | Build | Python |
-| 12 | [Introduction to JAX](../../phases/03-deep-learning-core/12-intro-to-jax/) | Build | Python |
-| 13 | [Debugging Neural Networks](../../phases/03-deep-learning-core/13-debugging-neural-networks/) | Build | Python |
+| 01 | [A perceptron: ahol minden kezdődött](../../phases/03-deep-learning-core/01-the-perceptron/) | Építés | Python |
+| 02 | [Többrétegű hálózatok és előrehaladás](../../phases/03-deep-learning-core/02-multi-layer-networks/) | Építés | Python |
+| 03 | [Hibavisszaterjesztés az alapoktól](../../phases/03-deep-learning-core/03-backpropagation/) | Építés | Python |
+| 04 | [Aktivációs függvények: ReLU, szigmoid, GELU és szerepük](../../phases/03-deep-learning-core/04-activation-functions/) | Építés | Python |
+| 05 | [Veszteségfüggvények: MSE, keresztentrópia és kontrasztív veszteség](../../phases/03-deep-learning-core/05-loss-functions/) | Építés | Python |
+| 06 | [Optimalizálók: SGD, momentum, Adam, AdamW](../../phases/03-deep-learning-core/06-optimizers/) | Építés | Python |
+| 07 | [Regularizáció: dropout, súlycsökkentés, BatchNorm](../../phases/03-deep-learning-core/07-regularization/) | Építés | Python |
+| 08 | [Súlyinicializálás és a tanítás stabilitása](../../phases/03-deep-learning-core/08-weight-initialization/) | Építés | Python |
+| 09 | [Tanulásiráta-ütemezés és bemelegítés](../../phases/03-deep-learning-core/09-learning-rate-schedules/) | Építés | Python |
+| 10 | [Készíts saját kis keretrendszert](../../phases/03-deep-learning-core/10-mini-framework/) | Építés | Python |
+| 11 | [Bevezetés a PyTorch használatába](../../phases/03-deep-learning-core/11-intro-to-pytorch/) | Építés | Python |
+| 12 | [Bevezetés a JAX használatába](../../phases/03-deep-learning-core/12-intro-to-jax/) | Építés | Python |
+| 13 | [Neurális hálózatok hibakeresése](../../phases/03-deep-learning-core/13-debugging-neural-networks/) | Építés | Python |
 
 </details>
 
 <details id="phase-4">
-<summary><b>Phase 4 — Computer Vision</b> &nbsp;<code>28 lessons</code>&nbsp; <em>From pixels to understanding — image, video, 3D, VLMs, and world models.</em></summary>
+<summary><b>4. szakasz: Gépi látás</b> &nbsp;<code>28 lecke</code>&nbsp; <em>A pixelektől a megértésig: kép, videó, 3D, VLM és világmodellek.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lecke | Típus | Nyelv |
 |:---:|--------|:----:|------|
-| 01 | [Image Fundamentals: Pixels, Channels, Color Spaces](../../phases/04-computer-vision/01-image-fundamentals/) | Learn | Python |
-| 02 | [Convolutions from Scratch](../../phases/04-computer-vision/02-convolutions-from-scratch/) | Build | Python |
-| 03 | [CNNs: LeNet to ResNet](../../phases/04-computer-vision/03-cnns-lenet-to-resnet/) | Build | Python |
-| 04 | [Image Classification](../../phases/04-computer-vision/04-image-classification/) | Build | Python |
-| 05 | [Transfer Learning & Fine-Tuning](../../phases/04-computer-vision/05-transfer-learning/) | Build | Python |
-| 06 | [Object Detection — YOLO from Scratch](../../phases/04-computer-vision/06-object-detection-yolo/) | Build | Python |
-| 07 | [Semantic Segmentation — U-Net](../../phases/04-computer-vision/07-semantic-segmentation-unet/) | Build | Python |
-| 08 | [Instance Segmentation — Mask R-CNN](../../phases/04-computer-vision/08-instance-segmentation-mask-rcnn/) | Build | Python |
-| 09 | [Image Generation — GANs](../../phases/04-computer-vision/09-image-generation-gans/) | Build | Python |
-| 10 | [Image Generation — Diffusion Models](../../phases/04-computer-vision/10-image-generation-diffusion/) | Build | Python |
-| 11 | [Stable Diffusion — Architecture & Fine-Tuning](../../phases/04-computer-vision/11-stable-diffusion/) | Build | Python |
-| 12 | [Video Understanding — Temporal Modeling](../../phases/04-computer-vision/12-video-understanding/) | Build | Python |
-| 13 | [3D Vision: Point Clouds, NeRFs](../../phases/04-computer-vision/13-3d-vision-nerf/) | Build | Python |
-| 14 | [Vision Transformers (ViT)](../../phases/04-computer-vision/14-vision-transformers/) | Build | Python |
-| 15 | [Real-Time Vision: Edge Deployment](../../phases/04-computer-vision/15-real-time-edge/) | Build | Python |
-| 16 | [Build a Complete Vision Pipeline](../../phases/04-computer-vision/16-vision-pipeline-capstone/) | Build | Python |
-| 17 | [Self-Supervised Vision — SimCLR, DINO, MAE](../../phases/04-computer-vision/17-self-supervised-vision/) | Build | Python |
-| 18 | [Open-Vocabulary Vision — CLIP](../../phases/04-computer-vision/18-open-vocab-clip/) | Build | Python |
-| 19 | [OCR & Document Understanding](../../phases/04-computer-vision/19-ocr-document-understanding/) | Build | Python |
-| 20 | [Image Retrieval & Metric Learning](../../phases/04-computer-vision/20-image-retrieval-metric/) | Build | Python |
-| 21 | [Keypoint Detection & Pose Estimation](../../phases/04-computer-vision/21-keypoint-pose/) | Build | Python |
-| 22 | [3D Gaussian Splatting from Scratch](../../phases/04-computer-vision/22-3d-gaussian-splatting/) | Build | Python |
-| 23 | [Diffusion Transformers & Rectified Flow](../../phases/04-computer-vision/23-diffusion-transformers-rectified-flow/) | Build | Python |
-| 24 | [SAM 3 & Open-Vocabulary Segmentation](../../phases/04-computer-vision/24-sam3-open-vocab-segmentation/) | Build | Python |
-| 25 | [Vision-Language Models (ViT-MLP-LLM)](../../phases/04-computer-vision/25-vision-language-models/) | Build | Python |
-| 26 | [Monocular Depth & Geometry Estimation](../../phases/04-computer-vision/26-monocular-depth/) | Build | Python |
-| 27 | [Multi-Object Tracking & Video Memory](../../phases/04-computer-vision/27-multi-object-tracking/) | Build | Python |
-| 28 | [World Models & Video Diffusion](../../phases/04-computer-vision/28-world-models-video-diffusion/) | Build | Python |
+| 01 | [Képi alapok: pixelek, csatornák és színterek](../../phases/04-computer-vision/01-image-fundamentals/) | Tanulás | Python |
+| 02 | [Konvolúciók az alapoktól](../../phases/04-computer-vision/02-convolutions-from-scratch/) | Építés | Python |
+| 03 | [CNN-ek: a LeNettől a ResNetig](../../phases/04-computer-vision/03-cnns-lenet-to-resnet/) | Építés | Python |
+| 04 | [Képosztályozás](../../phases/04-computer-vision/04-image-classification/) | Építés | Python |
+| 05 | [Transzfertanulás és finomhangolás](../../phases/04-computer-vision/05-transfer-learning/) | Építés | Python |
+| 06 | [Objektumfelismerés: YOLO az alapoktól](../../phases/04-computer-vision/06-object-detection-yolo/) | Építés | Python |
+| 07 | [Szemantikus szegmentálás: U-Net](../../phases/04-computer-vision/07-semantic-segmentation-unet/) | Építés | Python |
+| 08 | [Példányszegmentálás: Mask R-CNN](../../phases/04-computer-vision/08-instance-segmentation-mask-rcnn/) | Építés | Python |
+| 09 | [Képgenerálás: GAN-ok](../../phases/04-computer-vision/09-image-generation-gans/) | Építés | Python |
+| 10 | [Képgenerálás: diffúziós modellek](../../phases/04-computer-vision/10-image-generation-diffusion/) | Építés | Python |
+| 11 | [Stable Diffusion: felépítés és finomhangolás](../../phases/04-computer-vision/11-stable-diffusion/) | Építés | Python |
+| 12 | [Videóértelmezés: időbeli modellezés](../../phases/04-computer-vision/12-video-understanding/) | Építés | Python |
+| 13 | [3D látás: pontfelhők és NeRF-ek](../../phases/04-computer-vision/13-3d-vision-nerf/) | Építés | Python |
+| 14 | [Vizuális transzformerek (ViT)](../../phases/04-computer-vision/14-vision-transformers/) | Építés | Python |
+| 15 | [Valós idejű látás: peremeszközös telepítés](../../phases/04-computer-vision/15-real-time-edge/) | Építés | Python |
+| 16 | [Készíts teljes képfeldolgozási folyamatot](../../phases/04-computer-vision/16-vision-pipeline-capstone/) | Építés | Python |
+| 17 | [Önfelügyelt látás: SimCLR, DINO, MAE](../../phases/04-computer-vision/17-self-supervised-vision/) | Építés | Python |
+| 18 | [Nyílt szókincsű látás: CLIP](../../phases/04-computer-vision/18-open-vocab-clip/) | Építés | Python |
+| 19 | [OCR és dokumentumértelmezés](../../phases/04-computer-vision/19-ocr-document-understanding/) | Építés | Python |
+| 20 | [Képkeresés és metrikus tanulás](../../phases/04-computer-vision/20-image-retrieval-metric/) | Építés | Python |
+| 21 | [Kulcspontfelismerés és pózbecslés](../../phases/04-computer-vision/21-keypoint-pose/) | Építés | Python |
+| 22 | [3D Gaussian Splatting az alapoktól](../../phases/04-computer-vision/22-3d-gaussian-splatting/) | Építés | Python |
+| 23 | [Diffúziós transzformerek és egyenesített áramlások](../../phases/04-computer-vision/23-diffusion-transformers-rectified-flow/) | Építés | Python |
+| 24 | [SAM 3 és nyílt szókincsű szegmentálás](../../phases/04-computer-vision/24-sam3-open-vocab-segmentation/) | Építés | Python |
+| 25 | [Kép-nyelvi modellek (ViT-MLP-LLM)](../../phases/04-computer-vision/25-vision-language-models/) | Építés | Python |
+| 26 | [Mélység- és geometriabecslés egy képből](../../phases/04-computer-vision/26-monocular-depth/) | Építés | Python |
+| 27 | [Több objektum követése és videómemória](../../phases/04-computer-vision/27-multi-object-tracking/) | Építés | Python |
+| 28 | [Világmodellek és videódiffúzió](../../phases/04-computer-vision/28-world-models-video-diffusion/) | Építés | Python |
 
 </details>
 
 <details id="phase-5">
-<summary><b>Phase 5 — NLP: Foundations to Advanced</b> &nbsp;<code>29 lessons</code>&nbsp; <em>Language is the interface to intelligence.</em></summary>
+<summary><b>5. szakasz: NLP az alapoktól a haladó témákig</b> &nbsp;<code>29 lecke</code>&nbsp; <em>A nyelv az intelligencia felülete.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lecke | Típus | Nyelv |
 |:---:|--------|:----:|------|
-| 01 | [Text Processing: Tokenization, Stemming, Lemmatization](../../phases/05-nlp-foundations-to-advanced/01-text-processing/) | Build | Python |
-| 02 | [Bag of Words, TF-IDF & Text Representation](../../phases/05-nlp-foundations-to-advanced/02-bag-of-words-tfidf/) | Build | Python |
-| 03 | [Word Embeddings: Word2Vec from Scratch](../../phases/05-nlp-foundations-to-advanced/03-word-embeddings-word2vec/) | Build | Python |
-| 04 | [GloVe, FastText & Subword Embeddings](../../phases/05-nlp-foundations-to-advanced/04-glove-fasttext-subword/) | Build | Python |
-| 05 | [Sentiment Analysis](../../phases/05-nlp-foundations-to-advanced/05-sentiment-analysis/) | Build | Python |
-| 06 | [Named Entity Recognition (NER)](../../phases/05-nlp-foundations-to-advanced/06-named-entity-recognition/) | Build | Python |
-| 07 | [POS Tagging & Syntactic Parsing](../../phases/05-nlp-foundations-to-advanced/07-pos-tagging-parsing/) | Build | Python |
-| 08 | [Text Classification — CNNs & RNNs for Text](../../phases/05-nlp-foundations-to-advanced/08-cnns-rnns-for-text/) | Build | Python |
-| 09 | [Sequence-to-Sequence Models](../../phases/05-nlp-foundations-to-advanced/09-sequence-to-sequence/) | Build | Python |
-| 10 | [Attention Mechanism — The Breakthrough](../../phases/05-nlp-foundations-to-advanced/10-attention-mechanism/) | Build | Python |
-| 11 | [Machine Translation](../../phases/05-nlp-foundations-to-advanced/11-machine-translation/) | Build | Python |
-| 12 | [Text Summarization](../../phases/05-nlp-foundations-to-advanced/12-text-summarization/) | Build | Python |
-| 13 | [Question Answering Systems](../../phases/05-nlp-foundations-to-advanced/13-question-answering/) | Build | Python |
-| 14 | [Information Retrieval & Search](../../phases/05-nlp-foundations-to-advanced/14-information-retrieval-search/) | Build | Python |
-| 15 | [Topic Modeling: LDA, BERTopic](../../phases/05-nlp-foundations-to-advanced/15-topic-modeling/) | Build | Python |
-| 16 | [Text Generation](../../phases/05-nlp-foundations-to-advanced/16-text-generation-pre-transformer/) | Build | Python |
-| 17 | [Chatbots: Rule-Based to Neural](../../phases/05-nlp-foundations-to-advanced/17-chatbots-rule-to-neural/) | Build | Python |
-| 18 | [Multilingual NLP](../../phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/) | Build | Python |
-| 19 | [Subword Tokenization: BPE, WordPiece, Unigram, SentencePiece](../../phases/05-nlp-foundations-to-advanced/19-subword-tokenization/) | Learn | Python |
-| 20 | [Structured Outputs & Constrained Decoding](../../phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/) | Build | Python |
-| 21 | [NLI & Textual Entailment](../../phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/) | Learn | Python |
-| 22 | [Embedding Models Deep Dive](../../phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/) | Learn | Python |
-| 23 | [Chunking Strategies for RAG](../../phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/) | Build | Python |
-| 24 | [Coreference Resolution](../../phases/05-nlp-foundations-to-advanced/24-coreference-resolution/) | Learn | Python |
-| 25 | [Entity Linking & Disambiguation](../../phases/05-nlp-foundations-to-advanced/25-entity-linking/) | Build | Python |
-| 26 | [Relation Extraction & Knowledge Graph Construction](../../phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/) | Build | Python |
-| 27 | [LLM Evaluation: RAGAS, DeepEval, G-Eval](../../phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/) | Build | Python |
-| 28 | [Long-Context Evaluation: NIAH, RULER, LongBench, MRCR](../../phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/) | Learn | Python |
-| 29 | [Dialogue State Tracking](../../phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/) | Build | Python |
+| 01 | [Szövegfeldolgozás: tokenizálás, szótövezés és lemmatizálás](../../phases/05-nlp-foundations-to-advanced/01-text-processing/) | Építés | Python |
+| 02 | [Szózsák, TF-IDF és szövegreprezentáció](../../phases/05-nlp-foundations-to-advanced/02-bag-of-words-tfidf/) | Építés | Python |
+| 03 | [Szóbeágyazások: Word2Vec az alapoktól](../../phases/05-nlp-foundations-to-advanced/03-word-embeddings-word2vec/) | Építés | Python |
+| 04 | [GloVe, FastText és részszó-beágyazások](../../phases/05-nlp-foundations-to-advanced/04-glove-fasttext-subword/) | Építés | Python |
+| 05 | [Hangulatelemzés](../../phases/05-nlp-foundations-to-advanced/05-sentiment-analysis/) | Építés | Python |
+| 06 | [Névvel rendelkező entitások felismerése (NER)](../../phases/05-nlp-foundations-to-advanced/06-named-entity-recognition/) | Építés | Python |
+| 07 | [Szófaji címkézés és szintaktikai elemzés](../../phases/05-nlp-foundations-to-advanced/07-pos-tagging-parsing/) | Építés | Python |
+| 08 | [Szövegosztályozás: CNN-ek és RNN-ek](../../phases/05-nlp-foundations-to-advanced/08-cnns-rnns-for-text/) | Építés | Python |
+| 09 | [Szekvenciából szekvenciát előállító modellek](../../phases/05-nlp-foundations-to-advanced/09-sequence-to-sequence/) | Építés | Python |
+| 10 | [A figyelmi mechanizmus: az áttörés](../../phases/05-nlp-foundations-to-advanced/10-attention-mechanism/) | Építés | Python |
+| 11 | [Gépi fordítás](../../phases/05-nlp-foundations-to-advanced/11-machine-translation/) | Építés | Python |
+| 12 | [Szövegösszefoglalás](../../phases/05-nlp-foundations-to-advanced/12-text-summarization/) | Építés | Python |
+| 13 | [Kérdésmegválaszoló rendszerek](../../phases/05-nlp-foundations-to-advanced/13-question-answering/) | Építés | Python |
+| 14 | [Információ-visszakeresés és keresés](../../phases/05-nlp-foundations-to-advanced/14-information-retrieval-search/) | Építés | Python |
+| 15 | [Témamodellezés: LDA, BERTopic](../../phases/05-nlp-foundations-to-advanced/15-topic-modeling/) | Építés | Python |
+| 16 | [Szöveggenerálás](../../phases/05-nlp-foundations-to-advanced/16-text-generation-pre-transformer/) | Építés | Python |
+| 17 | [Csevegőrobotok: a szabályoktól a neurális hálókig](../../phases/05-nlp-foundations-to-advanced/17-chatbots-rule-to-neural/) | Építés | Python |
+| 18 | [Többnyelvű NLP](../../phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/) | Építés | Python |
+| 19 | [Részszó-tokenizálás: BPE, WordPiece, Unigram, SentencePiece](../../phases/05-nlp-foundations-to-advanced/19-subword-tokenization/) | Tanulás | Python |
+| 20 | [Strukturált kimenetek és korlátozott dekódolás](../../phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/) | Építés | Python |
+| 21 | [NLI és szöveges következtetés](../../phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/) | Tanulás | Python |
+| 22 | [Beágyazási modellek részletesen](../../phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/) | Tanulás | Python |
+| 23 | [Darabolási stratégiák a RAG-hoz](../../phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/) | Építés | Python |
+| 24 | [Koreferenciák feloldása](../../phases/05-nlp-foundations-to-advanced/24-coreference-resolution/) | Tanulás | Python |
+| 25 | [Entitások összekapcsolása és egyértelműsítése](../../phases/05-nlp-foundations-to-advanced/25-entity-linking/) | Építés | Python |
+| 26 | [Kapcsolatkinyerés és tudásgráfépítés](../../phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/) | Építés | Python |
+| 27 | [LLM-értékelés: RAGAS, DeepEval, G-Eval](../../phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/) | Építés | Python |
+| 28 | [Hosszú kontextus értékelése: NIAH, RULER, LongBench, MRCR](../../phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/) | Tanulás | Python |
+| 29 | [Párbeszédállapot-követés](../../phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/) | Építés | Python |
 
 </details>
 
 <details id="phase-6">
-<summary><b>Phase 6 — Speech & Audio</b> &nbsp;<code>17 lessons</code>&nbsp; <em>Hear, understand, speak.</em></summary>
+<summary><b>6. szakasz: Beszéd és hang</b> &nbsp;<code>17 lecke</code>&nbsp; <em>Hallj, érts, beszélj.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lecke | Típus | Nyelv |
 |:---:|--------|:----:|------|
-| 01 | [Audio Fundamentals: Waveforms, Sampling, FFT](../../phases/06-speech-and-audio/01-audio-fundamentals) | Learn | Python |
-| 02 | [Spectrograms, Mel Scale & Audio Features](../../phases/06-speech-and-audio/02-spectrograms-mel-features) | Build | Python |
-| 03 | [Audio Classification](../../phases/06-speech-and-audio/03-audio-classification) | Build | Python |
-| 04 | [Speech Recognition (ASR)](../../phases/06-speech-and-audio/04-speech-recognition-asr) | Build | Python |
-| 05 | [Whisper: Architecture & Fine-Tuning](../../phases/06-speech-and-audio/05-whisper-architecture-finetuning) | Build | Python |
-| 06 | [Speaker Recognition & Verification](../../phases/06-speech-and-audio/06-speaker-recognition-verification) | Build | Python |
-| 07 | [Text-to-Speech (TTS)](../../phases/06-speech-and-audio/07-text-to-speech) | Build | Python |
-| 08 | [Voice Cloning & Voice Conversion](../../phases/06-speech-and-audio/08-voice-cloning-conversion) | Build | Python |
-| 09 | [Music Generation](../../phases/06-speech-and-audio/09-music-generation) | Build | Python |
-| 10 | [Audio-Language Models](../../phases/06-speech-and-audio/10-audio-language-models) | Build | Python |
-| 11 | [Real-Time Audio Processing](../../phases/06-speech-and-audio/11-real-time-audio-processing) | Build | Python |
-| 12 | [Build a Voice Assistant Pipeline](../../phases/06-speech-and-audio/12-voice-assistant-pipeline) | Build | Python |
-| 13 | [Neural Audio Codecs — EnCodec, SNAC, Mimi, DAC](../../phases/06-speech-and-audio/13-neural-audio-codecs) | Learn | Python |
-| 14 | [Voice Activity Detection & Turn-Taking](../../phases/06-speech-and-audio/14-voice-activity-detection-turn-taking) | Build | Python |
-| 15 | [Streaming Speech-to-Speech — Moshi, Hibiki](../../phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki) | Learn | Python |
-| 16 | [Voice Anti-Spoofing & Audio Watermarking](../../phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking) | Build | Python |
-| 17 | [Audio Evaluation — WER, MOS, MMAU, Leaderboards](../../phases/06-speech-and-audio/17-audio-evaluation-metrics) | Learn | Python |
+| 01 | [Hangalapok: hullámformák, mintavétel és FFT](../../phases/06-speech-and-audio/01-audio-fundamentals) | Tanulás | Python |
+| 02 | [Spektrogramok, mel-skála és hangjellemzők](../../phases/06-speech-and-audio/02-spectrograms-mel-features) | Építés | Python |
+| 03 | [Hangosztályozás](../../phases/06-speech-and-audio/03-audio-classification) | Építés | Python |
+| 04 | [Beszédfelismerés (ASR)](../../phases/06-speech-and-audio/04-speech-recognition-asr) | Építés | Python |
+| 05 | [Whisper: felépítés és finomhangolás](../../phases/06-speech-and-audio/05-whisper-architecture-finetuning) | Építés | Python |
+| 06 | [Beszélőfelismerés és -ellenőrzés](../../phases/06-speech-and-audio/06-speaker-recognition-verification) | Építés | Python |
+| 07 | [Szövegfelolvasás (TTS)](../../phases/06-speech-and-audio/07-text-to-speech) | Építés | Python |
+| 08 | [Hangklónozás és hangátalakítás](../../phases/06-speech-and-audio/08-voice-cloning-conversion) | Építés | Python |
+| 09 | [Zenegenerálás](../../phases/06-speech-and-audio/09-music-generation) | Építés | Python |
+| 10 | [Hang-nyelvi modellek](../../phases/06-speech-and-audio/10-audio-language-models) | Építés | Python |
+| 11 | [Valós idejű hangfeldolgozás](../../phases/06-speech-and-audio/11-real-time-audio-processing) | Építés | Python |
+| 12 | [Készíts hangasszisztens-folyamatot](../../phases/06-speech-and-audio/12-voice-assistant-pipeline) | Építés | Python |
+| 13 | [Neurális hangkodekek: EnCodec, SNAC, Mimi, DAC](../../phases/06-speech-and-audio/13-neural-audio-codecs) | Tanulás | Python |
+| 14 | [Beszédaktivitás és beszélőváltás felismerése](../../phases/06-speech-and-audio/14-voice-activity-detection-turn-taking) | Építés | Python |
+| 15 | [Folyamatos beszéd-beszéd átalakítás: Moshi, Hibiki](../../phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki) | Tanulás | Python |
+| 16 | [Hanghamisítás elleni védelem és hangvízjelezés](../../phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking) | Építés | Python |
+| 17 | [Hangértékelés: WER, MOS, MMAU és ranglisták](../../phases/06-speech-and-audio/17-audio-evaluation-metrics) | Tanulás | Python |
 
 </details>
 
 <details id="phase-7">
-<summary><b>Phase 7 — Transformers Deep Dive</b> &nbsp;<code>16 lessons</code>&nbsp; <em>The architecture that changed everything.</em></summary>
+<summary><b>7. szakasz: Transzformerek részletesen</b> &nbsp;<code>16 lecke</code>&nbsp; <em>A felépítés, amely mindent megváltoztatott.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lecke | Típus | Nyelv |
 |:---:|--------|:----:|------|
-| 01 | [Why Transformers: The Problems with RNNs](../../phases/07-transformers-deep-dive/01-why-transformers/) | Learn | Python |
-| 02 | [Self-Attention from Scratch](../../phases/07-transformers-deep-dive/02-self-attention-from-scratch/) | Build | Python |
-| 03 | [Multi-Head Attention](../../phases/07-transformers-deep-dive/03-multi-head-attention/) | Build | Python |
-| 04 | [Positional Encoding: Sinusoidal, RoPE, ALiBi](../../phases/07-transformers-deep-dive/04-positional-encoding/) | Build | Python |
-| 05 | [The Full Transformer: Encoder + Decoder](../../phases/07-transformers-deep-dive/05-full-transformer/) | Build | Python |
-| 06 | [BERT — Masked Language Modeling](../../phases/07-transformers-deep-dive/06-bert-masked-language-modeling/) | Build | Python |
-| 07 | [GPT — Causal Language Modeling](../../phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/) | Build | Python |
-| 08 | [T5, BART — Encoder-Decoder Models](../../phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/) | Learn | Python |
-| 09 | [Vision Transformers (ViT)](../../phases/07-transformers-deep-dive/09-vision-transformers/) | Build | Python |
-| 10 | [Audio Transformers — Whisper Architecture](../../phases/07-transformers-deep-dive/10-audio-transformers-whisper/) | Learn | Python |
-| 11 | [Mixture of Experts (MoE)](../../phases/07-transformers-deep-dive/11-mixture-of-experts/) | Build | Python |
-| 12 | [KV Cache, Flash Attention & Inference Optimization](../../phases/07-transformers-deep-dive/12-kv-cache-flash-attention/) | Build | Python |
-| 13 | [Scaling Laws](../../phases/07-transformers-deep-dive/13-scaling-laws/) | Learn | Python |
-| 14 | [Build a Transformer from Scratch](../../phases/07-transformers-deep-dive/14-build-a-transformer-capstone/) | Build | Python |
-| 15 | [Attention Variants — Sliding Window, Sparse, Differential](../../phases/07-transformers-deep-dive/15-attention-variants/) | Build | Python |
-| 16 | [Speculative Decoding — Draft, Verify, Repeat](../../phases/07-transformers-deep-dive/16-speculative-decoding/) | Build | Python |
+| 01 | [Miért transzformerek? Az RNN-ek problémái](../../phases/07-transformers-deep-dive/01-why-transformers/) | Tanulás | Python |
+| 02 | [Önfigyelem az alapoktól](../../phases/07-transformers-deep-dive/02-self-attention-from-scratch/) | Építés | Python |
+| 03 | [Többfejes figyelem](../../phases/07-transformers-deep-dive/03-multi-head-attention/) | Építés | Python |
+| 04 | [Pozíciókódolás: szinuszos, RoPE, ALiBi](../../phases/07-transformers-deep-dive/04-positional-encoding/) | Építés | Python |
+| 05 | [A teljes transzformer: kódoló és dekódoló](../../phases/07-transformers-deep-dive/05-full-transformer/) | Építés | Python |
+| 06 | [BERT: maszkolt nyelvmodellezés](../../phases/07-transformers-deep-dive/06-bert-masked-language-modeling/) | Építés | Python |
+| 07 | [GPT: kauzális nyelvmodellezés](../../phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/) | Építés | Python |
+| 08 | [T5 és BART: kódoló-dekódoló modellek](../../phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/) | Tanulás | Python |
+| 09 | [Vizuális transzformerek (ViT)](../../phases/07-transformers-deep-dive/09-vision-transformers/) | Építés | Python |
+| 10 | [Hangtranszformerek: a Whisper felépítése](../../phases/07-transformers-deep-dive/10-audio-transformers-whisper/) | Tanulás | Python |
+| 11 | [Szakértők keveréke (MoE)](../../phases/07-transformers-deep-dive/11-mixture-of-experts/) | Építés | Python |
+| 12 | [KV-gyorsítótár, Flash Attention és következtetésoptimalizálás](../../phases/07-transformers-deep-dive/12-kv-cache-flash-attention/) | Építés | Python |
+| 13 | [Skálázási törvények](../../phases/07-transformers-deep-dive/13-scaling-laws/) | Tanulás | Python |
+| 14 | [Készíts transzformert az alapoktól](../../phases/07-transformers-deep-dive/14-build-a-transformer-capstone/) | Építés | Python |
+| 15 | [Figyelemváltozatok: csúszóablakos, ritka és differenciális](../../phases/07-transformers-deep-dive/15-attention-variants/) | Építés | Python |
+| 16 | [Spekulatív dekódolás: javasolj, ellenőrizz, ismételj](../../phases/07-transformers-deep-dive/16-speculative-decoding/) | Építés | Python |
 
 </details>
 
 <details id="phase-8">
-<summary><b>Phase 8 — Generative AI</b> &nbsp;<code>15 lessons</code>&nbsp; <em>Create images, video, audio, 3D, and more.</em></summary>
+<summary><b>8. szakasz: Generatív AI</b> &nbsp;<code>15 lecke</code>&nbsp; <em>Készíts képet, videót, hangot, 3D-t és még többet.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lecke | Típus | Nyelv |
 |:---:|--------|:----:|------|
-| 01 | [Generative Models: Taxonomy & History](../../phases/08-generative-ai/01-generative-models-taxonomy-history/) | Learn | Python |
-| 02 | [Autoencoders & VAE](../../phases/08-generative-ai/02-autoencoders-vae/) | Build | Python |
-| 03 | [GANs: Generator vs Discriminator](../../phases/08-generative-ai/03-gans-generator-discriminator/) | Build | Python |
-| 04 | [Conditional GANs & Pix2Pix](../../phases/08-generative-ai/04-conditional-gans-pix2pix/) | Build | Python |
-| 05 | [StyleGAN](../../phases/08-generative-ai/05-stylegan/) | Build | Python |
-| 06 | [Diffusion Models — DDPM from Scratch](../../phases/08-generative-ai/06-diffusion-ddpm-from-scratch/) | Build | Python |
-| 07 | [Latent Diffusion & Stable Diffusion](../../phases/08-generative-ai/07-latent-diffusion-stable-diffusion/) | Build | Python |
-| 08 | [ControlNet, LoRA & Conditioning](../../phases/08-generative-ai/08-controlnet-lora-conditioning/) | Build | Python |
-| 09 | [Inpainting, Outpainting & Editing](../../phases/08-generative-ai/09-inpainting-outpainting-editing/) | Build | Python |
-| 10 | [Video Generation](../../phases/08-generative-ai/10-video-generation/) | Build | Python |
-| 11 | [Audio Generation](../../phases/08-generative-ai/11-audio-generation/) | Build | Python |
-| 12 | [3D Generation](../../phases/08-generative-ai/12-3d-generation/) | Build | Python |
-| 13 | [Flow Matching & Rectified Flows](../../phases/08-generative-ai/13-flow-matching-rectified-flows/) | Build | Python |
-| 14 | [Evaluation: FID, CLIP Score](../../phases/08-generative-ai/14-evaluation-fid-clip-score/) | Build | Python |
-| 19 | [Visual Autoregressive Modeling (VAR): Next-Scale Prediction](../../phases/08-generative-ai/19-visual-autoregressive-var/) | Build | Python |
+| 01 | [Generatív modellek: osztályozás és történet](../../phases/08-generative-ai/01-generative-models-taxonomy-history/) | Tanulás | Python |
+| 02 | [Autokódolók és VAE](../../phases/08-generative-ai/02-autoencoders-vae/) | Építés | Python |
+| 03 | [GAN-ok: generátor a diszkriminátor ellen](../../phases/08-generative-ai/03-gans-generator-discriminator/) | Építés | Python |
+| 04 | [Feltételes GAN-ok és Pix2Pix](../../phases/08-generative-ai/04-conditional-gans-pix2pix/) | Építés | Python |
+| 05 | [StyleGAN](../../phases/08-generative-ai/05-stylegan/) | Építés | Python |
+| 06 | [Diffúziós modellek: DDPM az alapoktól](../../phases/08-generative-ai/06-diffusion-ddpm-from-scratch/) | Építés | Python |
+| 07 | [Látens diffúzió és Stable Diffusion](../../phases/08-generative-ai/07-latent-diffusion-stable-diffusion/) | Építés | Python |
+| 08 | [ControlNet, LoRA és feltételes vezérlés](../../phases/08-generative-ai/08-controlnet-lora-conditioning/) | Építés | Python |
+| 09 | [Képkiegészítés, képbővítés és szerkesztés](../../phases/08-generative-ai/09-inpainting-outpainting-editing/) | Építés | Python |
+| 10 | [Videógenerálás](../../phases/08-generative-ai/10-video-generation/) | Építés | Python |
+| 11 | [Hanggenerálás](../../phases/08-generative-ai/11-audio-generation/) | Építés | Python |
+| 12 | [3D-generálás](../../phases/08-generative-ai/12-3d-generation/) | Építés | Python |
+| 13 | [Áramlásillesztés és egyenesített áramlások](../../phases/08-generative-ai/13-flow-matching-rectified-flows/) | Építés | Python |
+| 14 | [Értékelés: FID és CLIP-pontszám](../../phases/08-generative-ai/14-evaluation-fid-clip-score/) | Építés | Python |
+| 19 | [Vizuális autoregresszív modellezés (VAR): a következő lépték előrejelzése](../../phases/08-generative-ai/19-visual-autoregressive-var/) | Építés | Python |
 
 </details>
 
 <details id="phase-9">
-<summary><b>Phase 9 — Reinforcement Learning</b> &nbsp;<code>12 lessons</code>&nbsp; <em>The foundation of RLHF and game-playing AI.</em></summary>
+<summary><b>9. szakasz: Megerősítéses tanulás</b> &nbsp;<code>12 lecke</code>&nbsp; <em>Az RLHF és a játékos AI alapja.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lecke | Típus | Nyelv |
 |:---:|--------|:----:|------|
-| 01 | [MDPs, States, Actions & Rewards](../../phases/09-reinforcement-learning/01-mdps-states-actions-rewards/) | Learn | Python |
-| 02 | [Dynamic Programming](../../phases/09-reinforcement-learning/02-dynamic-programming/) | Build | Python |
-| 03 | [Monte Carlo Methods](../../phases/09-reinforcement-learning/03-monte-carlo-methods/) | Build | Python |
-| 04 | [Q-Learning, SARSA](../../phases/09-reinforcement-learning/04-q-learning-sarsa/) | Build | Python |
-| 05 | [Deep Q-Networks (DQN)](../../phases/09-reinforcement-learning/05-dqn/) | Build | Python |
-| 06 | [Policy Gradients — REINFORCE](../../phases/09-reinforcement-learning/06-policy-gradients-reinforce/) | Build | Python |
-| 07 | [Actor-Critic — A2C, A3C](../../phases/09-reinforcement-learning/07-actor-critic-a2c-a3c/) | Build | Python |
-| 08 | [PPO](../../phases/09-reinforcement-learning/08-ppo/) | Build | Python |
-| 09 | [Reward Modeling & RLHF](../../phases/09-reinforcement-learning/09-reward-modeling-rlhf/) | Build | Python |
-| 10 | [Multi-Agent RL](../../phases/09-reinforcement-learning/10-multi-agent-rl/) | Build | Python |
-| 11 | [Sim-to-Real Transfer](../../phases/09-reinforcement-learning/11-sim-to-real-transfer/) | Build | Python |
-| 12 | [RL for Games](../../phases/09-reinforcement-learning/12-rl-for-games/) | Build | Python |
+| 01 | [MDP-k, állapotok, cselekvések és jutalmak](../../phases/09-reinforcement-learning/01-mdps-states-actions-rewards/) | Tanulás | Python |
+| 02 | [Dinamikus programozás](../../phases/09-reinforcement-learning/02-dynamic-programming/) | Építés | Python |
+| 03 | [Monte-Carlo-módszerek](../../phases/09-reinforcement-learning/03-monte-carlo-methods/) | Építés | Python |
+| 04 | [Q-Learning, SARSA](../../phases/09-reinforcement-learning/04-q-learning-sarsa/) | Építés | Python |
+| 05 | [Mély Q-hálózatok (DQN)](../../phases/09-reinforcement-learning/05-dqn/) | Építés | Python |
+| 06 | [Stratégiagradiensek: REINFORCE](../../phases/09-reinforcement-learning/06-policy-gradients-reinforce/) | Építés | Python |
+| 07 | [Szereplő-kritikus: A2C, A3C](../../phases/09-reinforcement-learning/07-actor-critic-a2c-a3c/) | Építés | Python |
+| 08 | [PPO](../../phases/09-reinforcement-learning/08-ppo/) | Építés | Python |
+| 09 | [Jutalommodellezés és RLHF](../../phases/09-reinforcement-learning/09-reward-modeling-rlhf/) | Építés | Python |
+| 10 | [Többágenses megerősítéses tanulás](../../phases/09-reinforcement-learning/10-multi-agent-rl/) | Építés | Python |
+| 11 | [Átvitel szimulációból a valóságba](../../phases/09-reinforcement-learning/11-sim-to-real-transfer/) | Építés | Python |
+| 12 | [Megerősítéses tanulás játékokhoz](../../phases/09-reinforcement-learning/12-rl-for-games/) | Építés | Python |
 
 </details>
 
 <details id="phase-10">
-<summary><b>Phase 10 — LLMs from Scratch</b> &nbsp;<code>24 lessons</code>&nbsp; <em>Build, train, and understand large language models.</em></summary>
+<summary><b>10. szakasz: LLM-ek az alapoktól</b> &nbsp;<code>24 lecke</code>&nbsp; <em>Építs, taníts és érts meg nagy nyelvi modelleket.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lecke | Típus | Nyelv |
 |:---:|--------|:----:|------|
-| 01 | [Tokenizers: BPE, WordPiece, SentencePiece](../../phases/10-llms-from-scratch/01-tokenizers/) | Build | Python, Rust |
-| 02 | [Building a Tokenizer from Scratch](../../phases/10-llms-from-scratch/02-building-a-tokenizer/) | Build | Python |
-| 03 | [Data Pipelines for Pre-Training](../../phases/10-llms-from-scratch/03-data-pipelines/) | Build | Python |
-| 04 | [Pre-Training a Mini GPT (124M)](../../phases/10-llms-from-scratch/04-pre-training-mini-gpt/) | Build | Python |
-| 05 | [Distributed Training, FSDP, DeepSpeed](../../phases/10-llms-from-scratch/05-scaling-distributed/) | Build | Python |
-| 06 | [Instruction Tuning — SFT](../../phases/10-llms-from-scratch/06-instruction-tuning-sft/) | Build | Python |
-| 07 | [RLHF — Reward Model + PPO](../../phases/10-llms-from-scratch/07-rlhf/) | Build | Python |
-| 08 | [DPO — Direct Preference Optimization](../../phases/10-llms-from-scratch/08-dpo/) | Build | Python |
-| 09 | [Constitutional AI & Self-Improvement](../../phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/) | Build | Python |
-| 10 | [Evaluation — Benchmarks, Evals](../../phases/10-llms-from-scratch/10-evaluation/) | Build | Python |
-| 11 | [Quantization: INT8, GPTQ, AWQ, GGUF](../../phases/10-llms-from-scratch/11-quantization/) | Build | Python |
-| 12 | [Inference Optimization](../../phases/10-llms-from-scratch/12-inference-optimization/) | Build | Python |
-| 13 | [Building a Complete LLM Pipeline](../../phases/10-llms-from-scratch/13-building-complete-llm-pipeline/) | Build | Python |
-| 14 | [Open Models: Architecture Walkthroughs](../../phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/) | Learn | Python |
-| 15 | [Speculative Decoding and EAGLE-3](../../phases/10-llms-from-scratch/15-speculative-decoding-eagle3/) | Build | Python |
-| 16 | [Differential Attention (V2)](../../phases/10-llms-from-scratch/16-differential-attention-v2/) | Build | Python |
-| 17 | [Native Sparse Attention (DeepSeek NSA)](../../phases/10-llms-from-scratch/17-native-sparse-attention/) | Build | Python |
-| 18 | [Multi-Token Prediction (MTP)](../../phases/10-llms-from-scratch/18-multi-token-prediction/) | Build | Python |
-| 19 | [DualPipe Parallelism](../../phases/10-llms-from-scratch/19-dualpipe-parallelism/) | Learn | Python |
-| 20 | [DeepSeek-V3 Architecture Walkthrough](../../phases/10-llms-from-scratch/20-deepseek-v3-walkthrough/) | Learn | Python |
-| 21 | [Jamba — Hybrid SSM-Transformer](../../phases/10-llms-from-scratch/21-jamba-hybrid-ssm-transformer/) | Learn | Python |
-| 22 | [Async and Hogwild! Inference](../../phases/10-llms-from-scratch/22-async-hogwild-inference/) | Build | Python |
-| 25 | [Speculative Decoding and EAGLE](../../phases/10-llms-from-scratch/25-speculative-decoding/) | Build | Python |
-| 34 | [Gradient Checkpointing and Activation Recomputation](../../phases/10-llms-from-scratch/34-gradient-checkpointing/) | Build | Python |
+| 01 | [Tokenizálók: BPE, WordPiece, SentencePiece](../../phases/10-llms-from-scratch/01-tokenizers/) | Építés | Python, Rust |
+| 02 | [Tokenizáló építése az alapoktól](../../phases/10-llms-from-scratch/02-building-a-tokenizer/) | Építés | Python |
+| 03 | [Adatfolyamatok előtanításhoz](../../phases/10-llms-from-scratch/03-data-pipelines/) | Építés | Python |
+| 04 | [Egy mini-GPT (124M) előtanítása](../../phases/10-llms-from-scratch/04-pre-training-mini-gpt/) | Építés | Python |
+| 05 | [Elosztott tanítás, FSDP és DeepSpeed](../../phases/10-llms-from-scratch/05-scaling-distributed/) | Építés | Python |
+| 06 | [Utasításokra hangolás: SFT](../../phases/10-llms-from-scratch/06-instruction-tuning-sft/) | Építés | Python |
+| 07 | [RLHF: jutalommodell és PPO](../../phases/10-llms-from-scratch/07-rlhf/) | Építés | Python |
+| 08 | [DPO: közvetlen preferenciaoptimalizálás](../../phases/10-llms-from-scratch/08-dpo/) | Építés | Python |
+| 09 | [Alkotmányos AI és önfejlesztés](../../phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/) | Építés | Python |
+| 10 | [Értékelés: viszonyítási feladatok és tesztek](../../phases/10-llms-from-scratch/10-evaluation/) | Építés | Python |
+| 11 | [Kvantálás: INT8, GPTQ, AWQ, GGUF](../../phases/10-llms-from-scratch/11-quantization/) | Építés | Python |
+| 12 | [Következtetésoptimalizálás](../../phases/10-llms-from-scratch/12-inference-optimization/) | Építés | Python |
+| 13 | [Teljes LLM-folyamat építése](../../phases/10-llms-from-scratch/13-building-complete-llm-pipeline/) | Építés | Python |
+| 14 | [Nyílt modellek: felépítési áttekintések](../../phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/) | Tanulás | Python |
+| 15 | [Spekulatív dekódolás és EAGLE-3](../../phases/10-llms-from-scratch/15-speculative-decoding-eagle3/) | Építés | Python |
+| 16 | [Differenciális figyelem (V2)](../../phases/10-llms-from-scratch/16-differential-attention-v2/) | Építés | Python |
+| 17 | [Natív ritka figyelem (DeepSeek NSA)](../../phases/10-llms-from-scratch/17-native-sparse-attention/) | Építés | Python |
+| 18 | [Több token előrejelzése (MTP)](../../phases/10-llms-from-scratch/18-multi-token-prediction/) | Építés | Python |
+| 19 | [DualPipe-párhuzamosság](../../phases/10-llms-from-scratch/19-dualpipe-parallelism/) | Tanulás | Python |
+| 20 | [A DeepSeek-V3 felépítésének áttekintése](../../phases/10-llms-from-scratch/20-deepseek-v3-walkthrough/) | Tanulás | Python |
+| 21 | [Jamba: hibrid SSM-transzformer](../../phases/10-llms-from-scratch/21-jamba-hybrid-ssm-transformer/) | Tanulás | Python |
+| 22 | [Aszinkron következtetés és Hogwild!](../../phases/10-llms-from-scratch/22-async-hogwild-inference/) | Építés | Python |
+| 25 | [Spekulatív dekódolás és EAGLE](../../phases/10-llms-from-scratch/25-speculative-decoding/) | Építés | Python |
+| 34 | [Gradiens-ellenőrzőpontok és aktivációk újraszámítása](../../phases/10-llms-from-scratch/34-gradient-checkpointing/) | Építés | Python |
 
 </details>
 
 <details id="phase-11">
-<summary><b>Phase 11 — LLM Engineering</b> &nbsp;<code>17 lessons</code>&nbsp; <em>Put LLMs to work in production.</em></summary>
+<summary><b>11. szakasz: LLM-mérnökség</b> &nbsp;<code>17 lecke</code>&nbsp; <em>Állítsd munkába az LLM-eket üzemi környezetben.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lecke | Típus | Nyelv |
 |:---:|--------|:----:|------|
-| 01 | [Prompt Engineering: Techniques & Patterns](../../phases/11-llm-engineering/01-prompt-engineering/) | Build | Python |
-| 02 | [Few-Shot, CoT, Tree-of-Thought](../../phases/11-llm-engineering/02-few-shot-cot/) | Build | Python |
-| 03 | [Structured Outputs](../../phases/11-llm-engineering/03-structured-outputs/) | Build | Python |
-| 04 | [Embeddings & Vector Representations](../../phases/11-llm-engineering/04-embeddings/) | Build | Python |
-| 05 | [Context Engineering](../../phases/11-llm-engineering/05-context-engineering/) | Build | Python |
-| 06 | [RAG: Retrieval-Augmented Generation](../../phases/11-llm-engineering/06-rag/) | Build | Python |
-| 07 | [Advanced RAG: Chunking, Reranking](../../phases/11-llm-engineering/07-advanced-rag/) | Build | Python |
-| 08 | [Fine-Tuning with LoRA & QLoRA](../../phases/11-llm-engineering/08-fine-tuning-lora/) | Build | Python |
-| 09 | [Function Calling & Tool Use](../../phases/11-llm-engineering/09-function-calling/) | Build | Python |
-| 10 | [Evaluation & Testing](../../phases/11-llm-engineering/10-evaluation/) | Build | Python |
-| 11 | [Caching, Rate Limiting & Cost](../../phases/11-llm-engineering/11-caching-cost/) | Build | Python |
-| 12 | [Guardrails & Safety](../../phases/11-llm-engineering/12-guardrails/) | Build | Python |
-| 13 | [Building a Production LLM App](../../phases/11-llm-engineering/13-production-app/) | Build | Python |
-| 14 | [Model Context Protocol (MCP)](../../phases/11-llm-engineering/14-model-context-protocol/) | Build | Python |
-| 15 | [Prompt Caching & Context Caching](../../phases/11-llm-engineering/15-prompt-caching/) | Build | Python |
-| 16 | [Agent State Machines — Graphs, Nodes, Checkpoints](../../phases/11-llm-engineering/16-langgraph-state-machines/) | Build | Python |
-| 17 | [Agent Framework Tradeoffs](../../phases/11-llm-engineering/17-agent-framework-tradeoffs/) | Learn | Python |
+| 01 | [Prompttervezés: technikák és minták](../../phases/11-llm-engineering/01-prompt-engineering/) | Építés | Python |
+| 02 | [Few-Shot, CoT, Tree-of-Thought](../../phases/11-llm-engineering/02-few-shot-cot/) | Építés | Python |
+| 03 | [Strukturált kimenetek](../../phases/11-llm-engineering/03-structured-outputs/) | Építés | Python |
+| 04 | [Beágyazások és vektorreprezentációk](../../phases/11-llm-engineering/04-embeddings/) | Építés | Python |
+| 05 | [Kontextustervezés](../../phases/11-llm-engineering/05-context-engineering/) | Építés | Python |
+| 06 | [RAG: visszakereséssel kiegészített generálás](../../phases/11-llm-engineering/06-rag/) | Építés | Python |
+| 07 | [Haladó RAG: darabolás és újrarangsorolás](../../phases/11-llm-engineering/07-advanced-rag/) | Építés | Python |
+| 08 | [Finomhangolás LoRA és QLoRA segítségével](../../phases/11-llm-engineering/08-fine-tuning-lora/) | Építés | Python |
+| 09 | [Függvényhívás és eszközhasználat](../../phases/11-llm-engineering/09-function-calling/) | Építés | Python |
+| 10 | [Értékelés és tesztelés](../../phases/11-llm-engineering/10-evaluation/) | Építés | Python |
+| 11 | [Gyorsítótárazás, sebességkorlátozás és költség](../../phases/11-llm-engineering/11-caching-cost/) | Építés | Python |
+| 12 | [Védelmi korlátok és biztonság](../../phases/11-llm-engineering/12-guardrails/) | Építés | Python |
+| 13 | [Üzemi LLM-alkalmazás építése](../../phases/11-llm-engineering/13-production-app/) | Építés | Python |
+| 14 | [Model Context Protocol (MCP)](../../phases/11-llm-engineering/14-model-context-protocol/) | Építés | Python |
+| 15 | [Prompt- és kontextusgyorsítótárazás](../../phases/11-llm-engineering/15-prompt-caching/) | Építés | Python |
+| 16 | [Ágensek állapotgépei: gráfok, csomópontok és ellenőrzőpontok](../../phases/11-llm-engineering/16-langgraph-state-machines/) | Építés | Python |
+| 17 | [Ágenskeretrendszerek kompromisszumai](../../phases/11-llm-engineering/17-agent-framework-tradeoffs/) | Tanulás | Python |
 
 </details>
 
 <details id="phase-12">
-<summary><b>Phase 12 — Multimodal AI</b> &nbsp;<code>25 lessons</code>&nbsp; <em>See, hear, read, and reason across modalities — from ViT patches to computer-use agents.</em></summary>
+<summary><b>12. szakasz: Multimodális AI</b> &nbsp;<code>25 lecke</code>&nbsp; <em>Láss, hallj, olvass és következtess modalitások között: a ViT-képrészletektől a számítógépet kezelő ágensekig.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lecke | Típus | Nyelv |
 |:---:|--------|:----:|------|
-| 01 | [Vision Transformers and the Patch-Token Primitive](../../phases/12-multimodal-ai/01-vision-transformer-patch-tokens/) | Learn | Python |
-| 02 | [CLIP and Contrastive Vision-Language Pretraining](../../phases/12-multimodal-ai/02-clip-contrastive-pretraining/) | Build | Python |
-| 03 | [BLIP-2 Q-Former as Modality Bridge](../../phases/12-multimodal-ai/03-blip2-qformer-bridge/) | Build | Python |
-| 04 | [Flamingo and Gated Cross-Attention](../../phases/12-multimodal-ai/04-flamingo-gated-cross-attention/) | Learn | Python |
-| 05 | [LLaVA and Visual Instruction Tuning](../../phases/12-multimodal-ai/05-llava-visual-instruction-tuning/) | Build | Python |
-| 06 | [Any-Resolution Vision — Patch-n'-Pack and NaFlex](../../phases/12-multimodal-ai/06-any-resolution-patch-n-pack/) | Build | Python |
-| 07 | [Open-Weight VLM Recipes: What Actually Matters](../../phases/12-multimodal-ai/07-open-weight-vlm-recipes/) | Learn | Python |
-| 08 | [LLaVA-OneVision: Single, Multi, Video](../../phases/12-multimodal-ai/08-llava-onevision-single-multi-video/) | Build | Python |
-| 09 | [Qwen-VL Family and Dynamic-FPS Video](../../phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/) | Learn | Python |
-| 10 | [InternVL3 Native Multimodal Pretraining](../../phases/12-multimodal-ai/10-internvl3-native-multimodal/) | Learn | Python |
-| 11 | [Chameleon Early-Fusion Token-Only](../../phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/) | Build | Python |
-| 12 | [Emu3 Next-Token Prediction for Generation](../../phases/12-multimodal-ai/12-emu3-next-token-for-generation/) | Learn | Python |
-| 13 | [Transfusion Autoregressive + Diffusion](../../phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/) | Build | Python |
-| 14 | [Show-o Discrete-Diffusion Unified](../../phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/) | Learn | Python |
-| 15 | [Janus-Pro Decoupled Encoders](../../phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/) | Build | Python |
-| 16 | [MIO Any-to-Any Streaming](../../phases/12-multimodal-ai/16-mio-any-to-any-streaming/) | Learn | Python |
-| 17 | [Video-Language Temporal Grounding](../../phases/12-multimodal-ai/17-video-language-temporal-grounding/) | Build | Python |
-| 18 | [Long-Video at Million-Token Context](../../phases/12-multimodal-ai/18-long-video-million-token/) | Build | Python |
-| 19 | [Audio-Language Models: Whisper to AF3](../../phases/12-multimodal-ai/19-audio-language-whisper-to-af3/) | Build | Python |
-| 20 | [Omni Models: Thinker-Talker Streaming](../../phases/12-multimodal-ai/20-omni-models-thinker-talker/) | Build | Python |
-| 21 | [Embodied VLAs: RT-2, OpenVLA, π0, GR00T](../../phases/12-multimodal-ai/21-embodied-vlas-openvla-pi0-groot/) | Learn | Python |
-| 22 | [Document and Diagram Understanding](../../phases/12-multimodal-ai/22-document-diagram-understanding/) | Build | Python |
-| 23 | [ColPali Vision-Native Document RAG](../../phases/12-multimodal-ai/23-colpali-vision-native-rag/) | Build | Python |
-| 24 | [Multimodal RAG and Cross-Modal Retrieval](../../phases/12-multimodal-ai/24-multimodal-rag-cross-modal/) | Build | Python |
-| 25 | [Multimodal Agents and Computer-Use (Capstone)](../../phases/12-multimodal-ai/25-multimodal-agents-computer-use/) | Build | Python |
+| 01 | [Vizuális transzformerek és a képrészlet-token alapegység](../../phases/12-multimodal-ai/01-vision-transformer-patch-tokens/) | Tanulás | Python |
+| 02 | [CLIP és kontrasztív kép-nyelvi előtanítás](../../phases/12-multimodal-ai/02-clip-contrastive-pretraining/) | Építés | Python |
+| 03 | [A BLIP-2 Q-Former mint modalitáshíd](../../phases/12-multimodal-ai/03-blip2-qformer-bridge/) | Építés | Python |
+| 04 | [Flamingo és kapuzott keresztfigyelem](../../phases/12-multimodal-ai/04-flamingo-gated-cross-attention/) | Tanulás | Python |
+| 05 | [LLaVA és vizuális utasításhangolás](../../phases/12-multimodal-ai/05-llava-visual-instruction-tuning/) | Építés | Python |
+| 06 | [Tetszőleges felbontású látás: Patch-n'-Pack és NaFlex](../../phases/12-multimodal-ai/06-any-resolution-patch-n-pack/) | Építés | Python |
+| 07 | [Nyílt súlyú VLM-receptek: mi számít igazán?](../../phases/12-multimodal-ai/07-open-weight-vlm-recipes/) | Tanulás | Python |
+| 08 | [LLaVA-OneVision: egy kép, több kép és videó](../../phases/12-multimodal-ai/08-llava-onevision-single-multi-video/) | Építés | Python |
+| 09 | [A Qwen-VL család és a dinamikus FPS-ű videó](../../phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/) | Tanulás | Python |
+| 10 | [InternVL3: natív multimodális előtanítás](../../phases/12-multimodal-ai/10-internvl3-native-multimodal/) | Tanulás | Python |
+| 11 | [Chameleon: korai egyesítés kizárólag tokenekkel](../../phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/) | Építés | Python |
+| 12 | [Emu3: következőtoken-előrejelzés generáláshoz](../../phases/12-multimodal-ai/12-emu3-next-token-for-generation/) | Tanulás | Python |
+| 13 | [Transfusion: autoregresszió és diffúzió](../../phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/) | Építés | Python |
+| 14 | [Show-o: egységes diszkrét diffúzió](../../phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/) | Tanulás | Python |
+| 15 | [Janus-Pro: szétválasztott kódolók](../../phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/) | Építés | Python |
+| 16 | [MIO: adatfolyam tetszőleges modalitások között](../../phases/12-multimodal-ai/16-mio-any-to-any-streaming/) | Tanulás | Python |
+| 17 | [Videó és nyelv időbeli összekapcsolása](../../phases/12-multimodal-ai/17-video-language-temporal-grounding/) | Építés | Python |
+| 18 | [Hosszú videó milliótokenes kontextusban](../../phases/12-multimodal-ai/18-long-video-million-token/) | Építés | Python |
+| 19 | [Hang-nyelvi modellek: a Whispertől az AF3-ig](../../phases/12-multimodal-ai/19-audio-language-whisper-to-af3/) | Építés | Python |
+| 20 | [Omni modellek: Thinker-Talker-adatfolyam](../../phases/12-multimodal-ai/20-omni-models-thinker-talker/) | Építés | Python |
+| 21 | [Megtestesült VLA-k: RT-2, OpenVLA, π0, GR00T](../../phases/12-multimodal-ai/21-embodied-vlas-openvla-pi0-groot/) | Tanulás | Python |
+| 22 | [Dokumentumok és diagramok megértése](../../phases/12-multimodal-ai/22-document-diagram-understanding/) | Építés | Python |
+| 23 | [ColPali: látásalapú dokumentum-RAG](../../phases/12-multimodal-ai/23-colpali-vision-native-rag/) | Építés | Python |
+| 24 | [Multimodális RAG és modalitások közötti visszakeresés](../../phases/12-multimodal-ai/24-multimodal-rag-cross-modal/) | Építés | Python |
+| 25 | [Multimodális ágensek és számítógép-használat (záróprojekt)](../../phases/12-multimodal-ai/25-multimodal-agents-computer-use/) | Építés | Python |
 
 </details>
 
 <details id="phase-13">
-<summary><b>Phase 13 — Tools & Protocols</b> &nbsp;<code>31 lessons</code>&nbsp; <em>The interfaces between AI and the real world.</em></summary>
+<summary><b>13. szakasz: Eszközök és protokollok</b> &nbsp;<code>45 lecke</code>&nbsp; <em>Az AI és a valódi világ közötti felületek.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lecke | Típus | Nyelv |
 |:---:|--------|:----:|------|
-| 01 | [The Tool Interface](../../phases/13-tools-and-protocols/01-the-tool-interface/) | Learn | Python |
-| 02 | [Function Calling Deep Dive](../../phases/13-tools-and-protocols/02-function-calling-deep-dive/) | Build | Python |
-| 03 | [Parallel and Streaming Tool Calls](../../phases/13-tools-and-protocols/03-parallel-and-streaming-tool-calls/) | Build | Python |
-| 04 | [Structured Output](../../phases/13-tools-and-protocols/04-structured-output/) | Build | Python |
-| 05 | [Tool Schema Design](../../phases/13-tools-and-protocols/05-tool-schema-design/) | Learn | Python |
-| 06 | [MCP Fundamentals: Stateless Requests and JSON-RPC](../../phases/13-tools-and-protocols/06-mcp-fundamentals/) | Learn | Python |
-| 07 | [Building an MCP Server: Stateless Python and TypeScript](../../phases/13-tools-and-protocols/07-building-an-mcp-server/) | Build | Python, TypeScript |
-| 08 | [Building an MCP Client: Discovery, Routing, and Dual-Era Fallback](../../phases/13-tools-and-protocols/08-building-an-mcp-client/) | Build | Python |
-| 09 | [MCP Transports: stdio and Stateless Streamable HTTP](../../phases/13-tools-and-protocols/09-mcp-transports/) | Learn | Python |
-| 10 | [MCP Resources and Prompts: Addressable Context for Stateless Servers](../../phases/13-tools-and-protocols/10-mcp-resources-and-prompts/) | Build | Python |
-| 11 | [MCP Model Input: Sampling Migration and Stateless MRTR](../../phases/13-tools-and-protocols/11-mcp-sampling/) | Build | Python |
-| 12 | [Explicit Scope and Stateless Elicitation](../../phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/) | Build | Python |
-| 13 | [MCP Tasks Extension: Durable Work on a Stateless Core](../../phases/13-tools-and-protocols/13-mcp-async-tasks/) | Build | Python |
-| 14 | [MCP Apps on the Stateless Protocol](../../phases/13-tools-and-protocols/14-mcp-apps/) | Build | Python |
-| 15 | [MCP Security: Poisoned Metadata, Routing, and MRTR State](../../phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/) | Learn | Python |
-| 16 | [MCP Authorization: CIMD, Issuer Binding, PKCE, and Step-Up](../../phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/) | Build | Python |
-| 17 | [Stateless MCP Gateways and Registry Admission](../../phases/13-tools-and-protocols/17-mcp-gateways-and-registries/) | Learn | Python |
-| 18 | [MCP Auth in Production: Issuer-Bound Enrollment and Tokens](../../phases/13-tools-and-protocols/18-mcp-auth-production/) | Build | Python |
-| 19 | [A2A Protocol](../../phases/13-tools-and-protocols/19-a2a-protocol/) | Build | Python |
-| 20 | [OpenTelemetry GenAI](../../phases/13-tools-and-protocols/20-opentelemetry-genai/) | Build | Python |
-| 21 | [LLM Routing Layer](../../phases/13-tools-and-protocols/21-llm-routing-layer/) | Learn | Python |
-| 22 | [Agent Skills: Portable Contract and Runtime Boundary](../../phases/13-tools-and-protocols/22-skills-and-agent-sdks/) | Build | Python |
-| 23 | [Capstone: Stateless Tool Ecosystem](../../phases/13-tools-and-protocols/23-capstone-tool-ecosystem/) | Build | Python |
-| 24 | [Skill Discovery and Progressive Disclosure](../../phases/13-tools-and-protocols/24-skill-discovery-and-progressive-disclosure/) | Build | Python |
-| 25 | [Skill Invocation and Routing](../../phases/13-tools-and-protocols/25-skill-invocation-and-routing/) | Build | Python |
-| 26 | [Skill Permissions, Sandboxes, and Trust](../../phases/13-tools-and-protocols/26-skill-permissions-sandboxes-and-trust/) | Build | Python |
-| 27 | [Skill Evals, Packaging, and Portability](../../phases/13-tools-and-protocols/27-skill-evals-packaging-and-portability/) | Build | Python |
-| 28 | [MCP Tool Contracts and Content](../../phases/13-tools-and-protocols/28-mcp-tool-contracts-and-content/) | Build | Python |
-| 29 | [MCP Reliability, Cancellation, and Flow Control](../../phases/13-tools-and-protocols/29-mcp-reliability-cancellation-and-flow-control/) | Build | Python |
-| 30 | [MCP Registry Supply Chain: Admission, Drift, and Rollback](../../phases/13-tools-and-protocols/30-mcp-registry-supply-chain-and-drift/) | Build | Python |
-| 31 | [MCP Conformance Engineering: Versioning, Evidence, and Operations](../../phases/13-tools-and-protocols/31-mcp-conformance-versioning-and-operations/) | Build | Python |
+| 01 | [Az eszközinterfész](../../phases/13-tools-and-protocols/01-the-tool-interface/) | Tanulás | Python |
+| 02 | [Függvényhívás részletesen](../../phases/13-tools-and-protocols/02-function-calling-deep-dive/) | Építés | Python |
+| 03 | [Párhuzamos és folyamatos eszközhívások](../../phases/13-tools-and-protocols/03-parallel-and-streaming-tool-calls/) | Építés | Python |
+| 04 | [Strukturált kimenet](../../phases/13-tools-and-protocols/04-structured-output/) | Építés | Python |
+| 05 | [Eszközsémák tervezése](../../phases/13-tools-and-protocols/05-tool-schema-design/) | Tanulás | Python |
+| 06 | [MCP-alapok: állapotmentes kérések és JSON-RPC](../../phases/13-tools-and-protocols/06-mcp-fundamentals/) | Tanulás | Python |
+| 07 | [MCP-szerver építése: állapotmentes Python és TypeScript](../../phases/13-tools-and-protocols/07-building-an-mcp-server/) | Építés | Python, TypeScript |
+| 08 | [MCP-kliens építése: felderítés, útválasztás és kétgenerációs kompatibilitás](../../phases/13-tools-and-protocols/08-building-an-mcp-client/) | Építés | Python |
+| 09 | [MCP-átvitelek: stdio és állapotmentes Streamable HTTP](../../phases/13-tools-and-protocols/09-mcp-transports/) | Tanulás | Python |
+| 10 | [MCP-erőforrások és promptok: címezhető kontextus állapotmentes szerverekhez](../../phases/13-tools-and-protocols/10-mcp-resources-and-prompts/) | Építés | Python |
+| 11 | [MCP-modellbemenet: samplingmigráció és állapotmentes MRTR](../../phases/13-tools-and-protocols/11-mcp-sampling/) | Építés | Python |
+| 12 | [Kifejezett hatókör és állapotmentes adatbekérés](../../phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/) | Építés | Python |
+| 13 | [MCP-feladatkiterjesztés: tartós munka állapotmentes magon](../../phases/13-tools-and-protocols/13-mcp-async-tasks/) | Építés | Python |
+| 14 | [MCP Apps az állapotmentes protokollon](../../phases/13-tools-and-protocols/14-mcp-apps/) | Építés | Python |
+| 15 | [MCP-biztonság: mérgezett metaadatok, útválasztás és MRTR-állapot](../../phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/) | Tanulás | Python |
+| 16 | [MCP-jogosultságkezelés: CIMD, kibocsátókötés, PKCE és fokozott hitelesítés](../../phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/) | Építés | Python |
+| 17 | [Állapotmentes MCP-átjárók és regiszterbe fogadás](../../phases/13-tools-and-protocols/17-mcp-gateways-and-registries/) | Tanulás | Python |
+| 18 | [MCP-hitelesítés üzemben: kibocsátóhoz kötött regisztráció és tokenek](../../phases/13-tools-and-protocols/18-mcp-auth-production/) | Építés | Python |
+| 19 | [Az A2A protokoll](../../phases/13-tools-and-protocols/19-a2a-protocol/) | Építés | Python |
+| 20 | [OpenTelemetry GenAI](../../phases/13-tools-and-protocols/20-opentelemetry-genai/) | Építés | Python |
+| 21 | [LLM-útválasztási réteg](../../phases/13-tools-and-protocols/21-llm-routing-layer/) | Tanulás | Python |
+| 22 | [Agent Skills: hordozható szerződés és futtatási határ](../../phases/13-tools-and-protocols/22-skills-and-agent-sdks/) | Építés | Python |
+| 23 | [Záróprojekt: állapotmentes eszközökoszisztéma](../../phases/13-tools-and-protocols/23-capstone-tool-ecosystem/) | Építés | Python |
+| 24 | [Képességfelderítés és fokozatos információfeltárás](../../phases/13-tools-and-protocols/24-skill-discovery-and-progressive-disclosure/) | Építés | Python |
+| 25 | [Képességek meghívása és útválasztása](../../phases/13-tools-and-protocols/25-skill-invocation-and-routing/) | Építés | Python |
+| 26 | [Képességengedélyek, elszigetelt környezetek és bizalom](../../phases/13-tools-and-protocols/26-skill-permissions-sandboxes-and-trust/) | Építés | Python |
+| 27 | [Képességek értékelése, csomagolása és hordozhatósága](../../phases/13-tools-and-protocols/27-skill-evals-packaging-and-portability/) | Építés | Python |
+| 28 | [MCP-eszközszerződések és tartalom](../../phases/13-tools-and-protocols/28-mcp-tool-contracts-and-content/) | Építés | Python |
+| 29 | [MCP-megbízhatóság, megszakítás és folyamszabályozás](../../phases/13-tools-and-protocols/29-mcp-reliability-cancellation-and-flow-control/) | Építés | Python |
+| 30 | [Az MCP-regiszter ellátási lánca: befogadás, eltérés és visszaállítás](../../phases/13-tools-and-protocols/30-mcp-registry-supply-chain-and-drift/) | Építés | Python |
+| 31 | [MCP-megfelelőség: verziókezelés, bizonyítékok és üzemeltetés](../../phases/13-tools-and-protocols/31-mcp-conformance-versioning-and-operations/) | Építés | Python |
+| 32 | [A program anatómiája: ELF olvasása az alapoktól](../../phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch/) | Építés | Python |
+| 33 | [Disassemblálás és vezérlésfolyam-gráfok](../../phases/13-tools-and-protocols/33-disassembly-and-control-flow/) | Építés | Python |
+| 34 | [Gépi kód emelése pszeudokóddá](../../phases/13-tools-and-protocols/34-lifting-to-pseudocode/) | Építés | Python |
+| 35 | [Bizonyíték, bizonyosság és ismeretlenek a bináris elemzésben](../../phases/13-tools-and-protocols/35-evidence-confidence-and-unknowns/) | Építés | Python |
+| 36 | [Újraépítés és az egyezés bizonyítása](../../phases/13-tools-and-protocols/36-rebuild-and-prove-equal/) | Építés | Python |
+| 37 | [A visszafejtés területei](../../phases/13-tools-and-protocols/37-the-reverse-engineering-landscape/) | Építés | Python |
+| 38 | [Hívási konvenciók és veremkeretek](../../phases/13-tools-and-protocols/38-calling-conventions-and-stack-frames/) | Építés | Python |
+| 39 | [Fordítói idiómák és optimalizálás](../../phases/13-tools-and-protocols/39-compiler-idioms-and-optimization/) | Építés | Python |
+| 40 | [Linkelés, betöltés és lecsupaszított binárisok](../../phases/13-tools-and-protocols/40-linking-loading-and-stripped-binaries/) | Építés | Python |
+| 41 | [Adatok és típusok visszanyerése](../../phases/13-tools-and-protocols/41-recovering-data-and-types/) | Építés | Python |
+| 42 | [A saját program dinamikus elemzése](../../phases/13-tools-and-protocols/42-dynamic-analysis-of-your-own-program/) | Építés | Python |
+| 43 | [Bájtkód és felügyelt formátumok](../../phases/13-tools-and-protocols/43-bytecode-and-managed-formats/) | Építés | Python |
+| 44 | [Bináris összehasonlítás és szimbolikus végrehajtás](../../phases/13-tools-and-protocols/44-binary-diffing-and-symbolic-execution/) | Építés | Python |
+| 45 | [AI-támogatott visszafejtés](../../phases/13-tools-and-protocols/45-ai-assisted-reverse-engineering/) | Építés | Python |
 
-Lessons 06-18 and 28-31 form the focused
-[Model Context Protocol (MCP) path](../../learning-paths/model-context-protocol.json). Its manifest order
-is 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 18, 17, 28, 29, 30, 31. Start
-it with the host-specific `learn-mcp` invocation above. Lesson 23
-is its only optional capstone and also requires Lessons 19 and 20.
+A 06-18. és 28-31. leckék alkotják a célzott [Model Context Protocol (MCP) útvonalat](../../learning-paths/model-context-protocol.json). A jegyzék sorrendje: 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 18, 17, 28, 29, 30, 31. Kezdj a fenti gazdaspecifikus `learn-mcp` meghívással. A 23. lecke az egyetlen választható záróprojekt, és a 19. és 20. leckét is megköveteli.
 
-Lessons 22 and 24-27 form the focused
-[Agent Skills learning path](../../learning-paths/agent-skills.json), from package
-contract through real-host release gates. Start it with the host-specific
-`learn-agent-skills` invocation shown above; do not follow numeric next
-navigation from 22 to 23.
+A 22. és 24-27. leckék alkotják a célzott [Agent Skills tanulási útvonalat](../../learning-paths/agent-skills.json), a csomagszerződéstől a valódi gazdán futó kiadási kapukig. A fenti gazdaspecifikus `learn-agent-skills` meghívással kezdj; ne kövesd a számozott következő-lecke navigációt 22-ről 23-ra.
 
 </details>
 
 <details id="phase-14">
-<summary><b>Phase 14 — Agent Engineering</b> &nbsp;<code>54 lessons</code>&nbsp; <em>Build agents from first principles, use coding agents reliably, and shape the work before implementation.</em></summary>
+<summary><b>14. szakasz: Ágensmérnökség</b> &nbsp;<code>54 lecke</code>&nbsp; <em>Építs ágenseket az alapoktól, használd megbízhatóan a programozóágenseket, és határozd meg a munkát a megvalósítás előtt.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lecke | Típus | Nyelv |
 |:---:|--------|:----:|------|
-| 01 | [The Agent Loop](../../phases/14-agent-engineering/01-the-agent-loop/) | Build | Python |
-| 02 | [ReWOO and Plan-and-Execute](../../phases/14-agent-engineering/02-rewoo-plan-and-execute/) | Build | Python |
-| 03 | [Reflexion and Verbal Reinforcement Learning](../../phases/14-agent-engineering/03-reflexion-verbal-rl/) | Build | Python |
-| 04 | [Tree of Thoughts and LATS](../../phases/14-agent-engineering/04-tree-of-thoughts-lats/) | Build | Python |
-| 05 | [Self-Refine and CRITIC](../../phases/14-agent-engineering/05-self-refine-and-critic/) | Build | Python |
-| 06 | [Tool Use and Function Calling](../../phases/14-agent-engineering/06-tool-use-and-function-calling/) | Build | Python |
-| 07 | [Agent Memory — Virtual Context and Memory Paging](../../phases/14-agent-engineering/07-memory-virtual-context-memgpt/) | Build | Python |
-| 08 | [Memory Blocks and Sleep-Time Compute](../../phases/14-agent-engineering/08-memory-blocks-sleep-time-compute/) | Build | Python |
-| 09 | [Hybrid Memory — Vector + Graph + KV](../../phases/14-agent-engineering/09-hybrid-memory-mem0/) | Build | Python |
-| 10 | [Skill Libraries and Lifelong Learning (Voyager)](../../phases/14-agent-engineering/10-skill-libraries-voyager/) | Build | Python |
-| 11 | [Planning with HTN and Evolutionary Search](../../phases/14-agent-engineering/11-planning-htn-and-evolutionary/) | Build | Python |
-| 12 | [Anthropic's Workflow Patterns](../../phases/14-agent-engineering/12-anthropic-workflow-patterns/) | Build | Python |
-| 13 | [Stateful Graph Orchestration — Durable Execution and Checkpoints](../../phases/14-agent-engineering/13-langgraph-stateful-graphs/) | Build | Python |
-| 14 | [The Actor Model for Agents](../../phases/14-agent-engineering/14-autogen-actor-model/) | Build | Python |
-| 15 | [Role-Based Agent Teams — Roles, Tasks, Processes](../../phases/14-agent-engineering/15-crewai-role-based-crews/) | Build | Python |
-| 16 | [OpenAI Agents SDK — Handoffs, Guardrails, Tracing](../../phases/14-agent-engineering/16-openai-agents-sdk/) | Build | Python |
-| 17 | [The Harness as a Library — Subagents and Session Store](../../phases/14-agent-engineering/17-claude-agent-sdk/) | Build | Python |
-| 18 | [Production Agent Runtimes](../../phases/14-agent-engineering/18-agno-and-mastra-runtimes/) | Learn | Python |
-| 19 | [Benchmarks — SWE-bench, GAIA, AgentBench](../../phases/14-agent-engineering/19-benchmarks-swebench-gaia/) | Learn | Python |
-| 20 | [Benchmarks — WebArena and OSWorld](../../phases/14-agent-engineering/20-benchmarks-webarena-osworld/) | Learn | Python |
-| 21 | [Computer Use — Claude, OpenAI CUA, Gemini](../../phases/14-agent-engineering/21-computer-use-agents/) | Build | Python |
-| 22 | [Voice Agents — Pipecat and LiveKit](../../phases/14-agent-engineering/22-voice-agents-pipecat-livekit/) | Build | Python |
-| 23 | [OpenTelemetry GenAI Semantic Conventions](../../phases/14-agent-engineering/23-otel-genai-conventions/) | Build | Python |
-| 24 | [Agent Observability — Langfuse, Phoenix, Opik](../../phases/14-agent-engineering/24-agent-observability-platforms/) | Learn | Python |
-| 25 | [Multi-Agent Debate and Collaboration](../../phases/14-agent-engineering/25-multi-agent-debate/) | Build | Python |
-| 26 | [Failure Modes — Why Agents Break](../../phases/14-agent-engineering/26-failure-modes-agentic/) | Build | Python |
-| 27 | [Prompt Injection and the PVE Defense](../../phases/14-agent-engineering/27-prompt-injection-defense/) | Build | Python |
-| 28 | [Orchestration Patterns — Supervisor, Swarm, Hierarchical](../../phases/14-agent-engineering/28-orchestration-patterns/) | Build | Python |
-| 29 | [Production Runtimes — Queue, Event, Cron](../../phases/14-agent-engineering/29-production-runtimes/) | Learn | Python |
-| 30 | [Eval-Driven Agent Development](../../phases/14-agent-engineering/30-eval-driven-agent-development/) | Build | Python |
-| 31 | [Agent Workbench: Why Capable Models Still Fail](../../phases/14-agent-engineering/31-agent-workbench-why-models-fail/) | Learn | Python |
-| 32 | [The Minimal Agent Workbench](../../phases/14-agent-engineering/32-minimal-agent-workbench/) | Build | Python |
-| 33 | [Agent Instructions as Executable Constraints](../../phases/14-agent-engineering/33-instructions-as-executable-constraints/) | Build | Python |
-| 34 | [Repo Memory and Durable State](../../phases/14-agent-engineering/34-repo-memory-and-state/) | Build | Python |
-| 35 | [Initialization Scripts for Agents](../../phases/14-agent-engineering/35-initialization-scripts/) | Build | Python |
-| 36 | [Scope Contracts and Task Boundaries](../../phases/14-agent-engineering/36-scope-contracts/) | Build | Python |
-| 37 | [Runtime Feedback Loops](../../phases/14-agent-engineering/37-runtime-feedback-loops/) | Build | Python |
-| 38 | [Verification Gates](../../phases/14-agent-engineering/38-verification-gates/) | Build | Python |
-| 39 | [Reviewer Agent: Separate Builder from Marker](../../phases/14-agent-engineering/39-reviewer-agent/) | Build | Python |
-| 40 | [Multi-Session Handoff](../../phases/14-agent-engineering/40-multi-session-handoff/) | Build | Python |
-| 41 | [The Workbench on a Real Repo](../../phases/14-agent-engineering/41-workbench-for-real-repos/) | Build | Python |
-| 42 | [Capstone: Ship a Reusable Agent Workbench Pack](../../phases/14-agent-engineering/42-agent-workbench-capstone/) | Build | Python |
-| 43 | [Frame the Task Before the Agent Writes Code](../../phases/14-agent-engineering/43-frame-the-task-before-code/) | Build | Python |
-| 44 | [Build an Evidence-Backed Execution Plan](../../phases/14-agent-engineering/44-plan-from-evidence/) | Build | Python |
-| 45 | [Delegate Agent Work with Isolation and Merge Contracts](../../phases/14-agent-engineering/45-delegate-with-isolation/) | Build | Python |
-| 46 | [Turn Every Agent Correction into a System Improvement](../../phases/14-agent-engineering/46-turn-feedback-into-system/) | Build | Python |
-| 47 | [Define the Outcome Before You Choose the Output](../../phases/14-agent-engineering/47-outcomes-before-output/) | Build | Python |
-| 48 | [Discover the Workflow People Actually Perform](../../phases/14-agent-engineering/48-discover-the-real-workflow/) | Build | Python |
-| 49 | [Map Assumptions and Resolve the Riskiest One First](../../phases/14-agent-engineering/49-map-assumptions-and-risk/) | Build | Python |
-| 50 | [Choose the Smallest Slice That Can Change the Decision](../../phases/14-agent-engineering/50-choose-the-smallest-testable-slice/) | Build | Python |
-| 51 | [Write Specifications That Preserve Judgment](../../phases/14-agent-engineering/51-write-specifications-that-preserve-judgment/) | Build | Python |
-| 52 | [Design Success Metrics Before the Result Exists](../../phases/14-agent-engineering/52-design-success-metrics/) | Build | Python |
-| 53 | [Choose Prototype, Pilot, or Production Deliberately](../../phases/14-agent-engineering/53-prototype-pilot-or-production/) | Build | Python |
-| 54 | [Build a Feedback Ratchet with Ownership and Retirement](../../phases/14-agent-engineering/54-build-the-feedback-ratchet/) | Build | Python |
+| 01 | [Az ágens ciklusa](../../phases/14-agent-engineering/01-the-agent-loop/) | Építés | Python |
+| 02 | [ReWOO és tervezés-végrehajtás](../../phases/14-agent-engineering/02-rewoo-plan-and-execute/) | Építés | Python |
+| 03 | [Reflexion és szóbeli megerősítéses tanulás](../../phases/14-agent-engineering/03-reflexion-verbal-rl/) | Építés | Python |
+| 04 | [Gondolatfák és LATS](../../phases/14-agent-engineering/04-tree-of-thoughts-lats/) | Építés | Python |
+| 05 | [Self-Refine és CRITIC](../../phases/14-agent-engineering/05-self-refine-and-critic/) | Építés | Python |
+| 06 | [Eszközhasználat és függvényhívás](../../phases/14-agent-engineering/06-tool-use-and-function-calling/) | Építés | Python |
+| 07 | [Ágensmemória: virtuális kontextus és memórialapozás](../../phases/14-agent-engineering/07-memory-virtual-context-memgpt/) | Építés | Python |
+| 08 | [Memóriablokkok és számítás nyugalmi időben](../../phases/14-agent-engineering/08-memory-blocks-sleep-time-compute/) | Építés | Python |
+| 09 | [Hibrid memória: vektorok, gráfok és KV](../../phases/14-agent-engineering/09-hybrid-memory-mem0/) | Építés | Python |
+| 10 | [Képességkönyvtárak és élethosszig tartó tanulás (Voyager)](../../phases/14-agent-engineering/10-skill-libraries-voyager/) | Építés | Python |
+| 11 | [Tervezés HTN-nel és evolúciós kereséssel](../../phases/14-agent-engineering/11-planning-htn-and-evolutionary/) | Építés | Python |
+| 12 | [Az Anthropic munkafolyamatmintái](../../phases/14-agent-engineering/12-anthropic-workflow-patterns/) | Építés | Python |
+| 13 | [Állapottartó gráfvezérlés: tartós végrehajtás és ellenőrzőpontok](../../phases/14-agent-engineering/13-langgraph-stateful-graphs/) | Építés | Python |
+| 14 | [Az aktormodell ágensekhez](../../phases/14-agent-engineering/14-autogen-actor-model/) | Építés | Python |
+| 15 | [Szerepalapú ágenscsapatok: szerepek, feladatok és folyamatok](../../phases/14-agent-engineering/15-crewai-role-based-crews/) | Építés | Python |
+| 16 | [OpenAI Agents SDK: átadások, védelmi korlátok és nyomkövetés](../../phases/14-agent-engineering/16-openai-agents-sdk/) | Építés | Python |
+| 17 | [A futtatókeret könyvtárként: alágensek és munkamenettár](../../phases/14-agent-engineering/17-claude-agent-sdk/) | Építés | Python |
+| 18 | [Üzemi ágensfuttató környezetek](../../phases/14-agent-engineering/18-agno-and-mastra-runtimes/) | Tanulás | Python |
+| 19 | [Viszonyítási feladatok: SWE-bench, GAIA, AgentBench](../../phases/14-agent-engineering/19-benchmarks-swebench-gaia/) | Tanulás | Python |
+| 20 | [Viszonyítási feladatok: WebArena és OSWorld](../../phases/14-agent-engineering/20-benchmarks-webarena-osworld/) | Tanulás | Python |
+| 21 | [Számítógép-használat: Claude, OpenAI CUA, Gemini](../../phases/14-agent-engineering/21-computer-use-agents/) | Építés | Python |
+| 22 | [Hangágensek: Pipecat és LiveKit](../../phases/14-agent-engineering/22-voice-agents-pipecat-livekit/) | Építés | Python |
+| 23 | [Az OpenTelemetry GenAI szemantikus konvenciói](../../phases/14-agent-engineering/23-otel-genai-conventions/) | Építés | Python |
+| 24 | [Ágensek megfigyelhetősége: Langfuse, Phoenix, Opik](../../phases/14-agent-engineering/24-agent-observability-platforms/) | Tanulás | Python |
+| 25 | [Többágenses vita és együttműködés](../../phases/14-agent-engineering/25-multi-agent-debate/) | Építés | Python |
+| 26 | [Hibamódok: miért vallanak kudarcot az ágensek?](../../phases/14-agent-engineering/26-failure-modes-agentic/) | Építés | Python |
+| 27 | [Promptinjektálás és a PVE-védelem](../../phases/14-agent-engineering/27-prompt-injection-defense/) | Építés | Python |
+| 28 | [Vezérlési minták: felügyelő, raj és hierarchia](../../phases/14-agent-engineering/28-orchestration-patterns/) | Építés | Python |
+| 29 | [Üzemi futtatókörnyezetek: sor, esemény és cron](../../phases/14-agent-engineering/29-production-runtimes/) | Tanulás | Python |
+| 30 | [Értékelésvezérelt ágensfejlesztés](../../phases/14-agent-engineering/30-eval-driven-agent-development/) | Építés | Python |
+| 31 | [Ágensmunkapad: miért hibáznak a jó képességű modellek is?](../../phases/14-agent-engineering/31-agent-workbench-why-models-fail/) | Tanulás | Python |
+| 32 | [A minimális ágensmunkapad](../../phases/14-agent-engineering/32-minimal-agent-workbench/) | Építés | Python |
+| 33 | [Ágensutasítások mint végrehajtható korlátok](../../phases/14-agent-engineering/33-instructions-as-executable-constraints/) | Építés | Python |
+| 34 | [Tárolómemória és tartós állapot](../../phases/14-agent-engineering/34-repo-memory-and-state/) | Építés | Python |
+| 35 | [Inicializáló parancsfájlok ágensekhez](../../phases/14-agent-engineering/35-initialization-scripts/) | Építés | Python |
+| 36 | [Hatókörszerződések és feladathatárok](../../phases/14-agent-engineering/36-scope-contracts/) | Építés | Python |
+| 37 | [Futásidejű visszacsatolási ciklusok](../../phases/14-agent-engineering/37-runtime-feedback-loops/) | Építés | Python |
+| 38 | [Ellenőrzési kapuk](../../phases/14-agent-engineering/38-verification-gates/) | Építés | Python |
+| 39 | [Bíráló ágens: válaszd szét az építőt és az értékelőt](../../phases/14-agent-engineering/39-reviewer-agent/) | Építés | Python |
+| 40 | [Átadás munkamenetek között](../../phases/14-agent-engineering/40-multi-session-handoff/) | Építés | Python |
+| 41 | [A munkapad valódi tárolón](../../phases/14-agent-engineering/41-workbench-for-real-repos/) | Építés | Python |
+| 42 | [Záróprojekt: szállíts újrahasználható ágensmunkapad-csomagot](../../phases/14-agent-engineering/42-agent-workbench-capstone/) | Építés | Python |
+| 43 | [Határozd meg a feladatot, mielőtt az ágens kódot ír](../../phases/14-agent-engineering/43-frame-the-task-before-code/) | Építés | Python |
+| 44 | [Készíts bizonyítékokkal alátámasztott végrehajtási tervet](../../phases/14-agent-engineering/44-plan-from-evidence/) | Építés | Python |
+| 45 | [Delegálj ágensmunkát elkülönítéssel és összevonási szerződésekkel](../../phases/14-agent-engineering/45-delegate-with-isolation/) | Építés | Python |
+| 46 | [Minden ágenskorrekcióból legyen rendszerfejlesztés](../../phases/14-agent-engineering/46-turn-feedback-into-system/) | Építés | Python |
+| 47 | [Határozd meg az eredményt a kimenet kiválasztása előtt](../../phases/14-agent-engineering/47-outcomes-before-output/) | Építés | Python |
+| 48 | [Fedezd fel az emberek tényleges munkafolyamatát](../../phases/14-agent-engineering/48-discover-the-real-workflow/) | Építés | Python |
+| 49 | [Térképezd fel a feltételezéseket, és a legkockázatosabbat vizsgáld először](../../phases/14-agent-engineering/49-map-assumptions-and-risk/) | Építés | Python |
+| 50 | [Válaszd a legkisebb részt, amely megváltoztathatja a döntést](../../phases/14-agent-engineering/50-choose-the-smallest-testable-slice/) | Építés | Python |
+| 51 | [Írj az ítélőképességet megőrző specifikációkat](../../phases/14-agent-engineering/51-write-specifications-that-preserve-judgment/) | Építés | Python |
+| 52 | [Tervezd meg a sikermérőszámokat az eredmény létrejötte előtt](../../phases/14-agent-engineering/52-design-success-metrics/) | Építés | Python |
+| 53 | [Tudatosan válassz prototípust, próbabevezetést vagy üzemi megoldást](../../phases/14-agent-engineering/53-prototype-pilot-or-production/) | Építés | Python |
+| 54 | [Építs tartós javítási ciklust felelősökkel és kivezetéssel](../../phases/14-agent-engineering/54-build-the-feedback-ratchet/) | Építés | Python |
 
-Each Phase 14 workbench lesson (31-42) ships a `mission.md` briefing the agent before it opens the full lesson docs.
+A 14. szakasz minden munkapadleckéje (31-42) ad egy `mission.md` eligazítást az ágensnek, mielőtt megnyitná a teljes leckedokumentációt.
 
-Lessons 31-46 form the [Agent-Assisted Engineering path](../../learning-paths/using-coding-agents.json).
-Its manifest order combines the workbench foundation with task framing, planning,
-delegation, and durable feedback. Lessons 47-54 form the
-[Product Judgment and Delivery path](../../learning-paths/shaping-the-build.json), from outcome framing
-through evidence, risk, scope, measurement, staged release, and feedback ownership.
+A 31-46. leckék alkotják az [ágensekkel támogatott mérnöki útvonalat](../../learning-paths/using-coding-agents.json). A jegyzék a munkapad alapjait feladatmeghatározással, tervezéssel, delegálással és tartós visszajelzéssel kapcsolja össze. A 47-54. leckék a [termékmegítélési és szállítási útvonalat](../../learning-paths/shaping-the-build.json) alkotják, az eredmény kijelölésétől a bizonyítékokon, kockázaton, hatókörön, mérésen és szakaszos kiadáson át a visszajelzés felelősségéig.
 
 </details>
 
 <details id="phase-15">
-<summary><b>Phase 15 — Autonomous Systems</b> &nbsp;<code>22 lessons</code>&nbsp; <em>Long-horizon agents, self-improvement, and the 2026 safety stack.</em></summary>
+<summary><b>15. szakasz: Autonóm rendszerek</b> &nbsp;<code>22 lecke</code>&nbsp; <em>Hosszú távú ágensek, önfejlesztés és a 2026-os biztonsági eszközkészlet.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lecke | Típus | Nyelv |
 |:---:|--------|:----:|------|
-| 01 | [From Chatbots to Long-Horizon Agents (METR)](../../phases/15-autonomous-systems/01-long-horizon-agents/) | Learn | Python |
-| 02 | [STaR, V-STaR, Quiet-STaR: Self-Taught Reasoning](../../phases/15-autonomous-systems/02-star-family-reasoning/) | Learn | Python |
-| 03 | [AlphaEvolve: Evolutionary Coding Agents](../../phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/) | Learn | Python |
-| 04 | [Darwin Gödel Machine: Self-Modifying Agents](../../phases/15-autonomous-systems/04-darwin-godel-machine/) | Learn | Python |
-| 05 | [AI Scientist v2: Workshop-Level Research](../../phases/15-autonomous-systems/05-ai-scientist-v2/) | Learn | Python |
-| 06 | [Automated Alignment Research (Anthropic AAR)](../../phases/15-autonomous-systems/06-automated-alignment-research/) | Learn | Python |
-| 07 | [Recursive Self-Improvement: Capability vs Alignment](../../phases/15-autonomous-systems/07-recursive-self-improvement/) | Learn | Python |
-| 08 | [Bounded Self-Improvement Designs](../../phases/15-autonomous-systems/08-bounded-self-improvement/) | Learn | Python |
-| 09 | [Autonomous Coding Agent Landscape (SWE-bench, CodeAct)](../../phases/15-autonomous-systems/09-coding-agent-landscape/) | Learn | Python |
-| 10 | [Permission Modes for Autonomous Agents](../../phases/15-autonomous-systems/10-claude-code-permission-modes/) | Learn | Python |
-| 11 | [Browser Agents and Indirect Prompt Injection](../../phases/15-autonomous-systems/11-browser-agents/) | Learn | Python |
-| 12 | [Durable Execution for Long-Running Agents](../../phases/15-autonomous-systems/12-durable-execution/) | Learn | Python |
-| 13 | [Action Budgets, Iteration Caps, Cost Governors](../../phases/15-autonomous-systems/13-cost-governors/) | Learn | Python |
-| 14 | [Kill Switches, Circuit Breakers, Canary Tokens](../../phases/15-autonomous-systems/14-kill-switches-canaries/) | Learn | Python |
-| 15 | [HITL: Propose-Then-Commit](../../phases/15-autonomous-systems/15-propose-then-commit/) | Learn | Python |
-| 16 | [Checkpoints and Rollback](../../phases/15-autonomous-systems/16-checkpoints-rollback/) | Learn | Python |
-| 17 | [Constitutional AI and Rule Overrides](../../phases/15-autonomous-systems/17-constitutional-ai/) | Learn | Python |
-| 18 | [Llama Guard and Input/Output Classification](../../phases/15-autonomous-systems/18-llama-guard/) | Learn | Python |
-| 19 | [Anthropic Responsible Scaling Policy v3.0](../../phases/15-autonomous-systems/19-anthropic-rsp/) | Learn | Python |
-| 20 | [OpenAI Preparedness Framework and DeepMind FSF](../../phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/) | Learn | Python |
-| 21 | [METR Time Horizons and External Evaluation](../../phases/15-autonomous-systems/21-metr-external-evaluation/) | Learn | Python |
-| 22 | [CAIS, CAISI, and Societal-Scale Risk](../../phases/15-autonomous-systems/22-cais-caisi-societal-risk/) | Learn | Python |
+| 01 | [A csevegőrobotoktól a hosszú távú ágensekig (METR)](../../phases/15-autonomous-systems/01-long-horizon-agents/) | Tanulás | Python |
+| 02 | [STaR, V-STaR, Quiet-STaR: önállóan tanult következtetés](../../phases/15-autonomous-systems/02-star-family-reasoning/) | Tanulás | Python |
+| 03 | [AlphaEvolve: evolúciós programozóágensek](../../phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/) | Tanulás | Python |
+| 04 | [Darwin Gödel Machine: önmódosító ágensek](../../phases/15-autonomous-systems/04-darwin-godel-machine/) | Tanulás | Python |
+| 05 | [AI Scientist v2: műhelyszintű kutatás](../../phases/15-autonomous-systems/05-ai-scientist-v2/) | Tanulás | Python |
+| 06 | [Automatizált összehangolási kutatás (Anthropic AAR)](../../phases/15-autonomous-systems/06-automated-alignment-research/) | Tanulás | Python |
+| 07 | [Rekurzív önfejlesztés: képesség és összehangolás](../../phases/15-autonomous-systems/07-recursive-self-improvement/) | Tanulás | Python |
+| 08 | [Korlátozott önfejlesztési tervek](../../phases/15-autonomous-systems/08-bounded-self-improvement/) | Tanulás | Python |
+| 09 | [Az autonóm programozóágensek világa (SWE-bench, CodeAct)](../../phases/15-autonomous-systems/09-coding-agent-landscape/) | Tanulás | Python |
+| 10 | [Engedélymódok autonóm ágensekhez](../../phases/15-autonomous-systems/10-claude-code-permission-modes/) | Tanulás | Python |
+| 11 | [Böngészőágensek és közvetett promptinjektálás](../../phases/15-autonomous-systems/11-browser-agents/) | Tanulás | Python |
+| 12 | [Tartós végrehajtás hosszan futó ágensekhez](../../phases/15-autonomous-systems/12-durable-execution/) | Tanulás | Python |
+| 13 | [Műveleti keretek, iterációkorlátok és költségszabályozók](../../phases/15-autonomous-systems/13-cost-governors/) | Tanulás | Python |
+| 14 | [Vészleállítók, megszakítók és figyelmeztető tokenek](../../phases/15-autonomous-systems/14-kill-switches-canaries/) | Tanulás | Python |
+| 15 | [Emberi felügyelet: először javaslat, utána véglegesítés](../../phases/15-autonomous-systems/15-propose-then-commit/) | Tanulás | Python |
+| 16 | [Ellenőrzőpontok és visszaállítás](../../phases/15-autonomous-systems/16-checkpoints-rollback/) | Tanulás | Python |
+| 17 | [Alkotmányos AI és szabályfelülírások](../../phases/15-autonomous-systems/17-constitutional-ai/) | Tanulás | Python |
+| 18 | [Llama Guard és bemeneti-kimeneti osztályozás](../../phases/15-autonomous-systems/18-llama-guard/) | Tanulás | Python |
+| 19 | [Anthropic Responsible Scaling Policy v3.0](../../phases/15-autonomous-systems/19-anthropic-rsp/) | Tanulás | Python |
+| 20 | [OpenAI Preparedness Framework és DeepMind FSF](../../phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/) | Tanulás | Python |
+| 21 | [METR-időhorizontok és külső értékelés](../../phases/15-autonomous-systems/21-metr-external-evaluation/) | Tanulás | Python |
+| 22 | [CAIS, CAISI és társadalmi léptékű kockázat](../../phases/15-autonomous-systems/22-cais-caisi-societal-risk/) | Tanulás | Python |
 
 </details>
 
 <details id="phase-16">
-<summary><b>Phase 16 — Multi-Agent & Swarms</b> &nbsp;<code>25 lessons</code>&nbsp; <em>Coordination, emergence, and collective intelligence.</em></summary>
+<summary><b>16. szakasz: Több ágens és rajok</b> &nbsp;<code>25 lecke</code>&nbsp; <em>Koordináció, kialakuló viselkedés és kollektív intelligencia.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lecke | Típus | Nyelv |
 |:---:|--------|:----:|------|
-| 01 | [Why Multi-Agent](../../phases/16-multi-agent-and-swarms/01-why-multi-agent/) | Learn | TypeScript |
-| 02 | [FIPA-ACL Heritage and Speech Acts](../../phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/) | Learn | Python |
-| 03 | [Communication Protocols](../../phases/16-multi-agent-and-swarms/03-communication-protocols/) | Build | TypeScript |
-| 04 | [The Multi-Agent Primitive Model](../../phases/16-multi-agent-and-swarms/04-primitive-model/) | Learn | Python |
-| 05 | [Supervisor / Orchestrator-Worker Pattern](../../phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/) | Build | Python |
-| 06 | [Hierarchical Architecture and Decomposition Drift](../../phases/16-multi-agent-and-swarms/06-hierarchical-architecture/) | Learn | Python |
-| 07 | [Society of Mind and Multi-Agent Debate](../../phases/16-multi-agent-and-swarms/07-society-of-mind-debate/) | Build | Python |
-| 08 | [Role Specialization — Planner / Critic / Executor / Verifier](../../phases/16-multi-agent-and-swarms/08-role-specialization/) | Build | Python |
-| 09 | [Parallel Swarm and Networked Architectures](../../phases/16-multi-agent-and-swarms/09-parallel-swarm-networks/) | Build | Python |
-| 10 | [Group Chat and Speaker Selection](../../phases/16-multi-agent-and-swarms/10-group-chat-speaker-selection/) | Build | Python |
-| 11 | [Handoffs and Routines (Stateless Orchestration)](../../phases/16-multi-agent-and-swarms/11-handoffs-and-routines/) | Build | Python |
-| 12 | [A2A — The Agent-to-Agent Protocol](../../phases/16-multi-agent-and-swarms/12-a2a-protocol/) | Build | Python |
-| 13 | [Shared Memory and Blackboard Patterns](../../phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/) | Build | Python |
-| 14 | [Consensus and Byzantine Fault Tolerance](../../phases/16-multi-agent-and-swarms/14-consensus-and-bft/) | Build | Python |
-| 15 | [Voting, Self-Consistency, and Debate Topology](../../phases/16-multi-agent-and-swarms/15-voting-debate-topology/) | Build | Python |
-| 16 | [Negotiation and Bargaining](../../phases/16-multi-agent-and-swarms/16-negotiation-bargaining/) | Build | Python |
-| 17 | [Generative Agents and Emergent Simulation](../../phases/16-multi-agent-and-swarms/17-generative-agents-simulation/) | Build | Python |
-| 18 | [Theory of Mind and Emergent Coordination](../../phases/16-multi-agent-and-swarms/18-theory-of-mind-coordination/) | Build | Python |
-| 19 | [Swarm Optimization (PSO, ACO)](../../phases/16-multi-agent-and-swarms/19-swarm-optimization-pso-aco/) | Build | Python |
-| 20 | [MARL — MADDPG, QMIX, MAPPO](../../phases/16-multi-agent-and-swarms/20-marl-maddpg-qmix-mappo/) | Learn | Python |
-| 21 | [Agent Economies, Token Incentives, Reputation](../../phases/16-multi-agent-and-swarms/21-agent-economies/) | Learn | Python |
-| 22 | [Production Scaling — Queues, Checkpoints, Durability](../../phases/16-multi-agent-and-swarms/22-production-scaling-queues-checkpoints/) | Build | Python |
-| 23 | [Failure Modes — MAST, Groupthink, Monoculture](../../phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/) | Learn | Python |
-| 24 | [Evaluation and Coordination Benchmarks](../../phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/) | Learn | Python |
-| 25 | [Case Studies and 2026 State of the Art](../../phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/) | Learn | Python |
+| 01 | [Miért több ágens?](../../phases/16-multi-agent-and-swarms/01-why-multi-agent/) | Tanulás | TypeScript |
+| 02 | [A FIPA-ACL öröksége és beszédaktusok](../../phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/) | Tanulás | Python |
+| 03 | [Kommunikációs protokollok](../../phases/16-multi-agent-and-swarms/03-communication-protocols/) | Építés | TypeScript |
+| 04 | [A többágenses alapegységmodell](../../phases/16-multi-agent-and-swarms/04-primitive-model/) | Tanulás | Python |
+| 05 | [Felügyelő és vezérlő-dolgozó minta](../../phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/) | Építés | Python |
+| 06 | [Hierarchikus felépítés és felbontási eltérés](../../phases/16-multi-agent-and-swarms/06-hierarchical-architecture/) | Tanulás | Python |
+| 07 | [Society of Mind és többágenses vita](../../phases/16-multi-agent-and-swarms/07-society-of-mind-debate/) | Építés | Python |
+| 08 | [Szerepspecializáció: tervező, kritikus, végrehajtó és ellenőr](../../phases/16-multi-agent-and-swarms/08-role-specialization/) | Építés | Python |
+| 09 | [Párhuzamos rajok és hálózatos felépítések](../../phases/16-multi-agent-and-swarms/09-parallel-swarm-networks/) | Építés | Python |
+| 10 | [Csoportos beszélgetés és beszélőválasztás](../../phases/16-multi-agent-and-swarms/10-group-chat-speaker-selection/) | Építés | Python |
+| 11 | [Átadások és rutinok (állapotmentes vezérlés)](../../phases/16-multi-agent-and-swarms/11-handoffs-and-routines/) | Építés | Python |
+| 12 | [A2A: az ágens-ágens protokoll](../../phases/16-multi-agent-and-swarms/12-a2a-protocol/) | Építés | Python |
+| 13 | [Megosztott memória és táblaminták](../../phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/) | Építés | Python |
+| 14 | [Konszenzus és bizánci hibatűrés](../../phases/16-multi-agent-and-swarms/14-consensus-and-bft/) | Építés | Python |
+| 15 | [Szavazás, önkonzisztencia és vitatopológia](../../phases/16-multi-agent-and-swarms/15-voting-debate-topology/) | Építés | Python |
+| 16 | [Tárgyalás és alkudozás](../../phases/16-multi-agent-and-swarms/16-negotiation-bargaining/) | Építés | Python |
+| 17 | [Generatív ágensek és kialakuló szimulációk](../../phases/16-multi-agent-and-swarms/17-generative-agents-simulation/) | Építés | Python |
+| 18 | [Tudatelmélet és kialakuló koordináció](../../phases/16-multi-agent-and-swarms/18-theory-of-mind-coordination/) | Építés | Python |
+| 19 | [Rajoptimalizálás (PSO, ACO)](../../phases/16-multi-agent-and-swarms/19-swarm-optimization-pso-aco/) | Építés | Python |
+| 20 | [MARL: MADDPG, QMIX, MAPPO](../../phases/16-multi-agent-and-swarms/20-marl-maddpg-qmix-mappo/) | Tanulás | Python |
+| 21 | [Ágensgazdaságok, tokenösztönzők és hírnév](../../phases/16-multi-agent-and-swarms/21-agent-economies/) | Tanulás | Python |
+| 22 | [Üzemi skálázás: sorok, ellenőrzőpontok és tartósság](../../phases/16-multi-agent-and-swarms/22-production-scaling-queues-checkpoints/) | Építés | Python |
+| 23 | [Hibamódok: MAST, csoportgondolkodás és monokultúra](../../phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/) | Tanulás | Python |
+| 24 | [Értékelési és koordinációs mérőfeladatok](../../phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/) | Tanulás | Python |
+| 25 | [Esettanulmányok és a technika állása 2026-ban](../../phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/) | Tanulás | Python |
 
 </details>
 
 <details id="phase-17">
-<summary><b>Phase 17 — Infrastructure & Production</b> &nbsp;<code>28 lessons</code>&nbsp; <em>Ship AI to the real world.</em></summary>
+<summary><b>17. szakasz: Infrastruktúra és üzemi működés</b> &nbsp;<code>29 lecke</code>&nbsp; <em>Vidd az AI-t a valódi világba.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lecke | Típus | Nyelv |
 |:---:|--------|:----:|------|
-| 01 | [Managed LLM Platforms — Bedrock, Azure OpenAI, Vertex AI](../../phases/17-infrastructure-and-production/01-managed-llm-platforms/) | Learn | Python |
-| 02 | [Inference Platform Economics — Fireworks, Together, Baseten, Modal](../../phases/17-infrastructure-and-production/02-inference-platform-economics/) | Learn | Python |
-| 03 | [GPU Autoscaling on Kubernetes — Karpenter, KAI Scheduler](../../phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/) | Learn | Python |
-| 04 | [Serving Engine Internals — PagedAttention, Continuous Batching, Chunked Prefill](../../phases/17-infrastructure-and-production/04-vllm-serving-internals/) | Learn | Python |
-| 05 | [EAGLE-3 Speculative Decoding in Production](../../phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/) | Learn | Python |
-| 06 | [Prefix-Cache Serving — RadixAttention and KV Reuse](../../phases/17-infrastructure-and-production/06-sglang-radixattention/) | Learn | Python |
-| 07 | [Hardware-Specialized Inference Compilation — FP8 and NVFP4 on Blackwell](../../phases/17-infrastructure-and-production/07-tensorrt-llm-blackwell/) | Learn | Python |
-| 08 | [Inference Metrics — TTFT, TPOT, ITL, Goodput, P99](../../phases/17-infrastructure-and-production/08-inference-metrics-goodput/) | Learn | Python |
-| 09 | [Production Quantization — AWQ, GPTQ, GGUF, FP8, NVFP4](../../phases/17-infrastructure-and-production/09-production-quantization/) | Learn | Python |
-| 10 | [Cold Start Mitigation for Serverless LLMs](../../phases/17-infrastructure-and-production/10-cold-start-mitigation/) | Learn | Python |
-| 11 | [Multi-Region LLM Serving and KV Cache Locality](../../phases/17-infrastructure-and-production/11-multi-region-kv-locality/) | Learn | Python |
-| 12 | [Edge Inference — ANE, Hexagon, WebGPU, Jetson](../../phases/17-infrastructure-and-production/12-edge-inference/) | Learn | Python |
-| 13 | [LLM Observability Stack Selection](../../phases/17-infrastructure-and-production/13-llm-observability/) | Learn | Python |
-| 14 | [Prompt Caching and Semantic Caching Economics](../../phases/17-infrastructure-and-production/14-prompt-semantic-caching/) | Learn | Python |
-| 15 | [Batch APIs — the 50% Discount as Industry Standard](../../phases/17-infrastructure-and-production/15-batch-apis/) | Learn | Python |
-| 16 | [Model Routing as a Cost-Reduction Primitive](../../phases/17-infrastructure-and-production/16-model-routing/) | Learn | Python |
-| 17 | [Disaggregated Prefill/Decode — NVIDIA Dynamo and llm-d](../../phases/17-infrastructure-and-production/17-disaggregated-prefill-decode/) | Learn | Python |
-| 18 | [Production Serving Stack — KV Offloading and Cache-Aware Routing](../../phases/17-infrastructure-and-production/18-vllm-production-stack-lmcache/) | Learn | Python |
-| 19 | [AI Gateways — LiteLLM, Portkey, Kong, Bifrost](../../phases/17-infrastructure-and-production/19-ai-gateways/) | Learn | Python |
-| 20 | [Shadow, Canary, and Progressive Deployment](../../phases/17-infrastructure-and-production/20-shadow-canary-progressive/) | Learn | Python |
-| 21 | [A/B Testing LLM Features — GrowthBook and Statsig](../../phases/17-infrastructure-and-production/21-ab-testing-llm-features/) | Learn | Python |
-| 22 | [Load Testing LLM APIs — k6, LLMPerf, GenAI-Perf](../../phases/17-infrastructure-and-production/22-load-testing-llm-apis/) | Build | Python |
-| 23 | [SRE for AI — Multi-Agent Incident Response](../../phases/17-infrastructure-and-production/23-sre-for-ai/) | Learn | Python |
-| 24 | [Chaos Engineering for LLM Production](../../phases/17-infrastructure-and-production/24-chaos-engineering-llm/) | Learn | Python |
-| 25 | [Security — Secrets, PII Scrubbing, Audit Logs](../../phases/17-infrastructure-and-production/25-security-secrets-audit/) | Learn | Python |
-| 26 | [Compliance — SOC 2, HIPAA, GDPR, EU AI Act, ISO 42001](../../phases/17-infrastructure-and-production/26-compliance-frameworks/) | Learn | Python |
-| 27 | [FinOps for LLMs — Unit Economics and Multi-Tenant Attribution](../../phases/17-infrastructure-and-production/27-finops-llms/) | Learn | Python |
-| 28 | [Self-Hosted Serving Selection — Matching Engine to Hardware and Scale](../../phases/17-infrastructure-and-production/28-self-hosted-serving-selection/) | Learn | Python |
+| 01 | [Menedzselt LLM-platformok: Bedrock, Azure OpenAI, Vertex AI](../../phases/17-infrastructure-and-production/01-managed-llm-platforms/) | Tanulás | Python |
+| 02 | [Következtetési platformok gazdaságtana: Fireworks, Together, Baseten, Modal](../../phases/17-infrastructure-and-production/02-inference-platform-economics/) | Tanulás | Python |
+| 03 | [Automatikus GPU-skálázás Kubernetesen: Karpenter, KAI Scheduler](../../phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/) | Tanulás | Python |
+| 04 | [Kiszolgálómotorok belseje: PagedAttention, folyamatos kötegelés és darabolt prefill](../../phases/17-infrastructure-and-production/04-vllm-serving-internals/) | Tanulás | Python |
+| 05 | [EAGLE-3 spekulatív dekódolás üzemben](../../phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/) | Tanulás | Python |
+| 06 | [Prefixgyorsítótáras kiszolgálás: RadixAttention és KV-újrafelhasználás](../../phases/17-infrastructure-and-production/06-sglang-radixattention/) | Tanulás | Python |
+| 07 | [Hardverspecifikus következtetésfordítás: FP8 és NVFP4 Blackwellen](../../phases/17-infrastructure-and-production/07-tensorrt-llm-blackwell/) | Tanulás | Python |
+| 08 | [Következtetési mérőszámok: TTFT, TPOT, ITL, goodput, P99](../../phases/17-infrastructure-and-production/08-inference-metrics-goodput/) | Tanulás | Python |
+| 09 | [Üzemi kvantálás: AWQ, GPTQ, GGUF, FP8, NVFP4](../../phases/17-infrastructure-and-production/09-production-quantization/) | Tanulás | Python |
+| 10 | [Hidegindítások mérséklése szervermentes LLM-eknél](../../phases/17-infrastructure-and-production/10-cold-start-mitigation/) | Tanulás | Python |
+| 11 | [Többrégiós LLM-kiszolgálás és a KV-gyorsítótár lokalitása](../../phases/17-infrastructure-and-production/11-multi-region-kv-locality/) | Tanulás | Python |
+| 12 | [Peremeszközös következtetés: ANE, Hexagon, WebGPU, Jetson](../../phases/17-infrastructure-and-production/12-edge-inference/) | Tanulás | Python |
+| 13 | [LLM-megfigyelhetőségi eszközkészlet kiválasztása](../../phases/17-infrastructure-and-production/13-llm-observability/) | Tanulás | Python |
+| 14 | [Prompt- és szemantikus gyorsítótárazás gazdaságtana](../../phases/17-infrastructure-and-production/14-prompt-semantic-caching/) | Tanulás | Python |
+| 15 | [Kötegelt API-k: az 50%-os kedvezmény mint iparági szabvány](../../phases/17-infrastructure-and-production/15-batch-apis/) | Tanulás | Python |
+| 16 | [Modellútválasztás mint költségcsökkentési alapegység](../../phases/17-infrastructure-and-production/16-model-routing/) | Tanulás | Python |
+| 17 | [Szétválasztott prefill és dekódolás: NVIDIA Dynamo és llm-d](../../phases/17-infrastructure-and-production/17-disaggregated-prefill-decode/) | Tanulás | Python |
+| 18 | [Üzemi kiszolgálórendszer: KV-kiszervezés és gyorsítótár-tudatos útválasztás](../../phases/17-infrastructure-and-production/18-vllm-production-stack-lmcache/) | Tanulás | Python |
+| 19 | [AI-átjárók: LiteLLM, Portkey, Kong, Bifrost](../../phases/17-infrastructure-and-production/19-ai-gateways/) | Tanulás | Python |
+| 20 | [Árnyék-, kanári- és fokozatos telepítés](../../phases/17-infrastructure-and-production/20-shadow-canary-progressive/) | Tanulás | Python |
+| 21 | [LLM-funkciók A/B tesztelése: GrowthBook és Statsig](../../phases/17-infrastructure-and-production/21-ab-testing-llm-features/) | Tanulás | Python |
+| 22 | [LLM API-k terheléses tesztjei: k6, LLMPerf, GenAI-Perf](../../phases/17-infrastructure-and-production/22-load-testing-llm-apis/) | Építés | Python |
+| 23 | [SRE az AI-hoz: többágenses incidenskezelés](../../phases/17-infrastructure-and-production/23-sre-for-ai/) | Tanulás | Python |
+| 24 | [Káoszmérnökség az üzemi LLM-ekhez](../../phases/17-infrastructure-and-production/24-chaos-engineering-llm/) | Tanulás | Python |
+| 25 | [Biztonság: titkok, személyes adatok eltávolítása és auditnaplók](../../phases/17-infrastructure-and-production/25-security-secrets-audit/) | Tanulás | Python |
+| 26 | [Megfelelőség: SOC 2, HIPAA, GDPR, EU AI Act, ISO 42001](../../phases/17-infrastructure-and-production/26-compliance-frameworks/) | Tanulás | Python |
+| 27 | [FinOps az LLM-ekhez: egységgazdaságtan és többügyfeles költségfelosztás](../../phases/17-infrastructure-and-production/27-finops-llms/) | Tanulás | Python |
+| 28 | [Saját kiszolgálás kiválasztása: motor, hardver és méret összehangolása](../../phases/17-infrastructure-and-production/28-self-hosted-serving-selection/) | Tanulás | Python |
+| 29 | [Modellbemutató felületek: egy függvénytől a megosztható alkalmazásig](../../phases/17-infrastructure-and-production/29-model-demo-interfaces/) | Építés | Python |
 
 </details>
 
 <details id="phase-18">
-<summary><b>Phase 18 — Ethics, Safety & Alignment</b> &nbsp;<code>30 lessons</code>&nbsp; <em>Build AI that helps humanity. Not optional.</em></summary>
+<summary><b>18. szakasz: Etika, biztonság és összehangolás</b> &nbsp;<code>30 lecke</code>&nbsp; <em>Építs az emberiséget segítő AI-t. Ez nem választható extra.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Lecke | Típus | Nyelv |
 |:---:|--------|:----:|------|
-| 01 | [Instruction-Following as Alignment Signal](../../phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/) | Learn | Python |
-| 02 | [Reward Hacking & Goodhart's Law](../../phases/18-ethics-safety-alignment/02-reward-hacking-goodhart/) | Learn | Python |
-| 03 | [Direct Preference Optimization Family](../../phases/18-ethics-safety-alignment/03-direct-preference-optimization-family/) | Learn | Python |
-| 04 | [Sycophancy as RLHF Amplification](../../phases/18-ethics-safety-alignment/04-sycophancy-rlhf-amplification/) | Learn | Python |
-| 05 | [Constitutional AI & RLAIF](../../phases/18-ethics-safety-alignment/05-constitutional-ai-rlaif/) | Learn | Python |
-| 06 | [Mesa-Optimization & Deceptive Alignment](../../phases/18-ethics-safety-alignment/06-mesa-optimization-deceptive-alignment/) | Learn | Python |
-| 07 | [Sleeper Agents — Persistent Deception](../../phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/) | Learn | Python |
-| 08 | [In-Context Scheming in Frontier Models](../../phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/) | Learn | Python |
-| 09 | [Alignment Faking](../../phases/18-ethics-safety-alignment/09-alignment-faking/) | Learn | Python |
-| 10 | [AI Control — Safety Despite Subversion](../../phases/18-ethics-safety-alignment/10-ai-control-subversion/) | Learn | Python |
-| 11 | [Scalable Oversight & Weak-to-Strong](../../phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/) | Learn | Python |
-| 12 | [Red-Teaming: PAIR & Automated Attacks](../../phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/) | Build | Python |
-| 13 | [Many-Shot Jailbreaking](../../phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/) | Learn | Python |
-| 14 | [ASCII Art & Visual Jailbreaks](../../phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/) | Build | Python |
-| 15 | [Indirect Prompt Injection](../../phases/18-ethics-safety-alignment/15-indirect-prompt-injection/) | Build | Python |
-| 16 | [Red-Team Tooling: Garak, Llama Guard, PyRIT](../../phases/18-ethics-safety-alignment/16-red-team-tooling-garak-llamaguard-pyrit/) | Build | Python |
-| 17 | [WMDP & Dual-Use Capability Evaluation](../../phases/18-ethics-safety-alignment/17-wmdp-dual-use-evaluation/) | Learn | Python |
-| 18 | [Frontier Safety Frameworks — RSP, PF, FSF](../../phases/18-ethics-safety-alignment/18-frontier-safety-frameworks-rsp-pf-fsf/) | Learn | Python |
-| 19 | [Model Welfare Research](../../phases/18-ethics-safety-alignment/19-model-welfare-research/) | Learn | Python |
-| 20 | [Bias & Representational Harm](../../phases/18-ethics-safety-alignment/20-bias-representational-harm/) | Build | Python |
-| 21 | [Fairness Criteria: Group, Individual, Counterfactual](../../phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/) | Learn | Python |
-| 22 | [Differential Privacy for LLMs](../../phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/) | Build | Python |
-| 23 | [Watermarking: SynthID, Stable Signature, C2PA](../../phases/18-ethics-safety-alignment/23-watermarking-synthid-stable-signature-c2pa/) | Build | Python |
-| 24 | [Regulatory Frameworks: EU, US, UK, Korea](../../phases/18-ethics-safety-alignment/24-regulatory-frameworks-eu-us-uk-korea/) | Learn | Python |
-| 25 | [EchoLeak & CVEs for AI](../../phases/18-ethics-safety-alignment/25-echoleak-cves-for-ai/) | Learn | Python |
-| 26 | [Model, System & Dataset Cards](../../phases/18-ethics-safety-alignment/26-model-system-dataset-cards/) | Build | Python |
-| 27 | [Data Provenance & Training-Data Governance](../../phases/18-ethics-safety-alignment/27-data-provenance-training-governance/) | Learn | Python |
-| 28 | [Alignment Research Ecosystem: MATS, Redwood, Apollo, METR](../../phases/18-ethics-safety-alignment/28-alignment-research-ecosystem/) | Learn | Python |
-| 29 | [Moderation Systems: OpenAI, Perspective, Llama Guard](../../phases/18-ethics-safety-alignment/29-moderation-systems-openai-perspective-llamaguard/) | Build | Python |
-| 30 | [Dual-Use Risk: Cyber, Bio, Chem, Nuclear](../../phases/18-ethics-safety-alignment/30-dual-use-risk-cyber-bio-chem-nuclear/) | Learn | Python |
+| 01 | [Utasításkövetés mint összehangolási jel](../../phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/) | Tanulás | Python |
+| 02 | [Jutalomkijátszás és Goodhart törvénye](../../phases/18-ethics-safety-alignment/02-reward-hacking-goodhart/) | Tanulás | Python |
+| 03 | [A közvetlen preferenciaoptimalizálás családja](../../phases/18-ethics-safety-alignment/03-direct-preference-optimization-family/) | Tanulás | Python |
+| 04 | [Hízelgés mint az RLHF felerősítése](../../phases/18-ethics-safety-alignment/04-sycophancy-rlhf-amplification/) | Tanulás | Python |
+| 05 | [Alkotmányos AI és RLAIF](../../phases/18-ethics-safety-alignment/05-constitutional-ai-rlaif/) | Tanulás | Python |
+| 06 | [Mesa-optimalizálás és megtévesztő összehangolás](../../phases/18-ethics-safety-alignment/06-mesa-optimization-deceptive-alignment/) | Tanulás | Python |
+| 07 | [Alvó ágensek: tartós megtévesztés](../../phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/) | Tanulás | Python |
+| 08 | [Kontextuson belüli fondorlatok a legfejlettebb modellekben](../../phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/) | Tanulás | Python |
+| 09 | [Az összehangolás színlelése](../../phases/18-ethics-safety-alignment/09-alignment-faking/) | Tanulás | Python |
+| 10 | [AI-ellenőrzés: biztonság szabotázs ellenére](../../phases/18-ethics-safety-alignment/10-ai-control-subversion/) | Tanulás | Python |
+| 11 | [Skálázható felügyelet és gyengébbről erősebbre tanítás](../../phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/) | Tanulás | Python |
+| 12 | [Támadótesztelés: PAIR és automatizált támadások](../../phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/) | Építés | Python |
+| 13 | [Sokpéldás korlátmegkerülés](../../phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/) | Tanulás | Python |
+| 14 | [ASCII-ábrák és vizuális korlátmegkerülés](../../phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/) | Építés | Python |
+| 15 | [Közvetett promptinjektálás](../../phases/18-ethics-safety-alignment/15-indirect-prompt-injection/) | Építés | Python |
+| 16 | [Támadótesztelő eszközök: Garak, Llama Guard, PyRIT](../../phases/18-ethics-safety-alignment/16-red-team-tooling-garak-llamaguard-pyrit/) | Építés | Python |
+| 17 | [WMDP és kettős felhasználású képességek értékelése](../../phases/18-ethics-safety-alignment/17-wmdp-dual-use-evaluation/) | Tanulás | Python |
+| 18 | [Élvonalbeli biztonsági keretek: RSP, PF, FSF](../../phases/18-ethics-safety-alignment/18-frontier-safety-frameworks-rsp-pf-fsf/) | Tanulás | Python |
+| 19 | [A modellek jóllétének kutatása](../../phases/18-ethics-safety-alignment/19-model-welfare-research/) | Tanulás | Python |
+| 20 | [Torzítás és reprezentációs károk](../../phases/18-ethics-safety-alignment/20-bias-representational-harm/) | Építés | Python |
+| 21 | [Méltányossági feltételek: csoportos, egyéni és tényellentétes](../../phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/) | Tanulás | Python |
+| 22 | [Differenciális adatvédelem LLM-ekhez](../../phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/) | Építés | Python |
+| 23 | [Vízjelezés: SynthID, Stable Signature, C2PA](../../phases/18-ethics-safety-alignment/23-watermarking-synthid-stable-signature-c2pa/) | Építés | Python |
+| 24 | [Szabályozási keretek: EU, USA, Egyesült Királyság és Korea](../../phases/18-ethics-safety-alignment/24-regulatory-frameworks-eu-us-uk-korea/) | Tanulás | Python |
+| 25 | [EchoLeak és AI-hoz kapcsolódó CVE-k](../../phases/18-ethics-safety-alignment/25-echoleak-cves-for-ai/) | Tanulás | Python |
+| 26 | [Modell-, rendszer- és adatkészletkártyák](../../phases/18-ethics-safety-alignment/26-model-system-dataset-cards/) | Építés | Python |
+| 27 | [Adateredet és tanítóadat-irányítás](../../phases/18-ethics-safety-alignment/27-data-provenance-training-governance/) | Tanulás | Python |
+| 28 | [Az összehangolási kutatás ökoszisztémája: MATS, Redwood, Apollo, METR](../../phases/18-ethics-safety-alignment/28-alignment-research-ecosystem/) | Tanulás | Python |
+| 29 | [Moderálórendszerek: OpenAI, Perspective, Llama Guard](../../phases/18-ethics-safety-alignment/29-moderation-systems-openai-perspective-llamaguard/) | Építés | Python |
+| 30 | [Kettős felhasználási kockázat: kiber-, biológiai, vegyi és nukleáris terület](../../phases/18-ethics-safety-alignment/30-dual-use-risk-cyber-bio-chem-nuclear/) | Tanulás | Python |
 
 </details>
 
 <details id="phase-19">
-<summary><b>Phase 19 — Capstone Projects</b> &nbsp;<code>85 lessons</code>&nbsp; <em>17 end-to-end products + 9 deep-build tracks. 20-40 hours per project; 4-12 lessons per track.</em></summary>
+<summary><b>19. szakasz: Záróprojektek</b> &nbsp;<code>85 lecke</code>&nbsp; <em>17 teljes termék + 9 elmélyült építési útvonal. 20-40 óra projektenként; 4-12 lecke útvonalanként.</em></summary>
 <br/>
 
-| # | Project | Combines | Lang |
+| # | Projekt | Összekapcsol | Nyelv |
 |:---:|---------|----------|------|
-| 01 | [Terminal-Native Coding Agent](../../phases/19-capstone-projects/01-terminal-native-coding-agent/) | P0 P5 P7 P10 P11 P13 P14 P15 P17 P18 | Python |
-| 02 | [RAG over Codebase (Cross-Repo Semantic Search)](../../phases/19-capstone-projects/02-rag-over-codebase/) | P5 P7 P11 P13 P17 | Python |
-| 03 | [Real-Time Voice Assistant (ASR → LLM → TTS)](../../phases/19-capstone-projects/03-realtime-voice-assistant/) | P6 P7 P11 P13 P14 P17 | Python |
-| 04 | [Multimodal Document QA (Vision-First)](../../phases/19-capstone-projects/04-multimodal-document-qa/) | P4 P5 P7 P11 P12 P17 | Python |
-| 05 | [Autonomous Research Agent (AI-Scientist Class)](../../phases/19-capstone-projects/05-autonomous-research-agent/) | P0 P2 P3 P7 P10 P14 P15 P16 P18 | Python |
-| 06 | [DevOps Troubleshooting Agent for Kubernetes](../../phases/19-capstone-projects/06-devops-troubleshooting-agent/) | P11 P13 P14 P15 P17 P18 | Python |
-| 07 | [End-to-End Fine-Tuning Pipeline](../../phases/19-capstone-projects/07-end-to-end-fine-tuning-pipeline/) | P2 P3 P7 P10 P11 P17 P18 | Python |
-| 08 | [Production RAG Chatbot (Regulated Vertical)](../../phases/19-capstone-projects/08-production-rag-chatbot/) | P5 P7 P11 P12 P17 P18 | Python |
-| 09 | [Code Migration Agent (Repo-Level Upgrade)](../../phases/19-capstone-projects/09-code-migration-agent/) | P5 P7 P11 P13 P14 P15 P17 | Python |
-| 10 | [Multi-Agent Software Engineering Team](../../phases/19-capstone-projects/10-multi-agent-software-team/) | P11 P13 P14 P15 P16 P17 | Python |
-| 11 | [LLM Observability & Eval Dashboard](../../phases/19-capstone-projects/11-llm-observability-dashboard/) | P11 P13 P17 P18 | Python |
-| 12 | [Video Understanding Pipeline (Scene → QA)](../../phases/19-capstone-projects/12-video-understanding-pipeline/) | P4 P6 P7 P11 P12 P17 | Python |
-| 13 | [Stateless MCP Server with Registry and Governance](../../phases/19-capstone-projects/13-mcp-server-with-registry/) | P11 P13 P14 P17 P18 | Python |
-| 14 | [Speculative-Decoding Inference Server](../../phases/19-capstone-projects/14-speculative-decoding-server/) | P3 P7 P10 P17 | Python |
-| 15 | [Constitutional Safety Harness + Red-Team Range](../../phases/19-capstone-projects/15-constitutional-safety-harness/) | P10 P11 P13 P14 P18 | Python |
-| 16 | [GitHub Issue-to-PR Autonomous Agent](../../phases/19-capstone-projects/16-github-issue-to-pr-agent/) | P11 P13 P14 P15 P17 | Python |
-| 17 | [Personal AI Tutor (Adaptive, Multimodal)](../../phases/19-capstone-projects/17-personal-ai-tutor/) | P5 P6 P11 P12 P14 P17 P18 | Python |
+| 01 | [Terminálba épített programozóágens](../../phases/19-capstone-projects/01-terminal-native-coding-agent/) | P0 P5 P7 P10 P11 P13 P14 P15 P17 P18 | Python |
+| 02 | [RAG kódbázison (tárolók közötti szemantikus keresés)](../../phases/19-capstone-projects/02-rag-over-codebase/) | P5 P7 P11 P13 P17 | Python |
+| 03 | [Valós idejű hangasszisztens (ASR → LLM → TTS)](../../phases/19-capstone-projects/03-realtime-voice-assistant/) | P6 P7 P11 P13 P14 P17 | Python |
+| 04 | [Multimodális dokumentumkérdezés (elsődlegesen képi)](../../phases/19-capstone-projects/04-multimodal-document-qa/) | P4 P5 P7 P11 P12 P17 | Python |
+| 05 | [Autonóm kutatóágens (AI-Scientist-osztály)](../../phases/19-capstone-projects/05-autonomous-research-agent/) | P0 P2 P3 P7 P10 P14 P15 P16 P18 | Python |
+| 06 | [DevOps-hibaelhárító ágens Kuberneteshez](../../phases/19-capstone-projects/06-devops-troubleshooting-agent/) | P11 P13 P14 P15 P17 P18 | Python |
+| 07 | [Teljes finomhangolási folyamat](../../phases/19-capstone-projects/07-end-to-end-fine-tuning-pipeline/) | P2 P3 P7 P10 P11 P17 P18 | Python |
+| 08 | [Üzemi RAG-csevegőrobot (szabályozott ágazat)](../../phases/19-capstone-projects/08-production-rag-chatbot/) | P5 P7 P11 P12 P17 P18 | Python |
+| 09 | [Kódmigrációs ágens (tárolószintű frissítés)](../../phases/19-capstone-projects/09-code-migration-agent/) | P5 P7 P11 P13 P14 P15 P17 | Python |
+| 10 | [Többágenses szoftvermérnöki csapat](../../phases/19-capstone-projects/10-multi-agent-software-team/) | P11 P13 P14 P15 P16 P17 | Python |
+| 11 | [LLM-megfigyelhetőségi és értékelési irányítópult](../../phases/19-capstone-projects/11-llm-observability-dashboard/) | P11 P13 P17 P18 | Python |
+| 12 | [Videóértelmezési folyamat (jelenet → kérdés és válasz)](../../phases/19-capstone-projects/12-video-understanding-pipeline/) | P4 P6 P7 P11 P12 P17 | Python |
+| 13 | [Állapotmentes MCP-szerver regiszterrel és irányítással](../../phases/19-capstone-projects/13-mcp-server-with-registry/) | P11 P13 P14 P17 P18 | Python |
+| 14 | [Spekulatív dekódolású következtetőszerver](../../phases/19-capstone-projects/14-speculative-decoding-server/) | P3 P7 P10 P17 | Python |
+| 15 | [Alkotmányos biztonsági keret és támadótesztpálya](../../phases/19-capstone-projects/15-constitutional-safety-harness/) | P10 P11 P13 P14 P18 | Python |
+| 16 | [Autonóm ágens GitHub-issue-tól PR-ig](../../phases/19-capstone-projects/16-github-issue-to-pr-agent/) | P11 P13 P14 P15 P17 | Python |
+| 17 | [Személyes AI-tutor (adaptív és multimodális)](../../phases/19-capstone-projects/17-personal-ai-tutor/) | P5 P6 P11 P12 P14 P17 P18 | Python |
 
-**Deep-build tracks** — multi-lesson series that build a complete subsystem from scratch.
+**Elmélyült építési útvonalak**: több leckés sorozatok, amelyek az alapoktól építenek teljes alrendszert.
 
-| # | Project | Combines | Lang |
+| # | Projekt | Összekapcsol | Nyelv |
 |:---:|---------|----------|------|
-| 20 | [Agent Harness Loop Contract](../../phases/19-capstone-projects/20-agent-harness-loop-contract/) | A. Agent harness | Python |
-| 21 | [Tool Registry with Schema Validation](../../phases/19-capstone-projects/21-tool-registry-schema-validation/) | A. Agent harness | Python |
-| 22 | [JSON-RPC 2.0 Over Newline-Delimited Stdio](../../phases/19-capstone-projects/22-jsonrpc-stdio-transport/) | A. Agent harness | Python |
-| 23 | [Function Call Dispatcher](../../phases/19-capstone-projects/23-function-call-dispatcher/) | A. Agent harness | Python |
-| 24 | [Plan-Execute Control Flow](../../phases/19-capstone-projects/24-plan-execute-control-flow/) | A. Agent harness | Python |
-| 25 | [Verification Gates and Observation Budget](../../phases/19-capstone-projects/25-verification-gates-observation-budget/) | A. Agent harness | Python |
-| 26 | [Sandbox Runner with Denylist and Path Jail](../../phases/19-capstone-projects/26-sandbox-runner-denylist/) | A. Agent harness | Python |
-| 27 | [Eval Harness with Fixture Tasks](../../phases/19-capstone-projects/27-eval-harness-fixture-tasks/) | A. Agent harness | Python |
-| 28 | [Observability with OTel GenAI Spans and Prometheus Metrics](../../phases/19-capstone-projects/28-observability-otel-traces/) | A. Agent harness | Python |
-| 29 | [End-to-End Coding Agent on the Harness](../../phases/19-capstone-projects/29-end-to-end-coding-task-demo/) | A. Agent harness | Python |
-| 30 | [BPE Tokenizer From Scratch](../../phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/) | B. NLP LLM | Python |
-| 31 | [Tokenized Dataset with Sliding Window](../../phases/19-capstone-projects/31-tokenized-dataset-sliding-window/) | B. NLP LLM | Python |
-| 32 | [Token and Positional Embeddings](../../phases/19-capstone-projects/32-token-positional-embeddings/) | B. NLP LLM | Python |
-| 33 | [Multi-Head Self-Attention](../../phases/19-capstone-projects/33-multihead-self-attention/) | B. NLP LLM | Python |
-| 34 | [Transformer Block from Scratch](../../phases/19-capstone-projects/34-transformer-block/) | B. NLP LLM | Python |
-| 35 | [GPT Model Assembly](../../phases/19-capstone-projects/35-gpt-model-assembly/) | B. NLP LLM | Python |
-| 36 | [Training Loop and Evaluation](../../phases/19-capstone-projects/36-training-loop-eval/) | B. NLP LLM | Python |
-| 37 | [Loading Pretrained Weights](../../phases/19-capstone-projects/37-loading-pretrained-weights/) | B. NLP LLM | Python |
-| 38 | [Classifier Fine-Tuning by Head Swap](../../phases/19-capstone-projects/38-classifier-finetuning/) | B. NLP LLM | Python |
-| 39 | [Instruction Tuning by Supervised Fine-Tuning](../../phases/19-capstone-projects/39-instruction-tuning-sft/) | B. NLP LLM | Python |
-| 40 | [Direct Preference Optimization from Scratch](../../phases/19-capstone-projects/40-dpo-from-scratch/) | B. NLP LLM | Python |
-| 41 | [Full Evaluation Pipeline](../../phases/19-capstone-projects/41-eval-pipeline/) | B. NLP LLM | Python |
-| 42 | [Large Corpus Downloader](../../phases/19-capstone-projects/42-large-corpus-downloader/) | C. Train end-to-end | Python |
-| 43 | [HDF5 Tokenized Corpus](../../phases/19-capstone-projects/43-hdf5-tokenized-corpus/) | C. Train end-to-end | Python |
-| 44 | [Cosine LR with Linear Warmup](../../phases/19-capstone-projects/44-cosine-lr-warmup/) | C. Train end-to-end | Python |
-| 45 | [Gradient Clipping and Mixed Precision](../../phases/19-capstone-projects/45-gradient-clipping-amp/) | C. Train end-to-end | Python |
-| 46 | [Gradient Accumulation](../../phases/19-capstone-projects/46-gradient-accumulation/) | C. Train end-to-end | Python |
-| 47 | [Checkpoint Save and Resume](../../phases/19-capstone-projects/47-checkpoint-save-resume/) | C. Train end-to-end | Python |
-| 48 | [Distributed Data Parallel and FSDP from Scratch](../../phases/19-capstone-projects/48-distributed-fsdp-ddp/) | C. Train end-to-end | Python |
-| 49 | [Language Model Evaluation Harness](../../phases/19-capstone-projects/49-lm-eval-harness/) | C. Train end-to-end | Python |
-| 50 | [Hypothesis Generator](../../phases/19-capstone-projects/50-hypothesis-generator/) | D. Auto research | Python |
-| 51 | [Literature Retrieval](../../phases/19-capstone-projects/51-literature-retrieval/) | D. Auto research | Python |
-| 52 | [Experiment Runner](../../phases/19-capstone-projects/52-experiment-runner/) | D. Auto research | Python |
-| 53 | [Result Evaluator](../../phases/19-capstone-projects/53-result-evaluator/) | D. Auto research | Python |
-| 54 | [Paper Writer](../../phases/19-capstone-projects/54-paper-writer/) | D. Auto research | Python |
-| 55 | [Critic Loop](../../phases/19-capstone-projects/55-critic-loop/) | D. Auto research | Python |
-| 56 | [Iteration Scheduler](../../phases/19-capstone-projects/56-iteration-scheduler/) | D. Auto research | Python |
-| 57 | [End-to-End Research Demo](../../phases/19-capstone-projects/57-end-to-end-research-demo/) | D. Auto research | Python |
-| 58 | [Vision Encoder Patches](../../phases/19-capstone-projects/58-vision-encoder-patches/) | E. Multimodal VLM | Python |
-| 59 | [Vision Transformer Encoder](../../phases/19-capstone-projects/59-vit-transformer/) | E. Multimodal VLM | Python |
-| 60 | [Projection Layer for Modality Alignment](../../phases/19-capstone-projects/60-projection-layer-modality-align/) | E. Multimodal VLM | Python |
-| 61 | [Cross-Attention Fusion](../../phases/19-capstone-projects/61-cross-attention-fusion/) | E. Multimodal VLM | Python |
-| 62 | [Vision-Language Pretraining](../../phases/19-capstone-projects/62-vision-language-pretraining/) | E. Multimodal VLM | Python |
-| 63 | [Multimodal Evaluation](../../phases/19-capstone-projects/63-multimodal-eval/) | E. Multimodal VLM | Python |
-| 64 | [Chunking Strategies, Compared](../../phases/19-capstone-projects/64-chunking-strategies-advanced/) | F. Advanced RAG | Python |
-| 65 | [Hybrid Retrieval with BM25 and Dense Embeddings](../../phases/19-capstone-projects/65-hybrid-retrieval-bm25-dense/) | F. Advanced RAG | Python |
-| 66 | [Cross-Encoder Reranker](../../phases/19-capstone-projects/66-reranker-cross-encoder/) | F. Advanced RAG | Python |
-| 67 | [Query Rewriting: HyDE, Multi-Query, and Decomposition](../../phases/19-capstone-projects/67-query-rewriting-hyde/) | F. Advanced RAG | Python |
-| 68 | [RAG Evaluation: Precision, Recall, MRR, nDCG, Faithfulness, Answer Relevance](../../phases/19-capstone-projects/68-rag-eval-precision-recall/) | F. Advanced RAG | Python |
-| 69 | [End-to-End RAG System](../../phases/19-capstone-projects/69-end-to-end-rag-system/) | F. Advanced RAG | Python |
-| 70 | [Task Spec Format](../../phases/19-capstone-projects/70-task-spec-format/) | G. Eval framework | Python |
-| 71 | [Classical Metrics](../../phases/19-capstone-projects/71-classical-metrics/) | G. Eval framework | Python |
-| 72 | [Code Exec Metric](../../phases/19-capstone-projects/72-code-exec-metric/) | G. Eval framework | Python |
-| 73 | [Perplexity and Calibration](../../phases/19-capstone-projects/73-perplexity-calibration/) | G. Eval framework | Python |
-| 74 | [Leaderboard Aggregation](../../phases/19-capstone-projects/74-leaderboard-aggregation/) | G. Eval framework | Python |
-| 75 | [End-to-End Eval Runner](../../phases/19-capstone-projects/75-end-to-end-eval-runner/) | G. Eval framework | Python |
-| 76 | [Collective Ops From Scratch](../../phases/19-capstone-projects/76-collective-ops-from-scratch/) | H. Distributed train | Python |
-| 77 | [Data Parallel DDP From Scratch](../../phases/19-capstone-projects/77-data-parallel-ddp/) | H. Distributed train | Python |
-| 78 | [ZeRO Optimizer State Sharding](../../phases/19-capstone-projects/78-zero-parameter-sharding/) | H. Distributed train | Python |
-| 79 | [Pipeline Parallel and Bubble Analysis](../../phases/19-capstone-projects/79-pipeline-parallel/) | H. Distributed train | Python |
-| 80 | [Sharded Checkpoint and Atomic Resume](../../phases/19-capstone-projects/80-checkpoint-sharded-resume/) | H. Distributed train | Python |
-| 81 | [End-to-End Distributed Training](../../phases/19-capstone-projects/81-end-to-end-distributed-train/) | H. Distributed train | Python |
-| 82 | [Jailbreak Taxonomy](../../phases/19-capstone-projects/82-jailbreak-taxonomy/) | I. Safety harness | Python |
-| 83 | [Prompt Injection Detector](../../phases/19-capstone-projects/83-prompt-injection-detector/) | I. Safety harness | Python |
-| 84 | [Refusal Evaluation](../../phases/19-capstone-projects/84-refusal-evaluation/) | I. Safety harness | Python |
-| 85 | [Content Classifier Integration](../../phases/19-capstone-projects/85-content-classifier-integration/) | I. Safety harness | Python |
-| 86 | [Constitutional Rules Engine](../../phases/19-capstone-projects/86-constitutional-rules-engine/) | I. Safety harness | Python, YAML |
-| 87 | [End-to-End Safety Gate](../../phases/19-capstone-projects/87-end-to-end-safety-gate/) | I. Safety harness | Python |
+| 20 | [Ágenskeret-ciklusszerződés](../../phases/19-capstone-projects/20-agent-harness-loop-contract/) | A. Ágensfuttató keret | Python |
+| 21 | [Eszközregiszter sémaellenőrzéssel](../../phases/19-capstone-projects/21-tool-registry-schema-validation/) | A. Ágensfuttató keret | Python |
+| 22 | [JSON-RPC 2.0 sorokkal elválasztott stdio felett](../../phases/19-capstone-projects/22-jsonrpc-stdio-transport/) | A. Ágensfuttató keret | Python |
+| 23 | [Függvényhívás-elosztó](../../phases/19-capstone-projects/23-function-call-dispatcher/) | A. Ágensfuttató keret | Python |
+| 24 | [Tervezés-végrehajtás vezérlési folyamat](../../phases/19-capstone-projects/24-plan-execute-control-flow/) | A. Ágensfuttató keret | Python |
+| 25 | [Ellenőrzési kapuk és megfigyelési keret](../../phases/19-capstone-projects/25-verification-gates-observation-budget/) | A. Ágensfuttató keret | Python |
+| 26 | [Elszigetelt futtató tiltólistával és útvonal-korlátozással](../../phases/19-capstone-projects/26-sandbox-runner-denylist/) | A. Ágensfuttató keret | Python |
+| 27 | [Értékelőkeret rögzített tesztfeladatokkal](../../phases/19-capstone-projects/27-eval-harness-fixture-tasks/) | A. Ágensfuttató keret | Python |
+| 28 | [Megfigyelhetőség OTel GenAI-spanekkel és Prometheus-mérőszámokkal](../../phases/19-capstone-projects/28-observability-otel-traces/) | A. Ágensfuttató keret | Python |
+| 29 | [Teljes programozóágens a futtatókereten](../../phases/19-capstone-projects/29-end-to-end-coding-task-demo/) | A. Ágensfuttató keret | Python |
+| 30 | [BPE-tokenizáló az alapoktól](../../phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/) | B. NLP LLM | Python |
+| 31 | [Tokenizált adatkészlet csúszóablakkal](../../phases/19-capstone-projects/31-tokenized-dataset-sliding-window/) | B. NLP LLM | Python |
+| 32 | [Token- és pozícióbeágyazások](../../phases/19-capstone-projects/32-token-positional-embeddings/) | B. NLP LLM | Python |
+| 33 | [Többfejes önfigyelem](../../phases/19-capstone-projects/33-multihead-self-attention/) | B. NLP LLM | Python |
+| 34 | [Transzformerblokk az alapoktól](../../phases/19-capstone-projects/34-transformer-block/) | B. NLP LLM | Python |
+| 35 | [GPT-modell összeállítása](../../phases/19-capstone-projects/35-gpt-model-assembly/) | B. NLP LLM | Python |
+| 36 | [Tanítási ciklus és értékelés](../../phases/19-capstone-projects/36-training-loop-eval/) | B. NLP LLM | Python |
+| 37 | [Előtanított súlyok betöltése](../../phases/19-capstone-projects/37-loading-pretrained-weights/) | B. NLP LLM | Python |
+| 38 | [Osztályozó finomhangolása fejcserével](../../phases/19-capstone-projects/38-classifier-finetuning/) | B. NLP LLM | Python |
+| 39 | [Utasításhangolás felügyelt finomhangolással](../../phases/19-capstone-projects/39-instruction-tuning-sft/) | B. NLP LLM | Python |
+| 40 | [Közvetlen preferenciaoptimalizálás az alapoktól](../../phases/19-capstone-projects/40-dpo-from-scratch/) | B. NLP LLM | Python |
+| 41 | [Teljes értékelési folyamat](../../phases/19-capstone-projects/41-eval-pipeline/) | B. NLP LLM | Python |
+| 42 | [Nagy korpusz letöltése](../../phases/19-capstone-projects/42-large-corpus-downloader/) | C. Teljes tanítás | Python |
+| 43 | [HDF5-tokenizált korpusz](../../phases/19-capstone-projects/43-hdf5-tokenized-corpus/) | C. Teljes tanítás | Python |
+| 44 | [Koszinuszos tanulási ráta lineáris bemelegítéssel](../../phases/19-capstone-projects/44-cosine-lr-warmup/) | C. Teljes tanítás | Python |
+| 45 | [Gradiensvágás és vegyes pontosság](../../phases/19-capstone-projects/45-gradient-clipping-amp/) | C. Teljes tanítás | Python |
+| 46 | [Gradiensfelhalmozás](../../phases/19-capstone-projects/46-gradient-accumulation/) | C. Teljes tanítás | Python |
+| 47 | [Ellenőrzőpont mentése és folytatása](../../phases/19-capstone-projects/47-checkpoint-save-resume/) | C. Teljes tanítás | Python |
+| 48 | [Elosztott adatpárhuzamosság és FSDP az alapoktól](../../phases/19-capstone-projects/48-distributed-fsdp-ddp/) | C. Teljes tanítás | Python |
+| 49 | [Nyelvmodell-értékelési keret](../../phases/19-capstone-projects/49-lm-eval-harness/) | C. Teljes tanítás | Python |
+| 50 | [Hipotézisgenerátor](../../phases/19-capstone-projects/50-hypothesis-generator/) | D. Automatikus kutatás | Python |
+| 51 | [Szakirodalom-visszakeresés](../../phases/19-capstone-projects/51-literature-retrieval/) | D. Automatikus kutatás | Python |
+| 52 | [Kísérletfuttató](../../phases/19-capstone-projects/52-experiment-runner/) | D. Automatikus kutatás | Python |
+| 53 | [Eredményértékelő](../../phases/19-capstone-projects/53-result-evaluator/) | D. Automatikus kutatás | Python |
+| 54 | [Tudományoscikk-író](../../phases/19-capstone-projects/54-paper-writer/) | D. Automatikus kutatás | Python |
+| 55 | [Kritikusi ciklus](../../phases/19-capstone-projects/55-critic-loop/) | D. Automatikus kutatás | Python |
+| 56 | [Iterációütemező](../../phases/19-capstone-projects/56-iteration-scheduler/) | D. Automatikus kutatás | Python |
+| 57 | [Teljes kutatási bemutató](../../phases/19-capstone-projects/57-end-to-end-research-demo/) | D. Automatikus kutatás | Python |
+| 58 | [Vizuális kódoló képrészletei](../../phases/19-capstone-projects/58-vision-encoder-patches/) | E. Multimodális VLM | Python |
+| 59 | [Vizuális transzformerkódoló](../../phases/19-capstone-projects/59-vit-transformer/) | E. Multimodális VLM | Python |
+| 60 | [Vetítési réteg modalitásösszehangoláshoz](../../phases/19-capstone-projects/60-projection-layer-modality-align/) | E. Multimodális VLM | Python |
+| 61 | [Keresztfigyelmi egyesítés](../../phases/19-capstone-projects/61-cross-attention-fusion/) | E. Multimodális VLM | Python |
+| 62 | [Kép-nyelvi előtanítás](../../phases/19-capstone-projects/62-vision-language-pretraining/) | E. Multimodális VLM | Python |
+| 63 | [Multimodális értékelés](../../phases/19-capstone-projects/63-multimodal-eval/) | E. Multimodális VLM | Python |
+| 64 | [Darabolási stratégiák összehasonlítása](../../phases/19-capstone-projects/64-chunking-strategies-advanced/) | F. Haladó RAG | Python |
+| 65 | [Hibrid visszakeresés BM25-tel és sűrű beágyazásokkal](../../phases/19-capstone-projects/65-hybrid-retrieval-bm25-dense/) | F. Haladó RAG | Python |
+| 66 | [Keresztkódolós újrarangsoroló](../../phases/19-capstone-projects/66-reranker-cross-encoder/) | F. Haladó RAG | Python |
+| 67 | [Lekérdezésátírás: HyDE, több lekérdezés és felbontás](../../phases/19-capstone-projects/67-query-rewriting-hyde/) | F. Haladó RAG | Python |
+| 68 | [RAG-értékelés: pontosság, felidézés, MRR, nDCG, hűség és válaszrelevancia](../../phases/19-capstone-projects/68-rag-eval-precision-recall/) | F. Haladó RAG | Python |
+| 69 | [Teljes RAG-rendszer](../../phases/19-capstone-projects/69-end-to-end-rag-system/) | F. Haladó RAG | Python |
+| 70 | [Feladatspecifikáció-formátum](../../phases/19-capstone-projects/70-task-spec-format/) | G. Értékelőkeret | Python |
+| 71 | [Klasszikus mérőszámok](../../phases/19-capstone-projects/71-classical-metrics/) | G. Értékelőkeret | Python |
+| 72 | [Kódfuttatási mérőszám](../../phases/19-capstone-projects/72-code-exec-metric/) | G. Értékelőkeret | Python |
+| 73 | [Perplexitás és kalibrálás](../../phases/19-capstone-projects/73-perplexity-calibration/) | G. Értékelőkeret | Python |
+| 74 | [Ranglisták összesítése](../../phases/19-capstone-projects/74-leaderboard-aggregation/) | G. Értékelőkeret | Python |
+| 75 | [Teljes értékelésfuttató](../../phases/19-capstone-projects/75-end-to-end-eval-runner/) | G. Értékelőkeret | Python |
+| 76 | [Kollektív műveletek az alapoktól](../../phases/19-capstone-projects/76-collective-ops-from-scratch/) | H. Elosztott tanítás | Python |
+| 77 | [Adatpárhuzamos DDP az alapoktól](../../phases/19-capstone-projects/77-data-parallel-ddp/) | H. Elosztott tanítás | Python |
+| 78 | [ZeRO-optimalizáló állapotának felosztása](../../phases/19-capstone-projects/78-zero-parameter-sharding/) | H. Elosztott tanítás | Python |
+| 79 | [Folyamatpárhuzamosság és üresjáratelemzés](../../phases/19-capstone-projects/79-pipeline-parallel/) | H. Elosztott tanítás | Python |
+| 80 | [Felosztott ellenőrzőpont és atomi folytatás](../../phases/19-capstone-projects/80-checkpoint-sharded-resume/) | H. Elosztott tanítás | Python |
+| 81 | [Teljes elosztott tanítás](../../phases/19-capstone-projects/81-end-to-end-distributed-train/) | H. Elosztott tanítás | Python |
+| 82 | [A korlátmegkerülés osztályozása](../../phases/19-capstone-projects/82-jailbreak-taxonomy/) | I. Biztonsági keret | Python |
+| 83 | [Promptinjektálás-felismerő](../../phases/19-capstone-projects/83-prompt-injection-detector/) | I. Biztonsági keret | Python |
+| 84 | [Elutasításértékelés](../../phases/19-capstone-projects/84-refusal-evaluation/) | I. Biztonsági keret | Python |
+| 85 | [Tartalomosztályozó integrációja](../../phases/19-capstone-projects/85-content-classifier-integration/) | I. Biztonsági keret | Python |
+| 86 | [Alkotmányos szabálymotor](../../phases/19-capstone-projects/86-constitutional-rules-engine/) | I. Biztonsági keret | Python, YAML |
+| 87 | [Teljes biztonsági kapu](../../phases/19-capstone-projects/87-end-to-end-safety-gate/) | I. Biztonsági keret | Python |
 
 </details>
 
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
+## Könyvek és tanúsítványok
+
+<details>
+<summary>Olvasd az alaptananyagot könyvként</summary>
+
+A `phases/` alatti, 20 szakaszos alaptananyag hatkötetes könyvsorozattá áll össze. A CI ugyanazokból a leckeforrásokból készít EPUB-ot és PDF-et, majd minden [GitHub-kiadáshoz](https://github.com/rohitg00/ai-engineering-from-scratch/releases) csatolja őket; az alábbi linkek mindig a legújabb kiadásra mutatnak. A kötetszám a sorozatbeli helyet jelzi, nem a verziót: minden példány dátumozott kiadásjelölést kap, a régebbi kiadások pedig továbbra is letölthetők saját kiadásukból.
+
+A tanúsítási tananyagok szándékosan nem kerülnek a könyvekbe. AI-tutorállapotuk, futtatható gyakorlataik, interaktív ábráik, diagnosztikájuk és időzített próbavizsgáik teljes értékűen elérhetők GitHubon és a weboldalon.
+
+| Kötet | Cím | Szakaszok | Letöltés |
+|-----|-------|--------|----------|
+| 1 | Alapok · Matematika, eszközök és klasszikus gépi tanulás | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | Mélytanulás · Hálózatok, látás és beszéd | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | Nyelv · NLP-alapok és a transzformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | Nagy nyelvi modellek · Generálás, megerősítés, előtanítás és mérnöki munka | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | Ágensek · Multimodalitás, protokollok, autonómia és rajok | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | Üzemi működés · Infrastruktúra, biztonság és záróprojektek | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+
+A könyv pillanatkép, a tároló élő kiadás. Minden fejezet a lecke animált ábráira, kvízére és futtatható kódjára mutató linkekkel zárul. Helyi összeállítás: `python3 scripts/build_book.py` (pandoc szükséges); a folyamat részletei a [book/README.md](../../book/README.md) fájlban vannak.
+
+</details>
+
+<details>
+<summary>Készülj a Claude-tanúsítványokra</summary>
+
+A [Claude-tanúsítási akadémia](../../certifications/claude/README.md) ingyenes, nyílt forrású felkészülési program mind a négy hivatalos útvonalhoz: Associate Foundations, Developer Foundations, Architect Foundations és Architect Professional. Minden útvonal vizsgatervhez rendelt leckéket, futtatható gyakorlatokat, diagnosztikát, záróprojektet és teljes hosszúságú eredeti próbavizsgát egyesít.
+
+Használd az [AI-alapú GitHub-kezdőútmutatót](../../certifications/claude/GETTING_STARTED.md) Claude Code-dal, Codexszel, ChatGPT-vel, Cursorral vagy más ágenssel. Codexben a `claude-certification`, Claude Code-ban a `/claude-certification` parancsot futtasd, vagy más gazdát kérj a `claude-certification` használatára. Kiválasztja az útvonalat, tartós tervet készít a `CLAUDE-CERTIFICATION.md` fájlban, lépésenként tanít, valódi gyakorlatokat futtat, és az elkészült eredményeket értékeli. Ugyanez a tananyag a [tanúsítási weboldalon](https://aiengineeringfromscratch.com/certifications.html) is elérhető.
+
+Az akadémia nyilvános vizsgacélokra épülő független tananyag. Nem áll kapcsolatban az Anthropickal, nem közöl valódi vizsgakérdéseket, és nem garantál sikeres vizsgát.
+
+</details>
+
+<details>
+<summary>Készülj az MCP Associate (MCPA) tanúsítványra</summary>
+
+Az [MCPA-tanúsítási tananyag](../../certifications/mcpa/README.md) ingyenes, nyílt forrású felkészülés az Agentic AI Foundation Model Context Protocol Associate vizsgájára, amelyet a Linux Foundation Training biztosít. A 34 lecke az állapotmentes 2026-07-28 protokollt tanítja az öt vizsgaterületen: kérésenkénti `_meta` és `server/discover` a régi kézfogás helyett, többfordulós kérések, feliratkozások, gyorsítótárazás, feladat- és MCP Apps-kiterjesztések, OAuth-jogosultságkezelés, valamint regiszter- és SDK-szintek. Minden lecke futtatható, standard könyvtáras gyakorlatot ad, amelynek átiratát az aktuális kommunikációs formátumhoz ellenőrzik. Az útvonal diagnosztikát, záróprojektet és három teljes eredeti próbavizsgát is tartalmaz, a közzétett témasúlyok szerinti kérdéseloszlással.
+
+Használd az [AI-alapú GitHub-kezdőútmutatót](../../certifications/mcpa/GETTING_STARTED.md) Claude Code-dal, Codexszel, ChatGPT-vel, Cursorral vagy más ágenssel. Codexben a `mcpa-certification`, Claude Code-ban a `/mcpa-certification` parancsot futtasd, vagy más gazdát kérj a `mcpa-certification` használatára. Tartós útvonalat készít az `MCPA-CERTIFICATION.md` fájlban, lépésenként tanít, valódi gyakorlatokat futtat, és az elkészült eredmények alapján ad visszajelzést. Ugyanez a tananyag az [MCPA-útvonal oldalán](https://aiengineeringfromscratch.com/certification?id=mcpa-f) is elérhető.
+
+Ez nyilvános vizsgacélokra épülő független tananyag. Nem kapcsolódik az Agentic AI Foundationhöz vagy a Linux Foundationhöz, nem közöl valódi vizsgakérdéseket, és nem garantál sikeres vizsgát.
+
+</details>
 
 ## Az eszköztár
 
-Every lesson produces a reusable artifact. By the end you have:
+Minden lecke újrafelhasználható eredményt hoz létre. Telepítsd az ügynöködbe, vagy használd az alábbi szkripteket a tároló gyökeréből.
+
+<details>
+<summary>A leckék felépítése és újrafelhasználható eredmények</summary>
+
+## Egy lecke felépítése
+
+Minden lecke saját mappában található, az egész tananyagban azonos szerkezettel:
 
 ```text
-outputs/
-├── prompts/      prompt templates for every AI task
-└── skills/       SKILL.md files for AI coding agents
+phases/<NN>-<phase-name>/<NN>-<lesson-name>/
+├── code/      futtatható megvalósítások (Python, TypeScript, Rust, Julia)
+├── docs/
+│   └── en.md  a lecke magyarázata
+└── outputs/   a lecke által létrehozott promptok, képességek, ágensek vagy MCP-szerverek
 ```
 
-Plug them into Claude, Cursor, Codex, OpenClaw, Hermes, or any agent that
-reads a SKILL.md / AGENTS.md directory. Real tools, not homework.
+Minden lecke hat részből áll. Az *Építsd meg / Használd* kettősség a gerinc: először az alapoktól valósítod meg az algoritmust, majd ugyanazt futtatod üzemi könyvtárral. Érted a keretrendszer működését, mert a kisebb változatot te írtad meg.
 
-### Install course skills into your agent
-
-Two skill sets, two installers:
-
-**The learning skills** (`start-learning`, `learn`, `course-guide`,
-`learn-mcp`, `learn-agent-skills`, `claude-certification`, `mcpa-certification`,
-`find-your-level`, and `check-understanding`) live under [`skills/`](../../skills/) and
-install into a supported skill-capable host with one command. Installation needs
-Node.js and `npx`, but not a repository clone or Python:
-
-```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#fafaf5','primaryTextColor':'#1a1a1a','primaryBorderColor':'#3553ff','lineColor':'#3553ff','fontFamily':'JetBrains Mono','fontSize':'13px'}}}%%
+flowchart LR
+  M["VEZÉRGONDOLAT<br/><sub>alapgondolat egy sorban</sub>"] --> Pr["PROBLÉMA<br/><sub>konkrét nehézség</sub>"]
+  Pr --> C["FOGALOM<br/><sub>ábrák és szemlélet</sub>"]
+  C --> B["ÉPÍTSD MEG<br/><sub>tiszta matematika, keretrendszerek nélkül</sub>"]
+  B --> U["HASZNÁLD<br/><sub>ugyanez PyTorch / sklearn alatt</sub>"]
+  U --> S["SZÁLLÍTSD LE<br/><sub>prompt · képesség · ágens · MCP</sub>"]
 ```
 
-`skills` writes to the host and scope selected during installation, such as
-`.claude/skills/`, `.cursor/skills/`, `.codex/skills/`, or another supported
-skills folder. Verify that the selected host discovers that exact destination.
+## Minden leckének van kézzelfogható eredménye
 
-**The lesson artifacts.** The repo ships 396 skills and 99 prompts under
-`phases/**/outputs/`; install them via `scripts/install_skills.py`. Requires
-cloning the repo. Supports tag filters, dry-runs, and per-agent layouts:
+Más tanfolyamok azzal zárulnak, hogy *„gratulálunk, megtanultad X-et”*. Itt minden lecke egy **újrahasználható eszközzel** végződik, amelyet telepíthetsz vagy a napi munkádba illeszthetsz.
+
+<table>
+<tr>
+<th align="left" width="25%"><img src="../../site/assets/figures/001-a-prompts.svg" width="120" height="120" alt="FIG_001.A promptok"/><br/><sub>FIG_001 · A</sub><br/><b>PROMPTOK</b></th>
+<th align="left" width="25%"><img src="../../site/assets/figures/001-b-skills.svg" width="120" height="120" alt="FIG_001.B képességek"/><br/><sub>FIG_001 · B</sub><br/><b>KÉPESSÉGEK</b></th>
+<th align="left" width="25%"><img src="../../site/assets/figures/001-c-agents.svg" width="120" height="120" alt="FIG_001.C ágensek"/><br/><sub>FIG_001 · C</sub><br/><b>ÁGENSEK</b></th>
+<th align="left" width="25%"><img src="../../site/assets/figures/001-d-mcp-servers.svg" width="120" height="120" alt="FIG_001.D MCP-szerverek"/><br/><sub>FIG_001 · D</sub><br/><b>MCP-SZERVEREK</b></th>
+</tr>
+<tr>
+<td valign="top">Illeszd bármely AI-asszisztensbe, és kapj szakértői segítséget egy szűk feladathoz.</td>
+<td valign="top">Add Claude-hoz, Cursorhoz, Codexhez, OpenClaw-hoz, Hermeshez vagy olyan ágenshez, amely olvassa ezt: <code>SKILL.md</code>.</td>
+<td valign="top">Telepítsd autonóm dolgozóként: a ciklust magad írtad a 14. szakaszban.</td>
+<td valign="top">Csatlakoztasd bármely MCP-kompatibilis klienshez. Teljes egészében a 13. szakaszban épül fel.</td>
+</tr>
+</table>
+
+</details>
+
+<details>
+<summary>Leckeeredmények telepítése</summary>
+
+**A leckék eredményei.** A tároló 414 képességet és 100 promptot tartalmaz a `phases/**/outputs/` alatt; a `scripts/install_skills.py` segítségével telepítsd őket. Ehhez klónozás kell. Támogat címkeszűrést, próbafuttatást és ágensenkénti elrendezést:
 
 ```bash
 python3 scripts/install_skills.py <target>                                 # every skill, default --layout skills (nested)
@@ -1246,26 +1182,22 @@ python3 scripts/install_skills.py <target> --dry-run                       # pre
 python3 scripts/install_skills.py <target> --force                         # overwrite existing files
 ```
 
-`<target>` is the skills directory for your agent (examples:
-`~/.claude/skills/`, `~/.cursor/skills/`, `~/.config/openclaw/skills/`,
-`.skills/`, or any path your agent reads).
+A `<target>` az ágens képességkönyvtára, például `~/.claude/skills/`, `~/.cursor/skills/`, `~/.config/openclaw/skills/`, `.skills/` vagy bármely útvonal, amelyet az ágens olvas.
 
-By default the script refuses to overwrite an existing destination and exits
-with code 1 after listing every colliding path. Use `--dry-run` to preview
-collisions or `--force` to overwrite. Every non-dry-run run writes a
-`manifest.json` in the target with the full inventory grouped by type and
-phase. Pick the layout your agent reads:
+A szkript alapértelmezetten nem írja felül a meglévő célt, és az ütköző útvonalak felsorolása után 1-es kóddal kilép. Előnézethez használd a `--dry-run`, felülíráshoz a `--force` kapcsolót. Minden nem próbaüzemű futás `manifest.json` fájlt ír a célba a típus és szakasz szerint csoportosított teljes leltárral. Válaszd az ágens által olvasott elrendezést:
 
-| `--layout`  | Path written |
+| `--layout`  | Létrehozott útvonal |
 |---|---|
-| `skills`    | `<target>/<name>/SKILL.md` (nested convention, supported by Claude / Cursor / Codex / OpenClaw / Hermes) |
+| `skills`    | `<target>/<name>/SKILL.md` (beágyazott elrendezés, Claude / Cursor / Codex / OpenClaw / Hermes támogatással) |
 | `by-phase`  | `<target>/phase-NN/<name>.md` |
 | `flat`      | `<target>/<name>.md` |
 
-### Drop the agent workbench into your own repo
+</details>
 
-The Phase 14 capstone ships a reusable Agent Workbench pack (AGENTS.md, schemas,
-init / verify / handoff scripts). Scaffold it into any repo with:
+<details>
+<summary>Tedd az ágensmunkapadot a saját tárolódba</summary>
+
+A 14. szakasz záróprojektje újrahasználható ágensmunkapad-csomagot ad: AGENTS.md, sémák, inicializáló, ellenőrző és átadó szkriptek. Bármely tárolóban létrehozhatod a vázát:
 
 ```bash
 python3 scripts/scaffold_workbench.py path/to/your-repo            # full pack + seeds
@@ -1274,16 +1206,14 @@ python3 scripts/scaffold_workbench.py path/to/your-repo --dry-run  # preview onl
 python3 scripts/scaffold_workbench.py path/to/your-repo --force    # overwrite
 ```
 
-You get the seven workbench surfaces wired up, a starter `task_board.json`,
-and a fresh `agent_state.json` at `schema_version: 1`. From there: edit the
-task, edit `AGENTS.md`, run `scripts/init_agent.py`, hand the contract to
-your agent. The pack source lives at
-`phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/`.
+Megkapod a munkapad hét összekapcsolt felületét, egy kezdő `task_board.json` és egy friss `agent_state.json` fájlt `schema_version: 1` értékkel. Ezután módosítsd a feladatot és az `AGENTS.md` fájlt, futtasd a `scripts/init_agent.py` szkriptet, és add át a szerződést az ágensnek. A csomag forrása: `phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/`.
 
-### Browse the entire course as JSON
+</details>
 
-`scripts/build_catalog.py` walks every phase, every lesson, every artifact on
-disk and writes `catalog.json` at the repo root. One file, every course truth.
+<details>
+<summary>Böngészd a teljes tanfolyamot JSON-ként</summary>
+
+A `scripts/build_catalog.py` bejárja a lemezen az összes szakaszt, leckét és eredményt, majd `catalog.json` fájlt ír a tároló gyökerébe. Egyetlen fájl a tanfolyam összes adatával.
 
 ```bash
 python3 scripts/build_catalog.py               # writes <repo>/catalog.json
@@ -1291,23 +1221,16 @@ python3 scripts/build_catalog.py --stdout      # to stdout, do not touch repo
 python3 scripts/build_catalog.py --out path/to/file.json
 ```
 
-The catalog is filesystem-derived, not README-derived, so counts always match
-what is actually on disk. Use it for site builds, downstream tooling, or to
-verify the README counts have not drifted. Schema is documented at the top of
-the script.
+A katalógus a fájlrendszerből származik, nem a README-ből, ezért a számok mindig a lemez tényleges tartalmát tükrözik. Használd weboldalépítéshez, kapcsolódó eszközökhöz vagy a README számainak ellenőrzésére. A séma a szkript elején van leírva.
 
-A GitHub Action (`.github/workflows/curriculum.yml`) rebuilds `catalog.json`
-on every PR and fails the build if the committed file is stale. After editing
-any lesson, run `python3 scripts/build_catalog.py` and commit the result, or
-CI will reject the PR. The same workflow runs `audit_lessons.py` in
-warn-only mode (so existing drift does not block contributors).
+A tananyag munkafolyamata a `catalog.json` fájlt ideiglenes, Git által figyelmen kívül hagyott eredményként készíti el. Ne commitold. Ugyanez a munkafolyamat az `audit_lessons.py` fájlt kötelező ellenőrzésként futtatja.
 
-### Smoke-check every lesson's Python code
+</details>
 
-`scripts/lesson_run.py` byte-compiles every `.py` file under each lesson's
-`code/` directory. Default mode is syntax-check only — no execution, no API
-keys, no heavy ML deps required. Catches the regressions contributors
-introduce most often (bad indentation, broken f-strings, stray edits).
+<details>
+<summary>Végezz alapellenőrzést minden lecke Python-kódján</summary>
+
+A `scripts/lesson_run.py` minden lecke `code/` könyvtárában bájtkódra fordítja az összes `.py` fájlt. Alapból csak szintaxist ellenőriz: futtatás, API-kulcsok és nehéz ML-függőségek nélkül. Kiszűri a gyakori regressziókat, például a rossz behúzást, hibás f-stringeket és véletlen módosításokat.
 
 ```bash
 python3 scripts/lesson_run.py                  # syntax-check the whole curriculum
@@ -1317,83 +1240,38 @@ python3 scripts/lesson_run.py --strict         # exit 1 if any lesson fails
 python3 scripts/lesson_run.py --execute        # actually run, 10s timeout per lesson
 ```
 
-`--execute` runs each lesson's `code/main.py` (or the first `.py` file) with a
-10-second timeout. Lessons whose entry file starts with a `# requires: pkg1,
-pkg2` comment listing non-stdlib deps are skipped with reason `needs <deps>`.
-The script is opt-in and not wired into CI.
+A `--execute` minden lecke `code/main.py` fájlját (vagy az első `.py` fájlt) futtatja 10 másodperces időkorláttal. Ha a belépési fájl `# requires: pkg1, pkg2` megjegyzéssel külső függőségeket jelez, a leckét `needs <deps>` indokkal kihagyja. A szkript választható, nincs bekötve a CI-ba.
 
-Stdlib only, Python 3.10+. Set `LINK_CHECK_SKIP=domain1,domain2` to override
-the default skip-list (`twitter.com`, `x.com`, `linkedin.com`,
-`instagram.com`, `medium.com` — domains that aggressively block automated
-HEAD/GET).
+Csak standard könyvtár, Python 3.10+. A `LINK_CHECK_SKIP=domain1,domain2` beállítással felülírhatod az alap kihagyási listát (`twitter.com`, `x.com`, `linkedin.com`, `instagram.com`, `medium.com`: ezek erősen blokkolják az automatizált HEAD/GET kéréseket).
 
-## Hol kezdd
+</details>
 
-| Background | Start at | Estimated time |
-|---|---|---|
-| New to programming and AI | Phase 0 — Setup | ~306 hours |
-| Know Python, new to ML | Phase 1 — Math Foundations | ~270 hours |
-| Know ML, new to deep learning | Phase 3 — Deep Learning Core | ~200 hours |
-| Know deep learning, want LLMs and agents | Phase 10 — LLMs from Scratch | ~100 hours |
-| Senior engineer, only want agent engineering | Phase 14 — Agent Engineering | ~60 hours |
-| Only want to build production MCP systems | [Model Context Protocol (MCP) path](../../learning-paths/model-context-protocol.json) | ~23 hours 15 min |
-| Only want to build production Agent Skills | [Agent Skills Engineering path](../../learning-paths/agent-skills.json) | ~9.5 hours |
+<details>
+<summary>Alapvető tanulmányok és protokollok</summary>
 
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
+- *Attention Is All You Need* — Vaswani et al., 2017 → [Szakasz 7](#phase-7)
+- *Language Models are Few-Shot Learners* (GPT-3) → [Szakasz 10](#phase-10)
+- *Denoising Diffusion Probabilistic Models* → [Szakasz 8](#phase-8)
+- *InstructGPT / RLHF* → [Szakasz 10](#phase-10)
+- *Direct Preference Optimization* → [Szakasz 10](#phase-10)
+- *Chain-of-Thought Prompting* → [Szakasz 11](#phase-11)
+- *ReAct: Reasoning + Acting in LLMs* → [Szakasz 14](#phase-14)
+- *Model Context Protocol* — Anthropic → [Szakasz 13](#phase-13)
 
-## Miért fontos ez most
-
-<table>
-<tr>
-<th align="left" width="50%"><sub>FIG_003 · A</sub><br/><b>THE INDUSTRY SIGNAL</b></th>
-<th align="left" width="50%"><sub>FIG_003 · B</sub><br/><b>FOUNDATIONAL PAPERS COVERED</b></th>
-</tr>
-<tr>
-<td valign="top">
-
-> *"The hottest new programming language is English."*<br/>
-> — **Andrej Karpathy** ([tweet](https://x.com/karpathy/status/1617979122625712128))
->
-> *"Software engineering is being remade in front of our eyes."*<br/>
-> — **Boris Cherny**, creator of Claude Code
->
-> *"Models will keep getting better. The skill that compounds is **knowing what to build**."*<br/>
-> — Industry consensus, 2026
-
-</td>
-<td valign="top">
-
-- *Attention Is All You Need* — Vaswani et al., 2017 → [Phase 7](#phase-7)
-- *Language Models are Few-Shot Learners* (GPT-3) → [Phase 10](#phase-10)
-- *Denoising Diffusion Probabilistic Models* → [Phase 8](#phase-8)
-- *InstructGPT / RLHF* → [Phase 10](#phase-10)
-- *Direct Preference Optimization* → [Phase 10](#phase-10)
-- *Chain-of-Thought Prompting* → [Phase 11](#phase-11)
-- *ReAct: Reasoning + Acting in LLMs* → [Phase 14](#phase-14)
-- *Model Context Protocol* — Anthropic → [Phase 13](#phase-13)
-
-</td>
-</tr>
-</table>
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
+</details>
 
 ## Közreműködés
 
-| Goal | Read |
+| Cél | Olvasnivaló |
 |---|---|
-| Contribute a lesson or fix | [CONTRIBUTING.md](../../CONTRIBUTING.md) |
-| Fork for your team or school | [FORKING.md](../../FORKING.md) |
-| Lesson template | [LESSON_TEMPLATE.md](../../LESSON_TEMPLATE.md) |
-| Track progress | [ROADMAP.md](../../ROADMAP.md) |
-| Glossary | [glossary/terms.md](../../glossary/terms.md) |
-| Code of conduct | [CODE_OF_CONDUCT.md](../../CODE_OF_CONDUCT.md) |
+| Lecke vagy javítás beküldése | [CONTRIBUTING.md](../../CONTRIBUTING.md) |
+| Saját változat a csapatodnak vagy iskoládnak | [FORKING.md](../../FORKING.md) |
+| Leckesablon | [LESSON_TEMPLATE.md](../../LESSON_TEMPLATE.md) |
+| Előrehaladás követése | [ROADMAP.md](../../ROADMAP.md) |
+| Fogalomtár | [glossary/terms.md](../../glossary/terms.md) |
+| Magatartási kódex | [CODE_OF_CONDUCT.md](../../CODE_OF_CONDUCT.md) |
 
-Before submitting a lesson, run the invariant check:
+Lecke beküldése előtt futtasd az invariánsellenőrzést:
 
 ```bash
 python3 scripts/audit_lessons.py           # full curriculum
@@ -1401,28 +1279,21 @@ python3 scripts/audit_lessons.py --phase 14  # single phase
 python3 scripts/audit_lessons.py --json    # CI-friendly output
 ```
 
-Exit code is non-zero when any rule fails. Rules (L001–L010) validate directory
-shape, `docs/en.md` presence + H1, `code/` non-emptiness, `quiz.json` schema
-(rejects the legacy `q/choices/answer` keys that caused issue #102), and
-relative links inside lesson docs.
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
+A kilépési kód nem nulla, ha bármely szabály sérül. Az L001–L010 szabályok ellenőrzik a könyvtárszerkezetet, a `docs/en.md` és H1 meglétét, a nem üres `code/` könyvtárat, a `quiz.json` sémáját (elutasítva a #102 problémát okozó régi `q/choices/answer` kulcsokat) és a leckedokumentáció relatív linkjeit.
 
 <a id="supporters"></a>
 
 ## Támogasd a munkát
 
-Ingyenes, MIT-licencű, 523 lecke. Köszönjük a szponzoroknak és támogatóknak, akik lehetővé teszik ezt a munkát. [Összes szponzor és támogató megtekintése](../../BACKERS.md).
+<!-- STATS:START (generated from site/stats.json by build.js — do not edit by hand) -->
+<p align="center"><sub><b>114,584</b> olvasó &nbsp;·&nbsp; <b>181,995</b> oldalmegtekintés az elmúlt 30 napban &nbsp;·&nbsp; állapot: 2026-08-29</sub></p>
+<!-- STATS:END -->
+
+Ingyenes, MIT-licencű, 542 lecke. Köszönjük a szponzoroknak és támogatóknak, akik lehetővé teszik ezt a munkát. [Összes szponzor és támogató megtekintése](../../BACKERS.md).
 
 Szeretnéd támogatni a munkát? Nézd meg a [támogatási lehetőségeket](../../SPONSORS.md), köztük a [hardvertámogatást](../../SPONSORS.md#hardware-lab-partner), vagy [támogass a GitHub felületén](https://github.com/sponsors/rohitg00).
 
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
-
-If this manual helped you, star the repo. It keeps the project alive.
+Ha segített ez a kézikönyv, adj csillagot a tárolónak. Ez életben tartja a projektet.
 
 ## Licenc
 
@@ -1431,7 +1302,5 @@ MIT. Használd tetszés szerint: forkolhatod, taníthatod, eladhatod vagy kiadha
 Karbantartja [Rohit Ghumare](https://github.com/rohitg00) és a közösség.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp;
-  <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp;
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Report / Suggest</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Jelentés / Javaslat</a>
 </sub>

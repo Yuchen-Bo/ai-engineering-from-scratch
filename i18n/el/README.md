@@ -1,103 +1,240 @@
-<p align="center" lang="el"><sub>Μερική ελληνική μετάφραση της σελίδας παρουσίασης. Έχουν μεταφραστεί η εισαγωγή, τα πρώτα βήματα και ορισμένες επικεφαλίδες· οι υπόλοιπες ενότητες διατηρούν το <a href="../../README.md">αγγλικό πρωτότυπο, που αποτελεί την έκδοση αναφοράς</a> · <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a></sub></p>
+<p align="center" lang="el"><sub>Πλήρης ελληνική μετάφραση του README. Το <a href="../../README.md">αγγλικό πρωτότυπο</a> αποτελεί την έκδοση αναφοράς · <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a></sub></p>
+
 <p align="center">
-  <img src="../../assets/banner.svg" alt="AI Engineering from Scratch — reference manual banner" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../assets/readme/header-dark.svg">
+    <img src="../../assets/readme/header-light.svg" alt="Μηχανική AI από το μηδέν" width="840">
+  </picture>
 </p>
 
 <p align="center">
-  <a href="../../README.md">🇬🇧 English</a> ·
-  <a href="../../i18n/zh/README.md">🇨🇳 简体中文</a> ·
-  <a href="../../i18n/zh-TW/README.md">🇹🇼 繁體中文（台灣）</a> ·
-  <a href="../../i18n/ja/README.md">🇯🇵 日本語</a> ·
-  <a href="../../i18n/ko/README.md">🇰🇷 한국어</a> ·
-  <a href="../../i18n/pt/README.md">🇵🇹 Português</a> ·
-  <a href="../../i18n/pt-BR/README.md">🇧🇷 Português (Brasil)</a> ·
-  <a href="../../i18n/es/README.md">🇪🇸 Español</a> ·
-  <a href="../../i18n/de/README.md">🇩🇪 Deutsch</a> ·
-  <a href="../../i18n/fr/README.md">🇫🇷 Français</a> ·
-  <a href="../../i18n/it/README.md">🇮🇹 Italiano</a> ·
-  <a href="../../i18n/nl/README.md">🇳🇱 Nederlands</a> ·
-  <a href="../../i18n/pl/README.md">🇵🇱 Polski</a> ·
-  <a href="../../i18n/cs/README.md">🇨🇿 Čeština</a> ·
-  <a href="../../i18n/ro/README.md">🇷🇴 Română</a> ·
-  <a href="../../i18n/hu/README.md">🇭🇺 Magyar</a> ·
-  <a href="../../i18n/el/README.md">🇬🇷 Ελληνικά</a> ·
-  <a href="../../i18n/sv/README.md">🇸🇪 Svenska</a> ·
-  <a href="../../i18n/da/README.md">🇩🇰 Dansk</a> ·
-  <a href="../../i18n/no/README.md">🇳🇴 Norsk</a> ·
-  <a href="../../i18n/fi/README.md">🇫🇮 Suomi</a> ·
-  <a href="../../i18n/ru/README.md">🇷🇺 Русский</a> ·
-  <a href="../../i18n/uk/README.md">🇺🇦 Українська</a> ·
-  <a href="../../i18n/tr/README.md">🇹🇷 Türkçe</a> ·
-  <a href="../../i18n/he/README.md">🇮🇱 עברית</a> ·
-  <a href="../../i18n/ar/README.md">🇸🇦 العربية</a> ·
-  <a href="../../i18n/fa/README.md">🇮🇷 فارسی</a> ·
-  <a href="../../i18n/hi/README.md">🇮🇳 हिन्दी</a> ·
-  <a href="../../i18n/bn/README.md">🇧🇩 বাংলা</a> ·
-  <a href="../../i18n/ur/README.md">🇵🇰 اردو</a> ·
-  <a href="../../i18n/th/README.md">🇹🇭 ไทย</a> ·
-  <a href="../../i18n/vi/README.md">🇻🇳 Tiếng Việt</a> ·
-  <a href="../../i18n/id/README.md">🇮🇩 Bahasa Indonesia</a> ·
-  <a href="../../i18n/tl/README.md">🇵🇭 Tagalog</a>
-</p>
-
-<p align="center">
-  <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT License"></a>
-  <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-523-3553ff?style=flat-square&labelColor=fafaf5" alt="523 lessons"></a>
-  <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 phases"></a>
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub stars"></a>
-  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Website"></a>
-  <p align="center">
  <a href="https://www.star-history.com/rohitg00/ai-engineering-from-scratch">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank" /><img alt="Star History Rank" src="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending" /><img alt="GitHub Trending Repository of the Day" src="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank" /><img alt="Κατάταξη ιστορικού αστεριών" src="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending" /><img alt="Δημοφιλές αποθετήριο GitHub της ημέρας" src="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending" /></picture>
  </a>
 </p>
+
+Υλοποίησε εσωτερικούς μηχανισμούς μοντέλων, ροές ανάκτησης και περιβάλλοντα εκτέλεσης πρακτόρων. Δοκίμασέ τα, εξέτασε αστοχίες και κράτησε τον κώδικα και τα αποτελέσματα αξιολόγησης.
+
+**[Ξεκινήστε τη μάθηση](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment)** · **[Επίλεξε διαδρομή](#learning-routes)** · **[Δοκίμασε ένα εργαστήριο](#interactive-lab)** · **[Υλοποίησε ένα έργο](#project-challenges)** · **[Περιηγηθείτε στο πρόγραμμα](#contents)**
+
+Δωρεάν, ανοικτού κώδικα, με άδεια MIT. Μάθετε στον ιστότοπο, με έναν πράκτορα προγραμματισμού ή εκτελώντας κώδικα τοπικά.
+
+> 542 μαθήματα. 20 φάσεις. Python, TypeScript, Rust, Julia.
+
+<p align="center">
+  <a href="../../LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="Άδεια MIT"></a>
+  <a href="../../ROADMAP.md"><img src="https://img.shields.io/badge/lessons-542-3553ff?style=flat-square&labelColor=fafaf5" alt="542 μαθήματα"></a>
+  <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 φάσεις"></a>
+  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff" alt="Αστέρια στο GitHub"></a>
+  <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Ιστότοπος"></a>
 </p>
+
+<details>
+<summary>Διαβάστε στη γλώσσα σας</summary>
+
+<p align="center">
+  <a href="../../README.md">🇬🇧 English</a> · <a href="../../i18n/zh/README.md">🇨🇳 简体中文</a> · <a href="../../i18n/zh-TW/README.md">🇹🇼 繁體中文（台灣）</a> · <a href="../../i18n/ja/README.md">🇯🇵 日本語</a> · <a href="../../i18n/ko/README.md">🇰🇷 한국어</a> · <a href="../../i18n/pt/README.md">🇵🇹 Português</a> · <a href="../../i18n/pt-BR/README.md">🇧🇷 Português (Brasil)</a> · <a href="../../i18n/es/README.md">🇪🇸 Español</a> · <a href="../../i18n/de/README.md">🇩🇪 Deutsch</a> · <a href="../../i18n/fr/README.md">🇫🇷 Français</a> · <a href="../../i18n/it/README.md">🇮🇹 Italiano</a> · <a href="../../i18n/nl/README.md">🇳🇱 Nederlands</a> · <a href="../../i18n/pl/README.md">🇵🇱 Polski</a> · <a href="../../i18n/cs/README.md">🇨🇿 Čeština</a> · <a href="../../i18n/ro/README.md">🇷🇴 Română</a> · <a href="../../i18n/hu/README.md">🇭🇺 Magyar</a> · <a href="../../i18n/el/README.md">🇬🇷 Ελληνικά</a> · <a href="../../i18n/sv/README.md">🇸🇪 Svenska</a> · <a href="../../i18n/da/README.md">🇩🇰 Dansk</a> · <a href="../../i18n/no/README.md">🇳🇴 Norsk</a> · <a href="../../i18n/fi/README.md">🇫🇮 Suomi</a> · <a href="../../i18n/ru/README.md">🇷🇺 Русский</a> · <a href="../../i18n/uk/README.md">🇺🇦 Українська</a> · <a href="../../i18n/tr/README.md">🇹🇷 Türkçe</a> · <a href="../../i18n/he/README.md">🇮🇱 עברית</a> · <a href="../../i18n/ar/README.md">🇸🇦 العربية</a> · <a href="../../i18n/fa/README.md">🇮🇷 فارسی</a> · <a href="../../i18n/hi/README.md">🇮🇳 हिन्दी</a> · <a href="../../i18n/bn/README.md">🇧🇩 বাংলা</a> · <a href="../../i18n/ur/README.md">🇵🇰 اردو</a> · <a href="../../i18n/th/README.md">🇹🇭 ไทย</a> · <a href="../../i18n/vi/README.md">🇻🇳 Tiếng Việt</a> · <a href="../../i18n/id/README.md">🇮🇩 Bahasa Indonesia</a> · <a href="../../i18n/tl/README.md">🇵🇭 Tagalog</a>
+</p>
+
+</details>
 
 ### Χορηγοί
 
 <p align="center">
   <a href="https://serpapi.com/ai-engineering-from-scratch"><picture><source media="(min-width: 768px)" srcset="../../assets/sponsors/serpapi-banner-compact.png" width="48%"><img src="../../assets/sponsors/serpapi-banner-compact.png" alt="SerpApi. API αναζήτησης ιστού για τις εφαρμογές AI σου. Διαθέσιμο σε Markdown και JSON για κάθε ενσωμάτωση." width="440"></picture></a>
-  <a href="https://nitrostack.ai/referral/aiengineeringfromscratch"><picture><source media="(min-width: 768px)" srcset="../../assets/sponsors/nitrostack-banner-equal.png" width="48%"><img src="../../assets/sponsors/nitrostack-banner-equal.png" alt="NitroStack. Build and deploy your MCP app in 10 minutes. Get your product into ChatGPT and Claude marketplaces with free cloud deployment." width="440"></picture></a>
 </p>
 
 <p align="center">
-  <sub><span>Η υποστήριξή σου κρατά κάθε μάθημα δωρεάν και με ανοιχτό κώδικα.</span> <a href="#supporters">Δες όλους τους υποστηρικτές</a> · <a href="../../SPONSORS.md">Become a sponsor</a></sub>
+  <sub><span>Η υποστήριξή σου κρατά κάθε μάθημα δωρεάν και με ανοιχτό κώδικα.</span> <a href="#supporters">Δες όλους τους υποστηρικτές</a> · <a href="../../SPONSORS.md">Γίνε χορηγός</a></sub>
 </p>
 
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
+<a id="see-what-you-will-build-and-keep"></a>
+<a id="learning-routes"></a>
+
+## Διαδρομές μάθησης
+
+| Διαδρομή | Αρχικό μάθημα |
+|---|---|
+| Θεμέλια μοντέλων | [Ρύθμιση και εργαλεία](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Συστήματα LLM | [Σχεδίαση προτροπών](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Πράκτορες και παράδοση | [Ο βρόχος του πράκτορα](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+
+[Σύγκρινε επαγγελματικές διαδρομές](https://aiengineeringfromscratch.com/learning-paths.html) · [Προαπαιτούμενα και χρόνος μελέτης](#study-guide)
+
+<a id="interactive-lab"></a>
+
+### Κάθοδος κλίσης
+
+Είκοσι αρχικά σημεία ακολουθούν κάθοδο κλίσης σε τετραγωνική συνάρτηση απώλειας. Το γράφημα δείχνει τις θέσεις τους και τη μέση απώλεια μετά από κάθε ενημέρωση.
+
+<p align="center">
+  <a href="https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization">
+    <picture>
+      <source media="(max-width: 600px) and (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-dark.png">
+      <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-mobile-light.png">
+      <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-dark.png">
+      <source media="(prefers-reduced-motion: reduce)" srcset="../../assets/readme/101-gradient-light.png">
+      <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="../../assets/readme/101-gradient-mobile-dark.gif">
+      <source media="(max-width: 600px)" srcset="../../assets/readme/101-gradient-mobile-light.gif">
+      <source media="(prefers-color-scheme: dark)" srcset="../../assets/readme/101-gradient-dark.gif">
+      <img src="../../assets/readme/101-gradient-light.gif" alt="Η κάθοδος κλίσης μετακινεί διάσπαρτα αρχικά σημεία προς το ελάχιστο της απώλειας. Η μέση απώλεια μειώνεται σε κάθε ενημέρωση." width="840">
+    </picture>
+  </a>
+</p>
+
+[Ρύθμισε τον ρυθμό μάθησης στο μάθημα](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/08-optimization#loss-landscape-visualization) · [Σύγκρινε GD, momentum και Adam στον κώδικα](../../phases/01-math-foundations/08-optimization/code/optimizers.py)
+
+<a id="project-challenges"></a>
+
+### Έργα
+
+Τρία έργα με αρχικό κώδικα ανά στάδιο, υλοποιήσεις αναφοράς και τοπικούς αξιολογητές. Εκτέλεσε τις εντολές από τη ρίζα του αποθετηρίου μετά τη [ρύθμιση](#local-setup). Ο αρχικός κώδικας αποτυγχάνει μέχρι να υλοποιήσεις τα στάδια.
+
+<details>
+<summary><strong>01 · Εργαστήριο αξιολόγησης ανάκτησης</strong> · Python · Μετρικές κατάταξης και έλεγχοι υποβάθμισης</summary>
+
+Ένα υποψήφιο σύστημα βελτιώνει το μέσο NDCG, ενώ ένα ερώτημα κατατάσσει χαμηλότερα το πιο σχετικό τεκμήριό του. Υλοποίησε σύγκριση ανά ερώτημα που αναφέρει την υποβάθμιση και μπορεί να αποτύχει έναν έλεγχο διάθεσης.
+
+Χρησιμοποίησε Python 3.10+. Επανεξέτασε [RAG](../../phases/11-llm-engineering/06-rag/docs/en.md) και [αξιολόγηση μοντέλων](../../phases/02-ml-fundamentals/09-model-evaluation/docs/en.md). Υλοποίησε επικύρωση κατάταξης, ακρίβεια και ανάκληση, μετρικές ευαίσθητες στη θέση και έπειτα σύγκριση συστημάτων.
+
+```bash
+python3 scripts/project_test.py retrieval-evaluation-lab \
+  --init learning-artifacts/retrieval-evaluation-lab
+python3 scripts/project_test.py retrieval-evaluation-lab \
+  --stage 1 --path learning-artifacts/retrieval-evaluation-lab --strict
+python3 scripts/project_test.py retrieval-evaluation-lab \
+  --all --path learning-artifacts/retrieval-evaluation-lab --strict
 ```
 
-> **Το 84% των φοιτητών χρησιμοποιεί ήδη εργαλεία AI. Μόνο το 18% νιώθει έτοιμο να τα χρησιμοποιήσει επαγγελματικά.** Αυτό το πρόγραμμα σπουδών καλύπτει αυτό το κενό.
->
-> 523 μαθήματα. 20 στάδια. ~342 ώρες. Python, TypeScript, Rust, Julia. Κάθε μάθημα προσφέρει ένα επαναχρησιμοποιήσιμο αποτέλεσμα: ένα prompt, μια δεξιότητα, έναν πράκτορα ή έναν διακομιστή MCP. Δωρεάν, με ανοιχτό κώδικα και άδεια MIT.
->
-> Δεν μαθαίνεις απλώς AI. Την κατασκευάζεις. Από την αρχή ως το τέλος. Με τα χέρια σου.
+**Διατήρησε:** αναπαραγώγιμη σύγκριση με διαφορές ανά ερώτημα και τις κρίσεις που χρησιμοποιήθηκαν στη βαθμολόγηση. Οι μετρικές περιγράφουν αυτές τις κρίσεις· δεν αποδεικνύουν την ορθότητα των απαντήσεων.
 
-<!-- STATS:START (generated from site/stats.json by build.js — do not edit by hand) -->
-<p align="center"><sub><b>114,584</b> readers &nbsp;·&nbsp; <b>181,995</b> page views in the last 30 days &nbsp;·&nbsp; as of 2026-08-29</sub></p>
-<!-- STATS:END -->
+[Ξεκίνα το έργο](https://aiengineeringfromscratch.com/project.html?id=retrieval-evaluation-lab) · [Εξέτασε την αναφορά](../../projects/retrieval-evaluation-lab/solution/) · [Εκτέλεσε με δικές σου εισόδους](../../projects/retrieval-evaluation-lab/README.md#run-with-your-own-inputs)
 
-## Ξεκίνα εδώ: διάλεξε τι θέλεις να φτιάξεις
+</details>
 
-Δεν χρειάζεται να εξετάσεις και τα 523 μαθήματα πριν ξεκινήσεις. Διάλεξε έναν στόχο. Κάθε σύνδεσμος ανοίγει το ίδιο πρόγραμμα στο GitHub ή στον ιστότοπο, και οι δύο εκδόσεις χρησιμοποιούν τον ίδιο κώδικα μαθημάτων.
+<details>
+<summary><strong>02 · Εργαλείο αποσφαλμάτωσης ιχνών πρακτόρων</strong> · TypeScript · Ανάλυση ιχνών και χρονισμός</summary>
 
-| Ο στόχος σου | Μάθηση στο GitHub | Μάθηση στον ιστότοπο |
-|---|---|---|
-| Ξεκινώ τώρα και θέλω πλήρεις βάσεις | [Στάδιο 0: Εγκατάσταση και εργαλεία](../../phases/00-setup-and-tooling/) | [Περιβάλλον ανάπτυξης](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
-| Γνωρίζω Python και θέλω βάσεις στα μαθηματικά και στο ML | [Στάδιο 1: Μαθηματικά θεμέλια](../../phases/01-math-foundations/) | [Διαισθητική κατανόηση της γραμμικής άλγεβρας](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
-| Θέλω να φτιάξω εφαρμογές LLM για παραγωγική χρήση | [Στάδιο 11: Μηχανική LLM](../../phases/11-llm-engineering/) | [Μηχανική προτροπών](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
-| Θέλω να φτιάξω πράκτορες | [Στάδιο 14: Μηχανική πρακτόρων](../../phases/14-agent-engineering/) | [Ο βρόχος του πράκτορα](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
-| Θέλω να χρησιμοποιώ πράκτορες προγραμματισμού σε πραγματικά αποθετήρια | [Διαδρομή μηχανικής με τη βοήθεια πρακτόρων](../../learning-paths/using-coding-agents.json) | [Μηχανική με τη βοήθεια πρακτόρων](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
-| Θέλω να καθορίσω τι αξίζει να φτιαχτεί πριν από την υλοποίηση | [Διαδρομή αποφάσεων και παράδοσης προϊόντος](../../learning-paths/shaping-the-build.json) | [Αποφάσεις και παράδοση προϊόντος](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
-| Θέλω να αναπτύξω λύσεις με Model Context Protocol (MCP) | [Διαδρομή Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Μαθησιακή διαδρομή Model Context Protocol (MCP)](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
-| Θέλω να γράψω και να διαθέσω Agent Skills | [Εστιασμένη διαδρομή Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Μαθησιακή διαδρομή Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| Θέλω να προετοιμαστώ για πιστοποίηση Claude | [Οδηγός εκκίνησης για πιστοποίηση](../../certifications/claude/GETTING_STARTED.md) | [Ακαδημία πιστοποίησης](https://aiengineeringfromscratch.com/certifications.html) |
-| Θέλω να προετοιμαστώ για το MCP Associate (MCPA) | [Οδηγός εκκίνησης MCPA](../../certifications/mcpa/GETTING_STARTED.md) | [Διαδρομή MCPA](https://aiengineeringfromscratch.com/certification?id=mcpa-f) |
+Ένα παρεχόμενο ίχνος εξακολουθεί να διαρκεί 100 ms, αλλά η συνολική χρήση token αυξάνεται κατά 200 και ένα span αρχίζει να αποτυγχάνει. Διαχώρισε την επικαλυπτόμενη εργασία των παιδιών από τον χρόνο εκτέλεσης του γονέα και δημιούργησε αναφορά που αποκαλύπτει την αλλαγή.
 
-Δεν ξέρεις από πού να ξεκινήσεις; Χρησιμοποίησε τον [εκπαιδευτή αξιολόγησης επιπέδου `start-learning`](../../skills/start-learning/SKILL.md) ή τον [οδηγό προαπαιτούμενων του ιστοτόπου](https://aiengineeringfromscratch.com/prereqs.html).
+Χρησιμοποίησε Node.js 22.18+ και Python 3 για τον αξιολογητή. Υλοποίησε ανάλυση JSONL, επικύρωση γονικών σχέσεων, αριθμητική διαστημάτων και έπειτα εξετάσιμη χρονική ακολουθία.
 
-Σύγκρινε τέσσερις βασικούς τομείς και έξι επαγγελματικές διαδρομές στο [AI Engineering Learning Paths](https://aiengineeringfromscratch.com/learning-paths.html).
+```bash
+python3 scripts/project_test.py agent-trace-debugger \
+  --init learning-artifacts/agent-trace-debugger
+python3 scripts/project_test.py agent-trace-debugger \
+  --stage 1 --path learning-artifacts/agent-trace-debugger --strict
+python3 scripts/project_test.py agent-trace-debugger \
+  --all --path learning-artifacts/agent-trace-debugger --strict
+```
+
+**Διατήρησε:** το ίχνος εισόδου, μια χρονική ακολουθία HTML και μια αναφορά υποβάθμισης JSON. Διατήρησε αποκλειστικές μετρήσεις token ανά span, ώστε η χρήση γονέα και παιδιού να μη μετριέται δύο φορές.
+
+[Ξεκίνα το έργο](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger) · [Εξέτασε την αναφορά](../../projects/agent-trace-debugger/solution/) · [Εξερεύνησε τον χρονισμό διαδραστικά](https://aiengineeringfromscratch.com/project.html?id=agent-trace-debugger&stage=03-timing)
+
+</details>
+
+<details>
+<summary><strong>03 · Τείχος προστασίας κλήσεων εργαλείων</strong> · Rust · Έλεγχοι ρόλων και αποδεικτικά έγκρισης</summary>
+
+Μια εγγραφή αλλάζει μετά τον έλεγχο ή μια έγκριση επαναχρησιμοποιείται. Επικύρωσε τον φάκελο της κλήσης, έλεγξε τον ρόλο και τη διαδρομή του καλούντος και κατανάλωσε έγκριση δεσμευμένη στο ακριβές αίτημα και περιεχόμενο.
+
+Χρησιμοποίησε Rust και Python 3.10+. Επανεξέτασε [σχεδίαση σχημάτων εργαλείων](../../phases/13-tools-and-protocols/05-tool-schema-design/docs/en.md) και [όρια ασφαλείας](../../phases/17-infrastructure-and-production/25-security-secrets-audit/docs/en.md). Η καλούσα εφαρμογή παρέχει την ταυτότητα· το μοντέλο προτείνει μια πράξη.
+
+```bash
+python3 scripts/project_test.py tool-call-firewall \
+  --init learning-artifacts/tool-call-firewall
+python3 scripts/project_test.py tool-call-firewall \
+  --stage 1 --path learning-artifacts/tool-call-firewall --strict
+python3 scripts/project_test.py tool-call-firewall \
+  --all --path learning-artifacts/tool-call-firewall --strict
+```
+
+**Διατήρησε:** αποδεικτικό ελέγχου με τη ζητούμενη πράξη και την απόφαση της πολιτικής. Οι εγκρίσεις χρησιμοποιούνται μία φορά μέσα σε μία κλήση· αυτό το έργο δεν παρέχει μόνιμη εξουσιοδότηση ή απομόνωση σε επίπεδο λειτουργικού συστήματος.
+
+[Ξεκίνα το έργο](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall) · [Εξέτασε την αναφορά](../../projects/tool-call-firewall/solution/) · [Εξερεύνησε τα όρια έγκρισης](https://aiengineeringfromscratch.com/project.html?id=tool-call-firewall&stage=03-consume-a-request-bound-approval-once)
+
+</details>
+
+[Περιηγήσου σε όλα τα έργα](https://aiengineeringfromscratch.com/projects.html) · [Οδηγός επαγγελματικής εξάσκησης](../../learning-paths/CAREER-PRACTICE.md)
+
+## Επιλέξτε πώς θα μάθετε
+
+### Στον ιστότοπο
+
+Άνοιξε ολοκληρωμένο μάθημα στο [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) ή ανάπτυξε μια φάση στα [περιεχόμενα](#contents). Χωρίς ρυθμίσεις ή κλωνοποίηση.
+
+### Με εκπαιδευτή AI
+
+Αν έχεις ήδη Node.js, `npx` και έναν πράκτορα προγραμματισμού που υποστηρίζει δεξιότητες, μπορεί να γίνει εκπαιδευτής. Δεν χρειάζεται κλωνοποίηση του αποθετηρίου για εγκατάσταση ή ανάγνωση του εκπαιδευτή. Τα εκτελέσιμα εργαστήρια των ειδικών διαδρομών απαιτούν `python3`. Τα εργαστήρια Agent Skills απαιτούν επίσης επιλεγμένη εφαρμογή φιλοξενίας και εγγράψιμο πεδίο δεξιοτήτων χρήστη ή έργου.
+
+```bash
+npx skills add rohitg00/ai-engineering-from-scratch
+```
+
+Επιλέξτε εφαρμογή φιλοξενίας και πεδίο όταν το ζητήσει ο εγκαταστάτης. Χρησιμοποιήστε `start-learning` στο Codex, `/start-learning` στο Claude Code ή ζητήστε από την εφαρμογή να χρησιμοποιήσει τη δεξιότητα με το όνομά της.
+
+<details>
+<summary>Ρύθμιση εκπαιδευτή και εντολές περιβάλλοντος</summary>
+
+Έλεγξε πρώτα τις τοπικές απαιτήσεις:
+
+```bash
+node --version
+npx --version
+python3 --version
+```
+
+Το `skills` γράφει στην εφαρμογή και στο πεδίο που επιλέγεις κατά την εγκατάσταση, όπως `.claude/skills/`, `.cursor/skills/`, `.codex/skills/` ή άλλον υποστηριζόμενο φάκελο. Έλεγξε ότι η εφαρμογή ανακαλύπτει ακριβώς αυτόν τον προορισμό.
+
+Η σύνταξη κλήσης καθορίζεται από την εφαρμογή φιλοξενίας, όχι από τη φορητή μορφή `SKILL.md`:
+
+| Περιβάλλον εκτέλεσης | Ξεκίνα το πρόγραμμα μαθημάτων | Ξεκίνα το Model Context Protocol (MCP) | Ξεκίνα τις δεξιότητες πρακτόρων | Κάνε ένα κουίζ φάσης |
+|---|---|---|---|---|
+| Codex | `start-learning`, ή επίλεξέ το από `/skills` | `learn-mcp`, ή επίλεξέ το από `/skills` | `learn-agent-skills`, ή επίλεξέ το από `/skills` | `check-understanding 13`, ή επίλεξέ το από `/skills` |
+| Claude Code | `/start-learning` | `/learn-mcp` | `/learn-agent-skills` | `/check-understanding 13` |
+| Άλλα συμβατά περιβάλλοντα | `Use start-learning to begin the course.` | `Use learn-mcp to start the Model Context Protocol (MCP) path.` | `Use learn-agent-skills to start the Agent Skills Engineering path.` | `Use check-understanding to quiz me on Phase 13.` |
+
+Ένα τεστ κατάταξης δέκα ερωτήσεων αντιστοιχίζει τις γνώσεις σου σε αρχική φάση και αποθηκεύει προσωπικό σχέδιο στο `LEARNING.md`. Στη συνέχεια η δεξιότητα `learn` διδάσκει ένα μάθημα ανά συνεδρία: έννοια, μαθηματικά, κώδικας, τεστ. Αντλεί μαθήματα απευθείας από το αποθετήριο, ενώ το `course-guide` σε οδηγεί στο ακριβές μάθημα για ό,τι σε δυσκολεύει. Στο Codex κάλεσε `learn` και `course-guide`, στο Claude Code χρησιμοποίησε `/learn` και `/course-guide`, ενώ σε άλλες συμβατές εφαρμογές ζήτησε τη δεξιότητα με το όνομά της.
+
+Θέλεις μόνο Model Context Protocol (MCP); Χρησιμοποίησε την κλήση MCP της εφαρμογής σου. Δημιουργεί `MCP-LEARNING.md` και ακολουθεί διαδρομή 17 μαθημάτων για αιτήματα χωρίς κατάσταση, μεταφορές, αμφίδρομη εργασία, ασφάλεια, αξιοπιστία, διακυβέρνηση μητρώου και αποδείξεις συμμόρφωσης. Η ακριβής σειρά και τα σημεία ελέγχου βρίσκονται στο [δηλωτικό Model Context Protocol (MCP)](../../learning-paths/model-context-protocol.json).
+
+Θέλεις μόνο Agent Skills; Χρησιμοποίησε την αντίστοιχη κλήση της εφαρμογής σου. Δημιουργεί `AGENT-SKILLS-LEARNING.md` και ακολουθεί πέντε συνδεδεμένα μαθήματα: συμβόλαιο, ανακάλυψη, κλήση, όρια απομόνωσης και κατόπιν αξιολόγηση έκδοσης και φορητότητα μεταξύ πραγματικών εφαρμογών. Στον ιστό ξεκίνα από τη [διαδρομή Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
+
+Το πρόγραμμα εγκατάστασης εμφανίζει τις εφαρμογές που μπορεί να ρυθμίσει και ρωτά πού να εγκαταστήσει. Αν δεν έχεις Node.js, `npx`, `python3`, υποστηριζόμενη εφαρμογή ή εγγράψιμο πεδίο, χρησιμοποίησε τον ιστότοπο ή διάβασε το `docs/en.md` μόνος σου. Έτσι μαθαίνεις τις έννοιες, αλλά οι αποδείξεις ανακάλυψης, κλήσης, εκτέλεσης σεναρίων και απεγκατάστασης σε πραγματική εφαρμογή εκκρεμούν ώσπου να είναι διαθέσιμος ο αρχικός έλεγχος. Διάβασε τα μαθήματα στο [aiengineeringfromscratch.com](https://aiengineeringfromscratch.com).
+
+### Οι εκπαιδευτικές δεξιότητες
+
+| Δεξιότητα | Τι κάνει |
+|---|---|
+| [`start-learning`](../../skills/start-learning/SKILL.md) | Αρχική προσαρμογή, μία φορά: γιατί μαθαίνεις, κουίζ κατάταξης και εξατομικευμένο πλάνο που αποθηκεύεται στο `LEARNING.md`. |
+| [`learn`](../../skills/learn/SKILL.md) | Ο κύκλος διδασκαλίας. Ξεκινά με ανάκληση γνώσεων, διδάσκει διαδραστικά το επόμενο μάθημα και συνεχίζει με το κουίζ του· καταγράφει την πρόοδο και μια ουρά επανάληψης. |
+| [`course-guide`](../../skills/course-guide/SKILL.md) | Δρομολογητής θεμάτων. «Πού μαθαίνω για την προσοχή;» ή «η απώλειά μου είναι NaN» → τα κατάλληλα μαθήματα, με συνδέσμους. |
+| [`learn-mcp`](../../skills/learn-mcp/SKILL.md) | Εξειδικευμένος δάσκαλος για το Model Context Protocol (MCP). Δημιουργεί το `MCP-LEARNING.md`, ακολουθεί τη λίστα των 17 μαθημάτων και καταγράφει τεκμήρια επικοινωνίας πρωτοκόλλου, ασφάλειας, αξιοπιστίας και συμμόρφωσης. |
+| [`learn-agent-skills`](../../skills/learn-agent-skills/SKILL.md) | Εξειδικευμένος δάσκαλος για τις δεξιότητες πρακτόρων. Δημιουργεί το `AGENT-SKILLS-LEARNING.md`, διδάσκει τα μαθήματα 22, 24, 25, 26 και 27 και καταγράφει τεκμήρια από πραγματικό περιβάλλον εκτέλεσης. |
+| [`learn-reverse-engineering`](../../skills/learn-reverse-engineering/SKILL.md) | Εξειδικευμένος δάσκαλος αντίστροφης μηχανικής. Δημιουργεί το `REVERSE-ENGINEERING-LEARNING.md`, διδάσκει τα μαθήματα 32 έως 45 της Φάσης 13 σε προγράμματα που κατασκευάζεις μόνος σου και καταγράφει τεκμήρια εργαστηρίου. |
+| [`claude-certification`](../../skills/claude-certification/SKILL.md) | Δάσκαλος πιστοποίησης. Επιλέγει CCAO-F, CCDV-F, CCAR-F ή CCAR-P· διδάσκει κάθε μάθημα· εκτελεί εργαστήρια· ελέγχει παραδοτέα· διεξάγει διαγνωστικές και δοκιμαστικές εξετάσεις· αποθηκεύει την πρόοδο. |
+| [`mcpa-certification`](../../skills/mcpa-certification/SKILL.md) | Δάσκαλος MCPA. Ακολουθεί τη διαδρομή `mcpa-f` των 34 μαθημάτων για το πρωτόκολλο της 2026-07-28· διδάσκει κάθε μάθημα· εκτελεί εργαστήρια και τον ελεγκτή επικοινωνίας πρωτοκόλλου· διεξάγει τη διαγνωστική και τρεις δοκιμαστικές εξετάσεις· αποθηκεύει την πρόοδο. |
+| [`find-your-level`](../../skills/find-your-level/SKILL.md) | Κουίζ κατάταξης δέκα ερωτήσεων. Αντιστοιχίζει τις γνώσεις σου σε μια αρχική φάση και παράγει εξατομικευμένη διαδρομή με εκτίμηση ωρών. |
+| [`check-understanding <phase>`](../../skills/check-understanding/SKILL.md) | Κουίζ ανά φάση, με οκτώ ερωτήσεις, ανατροφοδότηση και συγκεκριμένα μαθήματα για επανάληψη. Χρησιμοποίησε τη μορφή για Codex, Claude Code ή φυσική γλώσσα στον παραπάνω πίνακα κλήσεων. |
+
+</details>
+
+<a id="local-setup"></a>
+
+### Εκτελέστε κώδικα τοπικά
+
+```bash
+git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
+cd ai-engineering-from-scratch
+python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
+python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
+```
+
+Ο αρχικός έλεγχος διαχωρίζει τις απαιτήσεις που χρειάζεσαι τώρα από τα εργαλεία που θα χρειαστείς αργότερα. Κάθε αποτυχία υποχρεωτικού ελέγχου περιλαμβάνει την αιτία που εντοπίστηκε και μια εντολή διόρθωσης. Η εντολή `vectors.py` εκτελεί ένα μάθημα χωρίς εξαρτήσεις και στο τέλος δείχνει ότι ο πολλαπλασιασμός πίνακα με διάνυσμα είναι η πράξη μέσα σε ένα επίπεδο νευρωνικού δικτύου. Αποθήκευσε αυτή την έξοδο του τερματικού ως πρώτο τεκμήριο.
+
+<details>
+<summary>Δούλεψε κάθε μάθημα με τον ίδιο τρόπο</summary>
 
 ### Δούλεψε κάθε μάθημα με τον ίδιο τρόπο
 
@@ -109,1131 +246,930 @@
 
 Οι διαδρομές στις εντολές των μαθημάτων ξεκινούν από τον ριζικό κατάλογο του αποθετηρίου, εκτός αν το μάθημα ζητά ρητά αλλαγή καταλόγου. Αν ένα μάθημα προσφέρει πολλές γλώσσες προγραμματισμού, εκτέλεσε την υλοποίηση στη γλώσσα που μαθαίνεις.
 
-### Κλωνοποίησε το αποθετήριο και δημιούργησε το πρώτο σου τεκμήριο
+</details>
 
-```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
-cd ai-engineering-from-scratch
-python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route beginner
-python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
-```
+<a id="study-guide"></a>
 
-Ο αρχικός έλεγχος διαχωρίζει τις απαιτήσεις που χρειάζεσαι τώρα από τα εργαλεία που θα χρειαστείς αργότερα. Κάθε αποτυχία υποχρεωτικού ελέγχου περιλαμβάνει την αιτία που εντοπίστηκε και μια εντολή διόρθωσης. Η δεύτερη εντολή εκτελεί ένα μάθημα χωρίς εξαρτήσεις και στο τέλος δείχνει ότι ο πολλαπλασιασμός πίνακα με διάνυσμα είναι η πράξη μέσα σε ένα επίπεδο νευρωνικού δικτύου. Αποθήκευσε αυτή την έξοδο του τερματικού ως πρώτο τεκμήριο.
+## Επιλέξτε μαθησιακή διαδρομή
 
-## Add the AI tutor in 30 seconds
+Δεν χρειάζεται να εξετάσεις και τα 542 μαθήματα πριν ξεκινήσεις. Διάλεξε έναν στόχο. Κάθε σύνδεσμος ανοίγει το ίδιο πρόγραμμα στο GitHub ή στον ιστότοπο, και οι δύο εκδόσεις χρησιμοποιούν τον ίδιο κώδικα μαθημάτων.
 
-If Node.js, `npx`, and a skill-capable coding agent are already installed,
-your coding agent can become your tutor in two commands. A repository clone is
-not needed to install or read the tutor. Runnable focused-path labs need
-`python3`. Agent Skills host labs also need a selected host and a writable
-user or project skill scope.
+| Ο στόχος σου | Μάθηση στο GitHub | Μάθηση στον ιστότοπο |
+|---|---|---|
+| Ξεκινώ τώρα και θέλω πλήρεις βάσεις | [Στάδιο 0: Εγκατάσταση και εργαλεία](../../phases/00-setup-and-tooling/) | [Περιβάλλον ανάπτυξης](https://aiengineeringfromscratch.com/lesson?path=phases/00-setup-and-tooling/01-dev-environment) |
+| Γνωρίζω Python και θέλω βάσεις στα μαθηματικά και στο ML | [Στάδιο 1: Μαθηματικά θεμέλια](../../phases/01-math-foundations/) | [Διαισθητική κατανόηση της γραμμικής άλγεβρας](https://aiengineeringfromscratch.com/lesson?path=phases/01-math-foundations/01-linear-algebra-intuition) |
+| Θέλω να φτιάξω εφαρμογές LLM για παραγωγική χρήση | [Στάδιο 11: Μηχανική LLM](../../phases/11-llm-engineering/) | [Μηχανική προτροπών](https://aiengineeringfromscratch.com/lesson?path=phases/11-llm-engineering/01-prompt-engineering) |
+| Θέλω να φτιάξω πράκτορες | [Στάδιο 14: Μηχανική πρακτόρων](../../phases/14-agent-engineering/) | [Ο βρόχος του πράκτορα](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/01-the-agent-loop) |
+| Θέλω να χρησιμοποιώ πράκτορες προγραμματισμού σε πραγματικά αποθετήρια | [Διαδρομή μηχανικής με τη βοήθεια πρακτόρων](../../learning-paths/using-coding-agents.json) | [Μηχανική με τη βοήθεια πρακτόρων](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/31-agent-workbench-why-models-fail&learningPath=using-coding-agents) |
+| Θέλω να καθορίσω τι αξίζει να φτιαχτεί πριν από την υλοποίηση | [Διαδρομή αποφάσεων και παράδοσης προϊόντος](../../learning-paths/shaping-the-build.json) | [Αποφάσεις και παράδοση προϊόντος](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 
-Check the local requirements first:
+Δεν ξέρεις από πού να ξεκινήσεις; Χρησιμοποίησε τον [εκπαιδευτή αξιολόγησης επιπέδου `start-learning`](../../skills/start-learning/SKILL.md) ή τον [οδηγό προαπαιτούμενων του ιστοτόπου](https://aiengineeringfromscratch.com/prereqs.html).
 
-```bash
-node --version
-npx --version
-python3 --version
-```
+Σύγκρινε τέσσερις βασικούς τομείς και έξι επαγγελματικές διαδρομές στο [Διαδρομές μάθησης μηχανικής ΤΝ](https://aiengineeringfromscratch.com/learning-paths.html).
 
-Then install the curriculum skills and choose the host and scope you intend to
-use when the installer asks:
+<details>
+<summary>Εστιασμένες διαδρομές MCP, Agent Skills και αντίστροφης μηχανικής</summary>
 
-```bash
-npx skills add rohitg00/ai-engineering-from-scratch
-```
+| Ο στόχος σου | Μάθηση στο GitHub | Μάθηση στον ιστότοπο |
+|---|---|---|
+| Θέλω να αναπτύξω λύσεις με Model Context Protocol (MCP) | [Διαδρομή Model Context Protocol (MCP)](../../phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Μαθησιακή διαδρομή Model Context Protocol (MCP)](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
+| Θέλω να γράψω και να διαθέσω Agent Skills | [Εστιασμένη διαδρομή Agent Skills](../../phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Μαθησιακή διαδρομή Agent Skills](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
+| Θέλω να διαβάζω μεταγλωττισμένα προγράμματα | [Διαδρομή αντίστροφης μηχανικής](../../phases/13-tools-and-protocols/README.md#reverse-engineering-path) | [Μαθησιακή διαδρομή αντίστροφης μηχανικής](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch&learningPath=reverse-engineering) |
 
-Invocation syntax belongs to the host, not to the portable `SKILL.md` format:
+</details>
 
-| Host | Start the course | Start Model Context Protocol (MCP) | Start Agent Skills | Run a phase quiz |
-|---|---|---|---|---|
-| Codex | `start-learning`, or choose it from `/skills` | `learn-mcp`, or choose it from `/skills` | `learn-agent-skills`, or choose it from `/skills` | `check-understanding 13`, or choose it from `/skills` |
-| Claude Code | `/start-learning` | `/learn-mcp` | `/learn-agent-skills` | `/check-understanding 13` |
-| Other compatible hosts | `Use start-learning to begin the course.` | `Use learn-mcp to start the Model Context Protocol (MCP) path.` | `Use learn-agent-skills to start the Agent Skills Engineering path.` | `Use check-understanding to quiz me on Phase 13.` |
+<details>
+<summary>Προαπαιτούμενα και χρόνος μελέτης</summary>
 
-A ten-question placement quiz maps what you already know to a starting phase and
-saves a personalized study plan to `LEARNING.md`. From there, the `learn` skill
-teaches one lesson per session: concept, math, code, quiz. It streams lessons
-straight from this repo, and the `course-guide` skill jumps you to the exact
-lesson that covers anything you are stuck on. In Codex, invoke these skills with
-`learn` and `course-guide`; in Claude Code, use `/learn` and `/course-guide`;
-in other compatible hosts, ask to use the skill by name.
+### Προαπαιτούμενα
 
-Only want Model Context Protocol (MCP)? Use the MCP invocation for your host. It creates
-`MCP-LEARNING.md` and follows one 17-lesson route through stateless
-requests, transports, bidirectional work, security, reliability, registry
-governance, and conformance evidence. The exact order and checkpoints live in
-the [Model Context Protocol (MCP) manifest](../../learning-paths/model-context-protocol.json).
+- Μπορείς να γράψεις κώδικα (σε οποιαδήποτε γλώσσα· η Python βοηθά).
+- Θέλεις να καταλάβεις πώς **λειτουργεί πραγματικά** η ΤΝ, όχι απλώς να καλείς API.
 
-Only want Agent Skills? Use the Agent Skills invocation for your host. It
-creates `AGENT-SKILLS-LEARNING.md` and follows one coherent five-lesson route:
-contract, discovery, invocation, sandbox boundaries, then release evals and
-real-host portability. Start on the web with the
-[Agent Skills path](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills).
+## Από πού να ξεκινήσεις
 
-The installer lists the hosts it can configure and asks where to install. If
-you do not have Node.js, `npx`, `python3`, a supported host, or a writable
-scope yet, use the website or read `docs/en.md` manually. That path teaches the
-concepts, but real-host discovery, invocation, script, and uninstall evidence
-remains pending until the preflight is available. Read the lessons at
-[aiengineeringfromscratch.com](https://aiengineeringfromscratch.com).
+| Υπόβαθρο | Ξεκίνα από | Εκτιμώμενος χρόνος |
+|---|---|---|
+| Νέος στον προγραμματισμό και την ΤΝ | Φάση 0: Εγκατάσταση | ~306 ώρες |
+| Γνωρίζεις Python, αλλά είσαι νέος στη μηχανική μάθηση | Φάση 1: Μαθηματικά θεμέλια | ~270 ώρες |
+| Γνωρίζεις μηχανική μάθηση, αλλά είσαι νέος στη βαθιά μάθηση | Φάση 3: Πυρήνας βαθιάς μάθησης | ~200 ώρες |
+| Γνωρίζεις βαθιά μάθηση και θέλεις LLM και πράκτορες | Φάση 10: LLM από το μηδέν | ~100 ώρες |
+| Έμπειρος μηχανικός, σε ενδιαφέρει μόνο η μηχανική πρακτόρων | Φάση 14: Μηχανική πρακτόρων | ~60 ώρες |
+| Θέλεις μόνο να κατασκευάζεις συστήματα MCP για παραγωγή | [Διαδρομή Model Context Protocol (MCP)](../../learning-paths/model-context-protocol.json) | ~23 ώρες 15 λεπτά |
+| Θέλεις μόνο να κατασκευάζεις δεξιότητες πρακτόρων για παραγωγή | [Διαδρομή μηχανικής δεξιοτήτων πρακτόρων](../../learning-paths/agent-skills.json) | ~9.5 ώρες |
+| Θέλεις μόνο να μάθεις αντίστροφη μηχανική | [Διαδρομή αντίστροφης μηχανικής](../../learning-paths/reverse-engineering.json) | ~32.5 ώρες |
 
-## Πώς λειτουργεί
-
-Most AI material teaches in scattered pieces. A paper here, a fine-tuning post there, a
-flashy agent demo somewhere else. The pieces rarely line up. You ship a chatbot but can't
-explain its loss curve. You hook a function to an agent but can't say what attention does
-inside the model that's calling it.
-
-This curriculum is the spine. 20 phases, 523 lessons, four languages: Python, TypeScript,
-Rust, Julia. Linear algebra at one end, autonomous swarms at the other. Every algorithm
-gets built from raw math first. Backprop. Tokenizer. Attention. Agent loop. By the time
-PyTorch shows up, you already know what it's doing under the hood.
-
-Each lesson runs the same loop: read the problem, derive the math, write the code, run
-the test, keep the artifact. No five-minute videos, no copy-paste deploys, no hand-holding.
-Free, open source, and built to run on your own laptop.
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
+</details>
 
 ## Η δομή του προγράμματος σπουδών
 
-Twenty phases stack on top of each other. Math is the floor. Agents and production are the roof.
-Skip ahead if you already know the lower layers, but don't skip and then wonder why something at
-the top is breaking.
+Είκοσι φάσεις στηρίζονται η μία στην άλλη. Τα μαθηματικά είναι τα θεμέλια, οι πράκτορες και η παραγωγή η στέγη. Προχώρα αν γνωρίζεις τα χαμηλότερα επίπεδα, αλλά μην παραλείπεις άγνωστες βάσεις και μετά απορείς γιατί αποτυγχάνει κάτι ψηλότερα.
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#fafaf5','primaryTextColor':'#1a1a1a','primaryBorderColor':'#3553ff','lineColor':'#3553ff','fontFamily':'JetBrains Mono','fontSize':'12px'}}}%%
 flowchart TB
-  P0["Phase 0 — Setup &amp; Tooling"] --> P1["Phase 1 — Math Foundations"]
-  P1 --> P2["Phase 2 — ML Fundamentals"]
-  P2 --> P3["Phase 3 — Deep Learning Core"]
-  P3 --> P4["Phase 4 — Vision"]
-  P3 --> P5["Phase 5 — NLP"]
-  P3 --> P6["Phase 6 — Speech &amp; Audio"]
-  P3 --> P9["Phase 9 — RL"]
-  P5 --> P7["Phase 7 — Transformers"]
-  P7 --> P8["Phase 8 — GenAI"]
-  P7 --> P10["Phase 10 — LLMs from Scratch"]
-  P10 --> P11["Phase 11 — LLM Engineering"]
-  P10 --> P12["Phase 12 — Multimodal"]
-  P11 --> P13["Phase 13 — Tools &amp; Protocols"]
-  P13 --> P14["Phase 14 — Agent Engineering"]
-  P14 --> P15["Phase 15 — Autonomous Systems"]
-  P15 --> P16["Phase 16 — Multi-Agent &amp; Swarms"]
-  P14 --> P17["Phase 17 — Infrastructure &amp; Production"]
-  P15 --> P18["Phase 18 — Ethics &amp; Alignment"]
-  P16 --> P19["Phase 19 — Capstone Projects"]
+  P0["Φάση 0: Εγκατάσταση και εργαλεία"] --> P1["Φάση 1: Μαθηματικά θεμέλια"]
+  P1 --> P2["Φάση 2: Βασικές αρχές μηχανικής μάθησης"]
+  P2 --> P3["Φάση 3: Πυρήνας βαθιάς μάθησης"]
+  P3 --> P4["Φάση 4: Όραση"]
+  P3 --> P5["Φάση 5: Επεξεργασία φυσικής γλώσσας"]
+  P3 --> P6["Φάση 6: Ομιλία και ήχος"]
+  P3 --> P9["Φάση 9: Ενισχυτική μάθηση"]
+  P5 --> P7["Φάση 7: Αρχιτεκτονική Transformer"]
+  P7 --> P8["Φάση 8: Παραγωγική ΤΝ"]
+  P7 --> P10["Φάση 10: LLM από το μηδέν"]
+  P10 --> P11["Φάση 11: Μηχανική LLM"]
+  P10 --> P12["Φάση 12: Πολυτροπικότητα"]
+  P11 --> P13["Φάση 13: Εργαλεία και πρωτόκολλα"]
+  P13 --> P14["Φάση 14: Μηχανική πρακτόρων"]
+  P14 --> P15["Φάση 15: Αυτόνομα συστήματα"]
+  P15 --> P16["Φάση 16: Πολλαπλοί πράκτορες και σμήνη"]
+  P14 --> P17["Φάση 17: Υποδομή και παραγωγή"]
+  P15 --> P18["Φάση 18: Ηθική και ευθυγράμμιση"]
+  P16 --> P19["Φάση 19: Ολοκληρωμένα έργα"]
   P17 --> P19
   P18 --> P19
-```
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
-
-## Η δομή ενός μαθήματος
-
-Each lesson lives in its own folder, with the same structure across the entire curriculum:
-
-```text
-phases/<NN>-<phase-name>/<NN>-<lesson-name>/
-├── code/      runnable implementations (Python, TypeScript, Rust, Julia)
-├── docs/
-│   └── en.md  lesson narrative
-└── outputs/   prompts, skills, agents, or MCP servers this lesson produces
-```
-
-Every lesson follows six beats. The *Build It / Use It* split is the spine — you implement the
-algorithm from scratch first, then run the same thing through the production library. You
-understand what the framework is doing because you wrote the smaller version yourself.
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#fafaf5','primaryTextColor':'#1a1a1a','primaryBorderColor':'#3553ff','lineColor':'#3553ff','fontFamily':'JetBrains Mono','fontSize':'13px'}}}%%
-flowchart LR
-  M["MOTTO<br/><sub>one-line core idea</sub>"] --> Pr["PROBLEM<br/><sub>concrete pain</sub>"]
-  Pr --> C["CONCEPT<br/><sub>diagrams &amp; intuition</sub>"]
-  C --> B["BUILD IT<br/><sub>raw math, no frameworks</sub>"]
-  B --> U["USE IT<br/><sub>same thing in PyTorch / sklearn</sub>"]
-  U --> S["SHIP IT<br/><sub>prompt · skill · agent · MCP</sub>"]
-```
-
-## Πρώτα βήματα
-
-Τρεις τρόποι να ξεκινήσεις. Διάλεξε έναν.
-
-**Option A — learn in your terminal *(recommended)*.** After the Node.js,
-`npx`, host, and scope preflight above, install the learning skills into a
-compatible agent and let the course drive itself:
-
-```bash
-npx skills add rohitg00/ai-engineering-from-scratch
-```
-
-Use the host-specific invocation table above. The installed skills provide
-`start-learning`, `learn`, `course-guide`, and the focused
-`learn-mcp` and `learn-agent-skills` routes. Lesson prose can
-stream from this repository without a clone. A local clone is required for
-copied repository code commands and executable MCP or Agent Skills labs.
-Progress lives in `LEARNING.md`, `MCP-LEARNING.md`, or
-`AGENT-SKILLS-LEARNING.md` in your project, so every session can resume.
-
-**Option B — read.** Open any completed lesson on
-[aiengineeringfromscratch.com](https://aiengineeringfromscratch.com) or expand a phase under
-[Contents](#contents). No setup, no cloning.
-
-**Option C — clone and run.**
-
-```bash
-git clone https://github.com/rohitg00/ai-engineering-from-scratch.git
-cd ai-engineering-from-scratch
-python3 phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
-```
-
-Cloning also auto-loads the learning skills in Claude Code, and gives every
-lesson's code to the `learn` tutor for real execution instead of read-along.
-
-### Προαπαιτούμενα
-
-- You can write code (any language; Python helps).
-- You want to understand how AI **actually works**, not just call APIs.
-
-### Prepare for Claude certifications
-
-The [Claude Certification Academy](../../certifications/claude/README.md) is a free,
-open-source preparation program for all four official Claude certification tracks:
-Associate Foundations, Developer Foundations, Architect Foundations, and Architect
-Professional. Each route combines blueprint-mapped lessons, runnable labs, a
-diagnostic, capstone work, and a full-length original practice exam.
-
-Use the [AI-native GitHub onboarding guide](../../certifications/claude/GETTING_STARTED.md)
-with Claude Code, Codex, ChatGPT, Cursor, or another agent. Run
-`claude-certification` in Codex, `/claude-certification` in Claude Code, or ask
-another host to use `claude-certification`. It chooses a track, creates a
-persistent route in `CLAUDE-CERTIFICATION.md`, teaches one step at a time, runs
-the real labs, and gives artifact-based feedback. The same curriculum remains
-available on the [certification website](https://aiengineeringfromscratch.com/certifications.html).
-
-The academy is independent study material based on public exam objectives. It is not
-affiliated with Anthropic, does not reproduce live exam questions, and cannot guarantee
-a passing score.
-
-### Prepare for the MCP Associate (MCPA) certification
-
-The [MCPA Certification Curriculum](../../certifications/mcpa/README.md) is a free,
-open-source preparation program for the Model Context Protocol Associate exam from the
-Agentic AI Foundation, delivered through Linux Foundation Training. Its 34 lessons teach
-the stateless 2026-07-28 protocol across the five exam domains: per-request `_meta` and
-`server/discover` in place of the old handshake, multi round-trip requests, subscriptions,
-caching, the tasks and MCP Apps extensions, OAuth authorization, and the registry and SDK
-tiers. Every lesson ships a runnable standard-library lab whose transcript is checked for
-the current wire shape, and the track adds a diagnostic, a capstone, and three full-length
-original practice exams whose question mix follows the published blueprint weights.
-
-Use the [AI-native GitHub onboarding guide](../../certifications/mcpa/GETTING_STARTED.md) with
-Claude Code, Codex, ChatGPT, Cursor, or another agent. Run `mcpa-certification` in Codex,
-`/mcpa-certification` in Claude Code, or ask another host to use `mcpa-certification`. It
-creates a persistent route in `MCPA-CERTIFICATION.md`, teaches one step at a time, runs
-the real labs, and gives artifact-based feedback. The same curriculum is available on the
-[MCPA track page](https://aiengineeringfromscratch.com/certification?id=mcpa-f).
-
-This curriculum is independent study material based on public exam objectives. It is not
-affiliated with the Agentic AI Foundation or the Linux Foundation, does not reproduce
-live exam questions, and cannot guarantee a passing score.
-
-### The learning skills
-
-| Skill | What it does |
-|---|---|
-| [`start-learning`](../../skills/start-learning/SKILL.md) | One-time onboarding: why you're learning, placement quiz, personalized plan saved to `LEARNING.md`. |
-| [`learn`](../../skills/learn/SKILL.md) | The tutor loop. Warm-up recall, then the next lesson taught interactively, then its quiz; records progress and a review queue. |
-| [`course-guide`](../../skills/course-guide/SKILL.md) | Topic router. "Where do I learn attention?" or "my loss is NaN" → the exact lessons, with links. |
-| [`learn-mcp`](../../skills/learn-mcp/SKILL.md) | Focused Model Context Protocol (MCP) tutor. Creates `MCP-LEARNING.md`, follows the 17-lesson manifest, and records wire, security, reliability, and conformance evidence. |
-| [`learn-agent-skills`](../../skills/learn-agent-skills/SKILL.md) | Focused Agent Skills tutor. Creates `AGENT-SKILLS-LEARNING.md`, teaches lessons 22, 24, 25, 26, and 27, and records real-host evidence. |
-| [`claude-certification`](../../skills/claude-certification/SKILL.md) | Certification tutor. Chooses CCAO-F, CCDV-F, CCAR-F, or CCAR-P; teaches each lesson; runs labs; reviews artifacts; administers diagnostics and mocks; saves progress. |
-| [`mcpa-certification`](../../skills/mcpa-certification/SKILL.md) | MCPA tutor. Follows the 34-lesson `mcpa-f` route on the 2026-07-28 protocol; teaches each lesson; runs labs and the wire checker; administers the diagnostic and three mocks; saves progress. |
-| [`find-your-level`](../../skills/find-your-level/SKILL.md) | Ten-question placement quiz. Maps your knowledge to a starting phase and produces a personalized path with hour estimates. |
-| [`check-understanding <phase>`](../../skills/check-understanding/SKILL.md) | Per-phase quiz, eight questions, with feedback and specific lessons to review. Use the Codex, Claude Code, or natural-language form in the invocation table above. |
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
-
-## Read the core curriculum as a book
-
-The 20-phase core curriculum under `phases/` compiles into a six-volume book series. EPUB and PDF are built by CI from the same core lesson sources and attached to every [GitHub release](https://github.com/rohitg00/ai-engineering-from-scratch/releases); the links below always resolve to the newest release. Volume numbers index the series, not versions: each copy carries a dated edition stamp, and older editions stay downloadable from their release.
-
-Certification curricula are intentionally not converted into the books. Their
-AI tutor state, runnable labs, interactive figures, diagnostics, and timed mocks
-remain first-class on GitHub and the website.
-
-| Vol | Title | Phases | Download |
-|-----|-------|--------|----------|
-| 1 | Foundations · Math, Tooling, and Classical Machine Learning | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
-| 2 | Deep Learning · Networks, Vision, and Speech | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
-| 3 | Language · NLP Foundations and the Transformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
-| 4 | Large Language Models · Generation, Reinforcement, Pretraining, and Engineering | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
-| 5 | Agents · Multimodality, Protocols, Autonomy, and Swarms | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
-| 6 | Production · Infrastructure, Safety, and Capstones | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
-
-The book is the snapshot; this repository is the living edition. Every chapter ends with links back to the lesson's animated figures, quiz, and runnable code. Build locally with `python3 scripts/build_book.py` (pandoc required); pipeline details in [book/README.md](../../book/README.md).
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
-
-## Κάθε μάθημα δίνει ένα αποτέλεσμα
-
-Other curricula end with *"congratulations, you learned X."* Each lesson here ends with a
-**reusable tool** you can install or paste into your daily workflow.
-
-<table>
-<tr>
-<th align="left" width="25%"><img src="../../site/assets/figures/001-a-prompts.svg" width="120" height="120" alt="FIG_001.A prompts"/><br/><sub>FIG_001 · A</sub><br/><b>PROMPTS</b></th>
-<th align="left" width="25%"><img src="../../site/assets/figures/001-b-skills.svg" width="120" height="120" alt="FIG_001.B skills"/><br/><sub>FIG_001 · B</sub><br/><b>SKILLS</b></th>
-<th align="left" width="25%"><img src="../../site/assets/figures/001-c-agents.svg" width="120" height="120" alt="FIG_001.C agents"/><br/><sub>FIG_001 · C</sub><br/><b>AGENTS</b></th>
-<th align="left" width="25%"><img src="../../site/assets/figures/001-d-mcp-servers.svg" width="120" height="120" alt="FIG_001.D MCP servers"/><br/><sub>FIG_001 · D</sub><br/><b>MCP SERVERS</b></th>
-</tr>
-<tr>
-<td valign="top">Paste into any AI assistant for expert-level help on a narrow task.</td>
-<td valign="top">Drop into Claude, Cursor, Codex, OpenClaw, Hermes, or any agent that reads <code>SKILL.md</code>.</td>
-<td valign="top">Deploy as autonomous workers — you wrote the loop yourself in Phase 14.</td>
-<td valign="top">Plug into any MCP-compatible client. Built end-to-end in Phase 13.</td>
-</tr>
-</table>
-
-> Install the lot with `python3 scripts/install_skills.py <target>`. Real tools, not homework.
-> By the end of the curriculum, you have a portfolio of 523 artifacts you actually
-> understand because you built them.
-
-### FIG_002 · A worked sample
-
-Phase 14, lesson 1: the agent loop. ~120 lines of pure Python, no dependencies.
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-**`code/agent_loop.py`** &nbsp; <sub><i>build it</i></sub>
-
-```python
-def run(query, tools):
-    history = [user(query)]
-    for step in range(MAX_STEPS):
-        msg = llm(history)
-        if msg.tool_calls:
-            for call in msg.tool_calls:
-                result = tools[call.name](**call.args)
-                history.append(tool_result(call.id, result))
-            continue
-        return msg.content
-    raise StepLimitExceeded
-```
-
-</td>
-<td valign="top" width="50%">
-
-**`outputs/skill-agent-loop.md`** &nbsp; <sub><i>ship it</i></sub>
-
-```markdown
----
-name: agent-loop
-description: ReAct-style loop for any tool list
-phase: 14
-lesson: 01
----
-
-Implement a minimal agent loop that...
-```
-
-**`outputs/prompt-debug-agent.md`**
-
-```markdown
-You are an agent debugger. Given the trace
-of an agent run, identify the step where
-the agent went wrong and explain why...
-```
-
-</td>
-</tr>
-</table>
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
 ```
 
 <a id="contents"></a>
 
 ## Περιεχόμενα
 
-Twenty phases. Click any phase to expand its lesson list.
+Είκοσι φάσεις. Πάτησε μια φάση για να εμφανιστεί η λίστα μαθημάτων της.
 
 <a id="phase-0"></a>
-### Phase 0: Setup & Tooling `12 lessons`
-> Get your environment ready for everything that follows.
+### Φάση 0: Ρύθμιση και εργαλεία `13 μαθήματα`
+> Προετοίμασε το περιβάλλον σου για όσα ακολουθούν.
 
-| # | Lesson | Type | Lang |
+| # | Μάθημα | Τύπος | Γλώσσα |
 |:---:|--------|:----:|------|
-| 01 | [Dev Environment](../../phases/00-setup-and-tooling/01-dev-environment/) | Build | Python |
-| 02 | [Git & Collaboration](../../phases/00-setup-and-tooling/02-git-and-collaboration/) | Learn | — |
-| 03 | [GPU Setup & Cloud](../../phases/00-setup-and-tooling/03-gpu-setup-and-cloud/) | Build | Python |
-| 04 | [APIs & Keys](../../phases/00-setup-and-tooling/04-apis-and-keys/) | Build | Python |
-| 05 | [Jupyter Notebooks](../../phases/00-setup-and-tooling/05-jupyter-notebooks/) | Build | Python |
-| 06 | [Python Environments](../../phases/00-setup-and-tooling/06-python-environments/) | Build | Shell |
-| 07 | [Docker for AI](../../phases/00-setup-and-tooling/07-docker-for-ai/) | Build | Docker |
-| 08 | [Editor Setup](../../phases/00-setup-and-tooling/08-editor-setup/) | Build | — |
-| 09 | [Data Management](../../phases/00-setup-and-tooling/09-data-management/) | Build | Python |
-| 10 | [Terminal & Shell](../../phases/00-setup-and-tooling/10-terminal-and-shell/) | Learn | — |
-| 11 | [Linux for AI](../../phases/00-setup-and-tooling/11-linux-for-ai/) | Learn | — |
-| 12 | [Debugging & Profiling](../../phases/00-setup-and-tooling/12-debugging-and-profiling/) | Build | Python |
+| 01 | [Περιβάλλον ανάπτυξης](../../phases/00-setup-and-tooling/01-dev-environment/) | Κατασκευή | Python |
+| 02 | [Git και συνεργασία](../../phases/00-setup-and-tooling/02-git-and-collaboration/) | Μάθηση | — |
+| 03 | [Ρύθμιση GPU και υπολογιστικό νέφος](../../phases/00-setup-and-tooling/03-gpu-setup-and-cloud/) | Κατασκευή | Python |
+| 04 | [API και κλειδιά](../../phases/00-setup-and-tooling/04-apis-and-keys/) | Κατασκευή | Python |
+| 05 | [Σημειωματάρια Jupyter](../../phases/00-setup-and-tooling/05-jupyter-notebooks/) | Κατασκευή | Python |
+| 06 | [Περιβάλλοντα Python](../../phases/00-setup-and-tooling/06-python-environments/) | Κατασκευή | Shell |
+| 07 | [Docker για ΤΝ](../../phases/00-setup-and-tooling/07-docker-for-ai/) | Κατασκευή | Docker |
+| 08 | [Ρύθμιση επεξεργαστή κώδικα](../../phases/00-setup-and-tooling/08-editor-setup/) | Κατασκευή | — |
+| 09 | [Διαχείριση δεδομένων](../../phases/00-setup-and-tooling/09-data-management/) | Κατασκευή | Python |
+| 10 | [Τερματικό και κέλυφος](../../phases/00-setup-and-tooling/10-terminal-and-shell/) | Μάθηση | — |
+| 11 | [Linux για ΤΝ](../../phases/00-setup-and-tooling/11-linux-for-ai/) | Μάθηση | — |
+| 12 | [Αποσφαλμάτωση και ανάλυση επιδόσεων](../../phases/00-setup-and-tooling/12-debugging-and-profiling/) | Κατασκευή | Python |
+| 13 | [Python για μηχανική τεχνητής νοημοσύνης](../../phases/00-setup-and-tooling/13-python-for-ai-engineering/) | Κατασκευή | Python |
 
 <details id="phase-1">
-<summary><b>Phase 1 — Math Foundations</b> &nbsp;<code>22 lessons</code>&nbsp; <em>The intuition behind every AI algorithm, through code.</em></summary>
+<summary><b>Φάση 1: Μαθηματικά θεμέλια</b> &nbsp;<code>22 μαθήματα</code>&nbsp; <em>Η διαίσθηση πίσω από κάθε αλγόριθμο ΤΝ, μέσα από κώδικα.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Μάθημα | Τύπος | Γλώσσα |
 |:---:|--------|:----:|------|
-| 01 | [Linear Algebra Intuition](../../phases/01-math-foundations/01-linear-algebra-intuition/) | Learn | Python, Julia |
-| 02 | [Vectors, Matrices & Operations](../../phases/01-math-foundations/02-vectors-matrices-operations/) | Build | Python, Julia |
-| 03 | [Matrix Transformations & Eigenvalues](../../phases/01-math-foundations/03-matrix-transformations/) | Build | Python, Julia |
-| 04 | [Calculus for ML: Derivatives & Gradients](../../phases/01-math-foundations/04-calculus-for-ml/) | Learn | Python |
-| 05 | [Chain Rule & Automatic Differentiation](../../phases/01-math-foundations/05-chain-rule-and-autodiff/) | Build | Python |
-| 06 | [Probability & Distributions](../../phases/01-math-foundations/06-probability-and-distributions/) | Learn | Python |
-| 07 | [Bayes' Theorem & Statistical Thinking](../../phases/01-math-foundations/07-bayes-theorem/) | Build | Python |
-| 08 | [Optimization: Gradient Descent Family](../../phases/01-math-foundations/08-optimization/) | Build | Python |
-| 09 | [Information Theory: Entropy, KL Divergence](../../phases/01-math-foundations/09-information-theory/) | Learn | Python |
-| 10 | [Dimensionality Reduction: PCA, t-SNE, UMAP](../../phases/01-math-foundations/10-dimensionality-reduction/) | Build | Python |
-| 11 | [Singular Value Decomposition](../../phases/01-math-foundations/11-singular-value-decomposition/) | Build | Python, Julia |
-| 12 | [Tensor Operations](../../phases/01-math-foundations/12-tensor-operations/) | Build | Python |
-| 13 | [Numerical Stability](../../phases/01-math-foundations/13-numerical-stability/) | Build | Python |
-| 14 | [Norms & Distances](../../phases/01-math-foundations/14-norms-and-distances/) | Build | Python |
-| 15 | [Statistics for ML](../../phases/01-math-foundations/15-statistics-for-ml/) | Build | Python |
-| 16 | [Sampling Methods](../../phases/01-math-foundations/16-sampling-methods/) | Build | Python |
-| 17 | [Linear Systems](../../phases/01-math-foundations/17-linear-systems/) | Build | Python |
-| 18 | [Convex Optimization](../../phases/01-math-foundations/18-convex-optimization/) | Build | Python |
-| 19 | [Complex Numbers for AI](../../phases/01-math-foundations/19-complex-numbers/) | Learn | Python |
-| 20 | [The Fourier Transform](../../phases/01-math-foundations/20-fourier-transform/) | Build | Python |
-| 21 | [Graph Theory for ML](../../phases/01-math-foundations/21-graph-theory/) | Build | Python |
-| 22 | [Stochastic Processes](../../phases/01-math-foundations/22-stochastic-processes/) | Learn | Python |
+| 01 | [Διαισθητική κατανόηση της γραμμικής άλγεβρας](../../phases/01-math-foundations/01-linear-algebra-intuition/) | Μάθηση | Python, Julia |
+| 02 | [Διανύσματα, πίνακες και πράξεις](../../phases/01-math-foundations/02-vectors-matrices-operations/) | Κατασκευή | Python, Julia |
+| 03 | [Μετασχηματισμοί πινάκων και ιδιοτιμές](../../phases/01-math-foundations/03-matrix-transformations/) | Κατασκευή | Python, Julia |
+| 04 | [Ανάλυση για ML: παράγωγοι και κλίσεις](../../phases/01-math-foundations/04-calculus-for-ml/) | Μάθηση | Python |
+| 05 | [Κανόνας αλυσίδας και αυτόματη παραγώγιση](../../phases/01-math-foundations/05-chain-rule-and-autodiff/) | Κατασκευή | Python |
+| 06 | [Πιθανότητες και κατανομές](../../phases/01-math-foundations/06-probability-and-distributions/) | Μάθηση | Python |
+| 07 | [Θεώρημα Bayes και στατιστική σκέψη](../../phases/01-math-foundations/07-bayes-theorem/) | Κατασκευή | Python |
+| 08 | [Βελτιστοποίηση: οικογένεια καθόδου κλίσης](../../phases/01-math-foundations/08-optimization/) | Κατασκευή | Python |
+| 09 | [Θεωρία πληροφορίας: εντροπία και απόκλιση KL](../../phases/01-math-foundations/09-information-theory/) | Μάθηση | Python |
+| 10 | [Μείωση διαστάσεων: PCA, t-SNE, UMAP](../../phases/01-math-foundations/10-dimensionality-reduction/) | Κατασκευή | Python |
+| 11 | [Ανάλυση ιδιαζουσών τιμών](../../phases/01-math-foundations/11-singular-value-decomposition/) | Κατασκευή | Python, Julia |
+| 12 | [Πράξεις τανυστών](../../phases/01-math-foundations/12-tensor-operations/) | Κατασκευή | Python |
+| 13 | [Αριθμητική ευστάθεια](../../phases/01-math-foundations/13-numerical-stability/) | Κατασκευή | Python |
+| 14 | [Νόρμες και αποστάσεις](../../phases/01-math-foundations/14-norms-and-distances/) | Κατασκευή | Python |
+| 15 | [Στατιστική για ML](../../phases/01-math-foundations/15-statistics-for-ml/) | Κατασκευή | Python |
+| 16 | [Μέθοδοι δειγματοληψίας](../../phases/01-math-foundations/16-sampling-methods/) | Κατασκευή | Python |
+| 17 | [Γραμμικά συστήματα](../../phases/01-math-foundations/17-linear-systems/) | Κατασκευή | Python |
+| 18 | [Κυρτή βελτιστοποίηση](../../phases/01-math-foundations/18-convex-optimization/) | Κατασκευή | Python |
+| 19 | [Μιγαδικοί αριθμοί για ΤΝ](../../phases/01-math-foundations/19-complex-numbers/) | Μάθηση | Python |
+| 20 | [Ο μετασχηματισμός Fourier](../../phases/01-math-foundations/20-fourier-transform/) | Κατασκευή | Python |
+| 21 | [Θεωρία γράφων για ML](../../phases/01-math-foundations/21-graph-theory/) | Κατασκευή | Python |
+| 22 | [Στοχαστικές διαδικασίες](../../phases/01-math-foundations/22-stochastic-processes/) | Μάθηση | Python |
 
 </details>
 
 <details id="phase-2">
-<summary><b>Phase 2 — ML Fundamentals</b> &nbsp;<code>18 lessons</code>&nbsp; <em>Classical ML — still the backbone of most production AI.</em></summary>
+<summary><b>Φάση 2: Βασικές αρχές μηχανικής μάθησης</b> &nbsp;<code>21 μαθήματα</code>&nbsp; <em>Κλασική μηχανική μάθηση· εξακολουθεί να αποτελεί τη βάση των περισσότερων συστημάτων ΤΝ στην παραγωγή.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Μάθημα | Τύπος | Γλώσσα |
 |:---:|--------|:----:|------|
-| 01 | [What Is Machine Learning](../../phases/02-ml-fundamentals/01-what-is-machine-learning/) | Learn | Python |
-| 02 | [Linear Regression from Scratch](../../phases/02-ml-fundamentals/02-linear-regression/) | Build | Python |
-| 03 | [Logistic Regression & Classification](../../phases/02-ml-fundamentals/03-logistic-regression/) | Build | Python |
-| 04 | [Decision Trees & Random Forests](../../phases/02-ml-fundamentals/04-decision-trees/) | Build | Python |
-| 05 | [Support Vector Machines](../../phases/02-ml-fundamentals/05-support-vector-machines/) | Build | Python |
-| 06 | [KNN & Distance Metrics](../../phases/02-ml-fundamentals/06-knn-and-distances/) | Build | Python |
-| 07 | [Unsupervised Learning: K-Means, DBSCAN](../../phases/02-ml-fundamentals/07-unsupervised-learning/) | Build | Python |
-| 08 | [Feature Engineering & Selection](../../phases/02-ml-fundamentals/08-feature-engineering/) | Build | Python |
-| 09 | [Model Evaluation: Metrics, Cross-Validation](../../phases/02-ml-fundamentals/09-model-evaluation/) | Build | Python |
-| 10 | [Bias, Variance & the Learning Curve](../../phases/02-ml-fundamentals/10-bias-variance/) | Learn | Python |
-| 11 | [Ensemble Methods: Boosting, Bagging, Stacking](../../phases/02-ml-fundamentals/11-ensemble-methods/) | Build | Python |
-| 12 | [Hyperparameter Tuning](../../phases/02-ml-fundamentals/12-hyperparameter-tuning/) | Build | Python |
-| 13 | [ML Pipelines & Experiment Tracking](../../phases/02-ml-fundamentals/13-ml-pipelines/) | Build | Python |
-| 14 | [Naive Bayes](../../phases/02-ml-fundamentals/14-naive-bayes/) | Build | Python |
-| 15 | [Time Series Fundamentals](../../phases/02-ml-fundamentals/15-time-series/) | Build | Python |
-| 16 | [Anomaly Detection](../../phases/02-ml-fundamentals/16-anomaly-detection/) | Build | Python |
-| 17 | [Handling Imbalanced Data](../../phases/02-ml-fundamentals/17-imbalanced-data/) | Build | Python |
-| 18 | [Feature Selection](../../phases/02-ml-fundamentals/18-feature-selection/) | Build | Python |
+| 01 | [Τι είναι η μηχανική μάθηση](../../phases/02-ml-fundamentals/01-what-is-machine-learning/) | Μάθηση | Python |
+| 02 | [Γραμμική παλινδρόμηση από το μηδέν](../../phases/02-ml-fundamentals/02-linear-regression/) | Κατασκευή | Python |
+| 03 | [Λογιστική παλινδρόμηση και ταξινόμηση](../../phases/02-ml-fundamentals/03-logistic-regression/) | Κατασκευή | Python |
+| 04 | [Δέντρα αποφάσεων και τυχαία δάση](../../phases/02-ml-fundamentals/04-decision-trees/) | Κατασκευή | Python |
+| 05 | [Μηχανές διανυσμάτων υποστήριξης](../../phases/02-ml-fundamentals/05-support-vector-machines/) | Κατασκευή | Python |
+| 06 | [KNN και μετρικές απόστασης](../../phases/02-ml-fundamentals/06-knn-and-distances/) | Κατασκευή | Python |
+| 07 | [Μη επιβλεπόμενη μάθηση: K-Means, DBSCAN](../../phases/02-ml-fundamentals/07-unsupervised-learning/) | Κατασκευή | Python |
+| 08 | [Κατασκευή και επιλογή χαρακτηριστικών](../../phases/02-ml-fundamentals/08-feature-engineering/) | Κατασκευή | Python |
+| 09 | [Αξιολόγηση μοντέλων: μετρικές και διασταυρούμενη επικύρωση](../../phases/02-ml-fundamentals/09-model-evaluation/) | Κατασκευή | Python |
+| 10 | [Μεροληψία, διακύμανση και καμπύλη μάθησης](../../phases/02-ml-fundamentals/10-bias-variance/) | Μάθηση | Python |
+| 11 | [Μέθοδοι συνόλων: boosting, bagging, stacking](../../phases/02-ml-fundamentals/11-ensemble-methods/) | Κατασκευή | Python |
+| 12 | [Ρύθμιση υπερπαραμέτρων](../../phases/02-ml-fundamentals/12-hyperparameter-tuning/) | Κατασκευή | Python |
+| 13 | [Ροές ML και παρακολούθηση πειραμάτων](../../phases/02-ml-fundamentals/13-ml-pipelines/) | Κατασκευή | Python |
+| 14 | [Αφελής ταξινομητής Bayes](../../phases/02-ml-fundamentals/14-naive-bayes/) | Κατασκευή | Python |
+| 15 | [Βασικές αρχές χρονοσειρών](../../phases/02-ml-fundamentals/15-time-series/) | Κατασκευή | Python |
+| 16 | [Ανίχνευση ανωμαλιών](../../phases/02-ml-fundamentals/16-anomaly-detection/) | Κατασκευή | Python |
+| 17 | [Διαχείριση μη ισορροπημένων δεδομένων](../../phases/02-ml-fundamentals/17-imbalanced-data/) | Κατασκευή | Python |
+| 18 | [Επιλογή χαρακτηριστικών](../../phases/02-ml-fundamentals/18-feature-selection/) | Κατασκευή | Python |
+| 19 | [Σχεδίαση συστημάτων ML: από το πρόβλημα στο μοντέλο σε λειτουργία](../../phases/02-ml-fundamentals/19-ml-system-design/) | Κατασκευή | Python |
+| 20 | [Παρακολούθηση μοντέλων στην παραγωγή: μετατόπιση δεδομένων και μετατόπιση εννοιών](../../phases/02-ml-fundamentals/20-model-monitoring-and-drift/) | Κατασκευή | Python |
+| 21 | [Αποθήκες χαρακτηριστικών και απόκλιση εκπαίδευσης και εξυπηρέτησης](../../phases/02-ml-fundamentals/21-feature-stores-and-training-serving-skew/) | Κατασκευή | Python |
 
 </details>
 
 <details id="phase-3">
-<summary><b>Phase 3 — Deep Learning Core</b> &nbsp;<code>13 lessons</code>&nbsp; <em>Neural networks from first principles. No frameworks until you build one.</em></summary>
+<summary><b>Φάση 3: Πυρήνας βαθιάς μάθησης</b> &nbsp;<code>13 μαθήματα</code>&nbsp; <em>Νευρωνικά δίκτυα από τις πρώτες αρχές. Κανένα πλαίσιο μέχρι να φτιάξεις το δικό σου.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Μάθημα | Τύπος | Γλώσσα |
 |:---:|--------|:----:|------|
-| 01 | [The Perceptron: Where It All Started](../../phases/03-deep-learning-core/01-the-perceptron/) | Build | Python |
-| 02 | [Multi-Layer Networks & Forward Pass](../../phases/03-deep-learning-core/02-multi-layer-networks/) | Build | Python |
-| 03 | [Backpropagation from Scratch](../../phases/03-deep-learning-core/03-backpropagation/) | Build | Python |
-| 04 | [Activation Functions: ReLU, Sigmoid, GELU & Why](../../phases/03-deep-learning-core/04-activation-functions/) | Build | Python |
-| 05 | [Loss Functions: MSE, Cross-Entropy, Contrastive](../../phases/03-deep-learning-core/05-loss-functions/) | Build | Python |
-| 06 | [Optimizers: SGD, Momentum, Adam, AdamW](../../phases/03-deep-learning-core/06-optimizers/) | Build | Python |
-| 07 | [Regularization: Dropout, Weight Decay, BatchNorm](../../phases/03-deep-learning-core/07-regularization/) | Build | Python |
-| 08 | [Weight Initialization & Training Stability](../../phases/03-deep-learning-core/08-weight-initialization/) | Build | Python |
-| 09 | [Learning Rate Schedules & Warmup](../../phases/03-deep-learning-core/09-learning-rate-schedules/) | Build | Python |
-| 10 | [Build Your Own Mini Framework](../../phases/03-deep-learning-core/10-mini-framework/) | Build | Python |
-| 11 | [Introduction to PyTorch](../../phases/03-deep-learning-core/11-intro-to-pytorch/) | Build | Python |
-| 12 | [Introduction to JAX](../../phases/03-deep-learning-core/12-intro-to-jax/) | Build | Python |
-| 13 | [Debugging Neural Networks](../../phases/03-deep-learning-core/13-debugging-neural-networks/) | Build | Python |
+| 01 | [Το perceptron: από πού ξεκίνησαν όλα](../../phases/03-deep-learning-core/01-the-perceptron/) | Κατασκευή | Python |
+| 02 | [Πολυεπίπεδα δίκτυα και εμπρόσθια διάδοση](../../phases/03-deep-learning-core/02-multi-layer-networks/) | Κατασκευή | Python |
+| 03 | [Οπισθοδιάδοση από το μηδέν](../../phases/03-deep-learning-core/03-backpropagation/) | Κατασκευή | Python |
+| 04 | [Συναρτήσεις ενεργοποίησης: ReLU, sigmoid, GELU και ο ρόλος τους](../../phases/03-deep-learning-core/04-activation-functions/) | Κατασκευή | Python |
+| 05 | [Συναρτήσεις απώλειας: MSE, διασταυρούμενη εντροπία και αντιπαραβολή](../../phases/03-deep-learning-core/05-loss-functions/) | Κατασκευή | Python |
+| 06 | [Βελτιστοποιητές: SGD, momentum, Adam, AdamW](../../phases/03-deep-learning-core/06-optimizers/) | Κατασκευή | Python |
+| 07 | [Κανονικοποίηση: dropout, απόσβεση βαρών, BatchNorm](../../phases/03-deep-learning-core/07-regularization/) | Κατασκευή | Python |
+| 08 | [Αρχικοποίηση βαρών και σταθερότητα εκπαίδευσης](../../phases/03-deep-learning-core/08-weight-initialization/) | Κατασκευή | Python |
+| 09 | [Προγράμματα ρυθμού μάθησης και προθέρμανση](../../phases/03-deep-learning-core/09-learning-rate-schedules/) | Κατασκευή | Python |
+| 10 | [Φτιάξε το δικό σου μικρό πλαίσιο](../../phases/03-deep-learning-core/10-mini-framework/) | Κατασκευή | Python |
+| 11 | [Εισαγωγή στο PyTorch](../../phases/03-deep-learning-core/11-intro-to-pytorch/) | Κατασκευή | Python |
+| 12 | [Εισαγωγή στο JAX](../../phases/03-deep-learning-core/12-intro-to-jax/) | Κατασκευή | Python |
+| 13 | [Αποσφαλμάτωση νευρωνικών δικτύων](../../phases/03-deep-learning-core/13-debugging-neural-networks/) | Κατασκευή | Python |
 
 </details>
 
 <details id="phase-4">
-<summary><b>Phase 4 — Computer Vision</b> &nbsp;<code>28 lessons</code>&nbsp; <em>From pixels to understanding — image, video, 3D, VLMs, and world models.</em></summary>
+<summary><b>Φάση 4: Υπολογιστική όραση</b> &nbsp;<code>28 μαθήματα</code>&nbsp; <em>Από τα εικονοστοιχεία στην κατανόηση: εικόνα, βίντεο, 3D, VLM και μοντέλα κόσμου.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Μάθημα | Τύπος | Γλώσσα |
 |:---:|--------|:----:|------|
-| 01 | [Image Fundamentals: Pixels, Channels, Color Spaces](../../phases/04-computer-vision/01-image-fundamentals/) | Learn | Python |
-| 02 | [Convolutions from Scratch](../../phases/04-computer-vision/02-convolutions-from-scratch/) | Build | Python |
-| 03 | [CNNs: LeNet to ResNet](../../phases/04-computer-vision/03-cnns-lenet-to-resnet/) | Build | Python |
-| 04 | [Image Classification](../../phases/04-computer-vision/04-image-classification/) | Build | Python |
-| 05 | [Transfer Learning & Fine-Tuning](../../phases/04-computer-vision/05-transfer-learning/) | Build | Python |
-| 06 | [Object Detection — YOLO from Scratch](../../phases/04-computer-vision/06-object-detection-yolo/) | Build | Python |
-| 07 | [Semantic Segmentation — U-Net](../../phases/04-computer-vision/07-semantic-segmentation-unet/) | Build | Python |
-| 08 | [Instance Segmentation — Mask R-CNN](../../phases/04-computer-vision/08-instance-segmentation-mask-rcnn/) | Build | Python |
-| 09 | [Image Generation — GANs](../../phases/04-computer-vision/09-image-generation-gans/) | Build | Python |
-| 10 | [Image Generation — Diffusion Models](../../phases/04-computer-vision/10-image-generation-diffusion/) | Build | Python |
-| 11 | [Stable Diffusion — Architecture & Fine-Tuning](../../phases/04-computer-vision/11-stable-diffusion/) | Build | Python |
-| 12 | [Video Understanding — Temporal Modeling](../../phases/04-computer-vision/12-video-understanding/) | Build | Python |
-| 13 | [3D Vision: Point Clouds, NeRFs](../../phases/04-computer-vision/13-3d-vision-nerf/) | Build | Python |
-| 14 | [Vision Transformers (ViT)](../../phases/04-computer-vision/14-vision-transformers/) | Build | Python |
-| 15 | [Real-Time Vision: Edge Deployment](../../phases/04-computer-vision/15-real-time-edge/) | Build | Python |
-| 16 | [Build a Complete Vision Pipeline](../../phases/04-computer-vision/16-vision-pipeline-capstone/) | Build | Python |
-| 17 | [Self-Supervised Vision — SimCLR, DINO, MAE](../../phases/04-computer-vision/17-self-supervised-vision/) | Build | Python |
-| 18 | [Open-Vocabulary Vision — CLIP](../../phases/04-computer-vision/18-open-vocab-clip/) | Build | Python |
-| 19 | [OCR & Document Understanding](../../phases/04-computer-vision/19-ocr-document-understanding/) | Build | Python |
-| 20 | [Image Retrieval & Metric Learning](../../phases/04-computer-vision/20-image-retrieval-metric/) | Build | Python |
-| 21 | [Keypoint Detection & Pose Estimation](../../phases/04-computer-vision/21-keypoint-pose/) | Build | Python |
-| 22 | [3D Gaussian Splatting from Scratch](../../phases/04-computer-vision/22-3d-gaussian-splatting/) | Build | Python |
-| 23 | [Diffusion Transformers & Rectified Flow](../../phases/04-computer-vision/23-diffusion-transformers-rectified-flow/) | Build | Python |
-| 24 | [SAM 3 & Open-Vocabulary Segmentation](../../phases/04-computer-vision/24-sam3-open-vocab-segmentation/) | Build | Python |
-| 25 | [Vision-Language Models (ViT-MLP-LLM)](../../phases/04-computer-vision/25-vision-language-models/) | Build | Python |
-| 26 | [Monocular Depth & Geometry Estimation](../../phases/04-computer-vision/26-monocular-depth/) | Build | Python |
-| 27 | [Multi-Object Tracking & Video Memory](../../phases/04-computer-vision/27-multi-object-tracking/) | Build | Python |
-| 28 | [World Models & Video Diffusion](../../phases/04-computer-vision/28-world-models-video-diffusion/) | Build | Python |
+| 01 | [Βασικές αρχές εικόνας: εικονοστοιχεία, κανάλια και χρωματικοί χώροι](../../phases/04-computer-vision/01-image-fundamentals/) | Μάθηση | Python |
+| 02 | [Συνελίξεις από το μηδέν](../../phases/04-computer-vision/02-convolutions-from-scratch/) | Κατασκευή | Python |
+| 03 | [CNN: από το LeNet στο ResNet](../../phases/04-computer-vision/03-cnns-lenet-to-resnet/) | Κατασκευή | Python |
+| 04 | [Ταξινόμηση εικόνων](../../phases/04-computer-vision/04-image-classification/) | Κατασκευή | Python |
+| 05 | [Μεταφορά μάθησης και λεπτομερής προσαρμογή](../../phases/04-computer-vision/05-transfer-learning/) | Κατασκευή | Python |
+| 06 | [Ανίχνευση αντικειμένων: YOLO από το μηδέν](../../phases/04-computer-vision/06-object-detection-yolo/) | Κατασκευή | Python |
+| 07 | [Σημασιολογική κατάτμηση: U-Net](../../phases/04-computer-vision/07-semantic-segmentation-unet/) | Κατασκευή | Python |
+| 08 | [Κατάτμηση στιγμιοτύπων: Mask R-CNN](../../phases/04-computer-vision/08-instance-segmentation-mask-rcnn/) | Κατασκευή | Python |
+| 09 | [Δημιουργία εικόνων: GAN](../../phases/04-computer-vision/09-image-generation-gans/) | Κατασκευή | Python |
+| 10 | [Δημιουργία εικόνων: μοντέλα διάχυσης](../../phases/04-computer-vision/10-image-generation-diffusion/) | Κατασκευή | Python |
+| 11 | [Stable Diffusion: αρχιτεκτονική και λεπτομερής προσαρμογή](../../phases/04-computer-vision/11-stable-diffusion/) | Κατασκευή | Python |
+| 12 | [Κατανόηση βίντεο: χρονική μοντελοποίηση](../../phases/04-computer-vision/12-video-understanding/) | Κατασκευή | Python |
+| 13 | [Τρισδιάστατη όραση: νέφη σημείων και NeRF](../../phases/04-computer-vision/13-3d-vision-nerf/) | Κατασκευή | Python |
+| 14 | [Οπτικοί μετασχηματιστές (ViT)](../../phases/04-computer-vision/14-vision-transformers/) | Κατασκευή | Python |
+| 15 | [Όραση πραγματικού χρόνου: ανάπτυξη στην άκρη του δικτύου](../../phases/04-computer-vision/15-real-time-edge/) | Κατασκευή | Python |
+| 16 | [Φτιάξε πλήρη ροή υπολογιστικής όρασης](../../phases/04-computer-vision/16-vision-pipeline-capstone/) | Κατασκευή | Python |
+| 17 | [Αυτοεπιβλεπόμενη όραση: SimCLR, DINO, MAE](../../phases/04-computer-vision/17-self-supervised-vision/) | Κατασκευή | Python |
+| 18 | [Όραση ανοικτού λεξιλογίου: CLIP](../../phases/04-computer-vision/18-open-vocab-clip/) | Κατασκευή | Python |
+| 19 | [OCR και κατανόηση εγγράφων](../../phases/04-computer-vision/19-ocr-document-understanding/) | Κατασκευή | Python |
+| 20 | [Ανάκτηση εικόνων και μετρική μάθηση](../../phases/04-computer-vision/20-image-retrieval-metric/) | Κατασκευή | Python |
+| 21 | [Ανίχνευση βασικών σημείων και εκτίμηση στάσης](../../phases/04-computer-vision/21-keypoint-pose/) | Κατασκευή | Python |
+| 22 | [3D Gaussian Splatting από το μηδέν](../../phases/04-computer-vision/22-3d-gaussian-splatting/) | Κατασκευή | Python |
+| 23 | [Μετασχηματιστές διάχυσης και ευθυγραμμισμένες ροές](../../phases/04-computer-vision/23-diffusion-transformers-rectified-flow/) | Κατασκευή | Python |
+| 24 | [SAM 3 και κατάτμηση ανοικτού λεξιλογίου](../../phases/04-computer-vision/24-sam3-open-vocab-segmentation/) | Κατασκευή | Python |
+| 25 | [Οπτικογλωσσικά μοντέλα (ViT-MLP-LLM)](../../phases/04-computer-vision/25-vision-language-models/) | Κατασκευή | Python |
+| 26 | [Εκτίμηση βάθους και γεωμετρίας από μία εικόνα](../../phases/04-computer-vision/26-monocular-depth/) | Κατασκευή | Python |
+| 27 | [Παρακολούθηση πολλών αντικειμένων και μνήμη βίντεο](../../phases/04-computer-vision/27-multi-object-tracking/) | Κατασκευή | Python |
+| 28 | [Μοντέλα κόσμου και διάχυση βίντεο](../../phases/04-computer-vision/28-world-models-video-diffusion/) | Κατασκευή | Python |
 
 </details>
 
 <details id="phase-5">
-<summary><b>Phase 5 — NLP: Foundations to Advanced</b> &nbsp;<code>29 lessons</code>&nbsp; <em>Language is the interface to intelligence.</em></summary>
+<summary><b>Φάση 5: NLP από τα θεμέλια ως τις προχωρημένες τεχνικές</b> &nbsp;<code>29 μαθήματα</code>&nbsp; <em>Η γλώσσα είναι η διεπαφή προς τη νοημοσύνη.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Μάθημα | Τύπος | Γλώσσα |
 |:---:|--------|:----:|------|
-| 01 | [Text Processing: Tokenization, Stemming, Lemmatization](../../phases/05-nlp-foundations-to-advanced/01-text-processing/) | Build | Python |
-| 02 | [Bag of Words, TF-IDF & Text Representation](../../phases/05-nlp-foundations-to-advanced/02-bag-of-words-tfidf/) | Build | Python |
-| 03 | [Word Embeddings: Word2Vec from Scratch](../../phases/05-nlp-foundations-to-advanced/03-word-embeddings-word2vec/) | Build | Python |
-| 04 | [GloVe, FastText & Subword Embeddings](../../phases/05-nlp-foundations-to-advanced/04-glove-fasttext-subword/) | Build | Python |
-| 05 | [Sentiment Analysis](../../phases/05-nlp-foundations-to-advanced/05-sentiment-analysis/) | Build | Python |
-| 06 | [Named Entity Recognition (NER)](../../phases/05-nlp-foundations-to-advanced/06-named-entity-recognition/) | Build | Python |
-| 07 | [POS Tagging & Syntactic Parsing](../../phases/05-nlp-foundations-to-advanced/07-pos-tagging-parsing/) | Build | Python |
-| 08 | [Text Classification — CNNs & RNNs for Text](../../phases/05-nlp-foundations-to-advanced/08-cnns-rnns-for-text/) | Build | Python |
-| 09 | [Sequence-to-Sequence Models](../../phases/05-nlp-foundations-to-advanced/09-sequence-to-sequence/) | Build | Python |
-| 10 | [Attention Mechanism — The Breakthrough](../../phases/05-nlp-foundations-to-advanced/10-attention-mechanism/) | Build | Python |
-| 11 | [Machine Translation](../../phases/05-nlp-foundations-to-advanced/11-machine-translation/) | Build | Python |
-| 12 | [Text Summarization](../../phases/05-nlp-foundations-to-advanced/12-text-summarization/) | Build | Python |
-| 13 | [Question Answering Systems](../../phases/05-nlp-foundations-to-advanced/13-question-answering/) | Build | Python |
-| 14 | [Information Retrieval & Search](../../phases/05-nlp-foundations-to-advanced/14-information-retrieval-search/) | Build | Python |
-| 15 | [Topic Modeling: LDA, BERTopic](../../phases/05-nlp-foundations-to-advanced/15-topic-modeling/) | Build | Python |
-| 16 | [Text Generation](../../phases/05-nlp-foundations-to-advanced/16-text-generation-pre-transformer/) | Build | Python |
-| 17 | [Chatbots: Rule-Based to Neural](../../phases/05-nlp-foundations-to-advanced/17-chatbots-rule-to-neural/) | Build | Python |
-| 18 | [Multilingual NLP](../../phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/) | Build | Python |
-| 19 | [Subword Tokenization: BPE, WordPiece, Unigram, SentencePiece](../../phases/05-nlp-foundations-to-advanced/19-subword-tokenization/) | Learn | Python |
-| 20 | [Structured Outputs & Constrained Decoding](../../phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/) | Build | Python |
-| 21 | [NLI & Textual Entailment](../../phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/) | Learn | Python |
-| 22 | [Embedding Models Deep Dive](../../phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/) | Learn | Python |
-| 23 | [Chunking Strategies for RAG](../../phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/) | Build | Python |
-| 24 | [Coreference Resolution](../../phases/05-nlp-foundations-to-advanced/24-coreference-resolution/) | Learn | Python |
-| 25 | [Entity Linking & Disambiguation](../../phases/05-nlp-foundations-to-advanced/25-entity-linking/) | Build | Python |
-| 26 | [Relation Extraction & Knowledge Graph Construction](../../phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/) | Build | Python |
-| 27 | [LLM Evaluation: RAGAS, DeepEval, G-Eval](../../phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/) | Build | Python |
-| 28 | [Long-Context Evaluation: NIAH, RULER, LongBench, MRCR](../../phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/) | Learn | Python |
-| 29 | [Dialogue State Tracking](../../phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/) | Build | Python |
+| 01 | [Επεξεργασία κειμένου: τοκενικοποίηση, αποκοπή καταλήξεων και λημματοποίηση](../../phases/05-nlp-foundations-to-advanced/01-text-processing/) | Κατασκευή | Python |
+| 02 | [Σάκος λέξεων, TF-IDF και αναπαράσταση κειμένου](../../phases/05-nlp-foundations-to-advanced/02-bag-of-words-tfidf/) | Κατασκευή | Python |
+| 03 | [Ενσωματώσεις λέξεων: Word2Vec από το μηδέν](../../phases/05-nlp-foundations-to-advanced/03-word-embeddings-word2vec/) | Κατασκευή | Python |
+| 04 | [GloVe, FastText και ενσωματώσεις υπολέξεων](../../phases/05-nlp-foundations-to-advanced/04-glove-fasttext-subword/) | Κατασκευή | Python |
+| 05 | [Ανάλυση συναισθήματος](../../phases/05-nlp-foundations-to-advanced/05-sentiment-analysis/) | Κατασκευή | Python |
+| 06 | [Αναγνώριση κατονομασμένων οντοτήτων (NER)](../../phases/05-nlp-foundations-to-advanced/06-named-entity-recognition/) | Κατασκευή | Python |
+| 07 | [Επισήμανση μερών του λόγου και συντακτική ανάλυση](../../phases/05-nlp-foundations-to-advanced/07-pos-tagging-parsing/) | Κατασκευή | Python |
+| 08 | [Ταξινόμηση κειμένου: CNN και RNN](../../phases/05-nlp-foundations-to-advanced/08-cnns-rnns-for-text/) | Κατασκευή | Python |
+| 09 | [Μοντέλα ακολουθίας προς ακολουθία](../../phases/05-nlp-foundations-to-advanced/09-sequence-to-sequence/) | Κατασκευή | Python |
+| 10 | [Ο μηχανισμός προσοχής: η μεγάλη αλλαγή](../../phases/05-nlp-foundations-to-advanced/10-attention-mechanism/) | Κατασκευή | Python |
+| 11 | [Μηχανική μετάφραση](../../phases/05-nlp-foundations-to-advanced/11-machine-translation/) | Κατασκευή | Python |
+| 12 | [Σύνοψη κειμένου](../../phases/05-nlp-foundations-to-advanced/12-text-summarization/) | Κατασκευή | Python |
+| 13 | [Συστήματα απάντησης ερωτήσεων](../../phases/05-nlp-foundations-to-advanced/13-question-answering/) | Κατασκευή | Python |
+| 14 | [Ανάκτηση πληροφοριών και αναζήτηση](../../phases/05-nlp-foundations-to-advanced/14-information-retrieval-search/) | Κατασκευή | Python |
+| 15 | [Μοντελοποίηση θεμάτων: LDA, BERTopic](../../phases/05-nlp-foundations-to-advanced/15-topic-modeling/) | Κατασκευή | Python |
+| 16 | [Παραγωγή κειμένου](../../phases/05-nlp-foundations-to-advanced/16-text-generation-pre-transformer/) | Κατασκευή | Python |
+| 17 | [Συνομιλιακά συστήματα: από κανόνες σε νευρωνικά δίκτυα](../../phases/05-nlp-foundations-to-advanced/17-chatbots-rule-to-neural/) | Κατασκευή | Python |
+| 18 | [Πολυγλωσσικό NLP](../../phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/) | Κατασκευή | Python |
+| 19 | [Τοκενικοποίηση υπολέξεων: BPE, WordPiece, Unigram, SentencePiece](../../phases/05-nlp-foundations-to-advanced/19-subword-tokenization/) | Μάθηση | Python |
+| 20 | [Δομημένες έξοδοι και περιορισμένη αποκωδικοποίηση](../../phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/) | Κατασκευή | Python |
+| 21 | [NLI και κειμενική συνεπαγωγή](../../phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/) | Μάθηση | Python |
+| 22 | [Εμβάθυνση στα μοντέλα ενσωματώσεων](../../phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/) | Μάθηση | Python |
+| 23 | [Στρατηγικές τεμαχισμού για RAG](../../phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/) | Κατασκευή | Python |
+| 24 | [Επίλυση συναναφοράς](../../phases/05-nlp-foundations-to-advanced/24-coreference-resolution/) | Μάθηση | Python |
+| 25 | [Σύνδεση οντοτήτων και αποσαφήνιση](../../phases/05-nlp-foundations-to-advanced/25-entity-linking/) | Κατασκευή | Python |
+| 26 | [Εξαγωγή σχέσεων και κατασκευή γράφων γνώσης](../../phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/) | Κατασκευή | Python |
+| 27 | [Αξιολόγηση LLM: RAGAS, DeepEval, G-Eval](../../phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/) | Κατασκευή | Python |
+| 28 | [Αξιολόγηση μεγάλου συμφραζομένου: NIAH, RULER, LongBench, MRCR](../../phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/) | Μάθηση | Python |
+| 29 | [Παρακολούθηση κατάστασης διαλόγου](../../phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/) | Κατασκευή | Python |
 
 </details>
 
 <details id="phase-6">
-<summary><b>Phase 6 — Speech & Audio</b> &nbsp;<code>17 lessons</code>&nbsp; <em>Hear, understand, speak.</em></summary>
+<summary><b>Φάση 6: Ομιλία και ήχος</b> &nbsp;<code>17 μαθήματα</code>&nbsp; <em>Άκου, κατανόησε, μίλησε.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Μάθημα | Τύπος | Γλώσσα |
 |:---:|--------|:----:|------|
-| 01 | [Audio Fundamentals: Waveforms, Sampling, FFT](../../phases/06-speech-and-audio/01-audio-fundamentals) | Learn | Python |
-| 02 | [Spectrograms, Mel Scale & Audio Features](../../phases/06-speech-and-audio/02-spectrograms-mel-features) | Build | Python |
-| 03 | [Audio Classification](../../phases/06-speech-and-audio/03-audio-classification) | Build | Python |
-| 04 | [Speech Recognition (ASR)](../../phases/06-speech-and-audio/04-speech-recognition-asr) | Build | Python |
-| 05 | [Whisper: Architecture & Fine-Tuning](../../phases/06-speech-and-audio/05-whisper-architecture-finetuning) | Build | Python |
-| 06 | [Speaker Recognition & Verification](../../phases/06-speech-and-audio/06-speaker-recognition-verification) | Build | Python |
-| 07 | [Text-to-Speech (TTS)](../../phases/06-speech-and-audio/07-text-to-speech) | Build | Python |
-| 08 | [Voice Cloning & Voice Conversion](../../phases/06-speech-and-audio/08-voice-cloning-conversion) | Build | Python |
-| 09 | [Music Generation](../../phases/06-speech-and-audio/09-music-generation) | Build | Python |
-| 10 | [Audio-Language Models](../../phases/06-speech-and-audio/10-audio-language-models) | Build | Python |
-| 11 | [Real-Time Audio Processing](../../phases/06-speech-and-audio/11-real-time-audio-processing) | Build | Python |
-| 12 | [Build a Voice Assistant Pipeline](../../phases/06-speech-and-audio/12-voice-assistant-pipeline) | Build | Python |
-| 13 | [Neural Audio Codecs — EnCodec, SNAC, Mimi, DAC](../../phases/06-speech-and-audio/13-neural-audio-codecs) | Learn | Python |
-| 14 | [Voice Activity Detection & Turn-Taking](../../phases/06-speech-and-audio/14-voice-activity-detection-turn-taking) | Build | Python |
-| 15 | [Streaming Speech-to-Speech — Moshi, Hibiki](../../phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki) | Learn | Python |
-| 16 | [Voice Anti-Spoofing & Audio Watermarking](../../phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking) | Build | Python |
-| 17 | [Audio Evaluation — WER, MOS, MMAU, Leaderboards](../../phases/06-speech-and-audio/17-audio-evaluation-metrics) | Learn | Python |
+| 01 | [Βασικές αρχές ήχου: κυματομορφές, δειγματοληψία και FFT](../../phases/06-speech-and-audio/01-audio-fundamentals) | Μάθηση | Python |
+| 02 | [Φασματογραφήματα, κλίμακα mel και χαρακτηριστικά ήχου](../../phases/06-speech-and-audio/02-spectrograms-mel-features) | Κατασκευή | Python |
+| 03 | [Ταξινόμηση ήχου](../../phases/06-speech-and-audio/03-audio-classification) | Κατασκευή | Python |
+| 04 | [Αναγνώριση ομιλίας (ASR)](../../phases/06-speech-and-audio/04-speech-recognition-asr) | Κατασκευή | Python |
+| 05 | [Whisper: αρχιτεκτονική και λεπτομερής προσαρμογή](../../phases/06-speech-and-audio/05-whisper-architecture-finetuning) | Κατασκευή | Python |
+| 06 | [Αναγνώριση και επαλήθευση ομιλητή](../../phases/06-speech-and-audio/06-speaker-recognition-verification) | Κατασκευή | Python |
+| 07 | [Μετατροπή κειμένου σε ομιλία (TTS)](../../phases/06-speech-and-audio/07-text-to-speech) | Κατασκευή | Python |
+| 08 | [Κλωνοποίηση και μετατροπή φωνής](../../phases/06-speech-and-audio/08-voice-cloning-conversion) | Κατασκευή | Python |
+| 09 | [Δημιουργία μουσικής](../../phases/06-speech-and-audio/09-music-generation) | Κατασκευή | Python |
+| 10 | [Ηχογλωσσικά μοντέλα](../../phases/06-speech-and-audio/10-audio-language-models) | Κατασκευή | Python |
+| 11 | [Επεξεργασία ήχου πραγματικού χρόνου](../../phases/06-speech-and-audio/11-real-time-audio-processing) | Κατασκευή | Python |
+| 12 | [Φτιάξε ροή φωνητικού βοηθού](../../phases/06-speech-and-audio/12-voice-assistant-pipeline) | Κατασκευή | Python |
+| 13 | [Νευρωνικοί κωδικοποιητές ήχου: EnCodec, SNAC, Mimi, DAC](../../phases/06-speech-and-audio/13-neural-audio-codecs) | Μάθηση | Python |
+| 14 | [Ανίχνευση φωνητικής δραστηριότητας και εναλλαγή ομιλητών](../../phases/06-speech-and-audio/14-voice-activity-detection-turn-taking) | Κατασκευή | Python |
+| 15 | [Συνεχής μετατροπή ομιλίας σε ομιλία: Moshi, Hibiki](../../phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki) | Μάθηση | Python |
+| 16 | [Προστασία από πλαστογράφηση φωνής και υδατοσήμανση ήχου](../../phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking) | Κατασκευή | Python |
+| 17 | [Αξιολόγηση ήχου: WER, MOS, MMAU και πίνακες κατάταξης](../../phases/06-speech-and-audio/17-audio-evaluation-metrics) | Μάθηση | Python |
 
 </details>
 
 <details id="phase-7">
-<summary><b>Phase 7 — Transformers Deep Dive</b> &nbsp;<code>16 lessons</code>&nbsp; <em>The architecture that changed everything.</em></summary>
+<summary><b>Φάση 7: Εμβάθυνση στους Transformer</b> &nbsp;<code>16 μαθήματα</code>&nbsp; <em>Η αρχιτεκτονική που άλλαξε τα πάντα.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Μάθημα | Τύπος | Γλώσσα |
 |:---:|--------|:----:|------|
-| 01 | [Why Transformers: The Problems with RNNs](../../phases/07-transformers-deep-dive/01-why-transformers/) | Learn | Python |
-| 02 | [Self-Attention from Scratch](../../phases/07-transformers-deep-dive/02-self-attention-from-scratch/) | Build | Python |
-| 03 | [Multi-Head Attention](../../phases/07-transformers-deep-dive/03-multi-head-attention/) | Build | Python |
-| 04 | [Positional Encoding: Sinusoidal, RoPE, ALiBi](../../phases/07-transformers-deep-dive/04-positional-encoding/) | Build | Python |
-| 05 | [The Full Transformer: Encoder + Decoder](../../phases/07-transformers-deep-dive/05-full-transformer/) | Build | Python |
-| 06 | [BERT — Masked Language Modeling](../../phases/07-transformers-deep-dive/06-bert-masked-language-modeling/) | Build | Python |
-| 07 | [GPT — Causal Language Modeling](../../phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/) | Build | Python |
-| 08 | [T5, BART — Encoder-Decoder Models](../../phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/) | Learn | Python |
-| 09 | [Vision Transformers (ViT)](../../phases/07-transformers-deep-dive/09-vision-transformers/) | Build | Python |
-| 10 | [Audio Transformers — Whisper Architecture](../../phases/07-transformers-deep-dive/10-audio-transformers-whisper/) | Learn | Python |
-| 11 | [Mixture of Experts (MoE)](../../phases/07-transformers-deep-dive/11-mixture-of-experts/) | Build | Python |
-| 12 | [KV Cache, Flash Attention & Inference Optimization](../../phases/07-transformers-deep-dive/12-kv-cache-flash-attention/) | Build | Python |
-| 13 | [Scaling Laws](../../phases/07-transformers-deep-dive/13-scaling-laws/) | Learn | Python |
-| 14 | [Build a Transformer from Scratch](../../phases/07-transformers-deep-dive/14-build-a-transformer-capstone/) | Build | Python |
-| 15 | [Attention Variants — Sliding Window, Sparse, Differential](../../phases/07-transformers-deep-dive/15-attention-variants/) | Build | Python |
-| 16 | [Speculative Decoding — Draft, Verify, Repeat](../../phases/07-transformers-deep-dive/16-speculative-decoding/) | Build | Python |
+| 01 | [Γιατί μετασχηματιστές: τα προβλήματα των RNN](../../phases/07-transformers-deep-dive/01-why-transformers/) | Μάθηση | Python |
+| 02 | [Αυτοπροσοχή από το μηδέν](../../phases/07-transformers-deep-dive/02-self-attention-from-scratch/) | Κατασκευή | Python |
+| 03 | [Προσοχή πολλαπλών κεφαλών](../../phases/07-transformers-deep-dive/03-multi-head-attention/) | Κατασκευή | Python |
+| 04 | [Κωδικοποίηση θέσης: ημιτονοειδής, RoPE, ALiBi](../../phases/07-transformers-deep-dive/04-positional-encoding/) | Κατασκευή | Python |
+| 05 | [Ο πλήρης μετασχηματιστής: κωδικοποιητής και αποκωδικοποιητής](../../phases/07-transformers-deep-dive/05-full-transformer/) | Κατασκευή | Python |
+| 06 | [BERT: μοντελοποίηση γλώσσας με απόκρυψη](../../phases/07-transformers-deep-dive/06-bert-masked-language-modeling/) | Κατασκευή | Python |
+| 07 | [GPT: αιτιακή μοντελοποίηση γλώσσας](../../phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/) | Κατασκευή | Python |
+| 08 | [T5 και BART: μοντέλα κωδικοποιητή-αποκωδικοποιητή](../../phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/) | Μάθηση | Python |
+| 09 | [Οπτικοί μετασχηματιστές (ViT)](../../phases/07-transformers-deep-dive/09-vision-transformers/) | Κατασκευή | Python |
+| 10 | [Μετασχηματιστές ήχου: η αρχιτεκτονική Whisper](../../phases/07-transformers-deep-dive/10-audio-transformers-whisper/) | Μάθηση | Python |
+| 11 | [Μείγμα ειδικών (MoE)](../../phases/07-transformers-deep-dive/11-mixture-of-experts/) | Κατασκευή | Python |
+| 12 | [Κρυφή μνήμη KV, Flash Attention και βελτιστοποίηση συμπερασμού](../../phases/07-transformers-deep-dive/12-kv-cache-flash-attention/) | Κατασκευή | Python |
+| 13 | [Νόμοι κλιμάκωσης](../../phases/07-transformers-deep-dive/13-scaling-laws/) | Μάθηση | Python |
+| 14 | [Φτιάξε μετασχηματιστή από το μηδέν](../../phases/07-transformers-deep-dive/14-build-a-transformer-capstone/) | Κατασκευή | Python |
+| 15 | [Παραλλαγές προσοχής: ολισθαίνον παράθυρο, αραιή και διαφορική](../../phases/07-transformers-deep-dive/15-attention-variants/) | Κατασκευή | Python |
+| 16 | [Εικαστική αποκωδικοποίηση: πρόταση, επαλήθευση, επανάληψη](../../phases/07-transformers-deep-dive/16-speculative-decoding/) | Κατασκευή | Python |
 
 </details>
 
 <details id="phase-8">
-<summary><b>Phase 8 — Generative AI</b> &nbsp;<code>15 lessons</code>&nbsp; <em>Create images, video, audio, 3D, and more.</em></summary>
+<summary><b>Φάση 8: Παραγωγική ΤΝ</b> &nbsp;<code>15 μαθήματα</code>&nbsp; <em>Δημιούργησε εικόνες, βίντεο, ήχο, 3D και άλλα.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Μάθημα | Τύπος | Γλώσσα |
 |:---:|--------|:----:|------|
-| 01 | [Generative Models: Taxonomy & History](../../phases/08-generative-ai/01-generative-models-taxonomy-history/) | Learn | Python |
-| 02 | [Autoencoders & VAE](../../phases/08-generative-ai/02-autoencoders-vae/) | Build | Python |
-| 03 | [GANs: Generator vs Discriminator](../../phases/08-generative-ai/03-gans-generator-discriminator/) | Build | Python |
-| 04 | [Conditional GANs & Pix2Pix](../../phases/08-generative-ai/04-conditional-gans-pix2pix/) | Build | Python |
-| 05 | [StyleGAN](../../phases/08-generative-ai/05-stylegan/) | Build | Python |
-| 06 | [Diffusion Models — DDPM from Scratch](../../phases/08-generative-ai/06-diffusion-ddpm-from-scratch/) | Build | Python |
-| 07 | [Latent Diffusion & Stable Diffusion](../../phases/08-generative-ai/07-latent-diffusion-stable-diffusion/) | Build | Python |
-| 08 | [ControlNet, LoRA & Conditioning](../../phases/08-generative-ai/08-controlnet-lora-conditioning/) | Build | Python |
-| 09 | [Inpainting, Outpainting & Editing](../../phases/08-generative-ai/09-inpainting-outpainting-editing/) | Build | Python |
-| 10 | [Video Generation](../../phases/08-generative-ai/10-video-generation/) | Build | Python |
-| 11 | [Audio Generation](../../phases/08-generative-ai/11-audio-generation/) | Build | Python |
-| 12 | [3D Generation](../../phases/08-generative-ai/12-3d-generation/) | Build | Python |
-| 13 | [Flow Matching & Rectified Flows](../../phases/08-generative-ai/13-flow-matching-rectified-flows/) | Build | Python |
-| 14 | [Evaluation: FID, CLIP Score](../../phases/08-generative-ai/14-evaluation-fid-clip-score/) | Build | Python |
-| 19 | [Visual Autoregressive Modeling (VAR): Next-Scale Prediction](../../phases/08-generative-ai/19-visual-autoregressive-var/) | Build | Python |
+| 01 | [Παραγωγικά μοντέλα: ταξινομία και ιστορία](../../phases/08-generative-ai/01-generative-models-taxonomy-history/) | Μάθηση | Python |
+| 02 | [Αυτοκωδικοποιητές και VAE](../../phases/08-generative-ai/02-autoencoders-vae/) | Κατασκευή | Python |
+| 03 | [GAN: γεννήτρια έναντι διακριτή](../../phases/08-generative-ai/03-gans-generator-discriminator/) | Κατασκευή | Python |
+| 04 | [Υπό συνθήκη GAN και Pix2Pix](../../phases/08-generative-ai/04-conditional-gans-pix2pix/) | Κατασκευή | Python |
+| 05 | [StyleGAN](../../phases/08-generative-ai/05-stylegan/) | Κατασκευή | Python |
+| 06 | [Μοντέλα διάχυσης: DDPM από το μηδέν](../../phases/08-generative-ai/06-diffusion-ddpm-from-scratch/) | Κατασκευή | Python |
+| 07 | [Λανθάνουσα διάχυση και Stable Diffusion](../../phases/08-generative-ai/07-latent-diffusion-stable-diffusion/) | Κατασκευή | Python |
+| 08 | [ControlNet, LoRA και εξάρτηση από συνθήκες](../../phases/08-generative-ai/08-controlnet-lora-conditioning/) | Κατασκευή | Python |
+| 09 | [Συμπλήρωση, επέκταση και επεξεργασία εικόνας](../../phases/08-generative-ai/09-inpainting-outpainting-editing/) | Κατασκευή | Python |
+| 10 | [Δημιουργία βίντεο](../../phases/08-generative-ai/10-video-generation/) | Κατασκευή | Python |
+| 11 | [Δημιουργία ήχου](../../phases/08-generative-ai/11-audio-generation/) | Κατασκευή | Python |
+| 12 | [Δημιουργία 3D](../../phases/08-generative-ai/12-3d-generation/) | Κατασκευή | Python |
+| 13 | [Αντιστοίχιση ροών και ευθυγραμμισμένες ροές](../../phases/08-generative-ai/13-flow-matching-rectified-flows/) | Κατασκευή | Python |
+| 14 | [Αξιολόγηση: FID και βαθμολογία CLIP](../../phases/08-generative-ai/14-evaluation-fid-clip-score/) | Κατασκευή | Python |
+| 19 | [Οπτική αυτοπαλινδρομική μοντελοποίηση (VAR): πρόβλεψη επόμενης κλίμακας](../../phases/08-generative-ai/19-visual-autoregressive-var/) | Κατασκευή | Python |
 
 </details>
 
 <details id="phase-9">
-<summary><b>Phase 9 — Reinforcement Learning</b> &nbsp;<code>12 lessons</code>&nbsp; <em>The foundation of RLHF and game-playing AI.</em></summary>
+<summary><b>Φάση 9: Ενισχυτική μάθηση</b> &nbsp;<code>12 μαθήματα</code>&nbsp; <em>Η βάση του RLHF και της ΤΝ που παίζει παιχνίδια.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Μάθημα | Τύπος | Γλώσσα |
 |:---:|--------|:----:|------|
-| 01 | [MDPs, States, Actions & Rewards](../../phases/09-reinforcement-learning/01-mdps-states-actions-rewards/) | Learn | Python |
-| 02 | [Dynamic Programming](../../phases/09-reinforcement-learning/02-dynamic-programming/) | Build | Python |
-| 03 | [Monte Carlo Methods](../../phases/09-reinforcement-learning/03-monte-carlo-methods/) | Build | Python |
-| 04 | [Q-Learning, SARSA](../../phases/09-reinforcement-learning/04-q-learning-sarsa/) | Build | Python |
-| 05 | [Deep Q-Networks (DQN)](../../phases/09-reinforcement-learning/05-dqn/) | Build | Python |
-| 06 | [Policy Gradients — REINFORCE](../../phases/09-reinforcement-learning/06-policy-gradients-reinforce/) | Build | Python |
-| 07 | [Actor-Critic — A2C, A3C](../../phases/09-reinforcement-learning/07-actor-critic-a2c-a3c/) | Build | Python |
-| 08 | [PPO](../../phases/09-reinforcement-learning/08-ppo/) | Build | Python |
-| 09 | [Reward Modeling & RLHF](../../phases/09-reinforcement-learning/09-reward-modeling-rlhf/) | Build | Python |
-| 10 | [Multi-Agent RL](../../phases/09-reinforcement-learning/10-multi-agent-rl/) | Build | Python |
-| 11 | [Sim-to-Real Transfer](../../phases/09-reinforcement-learning/11-sim-to-real-transfer/) | Build | Python |
-| 12 | [RL for Games](../../phases/09-reinforcement-learning/12-rl-for-games/) | Build | Python |
+| 01 | [MDP, καταστάσεις, ενέργειες και ανταμοιβές](../../phases/09-reinforcement-learning/01-mdps-states-actions-rewards/) | Μάθηση | Python |
+| 02 | [Δυναμικός προγραμματισμός](../../phases/09-reinforcement-learning/02-dynamic-programming/) | Κατασκευή | Python |
+| 03 | [Μέθοδοι Monte Carlo](../../phases/09-reinforcement-learning/03-monte-carlo-methods/) | Κατασκευή | Python |
+| 04 | [Q-Learning, SARSA](../../phases/09-reinforcement-learning/04-q-learning-sarsa/) | Κατασκευή | Python |
+| 05 | [Βαθιά δίκτυα Q (DQN)](../../phases/09-reinforcement-learning/05-dqn/) | Κατασκευή | Python |
+| 06 | [Κλίσεις πολιτικής: REINFORCE](../../phases/09-reinforcement-learning/06-policy-gradients-reinforce/) | Κατασκευή | Python |
+| 07 | [Δράστης-κριτής: A2C, A3C](../../phases/09-reinforcement-learning/07-actor-critic-a2c-a3c/) | Κατασκευή | Python |
+| 08 | [PPO](../../phases/09-reinforcement-learning/08-ppo/) | Κατασκευή | Python |
+| 09 | [Μοντελοποίηση ανταμοιβής και RLHF](../../phases/09-reinforcement-learning/09-reward-modeling-rlhf/) | Κατασκευή | Python |
+| 10 | [Ενισχυτική μάθηση πολλών πρακτόρων](../../phases/09-reinforcement-learning/10-multi-agent-rl/) | Κατασκευή | Python |
+| 11 | [Μεταφορά από προσομοίωση στην πραγματικότητα](../../phases/09-reinforcement-learning/11-sim-to-real-transfer/) | Κατασκευή | Python |
+| 12 | [Ενισχυτική μάθηση για παιχνίδια](../../phases/09-reinforcement-learning/12-rl-for-games/) | Κατασκευή | Python |
 
 </details>
 
 <details id="phase-10">
-<summary><b>Phase 10 — LLMs from Scratch</b> &nbsp;<code>24 lessons</code>&nbsp; <em>Build, train, and understand large language models.</em></summary>
+<summary><b>Φάση 10: LLM από το μηδέν</b> &nbsp;<code>24 μαθήματα</code>&nbsp; <em>Κατασκεύασε, εκπαίδευσε και κατανόησε μεγάλα γλωσσικά μοντέλα.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Μάθημα | Τύπος | Γλώσσα |
 |:---:|--------|:----:|------|
-| 01 | [Tokenizers: BPE, WordPiece, SentencePiece](../../phases/10-llms-from-scratch/01-tokenizers/) | Build | Python, Rust |
-| 02 | [Building a Tokenizer from Scratch](../../phases/10-llms-from-scratch/02-building-a-tokenizer/) | Build | Python |
-| 03 | [Data Pipelines for Pre-Training](../../phases/10-llms-from-scratch/03-data-pipelines/) | Build | Python |
-| 04 | [Pre-Training a Mini GPT (124M)](../../phases/10-llms-from-scratch/04-pre-training-mini-gpt/) | Build | Python |
-| 05 | [Distributed Training, FSDP, DeepSpeed](../../phases/10-llms-from-scratch/05-scaling-distributed/) | Build | Python |
-| 06 | [Instruction Tuning — SFT](../../phases/10-llms-from-scratch/06-instruction-tuning-sft/) | Build | Python |
-| 07 | [RLHF — Reward Model + PPO](../../phases/10-llms-from-scratch/07-rlhf/) | Build | Python |
-| 08 | [DPO — Direct Preference Optimization](../../phases/10-llms-from-scratch/08-dpo/) | Build | Python |
-| 09 | [Constitutional AI & Self-Improvement](../../phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/) | Build | Python |
-| 10 | [Evaluation — Benchmarks, Evals](../../phases/10-llms-from-scratch/10-evaluation/) | Build | Python |
-| 11 | [Quantization: INT8, GPTQ, AWQ, GGUF](../../phases/10-llms-from-scratch/11-quantization/) | Build | Python |
-| 12 | [Inference Optimization](../../phases/10-llms-from-scratch/12-inference-optimization/) | Build | Python |
-| 13 | [Building a Complete LLM Pipeline](../../phases/10-llms-from-scratch/13-building-complete-llm-pipeline/) | Build | Python |
-| 14 | [Open Models: Architecture Walkthroughs](../../phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/) | Learn | Python |
-| 15 | [Speculative Decoding and EAGLE-3](../../phases/10-llms-from-scratch/15-speculative-decoding-eagle3/) | Build | Python |
-| 16 | [Differential Attention (V2)](../../phases/10-llms-from-scratch/16-differential-attention-v2/) | Build | Python |
-| 17 | [Native Sparse Attention (DeepSeek NSA)](../../phases/10-llms-from-scratch/17-native-sparse-attention/) | Build | Python |
-| 18 | [Multi-Token Prediction (MTP)](../../phases/10-llms-from-scratch/18-multi-token-prediction/) | Build | Python |
-| 19 | [DualPipe Parallelism](../../phases/10-llms-from-scratch/19-dualpipe-parallelism/) | Learn | Python |
-| 20 | [DeepSeek-V3 Architecture Walkthrough](../../phases/10-llms-from-scratch/20-deepseek-v3-walkthrough/) | Learn | Python |
-| 21 | [Jamba — Hybrid SSM-Transformer](../../phases/10-llms-from-scratch/21-jamba-hybrid-ssm-transformer/) | Learn | Python |
-| 22 | [Async and Hogwild! Inference](../../phases/10-llms-from-scratch/22-async-hogwild-inference/) | Build | Python |
-| 25 | [Speculative Decoding and EAGLE](../../phases/10-llms-from-scratch/25-speculative-decoding/) | Build | Python |
-| 34 | [Gradient Checkpointing and Activation Recomputation](../../phases/10-llms-from-scratch/34-gradient-checkpointing/) | Build | Python |
+| 01 | [Τοκενικοποιητές: BPE, WordPiece, SentencePiece](../../phases/10-llms-from-scratch/01-tokenizers/) | Κατασκευή | Python, Rust |
+| 02 | [Κατασκευή τοκενικοποιητή από το μηδέν](../../phases/10-llms-from-scratch/02-building-a-tokenizer/) | Κατασκευή | Python |
+| 03 | [Ροές δεδομένων για προεκπαίδευση](../../phases/10-llms-from-scratch/03-data-pipelines/) | Κατασκευή | Python |
+| 04 | [Προεκπαίδευση μικρού GPT (124M)](../../phases/10-llms-from-scratch/04-pre-training-mini-gpt/) | Κατασκευή | Python |
+| 05 | [Κατανεμημένη εκπαίδευση, FSDP και DeepSpeed](../../phases/10-llms-from-scratch/05-scaling-distributed/) | Κατασκευή | Python |
+| 06 | [Προσαρμογή σε οδηγίες: SFT](../../phases/10-llms-from-scratch/06-instruction-tuning-sft/) | Κατασκευή | Python |
+| 07 | [RLHF: μοντέλο ανταμοιβής και PPO](../../phases/10-llms-from-scratch/07-rlhf/) | Κατασκευή | Python |
+| 08 | [DPO: άμεση βελτιστοποίηση προτιμήσεων](../../phases/10-llms-from-scratch/08-dpo/) | Κατασκευή | Python |
+| 09 | [Συνταγματική ΤΝ και αυτοβελτίωση](../../phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/) | Κατασκευή | Python |
+| 10 | [Αξιολόγηση: σημεία αναφοράς και δοκιμές](../../phases/10-llms-from-scratch/10-evaluation/) | Κατασκευή | Python |
+| 11 | [Κβάντιση: INT8, GPTQ, AWQ, GGUF](../../phases/10-llms-from-scratch/11-quantization/) | Κατασκευή | Python |
+| 12 | [Βελτιστοποίηση συμπερασμού](../../phases/10-llms-from-scratch/12-inference-optimization/) | Κατασκευή | Python |
+| 13 | [Κατασκευή πλήρους ροής LLM](../../phases/10-llms-from-scratch/13-building-complete-llm-pipeline/) | Κατασκευή | Python |
+| 14 | [Ανοικτά μοντέλα: παρουσίαση αρχιτεκτονικών](../../phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/) | Μάθηση | Python |
+| 15 | [Εικαστική αποκωδικοποίηση και EAGLE-3](../../phases/10-llms-from-scratch/15-speculative-decoding-eagle3/) | Κατασκευή | Python |
+| 16 | [Διαφορική προσοχή (V2)](../../phases/10-llms-from-scratch/16-differential-attention-v2/) | Κατασκευή | Python |
+| 17 | [Εγγενής αραιή προσοχή (DeepSeek NSA)](../../phases/10-llms-from-scratch/17-native-sparse-attention/) | Κατασκευή | Python |
+| 18 | [Πρόβλεψη πολλών token (MTP)](../../phases/10-llms-from-scratch/18-multi-token-prediction/) | Κατασκευή | Python |
+| 19 | [Παραλληλισμός DualPipe](../../phases/10-llms-from-scratch/19-dualpipe-parallelism/) | Μάθηση | Python |
+| 20 | [Παρουσίαση αρχιτεκτονικής DeepSeek-V3](../../phases/10-llms-from-scratch/20-deepseek-v3-walkthrough/) | Μάθηση | Python |
+| 21 | [Jamba: υβριδικός SSM-transformer](../../phases/10-llms-from-scratch/21-jamba-hybrid-ssm-transformer/) | Μάθηση | Python |
+| 22 | [Ασύγχρονος συμπερασμός και Hogwild!](../../phases/10-llms-from-scratch/22-async-hogwild-inference/) | Κατασκευή | Python |
+| 25 | [Εικαστική αποκωδικοποίηση και EAGLE](../../phases/10-llms-from-scratch/25-speculative-decoding/) | Κατασκευή | Python |
+| 34 | [Σημεία ελέγχου κλίσεων και επανυπολογισμός ενεργοποιήσεων](../../phases/10-llms-from-scratch/34-gradient-checkpointing/) | Κατασκευή | Python |
 
 </details>
 
 <details id="phase-11">
-<summary><b>Phase 11 — LLM Engineering</b> &nbsp;<code>17 lessons</code>&nbsp; <em>Put LLMs to work in production.</em></summary>
+<summary><b>Φάση 11: Μηχανική LLM</b> &nbsp;<code>17 μαθήματα</code>&nbsp; <em>Βάλε τα LLM να δουλέψουν στην παραγωγή.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Μάθημα | Τύπος | Γλώσσα |
 |:---:|--------|:----:|------|
-| 01 | [Prompt Engineering: Techniques & Patterns](../../phases/11-llm-engineering/01-prompt-engineering/) | Build | Python |
-| 02 | [Few-Shot, CoT, Tree-of-Thought](../../phases/11-llm-engineering/02-few-shot-cot/) | Build | Python |
-| 03 | [Structured Outputs](../../phases/11-llm-engineering/03-structured-outputs/) | Build | Python |
-| 04 | [Embeddings & Vector Representations](../../phases/11-llm-engineering/04-embeddings/) | Build | Python |
-| 05 | [Context Engineering](../../phases/11-llm-engineering/05-context-engineering/) | Build | Python |
-| 06 | [RAG: Retrieval-Augmented Generation](../../phases/11-llm-engineering/06-rag/) | Build | Python |
-| 07 | [Advanced RAG: Chunking, Reranking](../../phases/11-llm-engineering/07-advanced-rag/) | Build | Python |
-| 08 | [Fine-Tuning with LoRA & QLoRA](../../phases/11-llm-engineering/08-fine-tuning-lora/) | Build | Python |
-| 09 | [Function Calling & Tool Use](../../phases/11-llm-engineering/09-function-calling/) | Build | Python |
-| 10 | [Evaluation & Testing](../../phases/11-llm-engineering/10-evaluation/) | Build | Python |
-| 11 | [Caching, Rate Limiting & Cost](../../phases/11-llm-engineering/11-caching-cost/) | Build | Python |
-| 12 | [Guardrails & Safety](../../phases/11-llm-engineering/12-guardrails/) | Build | Python |
-| 13 | [Building a Production LLM App](../../phases/11-llm-engineering/13-production-app/) | Build | Python |
-| 14 | [Model Context Protocol (MCP)](../../phases/11-llm-engineering/14-model-context-protocol/) | Build | Python |
-| 15 | [Prompt Caching & Context Caching](../../phases/11-llm-engineering/15-prompt-caching/) | Build | Python |
-| 16 | [Agent State Machines — Graphs, Nodes, Checkpoints](../../phases/11-llm-engineering/16-langgraph-state-machines/) | Build | Python |
-| 17 | [Agent Framework Tradeoffs](../../phases/11-llm-engineering/17-agent-framework-tradeoffs/) | Learn | Python |
+| 01 | [Σχεδιασμός προτροπών: τεχνικές και μοτίβα](../../phases/11-llm-engineering/01-prompt-engineering/) | Κατασκευή | Python |
+| 02 | [Few-Shot, CoT, Tree-of-Thought](../../phases/11-llm-engineering/02-few-shot-cot/) | Κατασκευή | Python |
+| 03 | [Δομημένες έξοδοι](../../phases/11-llm-engineering/03-structured-outputs/) | Κατασκευή | Python |
+| 04 | [Ενσωματώσεις και διανυσματικές αναπαραστάσεις](../../phases/11-llm-engineering/04-embeddings/) | Κατασκευή | Python |
+| 05 | [Σχεδιασμός συμφραζομένου](../../phases/11-llm-engineering/05-context-engineering/) | Κατασκευή | Python |
+| 06 | [RAG: παραγωγή ενισχυμένη με ανάκτηση](../../phases/11-llm-engineering/06-rag/) | Κατασκευή | Python |
+| 07 | [Προχωρημένο RAG: τεμαχισμός και επανακατάταξη](../../phases/11-llm-engineering/07-advanced-rag/) | Κατασκευή | Python |
+| 08 | [Λεπτομερής προσαρμογή με LoRA και QLoRA](../../phases/11-llm-engineering/08-fine-tuning-lora/) | Κατασκευή | Python |
+| 09 | [Κλήση συναρτήσεων και χρήση εργαλείων](../../phases/11-llm-engineering/09-function-calling/) | Κατασκευή | Python |
+| 10 | [Αξιολόγηση και δοκιμές](../../phases/11-llm-engineering/10-evaluation/) | Κατασκευή | Python |
+| 11 | [Προσωρινή αποθήκευση, περιορισμός ρυθμού και κόστος](../../phases/11-llm-engineering/11-caching-cost/) | Κατασκευή | Python |
+| 12 | [Προστατευτικά όρια και ασφάλεια](../../phases/11-llm-engineering/12-guardrails/) | Κατασκευή | Python |
+| 13 | [Κατασκευή εφαρμογής LLM για παραγωγή](../../phases/11-llm-engineering/13-production-app/) | Κατασκευή | Python |
+| 14 | [Model Context Protocol (MCP)](../../phases/11-llm-engineering/14-model-context-protocol/) | Κατασκευή | Python |
+| 15 | [Προσωρινή αποθήκευση προτροπών και συμφραζομένου](../../phases/11-llm-engineering/15-prompt-caching/) | Κατασκευή | Python |
+| 16 | [Μηχανές καταστάσεων πρακτόρων: γράφοι, κόμβοι και σημεία ελέγχου](../../phases/11-llm-engineering/16-langgraph-state-machines/) | Κατασκευή | Python |
+| 17 | [Συμβιβασμοί πλαισίων πρακτόρων](../../phases/11-llm-engineering/17-agent-framework-tradeoffs/) | Μάθηση | Python |
 
 </details>
 
 <details id="phase-12">
-<summary><b>Phase 12 — Multimodal AI</b> &nbsp;<code>25 lessons</code>&nbsp; <em>See, hear, read, and reason across modalities — from ViT patches to computer-use agents.</em></summary>
+<summary><b>Φάση 12: Πολυτροπική ΤΝ</b> &nbsp;<code>25 μαθήματα</code>&nbsp; <em>Δες, άκου, διάβασε και συλλογίσου σε διαφορετικές τροπικότητες: από τα τμήματα εικόνας του ViT μέχρι πράκτορες χρήσης υπολογιστή.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Μάθημα | Τύπος | Γλώσσα |
 |:---:|--------|:----:|------|
-| 01 | [Vision Transformers and the Patch-Token Primitive](../../phases/12-multimodal-ai/01-vision-transformer-patch-tokens/) | Learn | Python |
-| 02 | [CLIP and Contrastive Vision-Language Pretraining](../../phases/12-multimodal-ai/02-clip-contrastive-pretraining/) | Build | Python |
-| 03 | [BLIP-2 Q-Former as Modality Bridge](../../phases/12-multimodal-ai/03-blip2-qformer-bridge/) | Build | Python |
-| 04 | [Flamingo and Gated Cross-Attention](../../phases/12-multimodal-ai/04-flamingo-gated-cross-attention/) | Learn | Python |
-| 05 | [LLaVA and Visual Instruction Tuning](../../phases/12-multimodal-ai/05-llava-visual-instruction-tuning/) | Build | Python |
-| 06 | [Any-Resolution Vision — Patch-n'-Pack and NaFlex](../../phases/12-multimodal-ai/06-any-resolution-patch-n-pack/) | Build | Python |
-| 07 | [Open-Weight VLM Recipes: What Actually Matters](../../phases/12-multimodal-ai/07-open-weight-vlm-recipes/) | Learn | Python |
-| 08 | [LLaVA-OneVision: Single, Multi, Video](../../phases/12-multimodal-ai/08-llava-onevision-single-multi-video/) | Build | Python |
-| 09 | [Qwen-VL Family and Dynamic-FPS Video](../../phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/) | Learn | Python |
-| 10 | [InternVL3 Native Multimodal Pretraining](../../phases/12-multimodal-ai/10-internvl3-native-multimodal/) | Learn | Python |
-| 11 | [Chameleon Early-Fusion Token-Only](../../phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/) | Build | Python |
-| 12 | [Emu3 Next-Token Prediction for Generation](../../phases/12-multimodal-ai/12-emu3-next-token-for-generation/) | Learn | Python |
-| 13 | [Transfusion Autoregressive + Diffusion](../../phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/) | Build | Python |
-| 14 | [Show-o Discrete-Diffusion Unified](../../phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/) | Learn | Python |
-| 15 | [Janus-Pro Decoupled Encoders](../../phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/) | Build | Python |
-| 16 | [MIO Any-to-Any Streaming](../../phases/12-multimodal-ai/16-mio-any-to-any-streaming/) | Learn | Python |
-| 17 | [Video-Language Temporal Grounding](../../phases/12-multimodal-ai/17-video-language-temporal-grounding/) | Build | Python |
-| 18 | [Long-Video at Million-Token Context](../../phases/12-multimodal-ai/18-long-video-million-token/) | Build | Python |
-| 19 | [Audio-Language Models: Whisper to AF3](../../phases/12-multimodal-ai/19-audio-language-whisper-to-af3/) | Build | Python |
-| 20 | [Omni Models: Thinker-Talker Streaming](../../phases/12-multimodal-ai/20-omni-models-thinker-talker/) | Build | Python |
-| 21 | [Embodied VLAs: RT-2, OpenVLA, π0, GR00T](../../phases/12-multimodal-ai/21-embodied-vlas-openvla-pi0-groot/) | Learn | Python |
-| 22 | [Document and Diagram Understanding](../../phases/12-multimodal-ai/22-document-diagram-understanding/) | Build | Python |
-| 23 | [ColPali Vision-Native Document RAG](../../phases/12-multimodal-ai/23-colpali-vision-native-rag/) | Build | Python |
-| 24 | [Multimodal RAG and Cross-Modal Retrieval](../../phases/12-multimodal-ai/24-multimodal-rag-cross-modal/) | Build | Python |
-| 25 | [Multimodal Agents and Computer-Use (Capstone)](../../phases/12-multimodal-ai/25-multimodal-agents-computer-use/) | Build | Python |
+| 01 | [Οπτικοί μετασχηματιστές και το βασικό token τμήματος εικόνας](../../phases/12-multimodal-ai/01-vision-transformer-patch-tokens/) | Μάθηση | Python |
+| 02 | [CLIP και αντιπαραβολική οπτικογλωσσική προεκπαίδευση](../../phases/12-multimodal-ai/02-clip-contrastive-pretraining/) | Κατασκευή | Python |
+| 03 | [Το BLIP-2 Q-Former ως γέφυρα τροπικοτήτων](../../phases/12-multimodal-ai/03-blip2-qformer-bridge/) | Κατασκευή | Python |
+| 04 | [Flamingo και ελεγχόμενη διασταυρούμενη προσοχή](../../phases/12-multimodal-ai/04-flamingo-gated-cross-attention/) | Μάθηση | Python |
+| 05 | [LLaVA και προσαρμογή οπτικών οδηγιών](../../phases/12-multimodal-ai/05-llava-visual-instruction-tuning/) | Κατασκευή | Python |
+| 06 | [Όραση οποιασδήποτε ανάλυσης: Patch-n'-Pack και NaFlex](../../phases/12-multimodal-ai/06-any-resolution-patch-n-pack/) | Κατασκευή | Python |
+| 07 | [Συνταγές VLM με ανοικτά βάρη: τι πραγματικά μετρά](../../phases/12-multimodal-ai/07-open-weight-vlm-recipes/) | Μάθηση | Python |
+| 08 | [LLaVA-OneVision: μία εικόνα, πολλές εικόνες και βίντεο](../../phases/12-multimodal-ai/08-llava-onevision-single-multi-video/) | Κατασκευή | Python |
+| 09 | [Η οικογένεια Qwen-VL και βίντεο με δυναμικά FPS](../../phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/) | Μάθηση | Python |
+| 10 | [InternVL3: εγγενής πολυτροπική προεκπαίδευση](../../phases/12-multimodal-ai/10-internvl3-native-multimodal/) | Μάθηση | Python |
+| 11 | [Chameleon: πρώιμη σύντηξη μόνο με token](../../phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/) | Κατασκευή | Python |
+| 12 | [Emu3: πρόβλεψη επόμενου token για παραγωγή](../../phases/12-multimodal-ai/12-emu3-next-token-for-generation/) | Μάθηση | Python |
+| 13 | [Transfusion: αυτοπαλινδρόμηση και διάχυση](../../phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/) | Κατασκευή | Python |
+| 14 | [Show-o: ενοποιημένη διακριτή διάχυση](../../phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/) | Μάθηση | Python |
+| 15 | [Janus-Pro: αποσυνδεδεμένοι κωδικοποιητές](../../phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/) | Κατασκευή | Python |
+| 16 | [MIO: συνεχής ροή μεταξύ οποιωνδήποτε τροπικοτήτων](../../phases/12-multimodal-ai/16-mio-any-to-any-streaming/) | Μάθηση | Python |
+| 17 | [Χρονική θεμελίωση βίντεο και γλώσσας](../../phases/12-multimodal-ai/17-video-language-temporal-grounding/) | Κατασκευή | Python |
+| 18 | [Μεγάλα βίντεο σε συμφραζόμενο ενός εκατομμυρίου token](../../phases/12-multimodal-ai/18-long-video-million-token/) | Κατασκευή | Python |
+| 19 | [Ηχογλωσσικά μοντέλα: από το Whisper στο AF3](../../phases/12-multimodal-ai/19-audio-language-whisper-to-af3/) | Κατασκευή | Python |
+| 20 | [Μοντέλα omni: ροή Thinker-Talker](../../phases/12-multimodal-ai/20-omni-models-thinker-talker/) | Κατασκευή | Python |
+| 21 | [Ενσώματα VLA: RT-2, OpenVLA, π0, GR00T](../../phases/12-multimodal-ai/21-embodied-vlas-openvla-pi0-groot/) | Μάθηση | Python |
+| 22 | [Κατανόηση εγγράφων και διαγραμμάτων](../../phases/12-multimodal-ai/22-document-diagram-understanding/) | Κατασκευή | Python |
+| 23 | [ColPali: οπτικό RAG εγγράφων](../../phases/12-multimodal-ai/23-colpali-vision-native-rag/) | Κατασκευή | Python |
+| 24 | [Πολυτροπικό RAG και ανάκτηση μεταξύ τροπικοτήτων](../../phases/12-multimodal-ai/24-multimodal-rag-cross-modal/) | Κατασκευή | Python |
+| 25 | [Πολυτροπικοί πράκτορες και χρήση υπολογιστή (τελικό έργο)](../../phases/12-multimodal-ai/25-multimodal-agents-computer-use/) | Κατασκευή | Python |
 
 </details>
 
 <details id="phase-13">
-<summary><b>Phase 13 — Tools & Protocols</b> &nbsp;<code>31 lessons</code>&nbsp; <em>The interfaces between AI and the real world.</em></summary>
+<summary><b>Φάση 13: Εργαλεία και πρωτόκολλα</b> &nbsp;<code>45 μαθήματα</code>&nbsp; <em>Οι διεπαφές ανάμεσα στην ΤΝ και τον πραγματικό κόσμο.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Μάθημα | Τύπος | Γλώσσα |
 |:---:|--------|:----:|------|
-| 01 | [The Tool Interface](../../phases/13-tools-and-protocols/01-the-tool-interface/) | Learn | Python |
-| 02 | [Function Calling Deep Dive](../../phases/13-tools-and-protocols/02-function-calling-deep-dive/) | Build | Python |
-| 03 | [Parallel and Streaming Tool Calls](../../phases/13-tools-and-protocols/03-parallel-and-streaming-tool-calls/) | Build | Python |
-| 04 | [Structured Output](../../phases/13-tools-and-protocols/04-structured-output/) | Build | Python |
-| 05 | [Tool Schema Design](../../phases/13-tools-and-protocols/05-tool-schema-design/) | Learn | Python |
-| 06 | [MCP Fundamentals: Stateless Requests and JSON-RPC](../../phases/13-tools-and-protocols/06-mcp-fundamentals/) | Learn | Python |
-| 07 | [Building an MCP Server: Stateless Python and TypeScript](../../phases/13-tools-and-protocols/07-building-an-mcp-server/) | Build | Python, TypeScript |
-| 08 | [Building an MCP Client: Discovery, Routing, and Dual-Era Fallback](../../phases/13-tools-and-protocols/08-building-an-mcp-client/) | Build | Python |
-| 09 | [MCP Transports: stdio and Stateless Streamable HTTP](../../phases/13-tools-and-protocols/09-mcp-transports/) | Learn | Python |
-| 10 | [MCP Resources and Prompts: Addressable Context for Stateless Servers](../../phases/13-tools-and-protocols/10-mcp-resources-and-prompts/) | Build | Python |
-| 11 | [MCP Model Input: Sampling Migration and Stateless MRTR](../../phases/13-tools-and-protocols/11-mcp-sampling/) | Build | Python |
-| 12 | [Explicit Scope and Stateless Elicitation](../../phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/) | Build | Python |
-| 13 | [MCP Tasks Extension: Durable Work on a Stateless Core](../../phases/13-tools-and-protocols/13-mcp-async-tasks/) | Build | Python |
-| 14 | [MCP Apps on the Stateless Protocol](../../phases/13-tools-and-protocols/14-mcp-apps/) | Build | Python |
-| 15 | [MCP Security: Poisoned Metadata, Routing, and MRTR State](../../phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/) | Learn | Python |
-| 16 | [MCP Authorization: CIMD, Issuer Binding, PKCE, and Step-Up](../../phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/) | Build | Python |
-| 17 | [Stateless MCP Gateways and Registry Admission](../../phases/13-tools-and-protocols/17-mcp-gateways-and-registries/) | Learn | Python |
-| 18 | [MCP Auth in Production: Issuer-Bound Enrollment and Tokens](../../phases/13-tools-and-protocols/18-mcp-auth-production/) | Build | Python |
-| 19 | [A2A Protocol](../../phases/13-tools-and-protocols/19-a2a-protocol/) | Build | Python |
-| 20 | [OpenTelemetry GenAI](../../phases/13-tools-and-protocols/20-opentelemetry-genai/) | Build | Python |
-| 21 | [LLM Routing Layer](../../phases/13-tools-and-protocols/21-llm-routing-layer/) | Learn | Python |
-| 22 | [Agent Skills: Portable Contract and Runtime Boundary](../../phases/13-tools-and-protocols/22-skills-and-agent-sdks/) | Build | Python |
-| 23 | [Capstone: Stateless Tool Ecosystem](../../phases/13-tools-and-protocols/23-capstone-tool-ecosystem/) | Build | Python |
-| 24 | [Skill Discovery and Progressive Disclosure](../../phases/13-tools-and-protocols/24-skill-discovery-and-progressive-disclosure/) | Build | Python |
-| 25 | [Skill Invocation and Routing](../../phases/13-tools-and-protocols/25-skill-invocation-and-routing/) | Build | Python |
-| 26 | [Skill Permissions, Sandboxes, and Trust](../../phases/13-tools-and-protocols/26-skill-permissions-sandboxes-and-trust/) | Build | Python |
-| 27 | [Skill Evals, Packaging, and Portability](../../phases/13-tools-and-protocols/27-skill-evals-packaging-and-portability/) | Build | Python |
-| 28 | [MCP Tool Contracts and Content](../../phases/13-tools-and-protocols/28-mcp-tool-contracts-and-content/) | Build | Python |
-| 29 | [MCP Reliability, Cancellation, and Flow Control](../../phases/13-tools-and-protocols/29-mcp-reliability-cancellation-and-flow-control/) | Build | Python |
-| 30 | [MCP Registry Supply Chain: Admission, Drift, and Rollback](../../phases/13-tools-and-protocols/30-mcp-registry-supply-chain-and-drift/) | Build | Python |
-| 31 | [MCP Conformance Engineering: Versioning, Evidence, and Operations](../../phases/13-tools-and-protocols/31-mcp-conformance-versioning-and-operations/) | Build | Python |
+| 01 | [Η διεπαφή εργαλείων](../../phases/13-tools-and-protocols/01-the-tool-interface/) | Μάθηση | Python |
+| 02 | [Εμβάθυνση στην κλήση συναρτήσεων](../../phases/13-tools-and-protocols/02-function-calling-deep-dive/) | Κατασκευή | Python |
+| 03 | [Παράλληλες και συνεχείς κλήσεις εργαλείων](../../phases/13-tools-and-protocols/03-parallel-and-streaming-tool-calls/) | Κατασκευή | Python |
+| 04 | [Δομημένη έξοδος](../../phases/13-tools-and-protocols/04-structured-output/) | Κατασκευή | Python |
+| 05 | [Σχεδιασμός σχημάτων εργαλείων](../../phases/13-tools-and-protocols/05-tool-schema-design/) | Μάθηση | Python |
+| 06 | [Βασικές αρχές MCP: αιτήματα χωρίς κατάσταση και JSON-RPC](../../phases/13-tools-and-protocols/06-mcp-fundamentals/) | Μάθηση | Python |
+| 07 | [Κατασκευή διακομιστή MCP: Python και TypeScript χωρίς κατάσταση](../../phases/13-tools-and-protocols/07-building-an-mcp-server/) | Κατασκευή | Python, TypeScript |
+| 08 | [Κατασκευή πελάτη MCP: ανακάλυψη, δρομολόγηση και συμβατότητα δύο γενεών](../../phases/13-tools-and-protocols/08-building-an-mcp-client/) | Κατασκευή | Python |
+| 09 | [Μεταφορές MCP: stdio και Streamable HTTP χωρίς κατάσταση](../../phases/13-tools-and-protocols/09-mcp-transports/) | Μάθηση | Python |
+| 10 | [Πόροι και προτροπές MCP: διευθυνσιοδοτούμενο συμφραζόμενο για διακομιστές χωρίς κατάσταση](../../phases/13-tools-and-protocols/10-mcp-resources-and-prompts/) | Κατασκευή | Python |
+| 11 | [Είσοδος μοντέλου MCP: μετεγκατάσταση sampling και MRTR χωρίς κατάσταση](../../phases/13-tools-and-protocols/11-mcp-sampling/) | Κατασκευή | Python |
+| 12 | [Ρητό πεδίο εφαρμογής και συλλογή εισόδου χωρίς κατάσταση](../../phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/) | Κατασκευή | Python |
+| 13 | [Επέκταση εργασιών MCP: ανθεκτική εργασία πάνω σε πυρήνα χωρίς κατάσταση](../../phases/13-tools-and-protocols/13-mcp-async-tasks/) | Κατασκευή | Python |
+| 14 | [MCP Apps στο πρωτόκολλο χωρίς κατάσταση](../../phases/13-tools-and-protocols/14-mcp-apps/) | Κατασκευή | Python |
+| 15 | [Ασφάλεια MCP: δηλητηριασμένα μεταδεδομένα, δρομολόγηση και κατάσταση MRTR](../../phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/) | Μάθηση | Python |
+| 16 | [Εξουσιοδότηση MCP: CIMD, δέσμευση εκδότη, PKCE και ενισχυμένη επαλήθευση](../../phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/) | Κατασκευή | Python |
+| 17 | [Πύλες MCP χωρίς κατάσταση και εισαγωγή στο μητρώο](../../phases/13-tools-and-protocols/17-mcp-gateways-and-registries/) | Μάθηση | Python |
+| 18 | [Εξουσιοδότηση MCP σε παραγωγή: εγγραφή και token συνδεδεμένα με εκδότη](../../phases/13-tools-and-protocols/18-mcp-auth-production/) | Κατασκευή | Python |
+| 19 | [Το πρωτόκολλο A2A](../../phases/13-tools-and-protocols/19-a2a-protocol/) | Κατασκευή | Python |
+| 20 | [OpenTelemetry GenAI](../../phases/13-tools-and-protocols/20-opentelemetry-genai/) | Κατασκευή | Python |
+| 21 | [Επίπεδο δρομολόγησης LLM](../../phases/13-tools-and-protocols/21-llm-routing-layer/) | Μάθηση | Python |
+| 22 | [Agent Skills: φορητό συμβόλαιο και όριο εκτέλεσης](../../phases/13-tools-and-protocols/22-skills-and-agent-sdks/) | Κατασκευή | Python |
+| 23 | [Τελικό έργο: οικοσύστημα εργαλείων χωρίς κατάσταση](../../phases/13-tools-and-protocols/23-capstone-tool-ecosystem/) | Κατασκευή | Python |
+| 24 | [Ανακάλυψη δεξιοτήτων και προοδευτική αποκάλυψη](../../phases/13-tools-and-protocols/24-skill-discovery-and-progressive-disclosure/) | Κατασκευή | Python |
+| 25 | [Κλήση και δρομολόγηση δεξιοτήτων](../../phases/13-tools-and-protocols/25-skill-invocation-and-routing/) | Κατασκευή | Python |
+| 26 | [Δικαιώματα δεξιοτήτων, απομονωμένα περιβάλλοντα και εμπιστοσύνη](../../phases/13-tools-and-protocols/26-skill-permissions-sandboxes-and-trust/) | Κατασκευή | Python |
+| 27 | [Αξιολόγηση, συσκευασία και φορητότητα δεξιοτήτων](../../phases/13-tools-and-protocols/27-skill-evals-packaging-and-portability/) | Κατασκευή | Python |
+| 28 | [Συμβόλαια και περιεχόμενο εργαλείων MCP](../../phases/13-tools-and-protocols/28-mcp-tool-contracts-and-content/) | Κατασκευή | Python |
+| 29 | [Αξιοπιστία MCP, ακύρωση και έλεγχος ροής](../../phases/13-tools-and-protocols/29-mcp-reliability-cancellation-and-flow-control/) | Κατασκευή | Python |
+| 30 | [Αλυσίδα εφοδιασμού μητρώου MCP: εισαγωγή, αποκλίσεις και επαναφορά](../../phases/13-tools-and-protocols/30-mcp-registry-supply-chain-and-drift/) | Κατασκευή | Python |
+| 31 | [Μηχανική συμμόρφωσης MCP: εκδόσεις, αποδείξεις και λειτουργία](../../phases/13-tools-and-protocols/31-mcp-conformance-versioning-and-operations/) | Κατασκευή | Python |
+| 32 | [Ανατομία προγράμματος: ανάγνωση ELF από το μηδέν](../../phases/13-tools-and-protocols/32-program-anatomy-elf-from-scratch/) | Κατασκευή | Python |
+| 33 | [Αποσυναρμολόγηση και γράφοι ροής ελέγχου](../../phases/13-tools-and-protocols/33-disassembly-and-control-flow/) | Κατασκευή | Python |
+| 34 | [Ανύψωση κώδικα μηχανής σε ψευδοκώδικα](../../phases/13-tools-and-protocols/34-lifting-to-pseudocode/) | Κατασκευή | Python |
+| 35 | [Τεκμήρια, βεβαιότητα και άγνωστα στην ανάλυση δυαδικών](../../phases/13-tools-and-protocols/35-evidence-confidence-and-unknowns/) | Κατασκευή | Python |
+| 36 | [Ανακατασκευή και απόδειξη ισοδυναμίας](../../phases/13-tools-and-protocols/36-rebuild-and-prove-equal/) | Κατασκευή | Python |
+| 37 | [Το τοπίο της αντίστροφης μηχανικής](../../phases/13-tools-and-protocols/37-the-reverse-engineering-landscape/) | Κατασκευή | Python |
+| 38 | [Συμβάσεις κλήσης και πλαίσια στοίβας](../../phases/13-tools-and-protocols/38-calling-conventions-and-stack-frames/) | Κατασκευή | Python |
+| 39 | [Ιδιώματα μεταγλωττιστή και βελτιστοποίηση](../../phases/13-tools-and-protocols/39-compiler-idioms-and-optimization/) | Κατασκευή | Python |
+| 40 | [Σύνδεση, φόρτωση και απογυμνωμένα δυαδικά](../../phases/13-tools-and-protocols/40-linking-loading-and-stripped-binaries/) | Κατασκευή | Python |
+| 41 | [Ανάκτηση δεδομένων και τύπων](../../phases/13-tools-and-protocols/41-recovering-data-and-types/) | Κατασκευή | Python |
+| 42 | [Δυναμική ανάλυση του δικού σου προγράμματος](../../phases/13-tools-and-protocols/42-dynamic-analysis-of-your-own-program/) | Κατασκευή | Python |
+| 43 | [Bytecode και διαχειριζόμενες μορφές](../../phases/13-tools-and-protocols/43-bytecode-and-managed-formats/) | Κατασκευή | Python |
+| 44 | [Σύγκριση δυαδικών και συμβολική εκτέλεση](../../phases/13-tools-and-protocols/44-binary-diffing-and-symbolic-execution/) | Κατασκευή | Python |
+| 45 | [Αντίστροφη μηχανική με βοήθεια ΤΝ](../../phases/13-tools-and-protocols/45-ai-assisted-reverse-engineering/) | Κατασκευή | Python |
 
-Lessons 06-18 and 28-31 form the focused
-[Model Context Protocol (MCP) path](../../learning-paths/model-context-protocol.json). Its manifest order
-is 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 18, 17, 28, 29, 30, 31. Start
-it with the host-specific `learn-mcp` invocation above. Lesson 23
-is its only optional capstone and also requires Lessons 19 and 20.
+Τα μαθήματα 06-18 και 28-31 αποτελούν την ειδική [διαδρομή Model Context Protocol (MCP)](../../learning-paths/model-context-protocol.json). Η σειρά του δηλωτικού είναι 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 18, 17, 28, 29, 30, 31. Ξεκίνα με την παραπάνω κλήση `learn-mcp` για την εφαρμογή σου. Το μάθημα 23 είναι το μόνο προαιρετικό τελικό έργο και απαιτεί επίσης τα μαθήματα 19 και 20.
 
-Lessons 22 and 24-27 form the focused
-[Agent Skills learning path](../../learning-paths/agent-skills.json), from package
-contract through real-host release gates. Start it with the host-specific
-`learn-agent-skills` invocation shown above; do not follow numeric next
-navigation from 22 to 23.
+Τα μαθήματα 22 και 24-27 αποτελούν την ειδική [διαδρομή Agent Skills](../../learning-paths/agent-skills.json), από το συμβόλαιο πακέτου έως τις πύλες έκδοσης σε πραγματική εφαρμογή. Ξεκίνα με την παραπάνω κλήση `learn-agent-skills` για την εφαρμογή σου· μην ακολουθείς την αριθμητική πλοήγηση επόμενου μαθήματος από το 22 στο 23.
 
 </details>
 
 <details id="phase-14">
-<summary><b>Phase 14 — Agent Engineering</b> &nbsp;<code>54 lessons</code>&nbsp; <em>Build agents from first principles, use coding agents reliably, and shape the work before implementation.</em></summary>
+<summary><b>Φάση 14: Μηχανική πρακτόρων</b> &nbsp;<code>54 μαθήματα</code>&nbsp; <em>Κατασκεύασε πράκτορες από τις πρώτες αρχές, χρησιμοποίησε αξιόπιστα πράκτορες προγραμματισμού και διαμόρφωσε την εργασία πριν από την υλοποίηση.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Μάθημα | Τύπος | Γλώσσα |
 |:---:|--------|:----:|------|
-| 01 | [The Agent Loop](../../phases/14-agent-engineering/01-the-agent-loop/) | Build | Python |
-| 02 | [ReWOO and Plan-and-Execute](../../phases/14-agent-engineering/02-rewoo-plan-and-execute/) | Build | Python |
-| 03 | [Reflexion and Verbal Reinforcement Learning](../../phases/14-agent-engineering/03-reflexion-verbal-rl/) | Build | Python |
-| 04 | [Tree of Thoughts and LATS](../../phases/14-agent-engineering/04-tree-of-thoughts-lats/) | Build | Python |
-| 05 | [Self-Refine and CRITIC](../../phases/14-agent-engineering/05-self-refine-and-critic/) | Build | Python |
-| 06 | [Tool Use and Function Calling](../../phases/14-agent-engineering/06-tool-use-and-function-calling/) | Build | Python |
-| 07 | [Agent Memory — Virtual Context and Memory Paging](../../phases/14-agent-engineering/07-memory-virtual-context-memgpt/) | Build | Python |
-| 08 | [Memory Blocks and Sleep-Time Compute](../../phases/14-agent-engineering/08-memory-blocks-sleep-time-compute/) | Build | Python |
-| 09 | [Hybrid Memory — Vector + Graph + KV](../../phases/14-agent-engineering/09-hybrid-memory-mem0/) | Build | Python |
-| 10 | [Skill Libraries and Lifelong Learning (Voyager)](../../phases/14-agent-engineering/10-skill-libraries-voyager/) | Build | Python |
-| 11 | [Planning with HTN and Evolutionary Search](../../phases/14-agent-engineering/11-planning-htn-and-evolutionary/) | Build | Python |
-| 12 | [Anthropic's Workflow Patterns](../../phases/14-agent-engineering/12-anthropic-workflow-patterns/) | Build | Python |
-| 13 | [Stateful Graph Orchestration — Durable Execution and Checkpoints](../../phases/14-agent-engineering/13-langgraph-stateful-graphs/) | Build | Python |
-| 14 | [The Actor Model for Agents](../../phases/14-agent-engineering/14-autogen-actor-model/) | Build | Python |
-| 15 | [Role-Based Agent Teams — Roles, Tasks, Processes](../../phases/14-agent-engineering/15-crewai-role-based-crews/) | Build | Python |
-| 16 | [OpenAI Agents SDK — Handoffs, Guardrails, Tracing](../../phases/14-agent-engineering/16-openai-agents-sdk/) | Build | Python |
-| 17 | [The Harness as a Library — Subagents and Session Store](../../phases/14-agent-engineering/17-claude-agent-sdk/) | Build | Python |
-| 18 | [Production Agent Runtimes](../../phases/14-agent-engineering/18-agno-and-mastra-runtimes/) | Learn | Python |
-| 19 | [Benchmarks — SWE-bench, GAIA, AgentBench](../../phases/14-agent-engineering/19-benchmarks-swebench-gaia/) | Learn | Python |
-| 20 | [Benchmarks — WebArena and OSWorld](../../phases/14-agent-engineering/20-benchmarks-webarena-osworld/) | Learn | Python |
-| 21 | [Computer Use — Claude, OpenAI CUA, Gemini](../../phases/14-agent-engineering/21-computer-use-agents/) | Build | Python |
-| 22 | [Voice Agents — Pipecat and LiveKit](../../phases/14-agent-engineering/22-voice-agents-pipecat-livekit/) | Build | Python |
-| 23 | [OpenTelemetry GenAI Semantic Conventions](../../phases/14-agent-engineering/23-otel-genai-conventions/) | Build | Python |
-| 24 | [Agent Observability — Langfuse, Phoenix, Opik](../../phases/14-agent-engineering/24-agent-observability-platforms/) | Learn | Python |
-| 25 | [Multi-Agent Debate and Collaboration](../../phases/14-agent-engineering/25-multi-agent-debate/) | Build | Python |
-| 26 | [Failure Modes — Why Agents Break](../../phases/14-agent-engineering/26-failure-modes-agentic/) | Build | Python |
-| 27 | [Prompt Injection and the PVE Defense](../../phases/14-agent-engineering/27-prompt-injection-defense/) | Build | Python |
-| 28 | [Orchestration Patterns — Supervisor, Swarm, Hierarchical](../../phases/14-agent-engineering/28-orchestration-patterns/) | Build | Python |
-| 29 | [Production Runtimes — Queue, Event, Cron](../../phases/14-agent-engineering/29-production-runtimes/) | Learn | Python |
-| 30 | [Eval-Driven Agent Development](../../phases/14-agent-engineering/30-eval-driven-agent-development/) | Build | Python |
-| 31 | [Agent Workbench: Why Capable Models Still Fail](../../phases/14-agent-engineering/31-agent-workbench-why-models-fail/) | Learn | Python |
-| 32 | [The Minimal Agent Workbench](../../phases/14-agent-engineering/32-minimal-agent-workbench/) | Build | Python |
-| 33 | [Agent Instructions as Executable Constraints](../../phases/14-agent-engineering/33-instructions-as-executable-constraints/) | Build | Python |
-| 34 | [Repo Memory and Durable State](../../phases/14-agent-engineering/34-repo-memory-and-state/) | Build | Python |
-| 35 | [Initialization Scripts for Agents](../../phases/14-agent-engineering/35-initialization-scripts/) | Build | Python |
-| 36 | [Scope Contracts and Task Boundaries](../../phases/14-agent-engineering/36-scope-contracts/) | Build | Python |
-| 37 | [Runtime Feedback Loops](../../phases/14-agent-engineering/37-runtime-feedback-loops/) | Build | Python |
-| 38 | [Verification Gates](../../phases/14-agent-engineering/38-verification-gates/) | Build | Python |
-| 39 | [Reviewer Agent: Separate Builder from Marker](../../phases/14-agent-engineering/39-reviewer-agent/) | Build | Python |
-| 40 | [Multi-Session Handoff](../../phases/14-agent-engineering/40-multi-session-handoff/) | Build | Python |
-| 41 | [The Workbench on a Real Repo](../../phases/14-agent-engineering/41-workbench-for-real-repos/) | Build | Python |
-| 42 | [Capstone: Ship a Reusable Agent Workbench Pack](../../phases/14-agent-engineering/42-agent-workbench-capstone/) | Build | Python |
-| 43 | [Frame the Task Before the Agent Writes Code](../../phases/14-agent-engineering/43-frame-the-task-before-code/) | Build | Python |
-| 44 | [Build an Evidence-Backed Execution Plan](../../phases/14-agent-engineering/44-plan-from-evidence/) | Build | Python |
-| 45 | [Delegate Agent Work with Isolation and Merge Contracts](../../phases/14-agent-engineering/45-delegate-with-isolation/) | Build | Python |
-| 46 | [Turn Every Agent Correction into a System Improvement](../../phases/14-agent-engineering/46-turn-feedback-into-system/) | Build | Python |
-| 47 | [Define the Outcome Before You Choose the Output](../../phases/14-agent-engineering/47-outcomes-before-output/) | Build | Python |
-| 48 | [Discover the Workflow People Actually Perform](../../phases/14-agent-engineering/48-discover-the-real-workflow/) | Build | Python |
-| 49 | [Map Assumptions and Resolve the Riskiest One First](../../phases/14-agent-engineering/49-map-assumptions-and-risk/) | Build | Python |
-| 50 | [Choose the Smallest Slice That Can Change the Decision](../../phases/14-agent-engineering/50-choose-the-smallest-testable-slice/) | Build | Python |
-| 51 | [Write Specifications That Preserve Judgment](../../phases/14-agent-engineering/51-write-specifications-that-preserve-judgment/) | Build | Python |
-| 52 | [Design Success Metrics Before the Result Exists](../../phases/14-agent-engineering/52-design-success-metrics/) | Build | Python |
-| 53 | [Choose Prototype, Pilot, or Production Deliberately](../../phases/14-agent-engineering/53-prototype-pilot-or-production/) | Build | Python |
-| 54 | [Build a Feedback Ratchet with Ownership and Retirement](../../phases/14-agent-engineering/54-build-the-feedback-ratchet/) | Build | Python |
+| 01 | [Ο βρόχος του πράκτορα](../../phases/14-agent-engineering/01-the-agent-loop/) | Κατασκευή | Python |
+| 02 | [ReWOO και σχεδιασμός-εκτέλεση](../../phases/14-agent-engineering/02-rewoo-plan-and-execute/) | Κατασκευή | Python |
+| 03 | [Reflexion και λεκτική ενισχυτική μάθηση](../../phases/14-agent-engineering/03-reflexion-verbal-rl/) | Κατασκευή | Python |
+| 04 | [Δέντρα σκέψεων και LATS](../../phases/14-agent-engineering/04-tree-of-thoughts-lats/) | Κατασκευή | Python |
+| 05 | [Self-Refine και CRITIC](../../phases/14-agent-engineering/05-self-refine-and-critic/) | Κατασκευή | Python |
+| 06 | [Χρήση εργαλείων και κλήση συναρτήσεων](../../phases/14-agent-engineering/06-tool-use-and-function-calling/) | Κατασκευή | Python |
+| 07 | [Μνήμη πράκτορα: εικονικό συμφραζόμενο και σελιδοποίηση μνήμης](../../phases/14-agent-engineering/07-memory-virtual-context-memgpt/) | Κατασκευή | Python |
+| 08 | [Μπλοκ μνήμης και υπολογισμός σε χρόνο αδράνειας](../../phases/14-agent-engineering/08-memory-blocks-sleep-time-compute/) | Κατασκευή | Python |
+| 09 | [Υβριδική μνήμη: διανύσματα, γράφοι και KV](../../phases/14-agent-engineering/09-hybrid-memory-mem0/) | Κατασκευή | Python |
+| 10 | [Βιβλιοθήκες δεξιοτήτων και διά βίου μάθηση (Voyager)](../../phases/14-agent-engineering/10-skill-libraries-voyager/) | Κατασκευή | Python |
+| 11 | [Σχεδιασμός με HTN και εξελικτική αναζήτηση](../../phases/14-agent-engineering/11-planning-htn-and-evolutionary/) | Κατασκευή | Python |
+| 12 | [Μοτίβα ροής εργασίας της Anthropic](../../phases/14-agent-engineering/12-anthropic-workflow-patterns/) | Κατασκευή | Python |
+| 13 | [Ενορχήστρωση γράφων με κατάσταση: ανθεκτική εκτέλεση και σημεία ελέγχου](../../phases/14-agent-engineering/13-langgraph-stateful-graphs/) | Κατασκευή | Python |
+| 14 | [Το μοντέλο δραστών για πράκτορες](../../phases/14-agent-engineering/14-autogen-actor-model/) | Κατασκευή | Python |
+| 15 | [Ομάδες πρακτόρων με ρόλους: ρόλοι, εργασίες και διαδικασίες](../../phases/14-agent-engineering/15-crewai-role-based-crews/) | Κατασκευή | Python |
+| 16 | [OpenAI Agents SDK: μεταβιβάσεις, προστασίες και ιχνηλάτηση](../../phases/14-agent-engineering/16-openai-agents-sdk/) | Κατασκευή | Python |
+| 17 | [Το περιβάλλον εκτέλεσης ως βιβλιοθήκη: υποπράκτορες και αποθήκη συνεδριών](../../phases/14-agent-engineering/17-claude-agent-sdk/) | Κατασκευή | Python |
+| 18 | [Περιβάλλοντα εκτέλεσης πρακτόρων για παραγωγή](../../phases/14-agent-engineering/18-agno-and-mastra-runtimes/) | Μάθηση | Python |
+| 19 | [Δοκιμασίες αναφοράς: SWE-bench, GAIA, AgentBench](../../phases/14-agent-engineering/19-benchmarks-swebench-gaia/) | Μάθηση | Python |
+| 20 | [Δοκιμασίες αναφοράς: WebArena και OSWorld](../../phases/14-agent-engineering/20-benchmarks-webarena-osworld/) | Μάθηση | Python |
+| 21 | [Χρήση υπολογιστή: Claude, OpenAI CUA, Gemini](../../phases/14-agent-engineering/21-computer-use-agents/) | Κατασκευή | Python |
+| 22 | [Φωνητικοί πράκτορες: Pipecat και LiveKit](../../phases/14-agent-engineering/22-voice-agents-pipecat-livekit/) | Κατασκευή | Python |
+| 23 | [Σημασιολογικές συμβάσεις OpenTelemetry GenAI](../../phases/14-agent-engineering/23-otel-genai-conventions/) | Κατασκευή | Python |
+| 24 | [Παρατηρησιμότητα πρακτόρων: Langfuse, Phoenix, Opik](../../phases/14-agent-engineering/24-agent-observability-platforms/) | Μάθηση | Python |
+| 25 | [Διάλογος και συνεργασία πολλών πρακτόρων](../../phases/14-agent-engineering/25-multi-agent-debate/) | Κατασκευή | Python |
+| 26 | [Τρόποι αποτυχίας: γιατί αποτυγχάνουν οι πράκτορες](../../phases/14-agent-engineering/26-failure-modes-agentic/) | Κατασκευή | Python |
+| 27 | [Έγχυση προτροπών και άμυνα PVE](../../phases/14-agent-engineering/27-prompt-injection-defense/) | Κατασκευή | Python |
+| 28 | [Μοτίβα ενορχήστρωσης: επόπτης, σμήνος και ιεραρχία](../../phases/14-agent-engineering/28-orchestration-patterns/) | Κατασκευή | Python |
+| 29 | [Περιβάλλοντα παραγωγής: ουρές, συμβάντα και cron](../../phases/14-agent-engineering/29-production-runtimes/) | Μάθηση | Python |
+| 30 | [Ανάπτυξη πρακτόρων με οδηγό την αξιολόγηση](../../phases/14-agent-engineering/30-eval-driven-agent-development/) | Κατασκευή | Python |
+| 31 | [Πάγκος εργασίας πράκτορα: γιατί τα ικανά μοντέλα ακόμη αποτυγχάνουν](../../phases/14-agent-engineering/31-agent-workbench-why-models-fail/) | Μάθηση | Python |
+| 32 | [Ο ελάχιστος πάγκος εργασίας πράκτορα](../../phases/14-agent-engineering/32-minimal-agent-workbench/) | Κατασκευή | Python |
+| 33 | [Οδηγίες πράκτορα ως εκτελέσιμοι περιορισμοί](../../phases/14-agent-engineering/33-instructions-as-executable-constraints/) | Κατασκευή | Python |
+| 34 | [Μνήμη αποθετηρίου και ανθεκτική κατάσταση](../../phases/14-agent-engineering/34-repo-memory-and-state/) | Κατασκευή | Python |
+| 35 | [Σενάρια αρχικοποίησης πρακτόρων](../../phases/14-agent-engineering/35-initialization-scripts/) | Κατασκευή | Python |
+| 36 | [Συμβόλαια πεδίου εφαρμογής και όρια εργασιών](../../phases/14-agent-engineering/36-scope-contracts/) | Κατασκευή | Python |
+| 37 | [Βρόχοι ανάδρασης κατά την εκτέλεση](../../phases/14-agent-engineering/37-runtime-feedback-loops/) | Κατασκευή | Python |
+| 38 | [Πύλες επαλήθευσης](../../phases/14-agent-engineering/38-verification-gates/) | Κατασκευή | Python |
+| 39 | [Πράκτορας αξιολόγησης: διαχώρισε τον δημιουργό από τον κριτή](../../phases/14-agent-engineering/39-reviewer-agent/) | Κατασκευή | Python |
+| 40 | [Μεταβίβαση μεταξύ συνεδριών](../../phases/14-agent-engineering/40-multi-session-handoff/) | Κατασκευή | Python |
+| 41 | [Ο πάγκος εργασίας σε πραγματικό αποθετήριο](../../phases/14-agent-engineering/41-workbench-for-real-repos/) | Κατασκευή | Python |
+| 42 | [Τελικό έργο: παράδωσε επαναχρησιμοποιήσιμο πακέτο πάγκου εργασίας](../../phases/14-agent-engineering/42-agent-workbench-capstone/) | Κατασκευή | Python |
+| 43 | [Όρισε την εργασία πριν ο πράκτορας γράψει κώδικα](../../phases/14-agent-engineering/43-frame-the-task-before-code/) | Κατασκευή | Python |
+| 44 | [Φτιάξε σχέδιο εκτέλεσης τεκμηριωμένο με αποδείξεις](../../phases/14-agent-engineering/44-plan-from-evidence/) | Κατασκευή | Python |
+| 45 | [Ανάθεσε εργασία πρακτόρων με απομόνωση και συμβόλαια συγχώνευσης](../../phases/14-agent-engineering/45-delegate-with-isolation/) | Κατασκευή | Python |
+| 46 | [Μετάτρεψε κάθε διόρθωση πράκτορα σε βελτίωση συστήματος](../../phases/14-agent-engineering/46-turn-feedback-into-system/) | Κατασκευή | Python |
+| 47 | [Όρισε το αποτέλεσμα πριν επιλέξεις το παραδοτέο](../../phases/14-agent-engineering/47-outcomes-before-output/) | Κατασκευή | Python |
+| 48 | [Ανακάλυψε τη ροή εργασίας που οι άνθρωποι πράγματι ακολουθούν](../../phases/14-agent-engineering/48-discover-the-real-workflow/) | Κατασκευή | Python |
+| 49 | [Χαρτογράφησε υποθέσεις και έλεγξε πρώτα την πιο επικίνδυνη](../../phases/14-agent-engineering/49-map-assumptions-and-risk/) | Κατασκευή | Python |
+| 50 | [Επίλεξε το μικρότερο τμήμα που μπορεί να αλλάξει την απόφαση](../../phases/14-agent-engineering/50-choose-the-smallest-testable-slice/) | Κατασκευή | Python |
+| 51 | [Γράψε προδιαγραφές που διατηρούν την κρίση](../../phases/14-agent-engineering/51-write-specifications-that-preserve-judgment/) | Κατασκευή | Python |
+| 52 | [Σχεδίασε μετρικές επιτυχίας πριν υπάρξει αποτέλεσμα](../../phases/14-agent-engineering/52-design-success-metrics/) | Κατασκευή | Python |
+| 53 | [Επίλεξε συνειδητά πρωτότυπο, πιλοτική εφαρμογή ή παραγωγή](../../phases/14-agent-engineering/53-prototype-pilot-or-production/) | Κατασκευή | Python |
+| 54 | [Φτιάξε μόνιμο βρόχο βελτίωσης με ευθύνη και απόσυρση](../../phases/14-agent-engineering/54-build-the-feedback-ratchet/) | Κατασκευή | Python |
 
-Each Phase 14 workbench lesson (31-42) ships a `mission.md` briefing the agent before it opens the full lesson docs.
+Κάθε μάθημα πάγκου εργασίας της φάσης 14 (31-42) παρέχει `mission.md` που ενημερώνει τον πράκτορα πριν ανοίξει την πλήρη τεκμηρίωση.
 
-Lessons 31-46 form the [Agent-Assisted Engineering path](../../learning-paths/using-coding-agents.json).
-Its manifest order combines the workbench foundation with task framing, planning,
-delegation, and durable feedback. Lessons 47-54 form the
-[Product Judgment and Delivery path](../../learning-paths/shaping-the-build.json), from outcome framing
-through evidence, risk, scope, measurement, staged release, and feedback ownership.
+Τα μαθήματα 31-46 αποτελούν τη [διαδρομή μηχανικής με υποστήριξη πρακτόρων](../../learning-paths/using-coding-agents.json). Το δηλωτικό συνδυάζει τη βάση του πάγκου εργασίας με ορισμό εργασιών, σχεδιασμό, ανάθεση και μόνιμη ανατροφοδότηση. Τα μαθήματα 47-54 αποτελούν τη [διαδρομή κρίσης και παράδοσης προϊόντος](../../learning-paths/shaping-the-build.json), από τον ορισμό αποτελέσματος έως αποδείξεις, κίνδυνο, εύρος, μέτρηση, σταδιακή έκδοση και ευθύνη ανατροφοδότησης.
 
 </details>
 
 <details id="phase-15">
-<summary><b>Phase 15 — Autonomous Systems</b> &nbsp;<code>22 lessons</code>&nbsp; <em>Long-horizon agents, self-improvement, and the 2026 safety stack.</em></summary>
+<summary><b>Φάση 15: Αυτόνομα συστήματα</b> &nbsp;<code>22 μαθήματα</code>&nbsp; <em>Πράκτορες μακρού ορίζοντα, αυτοβελτίωση και η στοίβα ασφάλειας του 2026.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Μάθημα | Τύπος | Γλώσσα |
 |:---:|--------|:----:|------|
-| 01 | [From Chatbots to Long-Horizon Agents (METR)](../../phases/15-autonomous-systems/01-long-horizon-agents/) | Learn | Python |
-| 02 | [STaR, V-STaR, Quiet-STaR: Self-Taught Reasoning](../../phases/15-autonomous-systems/02-star-family-reasoning/) | Learn | Python |
-| 03 | [AlphaEvolve: Evolutionary Coding Agents](../../phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/) | Learn | Python |
-| 04 | [Darwin Gödel Machine: Self-Modifying Agents](../../phases/15-autonomous-systems/04-darwin-godel-machine/) | Learn | Python |
-| 05 | [AI Scientist v2: Workshop-Level Research](../../phases/15-autonomous-systems/05-ai-scientist-v2/) | Learn | Python |
-| 06 | [Automated Alignment Research (Anthropic AAR)](../../phases/15-autonomous-systems/06-automated-alignment-research/) | Learn | Python |
-| 07 | [Recursive Self-Improvement: Capability vs Alignment](../../phases/15-autonomous-systems/07-recursive-self-improvement/) | Learn | Python |
-| 08 | [Bounded Self-Improvement Designs](../../phases/15-autonomous-systems/08-bounded-self-improvement/) | Learn | Python |
-| 09 | [Autonomous Coding Agent Landscape (SWE-bench, CodeAct)](../../phases/15-autonomous-systems/09-coding-agent-landscape/) | Learn | Python |
-| 10 | [Permission Modes for Autonomous Agents](../../phases/15-autonomous-systems/10-claude-code-permission-modes/) | Learn | Python |
-| 11 | [Browser Agents and Indirect Prompt Injection](../../phases/15-autonomous-systems/11-browser-agents/) | Learn | Python |
-| 12 | [Durable Execution for Long-Running Agents](../../phases/15-autonomous-systems/12-durable-execution/) | Learn | Python |
-| 13 | [Action Budgets, Iteration Caps, Cost Governors](../../phases/15-autonomous-systems/13-cost-governors/) | Learn | Python |
-| 14 | [Kill Switches, Circuit Breakers, Canary Tokens](../../phases/15-autonomous-systems/14-kill-switches-canaries/) | Learn | Python |
-| 15 | [HITL: Propose-Then-Commit](../../phases/15-autonomous-systems/15-propose-then-commit/) | Learn | Python |
-| 16 | [Checkpoints and Rollback](../../phases/15-autonomous-systems/16-checkpoints-rollback/) | Learn | Python |
-| 17 | [Constitutional AI and Rule Overrides](../../phases/15-autonomous-systems/17-constitutional-ai/) | Learn | Python |
-| 18 | [Llama Guard and Input/Output Classification](../../phases/15-autonomous-systems/18-llama-guard/) | Learn | Python |
-| 19 | [Anthropic Responsible Scaling Policy v3.0](../../phases/15-autonomous-systems/19-anthropic-rsp/) | Learn | Python |
-| 20 | [OpenAI Preparedness Framework and DeepMind FSF](../../phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/) | Learn | Python |
-| 21 | [METR Time Horizons and External Evaluation](../../phases/15-autonomous-systems/21-metr-external-evaluation/) | Learn | Python |
-| 22 | [CAIS, CAISI, and Societal-Scale Risk](../../phases/15-autonomous-systems/22-cais-caisi-societal-risk/) | Learn | Python |
+| 01 | [Από συνομιλιακά συστήματα σε πράκτορες μεγάλου ορίζοντα (METR)](../../phases/15-autonomous-systems/01-long-horizon-agents/) | Μάθηση | Python |
+| 02 | [STaR, V-STaR, Quiet-STaR: αυτοδίδακτος συλλογισμός](../../phases/15-autonomous-systems/02-star-family-reasoning/) | Μάθηση | Python |
+| 03 | [AlphaEvolve: εξελικτικοί πράκτορες προγραμματισμού](../../phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/) | Μάθηση | Python |
+| 04 | [Darwin Gödel Machine: αυτοτροποποιούμενοι πράκτορες](../../phases/15-autonomous-systems/04-darwin-godel-machine/) | Μάθηση | Python |
+| 05 | [AI Scientist v2: έρευνα επιπέδου επιστημονικού εργαστηρίου](../../phases/15-autonomous-systems/05-ai-scientist-v2/) | Μάθηση | Python |
+| 06 | [Αυτοματοποιημένη έρευνα ευθυγράμμισης (Anthropic AAR)](../../phases/15-autonomous-systems/06-automated-alignment-research/) | Μάθηση | Python |
+| 07 | [Αναδρομική αυτοβελτίωση: ικανότητα έναντι ευθυγράμμισης](../../phases/15-autonomous-systems/07-recursive-self-improvement/) | Μάθηση | Python |
+| 08 | [Σχέδια περιορισμένης αυτοβελτίωσης](../../phases/15-autonomous-systems/08-bounded-self-improvement/) | Μάθηση | Python |
+| 09 | [Τοπίο αυτόνομων πρακτόρων προγραμματισμού (SWE-bench, CodeAct)](../../phases/15-autonomous-systems/09-coding-agent-landscape/) | Μάθηση | Python |
+| 10 | [Λειτουργίες δικαιωμάτων για αυτόνομους πράκτορες](../../phases/15-autonomous-systems/10-claude-code-permission-modes/) | Μάθηση | Python |
+| 11 | [Πράκτορες περιηγητή και έμμεση έγχυση προτροπών](../../phases/15-autonomous-systems/11-browser-agents/) | Μάθηση | Python |
+| 12 | [Ανθεκτική εκτέλεση για μακροχρόνιους πράκτορες](../../phases/15-autonomous-systems/12-durable-execution/) | Μάθηση | Python |
+| 13 | [Προϋπολογισμοί ενεργειών, όρια επαναλήψεων και έλεγχος κόστους](../../phases/15-autonomous-systems/13-cost-governors/) | Μάθηση | Python |
+| 14 | [Διακόπτες έκτακτης ανάγκης, ασφάλειες και προειδοποιητικά token](../../phases/15-autonomous-systems/14-kill-switches-canaries/) | Μάθηση | Python |
+| 15 | [Άνθρωπος στον βρόχο: πρόταση πριν από τη δέσμευση](../../phases/15-autonomous-systems/15-propose-then-commit/) | Μάθηση | Python |
+| 16 | [Σημεία ελέγχου και επαναφορά](../../phases/15-autonomous-systems/16-checkpoints-rollback/) | Μάθηση | Python |
+| 17 | [Συνταγματική ΤΝ και παρακάμψεις κανόνων](../../phases/15-autonomous-systems/17-constitutional-ai/) | Μάθηση | Python |
+| 18 | [Llama Guard και ταξινόμηση εισόδου/εξόδου](../../phases/15-autonomous-systems/18-llama-guard/) | Μάθηση | Python |
+| 19 | [Anthropic Responsible Scaling Policy v3.0](../../phases/15-autonomous-systems/19-anthropic-rsp/) | Μάθηση | Python |
+| 20 | [OpenAI Preparedness Framework και DeepMind FSF](../../phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/) | Μάθηση | Python |
+| 21 | [Χρονικοί ορίζοντες METR και εξωτερική αξιολόγηση](../../phases/15-autonomous-systems/21-metr-external-evaluation/) | Μάθηση | Python |
+| 22 | [CAIS, CAISI και κίνδυνος κοινωνικής κλίμακας](../../phases/15-autonomous-systems/22-cais-caisi-societal-risk/) | Μάθηση | Python |
 
 </details>
 
 <details id="phase-16">
-<summary><b>Phase 16 — Multi-Agent & Swarms</b> &nbsp;<code>25 lessons</code>&nbsp; <em>Coordination, emergence, and collective intelligence.</em></summary>
+<summary><b>Φάση 16: Πολλαπλοί πράκτορες και σμήνη</b> &nbsp;<code>25 μαθήματα</code>&nbsp; <em>Συντονισμός, ανάδυση και συλλογική νοημοσύνη.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Μάθημα | Τύπος | Γλώσσα |
 |:---:|--------|:----:|------|
-| 01 | [Why Multi-Agent](../../phases/16-multi-agent-and-swarms/01-why-multi-agent/) | Learn | TypeScript |
-| 02 | [FIPA-ACL Heritage and Speech Acts](../../phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/) | Learn | Python |
-| 03 | [Communication Protocols](../../phases/16-multi-agent-and-swarms/03-communication-protocols/) | Build | TypeScript |
-| 04 | [The Multi-Agent Primitive Model](../../phases/16-multi-agent-and-swarms/04-primitive-model/) | Learn | Python |
-| 05 | [Supervisor / Orchestrator-Worker Pattern](../../phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/) | Build | Python |
-| 06 | [Hierarchical Architecture and Decomposition Drift](../../phases/16-multi-agent-and-swarms/06-hierarchical-architecture/) | Learn | Python |
-| 07 | [Society of Mind and Multi-Agent Debate](../../phases/16-multi-agent-and-swarms/07-society-of-mind-debate/) | Build | Python |
-| 08 | [Role Specialization — Planner / Critic / Executor / Verifier](../../phases/16-multi-agent-and-swarms/08-role-specialization/) | Build | Python |
-| 09 | [Parallel Swarm and Networked Architectures](../../phases/16-multi-agent-and-swarms/09-parallel-swarm-networks/) | Build | Python |
-| 10 | [Group Chat and Speaker Selection](../../phases/16-multi-agent-and-swarms/10-group-chat-speaker-selection/) | Build | Python |
-| 11 | [Handoffs and Routines (Stateless Orchestration)](../../phases/16-multi-agent-and-swarms/11-handoffs-and-routines/) | Build | Python |
-| 12 | [A2A — The Agent-to-Agent Protocol](../../phases/16-multi-agent-and-swarms/12-a2a-protocol/) | Build | Python |
-| 13 | [Shared Memory and Blackboard Patterns](../../phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/) | Build | Python |
-| 14 | [Consensus and Byzantine Fault Tolerance](../../phases/16-multi-agent-and-swarms/14-consensus-and-bft/) | Build | Python |
-| 15 | [Voting, Self-Consistency, and Debate Topology](../../phases/16-multi-agent-and-swarms/15-voting-debate-topology/) | Build | Python |
-| 16 | [Negotiation and Bargaining](../../phases/16-multi-agent-and-swarms/16-negotiation-bargaining/) | Build | Python |
-| 17 | [Generative Agents and Emergent Simulation](../../phases/16-multi-agent-and-swarms/17-generative-agents-simulation/) | Build | Python |
-| 18 | [Theory of Mind and Emergent Coordination](../../phases/16-multi-agent-and-swarms/18-theory-of-mind-coordination/) | Build | Python |
-| 19 | [Swarm Optimization (PSO, ACO)](../../phases/16-multi-agent-and-swarms/19-swarm-optimization-pso-aco/) | Build | Python |
-| 20 | [MARL — MADDPG, QMIX, MAPPO](../../phases/16-multi-agent-and-swarms/20-marl-maddpg-qmix-mappo/) | Learn | Python |
-| 21 | [Agent Economies, Token Incentives, Reputation](../../phases/16-multi-agent-and-swarms/21-agent-economies/) | Learn | Python |
-| 22 | [Production Scaling — Queues, Checkpoints, Durability](../../phases/16-multi-agent-and-swarms/22-production-scaling-queues-checkpoints/) | Build | Python |
-| 23 | [Failure Modes — MAST, Groupthink, Monoculture](../../phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/) | Learn | Python |
-| 24 | [Evaluation and Coordination Benchmarks](../../phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/) | Learn | Python |
-| 25 | [Case Studies and 2026 State of the Art](../../phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/) | Learn | Python |
+| 01 | [Γιατί πολλοί πράκτορες](../../phases/16-multi-agent-and-swarms/01-why-multi-agent/) | Μάθηση | TypeScript |
+| 02 | [Η κληρονομιά FIPA-ACL και οι λεκτικές πράξεις](../../phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/) | Μάθηση | Python |
+| 03 | [Πρωτόκολλα επικοινωνίας](../../phases/16-multi-agent-and-swarms/03-communication-protocols/) | Κατασκευή | TypeScript |
+| 04 | [Το μοντέλο βασικών στοιχείων πολλών πρακτόρων](../../phases/16-multi-agent-and-swarms/04-primitive-model/) | Μάθηση | Python |
+| 05 | [Μοτίβο επόπτη και ενορχηστρωτή-εργάτη](../../phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/) | Κατασκευή | Python |
+| 06 | [Ιεραρχική αρχιτεκτονική και απόκλιση αποσύνθεσης](../../phases/16-multi-agent-and-swarms/06-hierarchical-architecture/) | Μάθηση | Python |
+| 07 | [Society of Mind και πολυπρακτορική συζήτηση](../../phases/16-multi-agent-and-swarms/07-society-of-mind-debate/) | Κατασκευή | Python |
+| 08 | [Εξειδίκευση ρόλων: σχεδιαστής, κριτής, εκτελεστής και επαληθευτής](../../phases/16-multi-agent-and-swarms/08-role-specialization/) | Κατασκευή | Python |
+| 09 | [Παράλληλα σμήνη και δικτυωμένες αρχιτεκτονικές](../../phases/16-multi-agent-and-swarms/09-parallel-swarm-networks/) | Κατασκευή | Python |
+| 10 | [Ομαδική συνομιλία και επιλογή ομιλητή](../../phases/16-multi-agent-and-swarms/10-group-chat-speaker-selection/) | Κατασκευή | Python |
+| 11 | [Μεταβιβάσεις και ρουτίνες (ενορχήστρωση χωρίς κατάσταση)](../../phases/16-multi-agent-and-swarms/11-handoffs-and-routines/) | Κατασκευή | Python |
+| 12 | [A2A: το πρωτόκολλο πράκτορα προς πράκτορα](../../phases/16-multi-agent-and-swarms/12-a2a-protocol/) | Κατασκευή | Python |
+| 13 | [Κοινόχρηστη μνήμη και μοτίβα μαυροπίνακα](../../phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/) | Κατασκευή | Python |
+| 14 | [Συναίνεση και ανοχή βυζαντινών σφαλμάτων](../../phases/16-multi-agent-and-swarms/14-consensus-and-bft/) | Κατασκευή | Python |
+| 15 | [Ψηφοφορία, αυτοσυνέπεια και τοπολογία διαλόγου](../../phases/16-multi-agent-and-swarms/15-voting-debate-topology/) | Κατασκευή | Python |
+| 16 | [Διαπραγμάτευση και παζάρι](../../phases/16-multi-agent-and-swarms/16-negotiation-bargaining/) | Κατασκευή | Python |
+| 17 | [Παραγωγικοί πράκτορες και αναδυόμενη προσομοίωση](../../phases/16-multi-agent-and-swarms/17-generative-agents-simulation/) | Κατασκευή | Python |
+| 18 | [Θεωρία του νου και αναδυόμενος συντονισμός](../../phases/16-multi-agent-and-swarms/18-theory-of-mind-coordination/) | Κατασκευή | Python |
+| 19 | [Βελτιστοποίηση σμήνους (PSO, ACO)](../../phases/16-multi-agent-and-swarms/19-swarm-optimization-pso-aco/) | Κατασκευή | Python |
+| 20 | [MARL: MADDPG, QMIX, MAPPO](../../phases/16-multi-agent-and-swarms/20-marl-maddpg-qmix-mappo/) | Μάθηση | Python |
+| 21 | [Οικονομίες πρακτόρων, κίνητρα token και φήμη](../../phases/16-multi-agent-and-swarms/21-agent-economies/) | Μάθηση | Python |
+| 22 | [Κλιμάκωση παραγωγής: ουρές, σημεία ελέγχου και ανθεκτικότητα](../../phases/16-multi-agent-and-swarms/22-production-scaling-queues-checkpoints/) | Κατασκευή | Python |
+| 23 | [Τρόποι αποτυχίας: MAST, ομαδική σκέψη και μονοκαλλιέργεια](../../phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/) | Μάθηση | Python |
+| 24 | [Δοκιμασίες αξιολόγησης και συντονισμού](../../phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/) | Μάθηση | Python |
+| 25 | [Μελέτες περίπτωσης και κατάσταση της τεχνολογίας το 2026](../../phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/) | Μάθηση | Python |
 
 </details>
 
 <details id="phase-17">
-<summary><b>Phase 17 — Infrastructure & Production</b> &nbsp;<code>28 lessons</code>&nbsp; <em>Ship AI to the real world.</em></summary>
+<summary><b>Φάση 17: Υποδομή και παραγωγή</b> &nbsp;<code>29 μαθήματα</code>&nbsp; <em>Βάλε την ΤΝ στον πραγματικό κόσμο.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Μάθημα | Τύπος | Γλώσσα |
 |:---:|--------|:----:|------|
-| 01 | [Managed LLM Platforms — Bedrock, Azure OpenAI, Vertex AI](../../phases/17-infrastructure-and-production/01-managed-llm-platforms/) | Learn | Python |
-| 02 | [Inference Platform Economics — Fireworks, Together, Baseten, Modal](../../phases/17-infrastructure-and-production/02-inference-platform-economics/) | Learn | Python |
-| 03 | [GPU Autoscaling on Kubernetes — Karpenter, KAI Scheduler](../../phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/) | Learn | Python |
-| 04 | [Serving Engine Internals — PagedAttention, Continuous Batching, Chunked Prefill](../../phases/17-infrastructure-and-production/04-vllm-serving-internals/) | Learn | Python |
-| 05 | [EAGLE-3 Speculative Decoding in Production](../../phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/) | Learn | Python |
-| 06 | [Prefix-Cache Serving — RadixAttention and KV Reuse](../../phases/17-infrastructure-and-production/06-sglang-radixattention/) | Learn | Python |
-| 07 | [Hardware-Specialized Inference Compilation — FP8 and NVFP4 on Blackwell](../../phases/17-infrastructure-and-production/07-tensorrt-llm-blackwell/) | Learn | Python |
-| 08 | [Inference Metrics — TTFT, TPOT, ITL, Goodput, P99](../../phases/17-infrastructure-and-production/08-inference-metrics-goodput/) | Learn | Python |
-| 09 | [Production Quantization — AWQ, GPTQ, GGUF, FP8, NVFP4](../../phases/17-infrastructure-and-production/09-production-quantization/) | Learn | Python |
-| 10 | [Cold Start Mitigation for Serverless LLMs](../../phases/17-infrastructure-and-production/10-cold-start-mitigation/) | Learn | Python |
-| 11 | [Multi-Region LLM Serving and KV Cache Locality](../../phases/17-infrastructure-and-production/11-multi-region-kv-locality/) | Learn | Python |
-| 12 | [Edge Inference — ANE, Hexagon, WebGPU, Jetson](../../phases/17-infrastructure-and-production/12-edge-inference/) | Learn | Python |
-| 13 | [LLM Observability Stack Selection](../../phases/17-infrastructure-and-production/13-llm-observability/) | Learn | Python |
-| 14 | [Prompt Caching and Semantic Caching Economics](../../phases/17-infrastructure-and-production/14-prompt-semantic-caching/) | Learn | Python |
-| 15 | [Batch APIs — the 50% Discount as Industry Standard](../../phases/17-infrastructure-and-production/15-batch-apis/) | Learn | Python |
-| 16 | [Model Routing as a Cost-Reduction Primitive](../../phases/17-infrastructure-and-production/16-model-routing/) | Learn | Python |
-| 17 | [Disaggregated Prefill/Decode — NVIDIA Dynamo and llm-d](../../phases/17-infrastructure-and-production/17-disaggregated-prefill-decode/) | Learn | Python |
-| 18 | [Production Serving Stack — KV Offloading and Cache-Aware Routing](../../phases/17-infrastructure-and-production/18-vllm-production-stack-lmcache/) | Learn | Python |
-| 19 | [AI Gateways — LiteLLM, Portkey, Kong, Bifrost](../../phases/17-infrastructure-and-production/19-ai-gateways/) | Learn | Python |
-| 20 | [Shadow, Canary, and Progressive Deployment](../../phases/17-infrastructure-and-production/20-shadow-canary-progressive/) | Learn | Python |
-| 21 | [A/B Testing LLM Features — GrowthBook and Statsig](../../phases/17-infrastructure-and-production/21-ab-testing-llm-features/) | Learn | Python |
-| 22 | [Load Testing LLM APIs — k6, LLMPerf, GenAI-Perf](../../phases/17-infrastructure-and-production/22-load-testing-llm-apis/) | Build | Python |
-| 23 | [SRE for AI — Multi-Agent Incident Response](../../phases/17-infrastructure-and-production/23-sre-for-ai/) | Learn | Python |
-| 24 | [Chaos Engineering for LLM Production](../../phases/17-infrastructure-and-production/24-chaos-engineering-llm/) | Learn | Python |
-| 25 | [Security — Secrets, PII Scrubbing, Audit Logs](../../phases/17-infrastructure-and-production/25-security-secrets-audit/) | Learn | Python |
-| 26 | [Compliance — SOC 2, HIPAA, GDPR, EU AI Act, ISO 42001](../../phases/17-infrastructure-and-production/26-compliance-frameworks/) | Learn | Python |
-| 27 | [FinOps for LLMs — Unit Economics and Multi-Tenant Attribution](../../phases/17-infrastructure-and-production/27-finops-llms/) | Learn | Python |
-| 28 | [Self-Hosted Serving Selection — Matching Engine to Hardware and Scale](../../phases/17-infrastructure-and-production/28-self-hosted-serving-selection/) | Learn | Python |
+| 01 | [Διαχειριζόμενες πλατφόρμες LLM: Bedrock, Azure OpenAI, Vertex AI](../../phases/17-infrastructure-and-production/01-managed-llm-platforms/) | Μάθηση | Python |
+| 02 | [Οικονομία πλατφορμών συμπερασμού: Fireworks, Together, Baseten, Modal](../../phases/17-infrastructure-and-production/02-inference-platform-economics/) | Μάθηση | Python |
+| 03 | [Αυτόματη κλιμάκωση GPU σε Kubernetes: Karpenter, KAI Scheduler](../../phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/) | Μάθηση | Python |
+| 04 | [Εσωτερική λειτουργία μηχανών εξυπηρέτησης: PagedAttention, συνεχείς παρτίδες και τμηματικό prefill](../../phases/17-infrastructure-and-production/04-vllm-serving-internals/) | Μάθηση | Python |
+| 05 | [Εικαστική αποκωδικοποίηση EAGLE-3 σε παραγωγή](../../phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/) | Μάθηση | Python |
+| 06 | [Εξυπηρέτηση με cache προθεμάτων: RadixAttention και επαναχρησιμοποίηση KV](../../phases/17-infrastructure-and-production/06-sglang-radixattention/) | Μάθηση | Python |
+| 07 | [Εξειδικευμένη μεταγλώττιση συμπερασμού: FP8 και NVFP4 σε Blackwell](../../phases/17-infrastructure-and-production/07-tensorrt-llm-blackwell/) | Μάθηση | Python |
+| 08 | [Μετρικές συμπερασμού: TTFT, TPOT, ITL, goodput, P99](../../phases/17-infrastructure-and-production/08-inference-metrics-goodput/) | Μάθηση | Python |
+| 09 | [Κβάντιση παραγωγής: AWQ, GPTQ, GGUF, FP8, NVFP4](../../phases/17-infrastructure-and-production/09-production-quantization/) | Μάθηση | Python |
+| 10 | [Μείωση ψυχρών εκκινήσεων για LLM χωρίς διακομιστή](../../phases/17-infrastructure-and-production/10-cold-start-mitigation/) | Μάθηση | Python |
+| 11 | [Πολυπεριφερειακή εξυπηρέτηση LLM και τοπικότητα cache KV](../../phases/17-infrastructure-and-production/11-multi-region-kv-locality/) | Μάθηση | Python |
+| 12 | [Συμπερασμός στην άκρη: ANE, Hexagon, WebGPU, Jetson](../../phases/17-infrastructure-and-production/12-edge-inference/) | Μάθηση | Python |
+| 13 | [Επιλογή στοίβας παρατηρησιμότητας LLM](../../phases/17-infrastructure-and-production/13-llm-observability/) | Μάθηση | Python |
+| 14 | [Οικονομία προσωρινής αποθήκευσης προτροπών και σημασιολογίας](../../phases/17-infrastructure-and-production/14-prompt-semantic-caching/) | Μάθηση | Python |
+| 15 | [API παρτίδων: η έκπτωση 50% ως πρότυπο κλάδου](../../phases/17-infrastructure-and-production/15-batch-apis/) | Μάθηση | Python |
+| 16 | [Δρομολόγηση μοντέλων ως βασικό στοιχείο μείωσης κόστους](../../phases/17-infrastructure-and-production/16-model-routing/) | Μάθηση | Python |
+| 17 | [Διαχωρισμένο prefill και αποκωδικοποίηση: NVIDIA Dynamo και llm-d](../../phases/17-infrastructure-and-production/17-disaggregated-prefill-decode/) | Μάθηση | Python |
+| 18 | [Στοίβα εξυπηρέτησης παραγωγής: μεταφορά KV και δρομολόγηση με επίγνωση cache](../../phases/17-infrastructure-and-production/18-vllm-production-stack-lmcache/) | Μάθηση | Python |
+| 19 | [Πύλες ΤΝ: LiteLLM, Portkey, Kong, Bifrost](../../phases/17-infrastructure-and-production/19-ai-gateways/) | Μάθηση | Python |
+| 20 | [Σκιώδεις δοκιμές, εκδόσεις canary και σταδιακή διάθεση](../../phases/17-infrastructure-and-production/20-shadow-canary-progressive/) | Μάθηση | Python |
+| 21 | [Δοκιμές A/B λειτουργιών LLM: GrowthBook και Statsig](../../phases/17-infrastructure-and-production/21-ab-testing-llm-features/) | Μάθηση | Python |
+| 22 | [Δοκιμές φόρτου API LLM: k6, LLMPerf, GenAI-Perf](../../phases/17-infrastructure-and-production/22-load-testing-llm-apis/) | Κατασκευή | Python |
+| 23 | [SRE για ΤΝ: πολυπρακτορική απόκριση σε συμβάντα](../../phases/17-infrastructure-and-production/23-sre-for-ai/) | Μάθηση | Python |
+| 24 | [Μηχανική χάους για LLM παραγωγής](../../phases/17-infrastructure-and-production/24-chaos-engineering-llm/) | Μάθηση | Python |
+| 25 | [Ασφάλεια: μυστικά, αφαίρεση προσωπικών δεδομένων και αρχεία ελέγχου](../../phases/17-infrastructure-and-production/25-security-secrets-audit/) | Μάθηση | Python |
+| 26 | [Συμμόρφωση: SOC 2, HIPAA, GDPR, EU AI Act, ISO 42001](../../phases/17-infrastructure-and-production/26-compliance-frameworks/) | Μάθηση | Python |
+| 27 | [FinOps για LLM: οικονομία μονάδας και κατανομή κόστους πολλών πελατών](../../phases/17-infrastructure-and-production/27-finops-llms/) | Μάθηση | Python |
+| 28 | [Επιλογή αυτοφιλοξενούμενης εξυπηρέτησης: αντιστοίχιση μηχανής, υλικού και κλίμακας](../../phases/17-infrastructure-and-production/28-self-hosted-serving-selection/) | Μάθηση | Python |
+| 29 | [Διεπαφές επίδειξης μοντέλων: από μια συνάρτηση σε μια εφαρμογή για κοινή χρήση](../../phases/17-infrastructure-and-production/29-model-demo-interfaces/) | Κατασκευή | Python |
 
 </details>
 
 <details id="phase-18">
-<summary><b>Phase 18 — Ethics, Safety & Alignment</b> &nbsp;<code>30 lessons</code>&nbsp; <em>Build AI that helps humanity. Not optional.</em></summary>
+<summary><b>Φάση 18: Ηθική, ασφάλεια και ευθυγράμμιση</b> &nbsp;<code>30 μαθήματα</code>&nbsp; <em>Κατασκεύασε ΤΝ που βοηθά την ανθρωπότητα. Δεν είναι προαιρετικό.</em></summary>
 <br/>
 
-| # | Lesson | Type | Lang |
+| # | Μάθημα | Τύπος | Γλώσσα |
 |:---:|--------|:----:|------|
-| 01 | [Instruction-Following as Alignment Signal](../../phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/) | Learn | Python |
-| 02 | [Reward Hacking & Goodhart's Law](../../phases/18-ethics-safety-alignment/02-reward-hacking-goodhart/) | Learn | Python |
-| 03 | [Direct Preference Optimization Family](../../phases/18-ethics-safety-alignment/03-direct-preference-optimization-family/) | Learn | Python |
-| 04 | [Sycophancy as RLHF Amplification](../../phases/18-ethics-safety-alignment/04-sycophancy-rlhf-amplification/) | Learn | Python |
-| 05 | [Constitutional AI & RLAIF](../../phases/18-ethics-safety-alignment/05-constitutional-ai-rlaif/) | Learn | Python |
-| 06 | [Mesa-Optimization & Deceptive Alignment](../../phases/18-ethics-safety-alignment/06-mesa-optimization-deceptive-alignment/) | Learn | Python |
-| 07 | [Sleeper Agents — Persistent Deception](../../phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/) | Learn | Python |
-| 08 | [In-Context Scheming in Frontier Models](../../phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/) | Learn | Python |
-| 09 | [Alignment Faking](../../phases/18-ethics-safety-alignment/09-alignment-faking/) | Learn | Python |
-| 10 | [AI Control — Safety Despite Subversion](../../phases/18-ethics-safety-alignment/10-ai-control-subversion/) | Learn | Python |
-| 11 | [Scalable Oversight & Weak-to-Strong](../../phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/) | Learn | Python |
-| 12 | [Red-Teaming: PAIR & Automated Attacks](../../phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/) | Build | Python |
-| 13 | [Many-Shot Jailbreaking](../../phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/) | Learn | Python |
-| 14 | [ASCII Art & Visual Jailbreaks](../../phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/) | Build | Python |
-| 15 | [Indirect Prompt Injection](../../phases/18-ethics-safety-alignment/15-indirect-prompt-injection/) | Build | Python |
-| 16 | [Red-Team Tooling: Garak, Llama Guard, PyRIT](../../phases/18-ethics-safety-alignment/16-red-team-tooling-garak-llamaguard-pyrit/) | Build | Python |
-| 17 | [WMDP & Dual-Use Capability Evaluation](../../phases/18-ethics-safety-alignment/17-wmdp-dual-use-evaluation/) | Learn | Python |
-| 18 | [Frontier Safety Frameworks — RSP, PF, FSF](../../phases/18-ethics-safety-alignment/18-frontier-safety-frameworks-rsp-pf-fsf/) | Learn | Python |
-| 19 | [Model Welfare Research](../../phases/18-ethics-safety-alignment/19-model-welfare-research/) | Learn | Python |
-| 20 | [Bias & Representational Harm](../../phases/18-ethics-safety-alignment/20-bias-representational-harm/) | Build | Python |
-| 21 | [Fairness Criteria: Group, Individual, Counterfactual](../../phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/) | Learn | Python |
-| 22 | [Differential Privacy for LLMs](../../phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/) | Build | Python |
-| 23 | [Watermarking: SynthID, Stable Signature, C2PA](../../phases/18-ethics-safety-alignment/23-watermarking-synthid-stable-signature-c2pa/) | Build | Python |
-| 24 | [Regulatory Frameworks: EU, US, UK, Korea](../../phases/18-ethics-safety-alignment/24-regulatory-frameworks-eu-us-uk-korea/) | Learn | Python |
-| 25 | [EchoLeak & CVEs for AI](../../phases/18-ethics-safety-alignment/25-echoleak-cves-for-ai/) | Learn | Python |
-| 26 | [Model, System & Dataset Cards](../../phases/18-ethics-safety-alignment/26-model-system-dataset-cards/) | Build | Python |
-| 27 | [Data Provenance & Training-Data Governance](../../phases/18-ethics-safety-alignment/27-data-provenance-training-governance/) | Learn | Python |
-| 28 | [Alignment Research Ecosystem: MATS, Redwood, Apollo, METR](../../phases/18-ethics-safety-alignment/28-alignment-research-ecosystem/) | Learn | Python |
-| 29 | [Moderation Systems: OpenAI, Perspective, Llama Guard](../../phases/18-ethics-safety-alignment/29-moderation-systems-openai-perspective-llamaguard/) | Build | Python |
-| 30 | [Dual-Use Risk: Cyber, Bio, Chem, Nuclear](../../phases/18-ethics-safety-alignment/30-dual-use-risk-cyber-bio-chem-nuclear/) | Learn | Python |
+| 01 | [Ακολούθηση οδηγιών ως σήμα ευθυγράμμισης](../../phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/) | Μάθηση | Python |
+| 02 | [Παραβίαση ανταμοιβής και νόμος Goodhart](../../phases/18-ethics-safety-alignment/02-reward-hacking-goodhart/) | Μάθηση | Python |
+| 03 | [Η οικογένεια άμεσης βελτιστοποίησης προτιμήσεων](../../phases/18-ethics-safety-alignment/03-direct-preference-optimization-family/) | Μάθηση | Python |
+| 04 | [Κολακεία ως ενίσχυση του RLHF](../../phases/18-ethics-safety-alignment/04-sycophancy-rlhf-amplification/) | Μάθηση | Python |
+| 05 | [Συνταγματική ΤΝ και RLAIF](../../phases/18-ethics-safety-alignment/05-constitutional-ai-rlaif/) | Μάθηση | Python |
+| 06 | [Mesa-βελτιστοποίηση και παραπλανητική ευθυγράμμιση](../../phases/18-ethics-safety-alignment/06-mesa-optimization-deceptive-alignment/) | Μάθηση | Python |
+| 07 | [Αδρανείς πράκτορες: επίμονη εξαπάτηση](../../phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/) | Μάθηση | Python |
+| 08 | [Μηχανορραφίες εντός συμφραζομένου σε κορυφαία μοντέλα](../../phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/) | Μάθηση | Python |
+| 09 | [Προσποίηση ευθυγράμμισης](../../phases/18-ethics-safety-alignment/09-alignment-faking/) | Μάθηση | Python |
+| 10 | [Έλεγχος ΤΝ: ασφάλεια παρά την υπονόμευση](../../phases/18-ethics-safety-alignment/10-ai-control-subversion/) | Μάθηση | Python |
+| 11 | [Κλιμακώσιμη εποπτεία και γενίκευση από ασθενή σε ισχυρά μοντέλα](../../phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/) | Μάθηση | Python |
+| 12 | [Επιθετικές δοκιμές: PAIR και αυτοματοποιημένες επιθέσεις](../../phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/) | Κατασκευή | Python |
+| 13 | [Jailbreak με πολλά παραδείγματα](../../phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/) | Μάθηση | Python |
+| 14 | [Τέχνη ASCII και οπτικά jailbreak](../../phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/) | Κατασκευή | Python |
+| 15 | [Έμμεση έγχυση προτροπών](../../phases/18-ethics-safety-alignment/15-indirect-prompt-injection/) | Κατασκευή | Python |
+| 16 | [Εργαλεία επιθετικών δοκιμών: Garak, Llama Guard, PyRIT](../../phases/18-ethics-safety-alignment/16-red-team-tooling-garak-llamaguard-pyrit/) | Κατασκευή | Python |
+| 17 | [WMDP και αξιολόγηση ικανοτήτων διπλής χρήσης](../../phases/18-ethics-safety-alignment/17-wmdp-dual-use-evaluation/) | Μάθηση | Python |
+| 18 | [Πλαίσια ασφάλειας κορυφαίων μοντέλων: RSP, PF, FSF](../../phases/18-ethics-safety-alignment/18-frontier-safety-frameworks-rsp-pf-fsf/) | Μάθηση | Python |
+| 19 | [Έρευνα ευημερίας μοντέλων](../../phases/18-ethics-safety-alignment/19-model-welfare-research/) | Μάθηση | Python |
+| 20 | [Μεροληψία και βλάβες αναπαράστασης](../../phases/18-ethics-safety-alignment/20-bias-representational-harm/) | Κατασκευή | Python |
+| 21 | [Κριτήρια δικαιοσύνης: ομαδικά, ατομικά και αντιγεγονικά](../../phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/) | Μάθηση | Python |
+| 22 | [Διαφορική ιδιωτικότητα για LLM](../../phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/) | Κατασκευή | Python |
+| 23 | [Υδατοσήμανση: SynthID, Stable Signature, C2PA](../../phases/18-ethics-safety-alignment/23-watermarking-synthid-stable-signature-c2pa/) | Κατασκευή | Python |
+| 24 | [Ρυθμιστικά πλαίσια: ΕΕ, ΗΠΑ, Ηνωμένο Βασίλειο και Κορέα](../../phases/18-ethics-safety-alignment/24-regulatory-frameworks-eu-us-uk-korea/) | Μάθηση | Python |
+| 25 | [EchoLeak και CVE για ΤΝ](../../phases/18-ethics-safety-alignment/25-echoleak-cves-for-ai/) | Μάθηση | Python |
+| 26 | [Κάρτες μοντέλων, συστημάτων και συνόλων δεδομένων](../../phases/18-ethics-safety-alignment/26-model-system-dataset-cards/) | Κατασκευή | Python |
+| 27 | [Προέλευση δεδομένων και διακυβέρνηση δεδομένων εκπαίδευσης](../../phases/18-ethics-safety-alignment/27-data-provenance-training-governance/) | Μάθηση | Python |
+| 28 | [Οικοσύστημα έρευνας ευθυγράμμισης: MATS, Redwood, Apollo, METR](../../phases/18-ethics-safety-alignment/28-alignment-research-ecosystem/) | Μάθηση | Python |
+| 29 | [Συστήματα ελέγχου περιεχομένου: OpenAI, Perspective, Llama Guard](../../phases/18-ethics-safety-alignment/29-moderation-systems-openai-perspective-llamaguard/) | Κατασκευή | Python |
+| 30 | [Κίνδυνος διπλής χρήσης: κυβερνοχώρος, βιολογία, χημεία και πυρηνικά](../../phases/18-ethics-safety-alignment/30-dual-use-risk-cyber-bio-chem-nuclear/) | Μάθηση | Python |
 
 </details>
 
 <details id="phase-19">
-<summary><b>Phase 19 — Capstone Projects</b> &nbsp;<code>85 lessons</code>&nbsp; <em>17 end-to-end products + 9 deep-build tracks. 20-40 hours per project; 4-12 lessons per track.</em></summary>
+<summary><b>Φάση 19: Ολοκληρωμένα έργα</b> &nbsp;<code>85 μαθήματα</code>&nbsp; <em>17 ολοκληρωμένα προϊόντα + 9 διαδρομές εις βάθος κατασκευής. 20-40 ώρες ανά έργο· 4-12 μαθήματα ανά διαδρομή.</em></summary>
 <br/>
 
-| # | Project | Combines | Lang |
+| # | Έργο | Συνδυάζει | Γλώσσα |
 |:---:|---------|----------|------|
-| 01 | [Terminal-Native Coding Agent](../../phases/19-capstone-projects/01-terminal-native-coding-agent/) | P0 P5 P7 P10 P11 P13 P14 P15 P17 P18 | Python |
-| 02 | [RAG over Codebase (Cross-Repo Semantic Search)](../../phases/19-capstone-projects/02-rag-over-codebase/) | P5 P7 P11 P13 P17 | Python |
-| 03 | [Real-Time Voice Assistant (ASR → LLM → TTS)](../../phases/19-capstone-projects/03-realtime-voice-assistant/) | P6 P7 P11 P13 P14 P17 | Python |
-| 04 | [Multimodal Document QA (Vision-First)](../../phases/19-capstone-projects/04-multimodal-document-qa/) | P4 P5 P7 P11 P12 P17 | Python |
-| 05 | [Autonomous Research Agent (AI-Scientist Class)](../../phases/19-capstone-projects/05-autonomous-research-agent/) | P0 P2 P3 P7 P10 P14 P15 P16 P18 | Python |
-| 06 | [DevOps Troubleshooting Agent for Kubernetes](../../phases/19-capstone-projects/06-devops-troubleshooting-agent/) | P11 P13 P14 P15 P17 P18 | Python |
-| 07 | [End-to-End Fine-Tuning Pipeline](../../phases/19-capstone-projects/07-end-to-end-fine-tuning-pipeline/) | P2 P3 P7 P10 P11 P17 P18 | Python |
-| 08 | [Production RAG Chatbot (Regulated Vertical)](../../phases/19-capstone-projects/08-production-rag-chatbot/) | P5 P7 P11 P12 P17 P18 | Python |
-| 09 | [Code Migration Agent (Repo-Level Upgrade)](../../phases/19-capstone-projects/09-code-migration-agent/) | P5 P7 P11 P13 P14 P15 P17 | Python |
-| 10 | [Multi-Agent Software Engineering Team](../../phases/19-capstone-projects/10-multi-agent-software-team/) | P11 P13 P14 P15 P16 P17 | Python |
-| 11 | [LLM Observability & Eval Dashboard](../../phases/19-capstone-projects/11-llm-observability-dashboard/) | P11 P13 P17 P18 | Python |
-| 12 | [Video Understanding Pipeline (Scene → QA)](../../phases/19-capstone-projects/12-video-understanding-pipeline/) | P4 P6 P7 P11 P12 P17 | Python |
-| 13 | [Stateless MCP Server with Registry and Governance](../../phases/19-capstone-projects/13-mcp-server-with-registry/) | P11 P13 P14 P17 P18 | Python |
-| 14 | [Speculative-Decoding Inference Server](../../phases/19-capstone-projects/14-speculative-decoding-server/) | P3 P7 P10 P17 | Python |
-| 15 | [Constitutional Safety Harness + Red-Team Range](../../phases/19-capstone-projects/15-constitutional-safety-harness/) | P10 P11 P13 P14 P18 | Python |
-| 16 | [GitHub Issue-to-PR Autonomous Agent](../../phases/19-capstone-projects/16-github-issue-to-pr-agent/) | P11 P13 P14 P15 P17 | Python |
-| 17 | [Personal AI Tutor (Adaptive, Multimodal)](../../phases/19-capstone-projects/17-personal-ai-tutor/) | P5 P6 P11 P12 P14 P17 P18 | Python |
+| 01 | [Πράκτορας προγραμματισμού μέσα στο τερματικό](../../phases/19-capstone-projects/01-terminal-native-coding-agent/) | P0 P5 P7 P10 P11 P13 P14 P15 P17 P18 | Python |
+| 02 | [RAG πάνω σε βάση κώδικα (σημασιολογική αναζήτηση μεταξύ αποθετηρίων)](../../phases/19-capstone-projects/02-rag-over-codebase/) | P5 P7 P11 P13 P17 | Python |
+| 03 | [Φωνητικός βοηθός πραγματικού χρόνου (ASR → LLM → TTS)](../../phases/19-capstone-projects/03-realtime-voice-assistant/) | P6 P7 P11 P13 P14 P17 | Python |
+| 04 | [Πολυτροπικές ερωτήσεις εγγράφων (πρώτα η όραση)](../../phases/19-capstone-projects/04-multimodal-document-qa/) | P4 P5 P7 P11 P12 P17 | Python |
+| 05 | [Αυτόνομος ερευνητικός πράκτορας (κλάση AI-Scientist)](../../phases/19-capstone-projects/05-autonomous-research-agent/) | P0 P2 P3 P7 P10 P14 P15 P16 P18 | Python |
+| 06 | [Πράκτορας επίλυσης προβλημάτων DevOps για Kubernetes](../../phases/19-capstone-projects/06-devops-troubleshooting-agent/) | P11 P13 P14 P15 P17 P18 | Python |
+| 07 | [Πλήρης ροή λεπτομερούς προσαρμογής](../../phases/19-capstone-projects/07-end-to-end-fine-tuning-pipeline/) | P2 P3 P7 P10 P11 P17 P18 | Python |
+| 08 | [Συνομιλιακό RAG παραγωγής (ρυθμιζόμενος κλάδος)](../../phases/19-capstone-projects/08-production-rag-chatbot/) | P5 P7 P11 P12 P17 P18 | Python |
+| 09 | [Πράκτορας μετεγκατάστασης κώδικα (αναβάθμιση αποθετηρίου)](../../phases/19-capstone-projects/09-code-migration-agent/) | P5 P7 P11 P13 P14 P15 P17 | Python |
+| 10 | [Πολυπρακτορική ομάδα μηχανικής λογισμικού](../../phases/19-capstone-projects/10-multi-agent-software-team/) | P11 P13 P14 P15 P16 P17 | Python |
+| 11 | [Πίνακας παρατηρησιμότητας και αξιολόγησης LLM](../../phases/19-capstone-projects/11-llm-observability-dashboard/) | P11 P13 P17 P18 | Python |
+| 12 | [Ροή κατανόησης βίντεο (σκηνή → ερωτήσεις και απαντήσεις)](../../phases/19-capstone-projects/12-video-understanding-pipeline/) | P4 P6 P7 P11 P12 P17 | Python |
+| 13 | [Διακομιστής MCP χωρίς κατάσταση με μητρώο και διακυβέρνηση](../../phases/19-capstone-projects/13-mcp-server-with-registry/) | P11 P13 P14 P17 P18 | Python |
+| 14 | [Διακομιστής συμπερασμού με εικαστική αποκωδικοποίηση](../../phases/19-capstone-projects/14-speculative-decoding-server/) | P3 P7 P10 P17 | Python |
+| 15 | [Συνταγματικό περιβάλλον ασφάλειας και πεδίο επιθετικών δοκιμών](../../phases/19-capstone-projects/15-constitutional-safety-harness/) | P10 P11 P13 P14 P18 | Python |
+| 16 | [Αυτόνομος πράκτορας από αναφορά GitHub σε PR](../../phases/19-capstone-projects/16-github-issue-to-pr-agent/) | P11 P13 P14 P15 P17 | Python |
+| 17 | [Προσωπικός εκπαιδευτής ΤΝ (προσαρμοστικός και πολυτροπικός)](../../phases/19-capstone-projects/17-personal-ai-tutor/) | P5 P6 P11 P12 P14 P17 P18 | Python |
 
-**Deep-build tracks** — multi-lesson series that build a complete subsystem from scratch.
+**Διαδρομές εις βάθος κατασκευής**: σειρές μαθημάτων που δημιουργούν πλήρες υποσύστημα από το μηδέν.
 
-| # | Project | Combines | Lang |
+| # | Έργο | Συνδυάζει | Γλώσσα |
 |:---:|---------|----------|------|
-| 20 | [Agent Harness Loop Contract](../../phases/19-capstone-projects/20-agent-harness-loop-contract/) | A. Agent harness | Python |
-| 21 | [Tool Registry with Schema Validation](../../phases/19-capstone-projects/21-tool-registry-schema-validation/) | A. Agent harness | Python |
-| 22 | [JSON-RPC 2.0 Over Newline-Delimited Stdio](../../phases/19-capstone-projects/22-jsonrpc-stdio-transport/) | A. Agent harness | Python |
-| 23 | [Function Call Dispatcher](../../phases/19-capstone-projects/23-function-call-dispatcher/) | A. Agent harness | Python |
-| 24 | [Plan-Execute Control Flow](../../phases/19-capstone-projects/24-plan-execute-control-flow/) | A. Agent harness | Python |
-| 25 | [Verification Gates and Observation Budget](../../phases/19-capstone-projects/25-verification-gates-observation-budget/) | A. Agent harness | Python |
-| 26 | [Sandbox Runner with Denylist and Path Jail](../../phases/19-capstone-projects/26-sandbox-runner-denylist/) | A. Agent harness | Python |
-| 27 | [Eval Harness with Fixture Tasks](../../phases/19-capstone-projects/27-eval-harness-fixture-tasks/) | A. Agent harness | Python |
-| 28 | [Observability with OTel GenAI Spans and Prometheus Metrics](../../phases/19-capstone-projects/28-observability-otel-traces/) | A. Agent harness | Python |
-| 29 | [End-to-End Coding Agent on the Harness](../../phases/19-capstone-projects/29-end-to-end-coding-task-demo/) | A. Agent harness | Python |
-| 30 | [BPE Tokenizer From Scratch](../../phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/) | B. NLP LLM | Python |
-| 31 | [Tokenized Dataset with Sliding Window](../../phases/19-capstone-projects/31-tokenized-dataset-sliding-window/) | B. NLP LLM | Python |
-| 32 | [Token and Positional Embeddings](../../phases/19-capstone-projects/32-token-positional-embeddings/) | B. NLP LLM | Python |
-| 33 | [Multi-Head Self-Attention](../../phases/19-capstone-projects/33-multihead-self-attention/) | B. NLP LLM | Python |
-| 34 | [Transformer Block from Scratch](../../phases/19-capstone-projects/34-transformer-block/) | B. NLP LLM | Python |
-| 35 | [GPT Model Assembly](../../phases/19-capstone-projects/35-gpt-model-assembly/) | B. NLP LLM | Python |
-| 36 | [Training Loop and Evaluation](../../phases/19-capstone-projects/36-training-loop-eval/) | B. NLP LLM | Python |
-| 37 | [Loading Pretrained Weights](../../phases/19-capstone-projects/37-loading-pretrained-weights/) | B. NLP LLM | Python |
-| 38 | [Classifier Fine-Tuning by Head Swap](../../phases/19-capstone-projects/38-classifier-finetuning/) | B. NLP LLM | Python |
-| 39 | [Instruction Tuning by Supervised Fine-Tuning](../../phases/19-capstone-projects/39-instruction-tuning-sft/) | B. NLP LLM | Python |
-| 40 | [Direct Preference Optimization from Scratch](../../phases/19-capstone-projects/40-dpo-from-scratch/) | B. NLP LLM | Python |
-| 41 | [Full Evaluation Pipeline](../../phases/19-capstone-projects/41-eval-pipeline/) | B. NLP LLM | Python |
-| 42 | [Large Corpus Downloader](../../phases/19-capstone-projects/42-large-corpus-downloader/) | C. Train end-to-end | Python |
-| 43 | [HDF5 Tokenized Corpus](../../phases/19-capstone-projects/43-hdf5-tokenized-corpus/) | C. Train end-to-end | Python |
-| 44 | [Cosine LR with Linear Warmup](../../phases/19-capstone-projects/44-cosine-lr-warmup/) | C. Train end-to-end | Python |
-| 45 | [Gradient Clipping and Mixed Precision](../../phases/19-capstone-projects/45-gradient-clipping-amp/) | C. Train end-to-end | Python |
-| 46 | [Gradient Accumulation](../../phases/19-capstone-projects/46-gradient-accumulation/) | C. Train end-to-end | Python |
-| 47 | [Checkpoint Save and Resume](../../phases/19-capstone-projects/47-checkpoint-save-resume/) | C. Train end-to-end | Python |
-| 48 | [Distributed Data Parallel and FSDP from Scratch](../../phases/19-capstone-projects/48-distributed-fsdp-ddp/) | C. Train end-to-end | Python |
-| 49 | [Language Model Evaluation Harness](../../phases/19-capstone-projects/49-lm-eval-harness/) | C. Train end-to-end | Python |
-| 50 | [Hypothesis Generator](../../phases/19-capstone-projects/50-hypothesis-generator/) | D. Auto research | Python |
-| 51 | [Literature Retrieval](../../phases/19-capstone-projects/51-literature-retrieval/) | D. Auto research | Python |
-| 52 | [Experiment Runner](../../phases/19-capstone-projects/52-experiment-runner/) | D. Auto research | Python |
-| 53 | [Result Evaluator](../../phases/19-capstone-projects/53-result-evaluator/) | D. Auto research | Python |
-| 54 | [Paper Writer](../../phases/19-capstone-projects/54-paper-writer/) | D. Auto research | Python |
-| 55 | [Critic Loop](../../phases/19-capstone-projects/55-critic-loop/) | D. Auto research | Python |
-| 56 | [Iteration Scheduler](../../phases/19-capstone-projects/56-iteration-scheduler/) | D. Auto research | Python |
-| 57 | [End-to-End Research Demo](../../phases/19-capstone-projects/57-end-to-end-research-demo/) | D. Auto research | Python |
-| 58 | [Vision Encoder Patches](../../phases/19-capstone-projects/58-vision-encoder-patches/) | E. Multimodal VLM | Python |
-| 59 | [Vision Transformer Encoder](../../phases/19-capstone-projects/59-vit-transformer/) | E. Multimodal VLM | Python |
-| 60 | [Projection Layer for Modality Alignment](../../phases/19-capstone-projects/60-projection-layer-modality-align/) | E. Multimodal VLM | Python |
-| 61 | [Cross-Attention Fusion](../../phases/19-capstone-projects/61-cross-attention-fusion/) | E. Multimodal VLM | Python |
-| 62 | [Vision-Language Pretraining](../../phases/19-capstone-projects/62-vision-language-pretraining/) | E. Multimodal VLM | Python |
-| 63 | [Multimodal Evaluation](../../phases/19-capstone-projects/63-multimodal-eval/) | E. Multimodal VLM | Python |
-| 64 | [Chunking Strategies, Compared](../../phases/19-capstone-projects/64-chunking-strategies-advanced/) | F. Advanced RAG | Python |
-| 65 | [Hybrid Retrieval with BM25 and Dense Embeddings](../../phases/19-capstone-projects/65-hybrid-retrieval-bm25-dense/) | F. Advanced RAG | Python |
-| 66 | [Cross-Encoder Reranker](../../phases/19-capstone-projects/66-reranker-cross-encoder/) | F. Advanced RAG | Python |
-| 67 | [Query Rewriting: HyDE, Multi-Query, and Decomposition](../../phases/19-capstone-projects/67-query-rewriting-hyde/) | F. Advanced RAG | Python |
-| 68 | [RAG Evaluation: Precision, Recall, MRR, nDCG, Faithfulness, Answer Relevance](../../phases/19-capstone-projects/68-rag-eval-precision-recall/) | F. Advanced RAG | Python |
-| 69 | [End-to-End RAG System](../../phases/19-capstone-projects/69-end-to-end-rag-system/) | F. Advanced RAG | Python |
-| 70 | [Task Spec Format](../../phases/19-capstone-projects/70-task-spec-format/) | G. Eval framework | Python |
-| 71 | [Classical Metrics](../../phases/19-capstone-projects/71-classical-metrics/) | G. Eval framework | Python |
-| 72 | [Code Exec Metric](../../phases/19-capstone-projects/72-code-exec-metric/) | G. Eval framework | Python |
-| 73 | [Perplexity and Calibration](../../phases/19-capstone-projects/73-perplexity-calibration/) | G. Eval framework | Python |
-| 74 | [Leaderboard Aggregation](../../phases/19-capstone-projects/74-leaderboard-aggregation/) | G. Eval framework | Python |
-| 75 | [End-to-End Eval Runner](../../phases/19-capstone-projects/75-end-to-end-eval-runner/) | G. Eval framework | Python |
-| 76 | [Collective Ops From Scratch](../../phases/19-capstone-projects/76-collective-ops-from-scratch/) | H. Distributed train | Python |
-| 77 | [Data Parallel DDP From Scratch](../../phases/19-capstone-projects/77-data-parallel-ddp/) | H. Distributed train | Python |
-| 78 | [ZeRO Optimizer State Sharding](../../phases/19-capstone-projects/78-zero-parameter-sharding/) | H. Distributed train | Python |
-| 79 | [Pipeline Parallel and Bubble Analysis](../../phases/19-capstone-projects/79-pipeline-parallel/) | H. Distributed train | Python |
-| 80 | [Sharded Checkpoint and Atomic Resume](../../phases/19-capstone-projects/80-checkpoint-sharded-resume/) | H. Distributed train | Python |
-| 81 | [End-to-End Distributed Training](../../phases/19-capstone-projects/81-end-to-end-distributed-train/) | H. Distributed train | Python |
-| 82 | [Jailbreak Taxonomy](../../phases/19-capstone-projects/82-jailbreak-taxonomy/) | I. Safety harness | Python |
-| 83 | [Prompt Injection Detector](../../phases/19-capstone-projects/83-prompt-injection-detector/) | I. Safety harness | Python |
-| 84 | [Refusal Evaluation](../../phases/19-capstone-projects/84-refusal-evaluation/) | I. Safety harness | Python |
-| 85 | [Content Classifier Integration](../../phases/19-capstone-projects/85-content-classifier-integration/) | I. Safety harness | Python |
-| 86 | [Constitutional Rules Engine](../../phases/19-capstone-projects/86-constitutional-rules-engine/) | I. Safety harness | Python, YAML |
-| 87 | [End-to-End Safety Gate](../../phases/19-capstone-projects/87-end-to-end-safety-gate/) | I. Safety harness | Python |
+| 20 | [Συμβόλαιο βρόχου περιβάλλοντος πράκτορα](../../phases/19-capstone-projects/20-agent-harness-loop-contract/) | A. Περιβάλλον εκτέλεσης πρακτόρων | Python |
+| 21 | [Μητρώο εργαλείων με επικύρωση σχημάτων](../../phases/19-capstone-projects/21-tool-registry-schema-validation/) | A. Περιβάλλον εκτέλεσης πρακτόρων | Python |
+| 22 | [JSON-RPC 2.0 μέσω stdio με διαχωρισμό γραμμών](../../phases/19-capstone-projects/22-jsonrpc-stdio-transport/) | A. Περιβάλλον εκτέλεσης πρακτόρων | Python |
+| 23 | [Διανομέας κλήσεων συναρτήσεων](../../phases/19-capstone-projects/23-function-call-dispatcher/) | A. Περιβάλλον εκτέλεσης πρακτόρων | Python |
+| 24 | [Ροή ελέγχου σχεδιασμού και εκτέλεσης](../../phases/19-capstone-projects/24-plan-execute-control-flow/) | A. Περιβάλλον εκτέλεσης πρακτόρων | Python |
+| 25 | [Πύλες επαλήθευσης και προϋπολογισμός παρατήρησης](../../phases/19-capstone-projects/25-verification-gates-observation-budget/) | A. Περιβάλλον εκτέλεσης πρακτόρων | Python |
+| 26 | [Απομονωμένος εκτελεστής με λίστα αποκλεισμού και περιορισμό διαδρομών](../../phases/19-capstone-projects/26-sandbox-runner-denylist/) | A. Περιβάλλον εκτέλεσης πρακτόρων | Python |
+| 27 | [Περιβάλλον αξιολόγησης με σταθερές δοκιμαστικές εργασίες](../../phases/19-capstone-projects/27-eval-harness-fixture-tasks/) | A. Περιβάλλον εκτέλεσης πρακτόρων | Python |
+| 28 | [Παρατηρησιμότητα με spans OTel GenAI και μετρικές Prometheus](../../phases/19-capstone-projects/28-observability-otel-traces/) | A. Περιβάλλον εκτέλεσης πρακτόρων | Python |
+| 29 | [Πλήρης πράκτορας προγραμματισμού στο περιβάλλον εκτέλεσης](../../phases/19-capstone-projects/29-end-to-end-coding-task-demo/) | A. Περιβάλλον εκτέλεσης πρακτόρων | Python |
+| 30 | [Τοκενικοποιητής BPE από το μηδέν](../../phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/) | B. NLP LLM | Python |
+| 31 | [Τοκενικοποιημένο σύνολο δεδομένων με ολισθαίνον παράθυρο](../../phases/19-capstone-projects/31-tokenized-dataset-sliding-window/) | B. NLP LLM | Python |
+| 32 | [Ενσωματώσεις token και θέσης](../../phases/19-capstone-projects/32-token-positional-embeddings/) | B. NLP LLM | Python |
+| 33 | [Αυτοπροσοχή πολλαπλών κεφαλών](../../phases/19-capstone-projects/33-multihead-self-attention/) | B. NLP LLM | Python |
+| 34 | [Μπλοκ μετασχηματιστή από το μηδέν](../../phases/19-capstone-projects/34-transformer-block/) | B. NLP LLM | Python |
+| 35 | [Συναρμολόγηση μοντέλου GPT](../../phases/19-capstone-projects/35-gpt-model-assembly/) | B. NLP LLM | Python |
+| 36 | [Βρόχος εκπαίδευσης και αξιολόγηση](../../phases/19-capstone-projects/36-training-loop-eval/) | B. NLP LLM | Python |
+| 37 | [Φόρτωση προεκπαιδευμένων βαρών](../../phases/19-capstone-projects/37-loading-pretrained-weights/) | B. NLP LLM | Python |
+| 38 | [Προσαρμογή ταξινομητή με αλλαγή κεφαλής](../../phases/19-capstone-projects/38-classifier-finetuning/) | B. NLP LLM | Python |
+| 39 | [Προσαρμογή οδηγιών μέσω επιβλεπόμενης εκπαίδευσης](../../phases/19-capstone-projects/39-instruction-tuning-sft/) | B. NLP LLM | Python |
+| 40 | [Άμεση βελτιστοποίηση προτιμήσεων από το μηδέν](../../phases/19-capstone-projects/40-dpo-from-scratch/) | B. NLP LLM | Python |
+| 41 | [Πλήρης ροή αξιολόγησης](../../phases/19-capstone-projects/41-eval-pipeline/) | B. NLP LLM | Python |
+| 42 | [Λήψη μεγάλου σώματος κειμένων](../../phases/19-capstone-projects/42-large-corpus-downloader/) | C. Εκπαίδευση από την αρχή ως το τέλος | Python |
+| 43 | [Τοκενικοποιημένο σώμα κειμένων HDF5](../../phases/19-capstone-projects/43-hdf5-tokenized-corpus/) | C. Εκπαίδευση από την αρχή ως το τέλος | Python |
+| 44 | [Συνημιτονοειδής ρυθμός μάθησης με γραμμική προθέρμανση](../../phases/19-capstone-projects/44-cosine-lr-warmup/) | C. Εκπαίδευση από την αρχή ως το τέλος | Python |
+| 45 | [Περικοπή κλίσεων και μικτή ακρίβεια](../../phases/19-capstone-projects/45-gradient-clipping-amp/) | C. Εκπαίδευση από την αρχή ως το τέλος | Python |
+| 46 | [Συσσώρευση κλίσεων](../../phases/19-capstone-projects/46-gradient-accumulation/) | C. Εκπαίδευση από την αρχή ως το τέλος | Python |
+| 47 | [Αποθήκευση και συνέχιση σημείων ελέγχου](../../phases/19-capstone-projects/47-checkpoint-save-resume/) | C. Εκπαίδευση από την αρχή ως το τέλος | Python |
+| 48 | [Κατανεμημένος παραλληλισμός δεδομένων και FSDP από το μηδέν](../../phases/19-capstone-projects/48-distributed-fsdp-ddp/) | C. Εκπαίδευση από την αρχή ως το τέλος | Python |
+| 49 | [Περιβάλλον αξιολόγησης γλωσσικών μοντέλων](../../phases/19-capstone-projects/49-lm-eval-harness/) | C. Εκπαίδευση από την αρχή ως το τέλος | Python |
+| 50 | [Γεννήτρια υποθέσεων](../../phases/19-capstone-projects/50-hypothesis-generator/) | D. Αυτόματη έρευνα | Python |
+| 51 | [Ανάκτηση βιβλιογραφίας](../../phases/19-capstone-projects/51-literature-retrieval/) | D. Αυτόματη έρευνα | Python |
+| 52 | [Εκτελεστής πειραμάτων](../../phases/19-capstone-projects/52-experiment-runner/) | D. Αυτόματη έρευνα | Python |
+| 53 | [Αξιολογητής αποτελεσμάτων](../../phases/19-capstone-projects/53-result-evaluator/) | D. Αυτόματη έρευνα | Python |
+| 54 | [Συγγραφέας επιστημονικών εργασιών](../../phases/19-capstone-projects/54-paper-writer/) | D. Αυτόματη έρευνα | Python |
+| 55 | [Βρόχος κριτή](../../phases/19-capstone-projects/55-critic-loop/) | D. Αυτόματη έρευνα | Python |
+| 56 | [Χρονοπρογραμματιστής επαναλήψεων](../../phases/19-capstone-projects/56-iteration-scheduler/) | D. Αυτόματη έρευνα | Python |
+| 57 | [Πλήρης επίδειξη έρευνας](../../phases/19-capstone-projects/57-end-to-end-research-demo/) | D. Αυτόματη έρευνα | Python |
+| 58 | [Τμήματα οπτικού κωδικοποιητή](../../phases/19-capstone-projects/58-vision-encoder-patches/) | E. Πολυτροπικό VLM | Python |
+| 59 | [Κωδικοποιητής οπτικού μετασχηματιστή](../../phases/19-capstone-projects/59-vit-transformer/) | E. Πολυτροπικό VLM | Python |
+| 60 | [Επίπεδο προβολής για ευθυγράμμιση τροπικοτήτων](../../phases/19-capstone-projects/60-projection-layer-modality-align/) | E. Πολυτροπικό VLM | Python |
+| 61 | [Σύντηξη διασταυρούμενης προσοχής](../../phases/19-capstone-projects/61-cross-attention-fusion/) | E. Πολυτροπικό VLM | Python |
+| 62 | [Οπτικογλωσσική προεκπαίδευση](../../phases/19-capstone-projects/62-vision-language-pretraining/) | E. Πολυτροπικό VLM | Python |
+| 63 | [Πολυτροπική αξιολόγηση](../../phases/19-capstone-projects/63-multimodal-eval/) | E. Πολυτροπικό VLM | Python |
+| 64 | [Σύγκριση στρατηγικών τεμαχισμού](../../phases/19-capstone-projects/64-chunking-strategies-advanced/) | F. Προηγμένο RAG | Python |
+| 65 | [Υβριδική ανάκτηση με BM25 και πυκνές ενσωματώσεις](../../phases/19-capstone-projects/65-hybrid-retrieval-bm25-dense/) | F. Προηγμένο RAG | Python |
+| 66 | [Επανακατάταξη με διασταυρούμενο κωδικοποιητή](../../phases/19-capstone-projects/66-reranker-cross-encoder/) | F. Προηγμένο RAG | Python |
+| 67 | [Επανεγγραφή ερωτημάτων: HyDE, πολλαπλά ερωτήματα και αποσύνθεση](../../phases/19-capstone-projects/67-query-rewriting-hyde/) | F. Προηγμένο RAG | Python |
+| 68 | [Αξιολόγηση RAG: ακρίβεια, ανάκληση, MRR, nDCG, πιστότητα και συνάφεια απάντησης](../../phases/19-capstone-projects/68-rag-eval-precision-recall/) | F. Προηγμένο RAG | Python |
+| 69 | [Πλήρες σύστημα RAG](../../phases/19-capstone-projects/69-end-to-end-rag-system/) | F. Προηγμένο RAG | Python |
+| 70 | [Μορφή προδιαγραφών εργασίας](../../phases/19-capstone-projects/70-task-spec-format/) | G. Πλαίσιο αξιολόγησης | Python |
+| 71 | [Κλασικές μετρικές](../../phases/19-capstone-projects/71-classical-metrics/) | G. Πλαίσιο αξιολόγησης | Python |
+| 72 | [Μετρική εκτέλεσης κώδικα](../../phases/19-capstone-projects/72-code-exec-metric/) | G. Πλαίσιο αξιολόγησης | Python |
+| 73 | [Περιπλοκότητα και βαθμονόμηση](../../phases/19-capstone-projects/73-perplexity-calibration/) | G. Πλαίσιο αξιολόγησης | Python |
+| 74 | [Συνάθροιση πινάκων κατάταξης](../../phases/19-capstone-projects/74-leaderboard-aggregation/) | G. Πλαίσιο αξιολόγησης | Python |
+| 75 | [Πλήρης εκτελεστής αξιολόγησης](../../phases/19-capstone-projects/75-end-to-end-eval-runner/) | G. Πλαίσιο αξιολόγησης | Python |
+| 76 | [Συλλογικές πράξεις από το μηδέν](../../phases/19-capstone-projects/76-collective-ops-from-scratch/) | H. Κατανεμημένη εκπαίδευση | Python |
+| 77 | [Παραλληλισμός δεδομένων DDP από το μηδέν](../../phases/19-capstone-projects/77-data-parallel-ddp/) | H. Κατανεμημένη εκπαίδευση | Python |
+| 78 | [Κατακερματισμός κατάστασης βελτιστοποιητή ZeRO](../../phases/19-capstone-projects/78-zero-parameter-sharding/) | H. Κατανεμημένη εκπαίδευση | Python |
+| 79 | [Παραλληλισμός διοχέτευσης και ανάλυση αδράνειας](../../phases/19-capstone-projects/79-pipeline-parallel/) | H. Κατανεμημένη εκπαίδευση | Python |
+| 80 | [Κατακερματισμένο σημείο ελέγχου και ατομική συνέχιση](../../phases/19-capstone-projects/80-checkpoint-sharded-resume/) | H. Κατανεμημένη εκπαίδευση | Python |
+| 81 | [Πλήρης κατανεμημένη εκπαίδευση](../../phases/19-capstone-projects/81-end-to-end-distributed-train/) | H. Κατανεμημένη εκπαίδευση | Python |
+| 82 | [Ταξινομία jailbreak](../../phases/19-capstone-projects/82-jailbreak-taxonomy/) | I. Περιβάλλον ασφάλειας | Python |
+| 83 | [Ανιχνευτής έγχυσης προτροπών](../../phases/19-capstone-projects/83-prompt-injection-detector/) | I. Περιβάλλον ασφάλειας | Python |
+| 84 | [Αξιολόγηση αρνήσεων](../../phases/19-capstone-projects/84-refusal-evaluation/) | I. Περιβάλλον ασφάλειας | Python |
+| 85 | [Ενσωμάτωση ταξινομητή περιεχομένου](../../phases/19-capstone-projects/85-content-classifier-integration/) | I. Περιβάλλον ασφάλειας | Python |
+| 86 | [Μηχανή συνταγματικών κανόνων](../../phases/19-capstone-projects/86-constitutional-rules-engine/) | I. Περιβάλλον ασφάλειας | Python, YAML |
+| 87 | [Πλήρης πύλη ασφάλειας](../../phases/19-capstone-projects/87-end-to-end-safety-gate/) | I. Περιβάλλον ασφάλειας | Python |
 
 </details>
 
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
+## Βιβλία και πιστοποιήσεις
+
+<details>
+<summary>Διάβασε τον βασικό κορμό ως βιβλίο</summary>
+
+Ο βασικός κορμός 20 φάσεων στο `phases/` μετατρέπεται σε σειρά έξι τόμων. Το CI παράγει EPUB και PDF από τις ίδιες πηγές μαθημάτων και τα επισυνάπτει σε κάθε [έκδοση GitHub](https://github.com/rohitg00/ai-engineering-from-scratch/releases). Οι παρακάτω σύνδεσμοι οδηγούν πάντα στη νεότερη έκδοση. Οι αριθμοί τόμων δηλώνουν σειρά, όχι εκδόσεις: κάθε αντίτυπο φέρει ημερομηνία έκδοσης, ενώ παλαιότερες εκδόσεις παραμένουν διαθέσιμες από την αντίστοιχη κυκλοφορία.
+
+Τα προγράμματα πιστοποίησης σκόπιμα δεν μετατρέπονται σε βιβλία. Η κατάσταση του εκπαιδευτή ΤΝ, τα εκτελέσιμα εργαστήρια, τα διαδραστικά σχήματα, τα διαγνωστικά τεστ και οι χρονομετρημένες εξετάσεις παραμένουν πλήρως διαθέσιμα στο GitHub και στον ιστότοπο.
+
+| Τόμος | Τίτλος | Φάσεις | Λήψη |
+|-----|-------|--------|----------|
+| 1 | Θεμέλια · Μαθηματικά, εργαλεία και κλασική μηχανική μάθηση | 00-02 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol1-foundations.pdf) |
+| 2 | Βαθιά μάθηση · Δίκτυα, όραση και ομιλία | 03, 04, 06 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol2-deep-learning.pdf) |
+| 3 | Γλώσσα · Θεμέλια NLP και ο Transformer | 05, 07 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol3-language.pdf) |
+| 4 | Μεγάλα γλωσσικά μοντέλα · Παραγωγή, ενίσχυση, προεκπαίδευση και μηχανική | 08-11 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol4-llms.pdf) |
+| 5 | Πράκτορες · Πολυτροπικότητα, πρωτόκολλα, αυτονομία και σμήνη | 12-16 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol5-agents.pdf) |
+| 6 | Παραγωγή · Υποδομή, ασφάλεια και ολοκληρωμένα έργα | 17-19 | [EPUB](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.epub) · [PDF](https://github.com/rohitg00/ai-engineering-from-scratch/releases/latest/download/aiefs-vol6-production.pdf) |
+
+Το βιβλίο είναι στιγμιότυπο, το αποθετήριο η ζωντανή έκδοση. Κάθε κεφάλαιο τελειώνει με συνδέσμους στα κινούμενα σχήματα, στο τεστ και στον εκτελέσιμο κώδικα του μαθήματος. Τοπική δημιουργία με `python3 scripts/build_book.py` (απαιτείται pandoc)· λεπτομέρειες ροής στο [book/README.md](../../book/README.md).
+
+</details>
+
+<details>
+<summary>Προετοιμάσου για πιστοποιήσεις Claude</summary>
+
+Η [Ακαδημία Πιστοποίησης Claude](../../certifications/claude/README.md) είναι δωρεάν πρόγραμμα ανοικτού κώδικα για τις τέσσερις επίσημες διαδρομές: Associate Foundations, Developer Foundations, Architect Foundations και Architect Professional. Κάθε διαδρομή συνδυάζει μαθήματα αντιστοιχισμένα στην εξεταστέα ύλη, εκτελέσιμα εργαστήρια, διαγνωστικό τεστ, τελικό έργο και πλήρη πρωτότυπη δοκιμαστική εξέταση.
+
+Χρησιμοποίησε τον [οδηγό εκκίνησης GitHub με ΤΝ](../../certifications/claude/GETTING_STARTED.md) με Claude Code, Codex, ChatGPT, Cursor ή άλλο πράκτορα. Εκτέλεσε `claude-certification` στο Codex, `/claude-certification` στο Claude Code ή ζήτησε από άλλη εφαρμογή να χρησιμοποιήσει `claude-certification`. Επιλέγει διαδρομή, δημιουργεί μόνιμο σχέδιο στο `CLAUDE-CERTIFICATION.md`, διδάσκει βήμα βήμα, τρέχει πραγματικά εργαστήρια και αξιολογεί τα παραδοτέα. Το ίδιο πρόγραμμα είναι διαθέσιμο στον [ιστότοπο πιστοποιήσεων](https://aiengineeringfromscratch.com/certifications.html).
+
+Η ακαδημία είναι ανεξάρτητο υλικό μελέτης βασισμένο σε δημόσιους εξεταστικούς στόχους. Δεν συνδέεται με την Anthropic, δεν αναπαράγει πραγματικές εξεταστικές ερωτήσεις και δεν εγγυάται επιτυχία.
+
+</details>
+
+<details>
+<summary>Προετοιμάσου για την πιστοποίηση MCP Associate (MCPA)</summary>
+
+Το [Πρόγραμμα Πιστοποίησης MCPA](../../certifications/mcpa/README.md) είναι δωρεάν προετοιμασία ανοικτού κώδικα για την εξέταση Model Context Protocol Associate της Agentic AI Foundation, μέσω Linux Foundation Training. Τα 34 μαθήματα διδάσκουν το πρωτόκολλο χωρίς κατάσταση 2026-07-28 στους πέντε εξεταστικούς τομείς: `_meta` ανά αίτημα και `server/discover` αντί της παλιάς χειραψίας, αιτήματα πολλών γύρων, συνδρομές, προσωρινή αποθήκευση, επεκτάσεις εργασιών και MCP Apps, εξουσιοδότηση OAuth και επίπεδα μητρώου και SDK. Κάθε μάθημα δίνει εκτελέσιμο εργαστήριο τυπικής βιβλιοθήκης, του οποίου η καταγραφή ελέγχεται για την τρέχουσα μορφή επικοινωνίας. Η διαδρομή προσθέτει διαγνωστικό τεστ, τελικό έργο και τρεις πλήρεις πρωτότυπες δοκιμαστικές εξετάσεις με κατανομή ερωτήσεων σύμφωνα με τα δημοσιευμένα βάρη.
+
+Χρησιμοποίησε τον [οδηγό εκκίνησης GitHub με ΤΝ](../../certifications/mcpa/GETTING_STARTED.md) με Claude Code, Codex, ChatGPT, Cursor ή άλλο πράκτορα. Εκτέλεσε `mcpa-certification` στο Codex, `/mcpa-certification` στο Claude Code ή ζήτησε από άλλη εφαρμογή να χρησιμοποιήσει `mcpa-certification`. Δημιουργεί μόνιμη διαδρομή στο `MCPA-CERTIFICATION.md`, διδάσκει βήμα βήμα, τρέχει πραγματικά εργαστήρια και δίνει ανατροφοδότηση πάνω στα παραδοτέα. Το ίδιο πρόγραμμα βρίσκεται στη [σελίδα διαδρομής MCPA](https://aiengineeringfromscratch.com/certification?id=mcpa-f).
+
+Αυτό είναι ανεξάρτητο υλικό μελέτης βασισμένο σε δημόσιους εξεταστικούς στόχους. Δεν συνδέεται με την Agentic AI Foundation ή το Linux Foundation, δεν αναπαράγει πραγματικές εξεταστικές ερωτήσεις και δεν εγγυάται επιτυχία.
+
+</details>
 
 ## Η εργαλειοθήκη
 
-Every lesson produces a reusable artifact. By the end you have:
+Κάθε μάθημα παράγει ένα επαναχρησιμοποιήσιμο παραδοτέο. Εγκαταστήστε το στον πράκτορά σας ή χρησιμοποιήστε τα παρακάτω scripts από τη ρίζα του αποθετηρίου.
+
+<details>
+<summary>Δομή μαθημάτων και επαναχρησιμοποιήσιμα παραδοτέα</summary>
+
+## Η δομή ενός μαθήματος
+
+Κάθε μάθημα βρίσκεται στον δικό του φάκελο, με την ίδια δομή σε όλο το πρόγραμμα:
 
 ```text
-outputs/
-├── prompts/      prompt templates for every AI task
-└── skills/       SKILL.md files for AI coding agents
+phases/<NN>-<phase-name>/<NN>-<lesson-name>/
+├── code/      εκτελέσιμες υλοποιήσεις (Python, TypeScript, Rust, Julia)
+├── docs/
+│   └── en.md  κείμενο του μαθήματος
+└── outputs/   προτροπές, δεξιότητες, πράκτορες ή διακομιστές MCP που παράγει αυτό το μάθημα
 ```
 
-Plug them into Claude, Cursor, Codex, OpenClaw, Hermes, or any agent that
-reads a SKILL.md / AGENTS.md directory. Real tools, not homework.
+Κάθε μάθημα έχει έξι μέρη. Η διάκριση *Φτιάξε / Χρησιμοποίησε* είναι ο κορμός: υλοποιείς πρώτα τον αλγόριθμο από το μηδέν και μετά εκτελείς το ίδιο μέσω βιβλιοθήκης παραγωγής. Καταλαβαίνεις το πλαίσιο επειδή έγραψες τη μικρότερη έκδοση μόνος σου.
 
-### Install course skills into your agent
-
-Two skill sets, two installers:
-
-**The learning skills** (`start-learning`, `learn`, `course-guide`,
-`learn-mcp`, `learn-agent-skills`, `claude-certification`, `mcpa-certification`,
-`find-your-level`, and `check-understanding`) live under [`skills/`](../../skills/) and
-install into a supported skill-capable host with one command. Installation needs
-Node.js and `npx`, but not a repository clone or Python:
-
-```bash
-npx skills add rohitg00/ai-engineering-from-scratch
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#fafaf5','primaryTextColor':'#1a1a1a','primaryBorderColor':'#3553ff','lineColor':'#3553ff','fontFamily':'JetBrains Mono','fontSize':'13px'}}}%%
+flowchart LR
+  M["ΡΗΤΟ<br/><sub>κεντρική ιδέα σε μία γραμμή</sub>"] --> Pr["ΠΡΟΒΛΗΜΑ<br/><sub>συγκεκριμένη δυσκολία</sub>"]
+  Pr --> C["ΕΝΝΟΙΑ<br/><sub>διαγράμματα και διαίσθηση</sub>"]
+  C --> B["ΚΑΤΑΣΚΕΥΑΣΕ ΤΟ<br/><sub>καθαρά μαθηματικά, χωρίς πλαίσια</sub>"]
+  B --> U["ΧΡΗΣΙΜΟΠΟΙΗΣΕ ΤΟ<br/><sub>το ίδιο σε PyTorch / sklearn</sub>"]
+  U --> S["ΔΙΑΘΕΣΕ ΤΟ<br/><sub>προτροπή · δεξιότητα · πράκτορας · MCP</sub>"]
 ```
 
-`skills` writes to the host and scope selected during installation, such as
-`.claude/skills/`, `.cursor/skills/`, `.codex/skills/`, or another supported
-skills folder. Verify that the selected host discovers that exact destination.
+## Κάθε μάθημα δίνει ένα αποτέλεσμα
 
-**The lesson artifacts.** The repo ships 396 skills and 99 prompts under
-`phases/**/outputs/`; install them via `scripts/install_skills.py`. Requires
-cloning the repo. Supports tag filters, dry-runs, and per-agent layouts:
+Άλλα προγράμματα τελειώνουν με *«συγχαρητήρια, έμαθες το Χ»*. Εδώ κάθε μάθημα τελειώνει με ένα **επαναχρησιμοποιήσιμο εργαλείο** που εγκαθιστάς ή εντάσσεις στην καθημερινή εργασία σου.
+
+<table>
+<tr>
+<th align="left" width="25%"><img src="../../site/assets/figures/001-a-prompts.svg" width="120" height="120" alt="FIG_001.A προτροπές"/><br/><sub>FIG_001 · A</sub><br/><b>ΠΡΟΤΡΟΠΕΣ</b></th>
+<th align="left" width="25%"><img src="../../site/assets/figures/001-b-skills.svg" width="120" height="120" alt="FIG_001.B δεξιότητες"/><br/><sub>FIG_001 · B</sub><br/><b>ΔΕΞΙΟΤΗΤΕΣ</b></th>
+<th align="left" width="25%"><img src="../../site/assets/figures/001-c-agents.svg" width="120" height="120" alt="FIG_001.C πράκτορες"/><br/><sub>FIG_001 · C</sub><br/><b>ΠΡΑΚΤΟΡΕΣ</b></th>
+<th align="left" width="25%"><img src="../../site/assets/figures/001-d-mcp-servers.svg" width="120" height="120" alt="FIG_001.D διακομιστές MCP"/><br/><sub>FIG_001 · D</sub><br/><b>ΔΙΑΚΟΜΙΣΤΕΣ MCP</b></th>
+</tr>
+<tr>
+<td valign="top">Επικόλλησέ τα σε οποιονδήποτε βοηθό ΤΝ για εξειδικευμένη βοήθεια σε μια συγκεκριμένη εργασία.</td>
+<td valign="top">Πρόσθεσέ τα σε Claude, Cursor, Codex, OpenClaw, Hermes ή σε οποιονδήποτε πράκτορα διαβάζει <code>SKILL.md</code>.</td>
+<td valign="top">Ανάπτυξέ τους ως αυτόνομους εργάτες· έγραψες μόνος σου τον βρόχο στη Φάση 14.</td>
+<td valign="top">Σύνδεσέ τους σε οποιονδήποτε πελάτη συμβατό με MCP. Κατασκευάζονται από την αρχή ως το τέλος στη Φάση 13.</td>
+</tr>
+</table>
+
+</details>
+
+<details>
+<summary>Εγκατάσταση παραδοτέων μαθημάτων</summary>
+
+**Τα παραδοτέα μαθημάτων.** Το αποθετήριο παρέχει 414 δεξιότητες και 100 προτροπές στο `phases/**/outputs/`· εγκατέστησέ τα μέσω `scripts/install_skills.py`. Απαιτείται κλωνοποίηση. Υποστηρίζονται φίλτρα ετικετών, δοκιμαστικές εκτελέσεις και διατάξεις ανά πράκτορα:
 
 ```bash
 python3 scripts/install_skills.py <target>                                 # every skill, default --layout skills (nested)
@@ -1246,26 +1182,22 @@ python3 scripts/install_skills.py <target> --dry-run                       # pre
 python3 scripts/install_skills.py <target> --force                         # overwrite existing files
 ```
 
-`<target>` is the skills directory for your agent (examples:
-`~/.claude/skills/`, `~/.cursor/skills/`, `~/.config/openclaw/skills/`,
-`.skills/`, or any path your agent reads).
+Το `<target>` είναι ο κατάλογος δεξιοτήτων του πράκτορα, όπως `~/.claude/skills/`, `~/.cursor/skills/`, `~/.config/openclaw/skills/`, `.skills/` ή οποιαδήποτε διαδρομή διαβάζει.
 
-By default the script refuses to overwrite an existing destination and exits
-with code 1 after listing every colliding path. Use `--dry-run` to preview
-collisions or `--force` to overwrite. Every non-dry-run run writes a
-`manifest.json` in the target with the full inventory grouped by type and
-phase. Pick the layout your agent reads:
+Από προεπιλογή το σενάριο αρνείται να αντικαταστήσει υπάρχοντα προορισμό και τερματίζει με κωδικό 1 αφού εμφανίσει όλες τις συγκρουόμενες διαδρομές. Χρησιμοποίησε `--dry-run` για προεπισκόπηση ή `--force` για αντικατάσταση. Κάθε κανονική εκτέλεση γράφει `manifest.json` στον προορισμό με πλήρη απογραφή ανά τύπο και φάση. Επίλεξε τη διάταξη που διαβάζει ο πράκτορας:
 
-| `--layout`  | Path written |
+| `--layout`  | Διαδρομή εγγραφής |
 |---|---|
-| `skills`    | `<target>/<name>/SKILL.md` (nested convention, supported by Claude / Cursor / Codex / OpenClaw / Hermes) |
+| `skills`    | `<target>/<name>/SKILL.md` (σύμβαση υποκαταλόγων, υποστηρίζεται από Claude / Cursor / Codex / OpenClaw / Hermes) |
 | `by-phase`  | `<target>/phase-NN/<name>.md` |
 | `flat`      | `<target>/<name>.md` |
 
-### Drop the agent workbench into your own repo
+</details>
 
-The Phase 14 capstone ships a reusable Agent Workbench pack (AGENTS.md, schemas,
-init / verify / handoff scripts). Scaffold it into any repo with:
+<details>
+<summary>Πρόσθεσε τον πάγκο εργασίας πράκτορα στο δικό σου αποθετήριο</summary>
+
+Το τελικό έργο της φάσης 14 παρέχει επαναχρησιμοποιήσιμο πακέτο πάγκου εργασίας: AGENTS.md, σχήματα και σενάρια αρχικοποίησης, επαλήθευσης και μεταβίβασης. Δημιούργησε τη δομή του σε οποιοδήποτε αποθετήριο με:
 
 ```bash
 python3 scripts/scaffold_workbench.py path/to/your-repo            # full pack + seeds
@@ -1274,16 +1206,14 @@ python3 scripts/scaffold_workbench.py path/to/your-repo --dry-run  # preview onl
 python3 scripts/scaffold_workbench.py path/to/your-repo --force    # overwrite
 ```
 
-You get the seven workbench surfaces wired up, a starter `task_board.json`,
-and a fresh `agent_state.json` at `schema_version: 1`. From there: edit the
-task, edit `AGENTS.md`, run `scripts/init_agent.py`, hand the contract to
-your agent. The pack source lives at
-`phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/`.
+Παίρνεις επτά συνδεδεμένα μέρη του πάγκου εργασίας, αρχικό `task_board.json` και νέο `agent_state.json` με `schema_version: 1`. Έπειτα τροποποίησε την εργασία και το `AGENTS.md`, εκτέλεσε `scripts/init_agent.py` και δώσε το συμβόλαιο στον πράκτορα. Η πηγή του πακέτου είναι στο `phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/`.
 
-### Browse the entire course as JSON
+</details>
 
-`scripts/build_catalog.py` walks every phase, every lesson, every artifact on
-disk and writes `catalog.json` at the repo root. One file, every course truth.
+<details>
+<summary>Περιηγήσου σε όλο το πρόγραμμα ως JSON</summary>
+
+Το `scripts/build_catalog.py` διατρέχει κάθε φάση, μάθημα και παραδοτέο στον δίσκο και γράφει `catalog.json` στη ρίζα του αποθετηρίου. Ένα αρχείο με όλα τα δεδομένα του προγράμματος.
 
 ```bash
 python3 scripts/build_catalog.py               # writes <repo>/catalog.json
@@ -1291,23 +1221,16 @@ python3 scripts/build_catalog.py --stdout      # to stdout, do not touch repo
 python3 scripts/build_catalog.py --out path/to/file.json
 ```
 
-The catalog is filesystem-derived, not README-derived, so counts always match
-what is actually on disk. Use it for site builds, downstream tooling, or to
-verify the README counts have not drifted. Schema is documented at the top of
-the script.
+Ο κατάλογος παράγεται από το σύστημα αρχείων, όχι από το README, ώστε οι αριθμοί να αντιστοιχούν στον δίσκο. Χρησιμοποίησέ τον για δημιουργία ιστοτόπου, εξαρτώμενα εργαλεία ή έλεγχο αριθμών README. Το σχήμα περιγράφεται στην αρχή του σεναρίου.
 
-A GitHub Action (`.github/workflows/curriculum.yml`) rebuilds `catalog.json`
-on every PR and fails the build if the committed file is stale. After editing
-any lesson, run `python3 scripts/build_catalog.py` and commit the result, or
-CI will reject the PR. The same workflow runs `audit_lessons.py` in
-warn-only mode (so existing drift does not block contributors).
+Η ροή εργασίας του προγράμματος δημιουργεί το `catalog.json` ως προσωρινό παραδοτέο που αγνοείται από το Git. Μην το κάνετε commit. Η ίδια ροή εκτελεί το `audit_lessons.py` ως υποχρεωτικό έλεγχο.
 
-### Smoke-check every lesson's Python code
+</details>
 
-`scripts/lesson_run.py` byte-compiles every `.py` file under each lesson's
-`code/` directory. Default mode is syntax-check only — no execution, no API
-keys, no heavy ML deps required. Catches the regressions contributors
-introduce most often (bad indentation, broken f-strings, stray edits).
+<details>
+<summary>Κάνε βασικό έλεγχο στον κώδικα Python όλων των μαθημάτων</summary>
+
+Το `scripts/lesson_run.py` μεταγλωττίζει σε bytecode κάθε αρχείο `.py` στον κατάλογο `code/` κάθε μαθήματος. Από προεπιλογή ελέγχει μόνο σύνταξη, χωρίς εκτέλεση, κλειδιά API ή βαριές εξαρτήσεις ML. Εντοπίζει συχνές παλινδρομήσεις: λάθος εσοχές, χαλασμένα f-string και ακούσιες αλλαγές.
 
 ```bash
 python3 scripts/lesson_run.py                  # syntax-check the whole curriculum
@@ -1317,83 +1240,38 @@ python3 scripts/lesson_run.py --strict         # exit 1 if any lesson fails
 python3 scripts/lesson_run.py --execute        # actually run, 10s timeout per lesson
 ```
 
-`--execute` runs each lesson's `code/main.py` (or the first `.py` file) with a
-10-second timeout. Lessons whose entry file starts with a `# requires: pkg1,
-pkg2` comment listing non-stdlib deps are skipped with reason `needs <deps>`.
-The script is opt-in and not wired into CI.
+Το `--execute` τρέχει το `code/main.py` κάθε μαθήματος (ή το πρώτο `.py`) με όριο 10 δευτερολέπτων. Μαθήματα των οποίων το αρχείο εισόδου ξεκινά με σχόλιο `# requires: pkg1, pkg2` για εξαρτήσεις εκτός τυπικής βιβλιοθήκης παραλείπονται με αιτία `needs <deps>`. Το σενάριο είναι προαιρετικό και δεν συνδέεται με το CI.
 
-Stdlib only, Python 3.10+. Set `LINK_CHECK_SKIP=domain1,domain2` to override
-the default skip-list (`twitter.com`, `x.com`, `linkedin.com`,
-`instagram.com`, `medium.com` — domains that aggressively block automated
-HEAD/GET).
+Μόνο τυπική βιβλιοθήκη, Python 3.10+. Όρισε `LINK_CHECK_SKIP=domain1,domain2` για αντικατάσταση της λίστας παραλείψεων (`twitter.com`, `x.com`, `linkedin.com`, `instagram.com`, `medium.com`: τομείς που μπλοκάρουν έντονα αυτοματοποιημένα HEAD/GET).
 
-## Από πού να ξεκινήσεις
+</details>
 
-| Background | Start at | Estimated time |
-|---|---|---|
-| New to programming and AI | Phase 0 — Setup | ~306 hours |
-| Know Python, new to ML | Phase 1 — Math Foundations | ~270 hours |
-| Know ML, new to deep learning | Phase 3 — Deep Learning Core | ~200 hours |
-| Know deep learning, want LLMs and agents | Phase 10 — LLMs from Scratch | ~100 hours |
-| Senior engineer, only want agent engineering | Phase 14 — Agent Engineering | ~60 hours |
-| Only want to build production MCP systems | [Model Context Protocol (MCP) path](../../learning-paths/model-context-protocol.json) | ~23 hours 15 min |
-| Only want to build production Agent Skills | [Agent Skills Engineering path](../../learning-paths/agent-skills.json) | ~9.5 hours |
+<details>
+<summary>Θεμελιώδεις εργασίες και πρωτόκολλα</summary>
 
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
+- *Attention Is All You Need* — Vaswani et al., 2017 → [Φάση 7](#phase-7)
+- *Language Models are Few-Shot Learners* (GPT-3) → [Φάση 10](#phase-10)
+- *Denoising Diffusion Probabilistic Models* → [Φάση 8](#phase-8)
+- *InstructGPT / RLHF* → [Φάση 10](#phase-10)
+- *Direct Preference Optimization* → [Φάση 10](#phase-10)
+- *Chain-of-Thought Prompting* → [Φάση 11](#phase-11)
+- *ReAct: Reasoning + Acting in LLMs* → [Φάση 14](#phase-14)
+- *Model Context Protocol* — Anthropic → [Φάση 13](#phase-13)
 
-## Γιατί έχει σημασία τώρα
-
-<table>
-<tr>
-<th align="left" width="50%"><sub>FIG_003 · A</sub><br/><b>THE INDUSTRY SIGNAL</b></th>
-<th align="left" width="50%"><sub>FIG_003 · B</sub><br/><b>FOUNDATIONAL PAPERS COVERED</b></th>
-</tr>
-<tr>
-<td valign="top">
-
-> *"The hottest new programming language is English."*<br/>
-> — **Andrej Karpathy** ([tweet](https://x.com/karpathy/status/1617979122625712128))
->
-> *"Software engineering is being remade in front of our eyes."*<br/>
-> — **Boris Cherny**, creator of Claude Code
->
-> *"Models will keep getting better. The skill that compounds is **knowing what to build**."*<br/>
-> — Industry consensus, 2026
-
-</td>
-<td valign="top">
-
-- *Attention Is All You Need* — Vaswani et al., 2017 → [Phase 7](#phase-7)
-- *Language Models are Few-Shot Learners* (GPT-3) → [Phase 10](#phase-10)
-- *Denoising Diffusion Probabilistic Models* → [Phase 8](#phase-8)
-- *InstructGPT / RLHF* → [Phase 10](#phase-10)
-- *Direct Preference Optimization* → [Phase 10](#phase-10)
-- *Chain-of-Thought Prompting* → [Phase 11](#phase-11)
-- *ReAct: Reasoning + Acting in LLMs* → [Phase 14](#phase-14)
-- *Model Context Protocol* — Anthropic → [Phase 13](#phase-13)
-
-</td>
-</tr>
-</table>
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
+</details>
 
 ## Συνεισφορά
 
-| Goal | Read |
+| Στόχος | Διάβασε |
 |---|---|
-| Contribute a lesson or fix | [CONTRIBUTING.md](../../CONTRIBUTING.md) |
-| Fork for your team or school | [FORKING.md](../../FORKING.md) |
-| Lesson template | [LESSON_TEMPLATE.md](../../LESSON_TEMPLATE.md) |
-| Track progress | [ROADMAP.md](../../ROADMAP.md) |
-| Glossary | [glossary/terms.md](../../glossary/terms.md) |
-| Code of conduct | [CODE_OF_CONDUCT.md](../../CODE_OF_CONDUCT.md) |
+| Συνεισφορά μαθήματος ή διόρθωσης | [CONTRIBUTING.md](../../CONTRIBUTING.md) |
+| Δημιουργία fork για την ομάδα ή τη σχολή σου | [FORKING.md](../../FORKING.md) |
+| Πρότυπο μαθήματος | [LESSON_TEMPLATE.md](../../LESSON_TEMPLATE.md) |
+| Παρακολούθηση προόδου | [ROADMAP.md](../../ROADMAP.md) |
+| Γλωσσάρι | [glossary/terms.md](../../glossary/terms.md) |
+| Κώδικας δεοντολογίας | [CODE_OF_CONDUCT.md](../../CODE_OF_CONDUCT.md) |
 
-Before submitting a lesson, run the invariant check:
+Πριν υποβάλεις μάθημα, εκτέλεσε τον έλεγχο αναλλοίωτων:
 
 ```bash
 python3 scripts/audit_lessons.py           # full curriculum
@@ -1401,28 +1279,21 @@ python3 scripts/audit_lessons.py --phase 14  # single phase
 python3 scripts/audit_lessons.py --json    # CI-friendly output
 ```
 
-Exit code is non-zero when any rule fails. Rules (L001–L010) validate directory
-shape, `docs/en.md` presence + H1, `code/` non-emptiness, `quiz.json` schema
-(rejects the legacy `q/choices/answer` keys that caused issue #102), and
-relative links inside lesson docs.
-
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
+Ο κωδικός εξόδου είναι μη μηδενικός όταν αποτύχει κανόνας. Οι κανόνες L001–L010 ελέγχουν δομή καταλόγων, παρουσία `docs/en.md` και H1, μη κενό `code/`, σχήμα `quiz.json` (απορρίπτουν τα παλιά κλειδιά `q/choices/answer` που προκάλεσαν το ζήτημα #102) και σχετικούς συνδέσμους στην τεκμηρίωση μαθημάτων.
 
 <a id="supporters"></a>
 
 ## Στήριξε τη δουλειά
 
-Δωρεάν, με άδεια MIT, 523 μαθήματα. Ευχαριστούμε τους χορηγούς και υποστηρικτές που κάνουν αυτή τη δουλειά εφικτή. [Δες όλους τους χορηγούς και υποστηρικτές](../../BACKERS.md).
+<!-- STATS:START (generated from site/stats.json by build.js — do not edit by hand) -->
+<p align="center"><sub><b>114,584</b> αναγνώστες &nbsp;·&nbsp; <b>181,995</b> προβολές σελίδων τις τελευταίες 30 ημέρες &nbsp;·&nbsp; στις 2026-08-29</sub></p>
+<!-- STATS:END -->
+
+Δωρεάν, με άδεια MIT, 542 μαθήματα. Ευχαριστούμε τους χορηγούς και υποστηρικτές που κάνουν αυτή τη δουλειά εφικτή. [Δες όλους τους χορηγούς και υποστηρικτές](../../BACKERS.md).
 
 Θέλεις να στηρίξεις τη δουλειά; Δες τις [επιλογές χορηγίας](../../SPONSORS.md), όπως τις [χορηγίες υλικού](../../SPONSORS.md#hardware-lab-partner), ή [γίνε χορηγός στο GitHub](https://github.com/sponsors/rohitg00).
 
-```text
-░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
-```
-
-If this manual helped you, star the repo. It keeps the project alive.
+Αν σε βοήθησε αυτό το εγχειρίδιο, δώσε αστέρι στο αποθετήριο. Βοηθά το έργο να συνεχίσει.
 
 ## Άδεια χρήσης
 
@@ -1431,7 +1302,5 @@ MIT. Χρησιμοποίησέ το όπως θέλεις: κάνε fork, δί�
 Συντηρείται από τον [Rohit Ghumare](https://github.com/rohitg00) και την κοινότητα.
 
 <sub>
-  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp;
-  <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp;
-  <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Report / Suggest</a>
+  <a href="https://x.com/ghumare64">@ghumare64</a> &nbsp;·&nbsp; <a href="https://aiengineeringfromscratch.com">aiengineeringfromscratch.com</a> &nbsp;·&nbsp; <a href="https://github.com/rohitg00/ai-engineering-from-scratch/issues/new/choose">Αναφορά / Πρόταση</a>
 </sub>
